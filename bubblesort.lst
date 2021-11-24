@@ -56,126 +56,203 @@
     10                                  section .data
     11 00000000 25643A2000                  numFmt  db  "%d: ",0
     12 00000005 0000000000000000            real dq 0.0
-    13 0000000D 436F6D706C6578206E-         outfmt db "Complex number (%d, %d) - %g",10,0
-    13 00000016 756D62657220282564-
-    13 0000001F 2C20256429202D2025-
-    13 00000028 670A00             
-    14                                  section .bss
-    15 00000000 <res 00000008>              pcont  resq    1   ; адрес контейнера
-    16 00000008 <res 00000004>              len    resd    1   ; адрес для сохранения числа введенных элементов
-    17 0000000C <res 00000008>              FILE   resq    1   ; указатель на файл
-    18 00000014 <res 00000004>              cntr   resd    1   ; вспомогательный счетчик
-    19 00000018 <res 00000004>              cntr2   resd    1   ; вспомогательный счетчик
-    20 0000001C <res 00000004>              lptr    resd    1   ; вспомогательный счетчик
-    21 00000020 <res 00000008>              firstad resq 1
-    22 00000028 <res 00000008>              first resq 1
-    23 00000030 <res 00000008>              second resq 1
-    24 00000038 <res 00000008>              .p      resq  1       ; вычисленный периметр прямоугольника
-    25                                  
-    26                                  section .text
-    27 00000000 55                      push rbp
-    28 00000001 4889E5                  mov rbp, rsp
-    29                                  
-    30 00000004 48893C25[00000000]          mov [pcont], rdi   ; сохраняется указатель на контейнер
-    31 0000000C 893425[08000000]            mov [len],   esi     ; сохраняется число элементов
-    32 00000013 48891425[0C000000]          mov [FILE],  rdx    ; сохраняется указатель на файл
-    33 0000001B 8A0C25[08000000]        	mov cl, [len]					;set cl with array length
-    34 00000022 880C25[14000000]        	mov [cntr], cl					;set this variable with array length
-    35                                  
-    36                                      PrintStr2 "real0:", [FILE]
-    36                              <1>  section .data
-    36 0000002B 7265616C303A0A00    <1>  %%arg1 db %1,10,0
-    36                              <1>  section .text
-    36 00000029 488B3C25[0C000000]  <1>  mov rdi, %2
-    36 00000031 48BE-               <1>  mov rsi, %%arg1
-    36 00000033 [2B00000000000000]  <1>
-    36 0000003B B800000000          <1>  mov rax, 0
-    36 00000040 E8(00000000)        <1>  call fprintf
-    37                                      
-    38 00000045 488B3C25[00000000]          mov     rdi, [pcont]
-    39 0000004D 4883C704                    add rdi, 4
-    40 00000051 488B3425[0C000000]          mov     rsi, [FILE]
-    41 00000059 48893C25[20000000]          mov [firstad], rdi
-    42 00000061 E8(00000000)                call    OutComplexNumber
-    43                                  
-    44                                      up1 :
-    45 00000066 488B3C25[00000000]      	mov rdi, [pcont]						;Points to start
-    46 0000006E 8A0425[14000000]        	mov al, [cntr]					;
-    47 00000075 8A1C25[1C000000]        	mov bl, [lptr]
-    48 0000007C 28D8                    	sub al, bl						; n-i (Rather to increase i, Decrements n)
-    49 0000007E 880425[18000000]        	mov [cntr2], al					; j pointer in bubble sort
-    50                                  
-    51                                      PrintStr2 "entered 2", [FILE]
-    51                              <1>  section .data
-    51 00000033 656E74657265642032- <1>  %%arg1 db %1,10,0
-    51 0000003C 0A00                <1>
-    51                              <1>  section .text
-    51 00000085 488B3C25[0C000000]  <1>  mov rdi, %2
-    51 0000008D 48BE-               <1>  mov rsi, %%arg1
-    51 0000008F [3300000000000000]  <1>
-    51 00000097 B800000000          <1>  mov rax, 0
-    51 0000009C E8(00000000)        <1>  call fprintf
-    52                                      PrintContainer2 [pcont], [len], [FILE]
-    52 000000A1 488B3C25[00000000]  <1>  mov rdi, %1
-    52 000000A9 8B3425[08000000]    <1>  mov esi, %2
-    52 000000B0 488B1425[0C000000]  <1>  mov rdx, %3
-    52 000000B8 B800000000          <1>  mov rax, 0
-    52 000000BD E8(00000000)        <1>  call OutContainer
-    53                                  
-    54                                  	up2:
-    55                                          ; PrintStr2 "entered 3", [FILE]
-    56                                          ; PrintContainer2 [pcont], [len], [FILE]
-    57                                          ; PrintInt2 [pcont], [FILE]
-    58                                          ; PrintInt2 [pcont+1], [FILE]
+    13                                  section .bss
+    14 00000000 <res 00000008>              pcont  resq    1   ; адрес контейнера
+    15 00000008 <res 00000004>              len    resd    1   ; адрес для сохранения числа введенных элементов
+    16 0000000C <res 00000008>              FILE   resq    1   ; указатель на файл
+    17 00000014 <res 00000004>              cntr   resd    1   ; вспомогательный счетчик
+    18 00000018 <res 00000004>              cntr2   resd    1   ; вспомогательный счетчик
+    19 0000001C <res 00000004>              lptr    resd    1   ; вспомогательный счетчик
+    20                                  
+    21                                  section .text
+    22 00000000 55                      push rbp
+    23 00000001 4889E5                  mov rbp, rsp
+    24                                  
+    25 00000004 48893C25[00000000]          mov [pcont], rdi   ; сохраняется указатель на контейнер
+    26                                      ; PrintInt2 rdi, [stdout]
+    27                                      
+    28 0000000C 893425[08000000]            mov [len],   esi     ; сохраняется число элементов
+    29 00000013 48891425[0C000000]          mov [FILE],  rdx    ; сохраняется указатель на файл
+    30 0000001B 8A0C25[08000000]        	mov cl, [len]					;set cl with array length
+    31 00000022 880C25[14000000]        	mov [cntr], cl					;set this variable with array length
+    32                                  
+    33                                      PrintStr2 "real0:", [FILE]
+    33                              <1>  section .data
+    33 0000000D 7265616C303A0A00    <1>  %%arg1 db %1,10,0
+    33                              <1>  section .text
+    33 00000029 488B3C25[0C000000]  <1>  mov rdi, %2
+    33 00000031 48BE-               <1>  mov rsi, %%arg1
+    33 00000033 [0D00000000000000]  <1>
+    33 0000003B B800000000          <1>  mov rax, 0
+    33 00000040 E8(00000000)        <1>  call fprintf
+    34 00000045 488B3C25[00000000]          mov rdi, [pcont]
+    35 0000004D E8(00000000)                call ToRealNumber     ; Получение периметра первой фигуры
+    36                                      
+    37                                      PrintStr2 "real:", [FILE]
+    37                              <1>  section .data
+    37 00000015 7265616C3A0A00      <1>  %%arg1 db %1,10,0
+    37                              <1>  section .text
+    37 00000052 488B3C25[0C000000]  <1>  mov rdi, %2
+    37 0000005A 48BE-               <1>  mov rsi, %%arg1
+    37 0000005C [1500000000000000]  <1>
+    37 00000064 B800000000          <1>  mov rax, 0
+    37 00000069 E8(00000000)        <1>  call fprintf
+    38 0000006E F20F110425-                 movsd [real], xmm0
+    38 00000073 [05000000]         
+    39                                      PrintDouble2 xmm0, [FILE]
+    39                              <1>  section .data
+    39 0000001C 256700              <1>  %%arg1 db "%g",0
+    39                              <1>  section .text
+    39 00000077 488B3C25[0C000000]  <1>  mov rdi, %2
+    39 0000007F 48BE-               <1>  mov rsi, %%arg1
+    39 00000081 [1C00000000000000]  <1>
+    39 00000089 F20F10C0            <1>  movsd xmm0, %1
+    39 0000008D B801000000          <1>  mov rax, 1
+    39 00000092 E8(00000000)        <1>  call fprintf
+    40                                      PrintStr2 "rend:", [FILE]
+    40                              <1>  section .data
+    40 0000001F 72656E643A0A00      <1>  %%arg1 db %1,10,0
+    40                              <1>  section .text
+    40 00000097 488B3C25[0C000000]  <1>  mov rdi, %2
+    40 0000009F 48BE-               <1>  mov rsi, %%arg1
+    40 000000A1 [1F00000000000000]  <1>
+    40 000000A9 B800000000          <1>  mov rax, 0
+    40 000000AE E8(00000000)        <1>  call fprintf
+    41                                  
+    42 000000B3 488B0425[01000000]          mov rax, [pcont + 1]
+    43                                      PrintInt2 rax, [FILE]
+    43                              <1>  section .data
+    43 00000026 2564200A00          <1>  %%arg1 db "%d ",10,0
+    43                              <1>  section .text
+    43 000000BB 488B3C25[0C000000]  <1>  mov rdi, %2
+    43 000000C3 48BE-               <1>  mov rsi, %%arg1
+    43 000000C5 [2600000000000000]  <1>
+    43 000000CD 4889C2              <1>  mov rdx, %1
+    43 000000D0 B800000000          <1>  mov rax, 0
+    43 000000D5 E8(00000000)        <1>  call fprintf
+    44                                      PrintStr2 "first:", [FILE]
+    44                              <1>  section .data
+    44 0000002B 66697273743A0A00    <1>  %%arg1 db %1,10,0
+    44                              <1>  section .text
+    44 000000DA 488B3C25[0C000000]  <1>  mov rdi, %2
+    44 000000E2 48BE-               <1>  mov rsi, %%arg1
+    44 000000E4 [2B00000000000000]  <1>
+    44 000000EC B800000000          <1>  mov rax, 0
+    44 000000F1 E8(00000000)        <1>  call fprintf
+    45                                      PrintInt2 [pcont + 1], [FILE]
+    45                              <1>  section .data
+    45 00000033 2564200A00          <1>  %%arg1 db "%d ",10,0
+    45                              <1>  section .text
+    45 000000F6 488B3C25[0C000000]  <1>  mov rdi, %2
+    45 000000FE 48BE-               <1>  mov rsi, %%arg1
+    45 00000100 [3300000000000000]  <1>
+    45 00000108 488B1425[01000000]  <1>  mov rdx, %1
+    45 00000110 B800000000          <1>  mov rax, 0
+    45 00000115 E8(00000000)        <1>  call fprintf
+    46                                      PrintStr2 "second:", [FILE]
+    46                              <1>  section .data
+    46 00000038 7365636F6E643A0A00  <1>  %%arg1 db %1,10,0
+    46                              <1>  section .text
+    46 0000011A 488B3C25[0C000000]  <1>  mov rdi, %2
+    46 00000122 48BE-               <1>  mov rsi, %%arg1
+    46 00000124 [3800000000000000]  <1>
+    46 0000012C B800000000          <1>  mov rax, 0
+    46 00000131 E8(00000000)        <1>  call fprintf
+    47                                      PrintInt2 [pcont + 2], [FILE]
+    47                              <1>  section .data
+    47 00000041 2564200A00          <1>  %%arg1 db "%d ",10,0
+    47                              <1>  section .text
+    47 00000136 488B3C25[0C000000]  <1>  mov rdi, %2
+    47 0000013E 48BE-               <1>  mov rsi, %%arg1
+    47 00000140 [4100000000000000]  <1>
+    47 00000148 488B1425[02000000]  <1>  mov rdx, %1
+    47 00000150 B800000000          <1>  mov rax, 0
+    47 00000155 E8(00000000)        <1>  call fprintf
+    48                                      PrintStr2 "entered:", [FILE]
+    48                              <1>  section .data
+    48 00000046 656E74657265643A0A- <1>  %%arg1 db %1,10,0
+    48 0000004F 00                  <1>
+    48                              <1>  section .text
+    48 0000015A 488B3C25[0C000000]  <1>  mov rdi, %2
+    48 00000162 48BE-               <1>  mov rsi, %%arg1
+    48 00000164 [4600000000000000]  <1>
+    48 0000016C B800000000          <1>  mov rax, 0
+    48 00000171 E8(00000000)        <1>  call fprintf
+    49                                      
+    50                                      up1 :
+    51 00000176 488B3C25[01000000]      	mov rdi, [pcont + 1]						;Points to start
+    52 0000017E 8A0425[14000000]        	mov al, [cntr]					;
+    53 00000185 8A1C25[1C000000]        	mov bl, [lptr]
+    54 0000018C 28D8                    	sub al, bl						; n-i (Rather to increase i, Decrements n)
+    55 0000018E 880425[18000000]        	mov [cntr2], al					; j pointer in bubble sort
+    56                                  
+    57                                      PrintStr2 "entered 2", [FILE]
+    57                              <1>  section .data
+    57 00000050 656E74657265642032- <1>  %%arg1 db %1,10,0
+    57 00000059 0A00                <1>
+    57                              <1>  section .text
+    57 00000195 488B3C25[0C000000]  <1>  mov rdi, %2
+    57 0000019D 48BE-               <1>  mov rsi, %%arg1
+    57 0000019F [5000000000000000]  <1>
+    57 000001A7 B800000000          <1>  mov rax, 0
+    57 000001AC E8(00000000)        <1>  call fprintf
+    58                                      PrintContainer2 [pcont], [len], [FILE]
+    58 000001B1 488B3C25[00000000]  <1>  mov rdi, %1
+    58 000001B9 8B3425[08000000]    <1>  mov esi, %2
+    58 000001C0 488B1425[0C000000]  <1>  mov rdx, %3
+    58 000001C8 B800000000          <1>  mov rax, 0
+    58 000001CD E8(00000000)        <1>  call OutContainer
     59                                  
-    60 000000C2 4883C704                        add rdi, 4
-    61 000000C6 48893C25[28000000]              mov [first], rdi
-    62 000000CE 4C8B07                  		mov r8, [rdi]				;Get [j] in r8
-    63 000000D1 4883C710                		add rdi, 16
-    64 000000D5 4C8B0F                          mov r9, [rdi]			;Get [j+1]in bl
-    65 000000D8 4D39C8                  		cmp r8, r9
-    66 000000DB 724D                    		jb skip		 				;Compares
-    67                                          PrintStr2 "didnt enter skip", [FILE]
-    67                              <1>  section .data
-    67 0000003E 6469646E7420656E74- <1>  %%arg1 db %1,10,0
-    67 00000047 657220736B69700A00  <1>
-    67                              <1>  section .text
-    67 000000DD 488B3C25[0C000000]  <1>  mov rdi, %2
-    67 000000E5 48BE-               <1>  mov rsi, %%arg1
-    67 000000E7 [3E00000000000000]  <1>
-    67 000000EF B800000000          <1>  mov rax, 0
-    67 000000F4 E8(00000000)        <1>  call fprintf
-    68                                  
-    69 000000F9 4883EF14                        sub rdi, 20
-    70 000000FD 4C8B4710                        mov r8, [rdi + 16]					;If larger swapped
-    71 00000101 48897F10                		mov [rdi + 16], rdi
-    72 00000105 4C8907                          mov [rdi], r8
-    73 00000108 4883C704                        add rdi, 4
-    74 0000010C 4C8B4710                        mov r8, [rdi + 16]					;If larger swapped
-    75 00000110 48897F10                		mov [rdi + 16], rdi
-    76 00000114 4C8907                          mov [rdi], r8
-    77 00000117 4883C704                        add rdi, 4
-    78 0000011B 4C8B4710                        mov r8, [rdi + 16]					;If larger swapped
-    79 0000011F 48897F10                		mov [rdi + 16], rdi
-    80 00000123 4C8907                          mov [rdi], r8
-    81 00000126 4883C704                        add rdi, 4
-    82                                  
-    83                                          skip:
-    84                                              PrintStr2 "entered skip", [FILE]
-    84                              <1>  section .data
-    84 00000050 656E74657265642073- <1>  %%arg1 db %1,10,0
-    84 00000059 6B69700A00          <1>
-    84                              <1>  section .text
-    84 0000012A 488B3C25[0C000000]  <1>  mov rdi, %2
-    84 00000132 48BE-               <1>  mov rsi, %%arg1
-    84 00000134 [5000000000000000]  <1>
-    84 0000013C B800000000          <1>  mov rax, 0
-    84 00000141 E8(00000000)        <1>  call fprintf
-    85                                              ; sub rdi, 4
-    86 00000146 4883C710                		    add rdi, 16			;Else continues to next number
-    87 0000014A 802C25[18000000]01      		    sub byte[cntr2], 1
-    88 00000152 0F856AFFFFFF            		    jnz up2
-    89                                  			
-    90 00000158 802C25[14000000]01      	sub byte[cntr], 1						;Decrements n (Rather to increase i)
-    91 00000160 0F8500FFFFFF            	jnz up1
-    92 00000166 C3                      	ret
+    60                                  	up2:
+    61                                          PrintStr2 "entered 3", [FILE]
+    61                              <1>  section .data
+    61 0000005B 656E74657265642033- <1>  %%arg1 db %1,10,0
+    61 00000064 0A00                <1>
+    61                              <1>  section .text
+    61 000001D2 488B3C25[0C000000]  <1>  mov rdi, %2
+    61 000001DA 48BE-               <1>  mov rsi, %%arg1
+    61 000001DC [5B00000000000000]  <1>
+    61 000001E4 B800000000          <1>  mov rax, 0
+    61 000001E9 E8(00000000)        <1>  call fprintf
+    62                                          PrintContainer2 [pcont], [len], [FILE]
+    62 000001EE 488B3C25[00000000]  <1>  mov rdi, %1
+    62 000001F6 8B3425[08000000]    <1>  mov esi, %2
+    62 000001FD 488B1425[0C000000]  <1>  mov rdx, %3
+    62 00000205 B800000000          <1>  mov rax, 0
+    62 0000020A E8(00000000)        <1>  call OutContainer
+    63                                          PrintInt2 [pcont], [FILE]
+    63                              <1>  section .data
+    63 00000066 2564200A00          <1>  %%arg1 db "%d ",10,0
+    63                              <1>  section .text
+    63 0000020F 488B3C25[0C000000]  <1>  mov rdi, %2
+    63 00000217 48BE-               <1>  mov rsi, %%arg1
+    63 00000219 [6600000000000000]  <1>
+    63 00000221 488B1425[00000000]  <1>  mov rdx, %1
+    63 00000229 B800000000          <1>  mov rax, 0
+    63 0000022E E8(00000000)        <1>  call fprintf
+    64                                          ; PrintInt2 [pcont+1], [FILE]
+    65                                  
+    66 00000233 8A07                    		mov al, [rdi]				;Get [j] in al
+    67 00000235 8A5F01                  		mov bl, [rdi+1]			;Get [j+1]in bl
+    68 00000238 38D8                    		cmp al, bl
+    69 0000023A 7205                    		jb skip						;Compares
+    70 0000023C 884701                  		mov [rdi+1], al					;If larger swapped
+    71 0000023F 881F                    		mov [rdi], bl
+    72                                  		skip:
+    73                                              PrintStr2 "entered skip", [FILE]
+    73                              <1>  section .data
+    73 0000006B 656E74657265642073- <1>  %%arg1 db %1,10,0
+    73 00000074 6B69700A00          <1>
+    73                              <1>  section .text
+    73 00000241 488B3C25[0C000000]  <1>  mov rdi, %2
+    73 00000249 48BE-               <1>  mov rsi, %%arg1
+    73 0000024B [6B00000000000000]  <1>
+    73 00000253 B800000000          <1>  mov rax, 0
+    73 00000258 E8(00000000)        <1>  call fprintf
+    74 0000025D 4883C701                		    add rdi, 1			;Else continues to next number
+    75 00000261 802C25[18000000]01      		    sub byte[cntr2], 1
+    76 00000269 0F8563FFFFFF            		    jnz up2
+    77                                  			
+    78 0000026F 802C25[14000000]01      	sub byte[cntr], 1						;Decrements n (Rather to increase i)
+    79 00000277 0F85F9FEFFFF            	jnz up1
+    80 0000027D C3                      	ret

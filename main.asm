@@ -117,6 +117,10 @@ mov rbp,rsp
 
 .task2:
     ; Вывод содержимого контейнера
+    
+    PrintStrLn "Filled container:", [stdout]
+    PrintContainer cont, [len], [stdout]
+
     SortContainer cont, [len], [stdout]
     
     PrintStrLn "Filled container:", [stdout]

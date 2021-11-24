@@ -29,7 +29,7 @@
     18                              <1> extern  OutContainer
     19                              <1> extern  BubbleSortContainer
     20                              <1> extern  PerimeterSumContainer
-    21                              <1> 
+    21                              <1> extern  BubbleSortContainer2
     22                              <1> ;-------------------------------------------------------------
     23                              <1> ; Вывод строки символов из буфера
     24                              <1> %macro	PrintStrBuf 2
@@ -123,36 +123,49 @@
    112                              <1>     call    BubbleSortContainer
    113                              <1> %endmacro
    114                              <1> 
-   115                              <1> ;-------------------------------------------------------------
-   116                              <1> ; Вычисление суммы периметров фигур в контейнере
-   117                              <1> %macro  ContainerSum    3
-   118                              <1>     mov     rdi, %1
-   119                              <1>     mov     rsi, %2
-   120                              <1>     call    PerimeterSumContainer
-   121                              <1>     movsd   %3, xmm0
-   122                              <1> %endmacro
-   123                              <1> 
-   124                              <1> ;-------------------------------------------------------------
-   125                              <1> ; Открытие файла для чтения, записи
-   126                              <1> %macro  FileOpen   3
-   127                              <1>     section .data
-   128                              <1>         %%rw  db  %2,0          ; признак доступа
-   129                              <1>     section .text               ; the printf arguments
-   130                              <1>         mov     rdi, %1         ; адрес строки открываемого файла
-   131                              <1>         lea     rsi, [%%rw]       ; строка определяющая чтение-запись. Задается явно
-   132                              <1>         mov     rax, 0          ; нет чисел с плавающей точкой
-   133                              <1>         call    fopen
-   134                              <1>         mov     [%3], rax
+   115                              <1> 
+   116                              <1> ;-------------------------------------------------------------
+   117                              <1> ; Сортировка контейнера
+   118                              <1> %macro  SortContainer2    4
+   119                              <1>     mov     rdi, %1
+   120                              <1>     mov     esi, %2
+   121                              <1>     mov     rdx, %3
+   122                              <1>     mov     rsi, %2
+   123                              <1>     mov     rax, 0              ; нет чисел с плавающей точкой
+   124                              <1>     call    BubbleSortContainer2
+   125                              <1> %endmacro
+   126                              <1> 
+   127                              <1> 
+   128                              <1> ;-------------------------------------------------------------
+   129                              <1> ; Вычисление суммы периметров фигур в контейнере
+   130                              <1> %macro  ContainerSum    3
+   131                              <1>     mov     rdi, %1
+   132                              <1>     mov     rsi, %2
+   133                              <1>     call    PerimeterSumContainer
+   134                              <1>     movsd   %3, xmm0
    135                              <1> %endmacro
    136                              <1> 
    137                              <1> ;-------------------------------------------------------------
-   138                              <1> ; Закрытие открытого файла
-   139                              <1> %macro  FileClose   1
-   140                              <1>     mov     rdi, %1             ; передача указателя на закрываемый файл
-   141                              <1>     mov     rax, 0              ; нет чисел с плавающей точкой
-   142                              <1>     call    fclose
-   143                              <1> %endmacro
-   144                              <1> 
+   138                              <1> ; Открытие файла для чтения, записи
+   139                              <1> %macro  FileOpen   3
+   140                              <1>     section .data
+   141                              <1>         %%rw  db  %2,0          ; признак доступа
+   142                              <1>     section .text               ; the printf arguments
+   143                              <1>         mov     rdi, %1         ; адрес строки открываемого файла
+   144                              <1>         lea     rsi, [%%rw]       ; строка определяющая чтение-запись. Задается явно
+   145                              <1>         mov     rax, 0          ; нет чисел с плавающей точкой
+   146                              <1>         call    fopen
+   147                              <1>         mov     [%3], rax
+   148                              <1> %endmacro
+   149                              <1> 
+   150                              <1> ;-------------------------------------------------------------
+   151                              <1> ; Закрытие открытого файла
+   152                              <1> %macro  FileClose   1
+   153                              <1>     mov     rdi, %1             ; передача указателя на закрываемый файл
+   154                              <1>     mov     rax, 0              ; нет чисел с плавающей точкой
+   155                              <1>     call    fclose
+   156                              <1> %endmacro
+   157                              <1> 
     12                                  
     13                                  section .data
     14 00000000 01000000                    COMPLEXNUMBER   dd  1
@@ -263,7 +276,7 @@
     64 0000007B [4000000000000000]  <1>
     64 00000083 4831C0              <1>  xor rax, rax
     64 00000086 E8(00000000)        <1>  call fprintf
-    65 0000008B E99D050000                  jmp .return
+    65 0000008B E9BD050000                  jmp .return
     66                                  .next1:
     67                                      PrintStrLn "Start", [stdout]
     67                              <1>  section .data
@@ -293,7 +306,7 @@
     79 000000EC [BF00000000000000]  <1>
     79 000000F4 4831C0              <1>  xor rax, rax
     79 000000F7 E8(00000000)        <1>  call fprintf
-    80 000000FC E92C050000                  jmp .return
+    80 000000FC E94C050000                  jmp .return
     81                                  .next2:
     82                                      ; Генерация случайных фигур
     83 00000101 498B7D10                    mov rdi, [r13+16]
@@ -320,9 +333,9 @@
     87 0000014C E8(00000000)        <1>  call fprintf
     88 00000151 8B0425[04000000]            mov eax, [num]
     89 00000158 83F801                      cmp eax, 1
-    90 0000015B 0F8C70040000                jl .fall1
+    90 0000015B 0F8C90040000                jl .fall1
     91 00000161 3D10270000                  cmp eax, 10000
-    92 00000166 0F8F65040000                jg .fall1
+    92 00000166 0F8F85040000                jg .fall1
     93                                      ; Начальная установка генератора случайных чисел
     94 0000016C 4831FF                      xor     rdi, rdi
     95 0000016F 4831C0                      xor     rax, rax
@@ -451,254 +464,264 @@
    138 00000317 0F05                        syscall        ; [time] contains number of seconds
    139                                                     ; [time + 8] contains number of nanoseconds
    140                                  
-   141                                      ContainerSum cont, [len], [sum]
-   141 00000319 48BF-               <1>  mov rdi, %1
-   141 0000031B [6800000000000000]  <1>
-   141 00000323 488B3425[41010000]  <1>  mov rsi, %2
-   141 0000032B E8(00000000)        <1>  call PerimeterSumContainer
-   141 00000330 F20F110425-         <1>  movsd %3, xmm0
-   141 00000335 [08000000]          <1>
-   142                                  
-   143                                      ; Вычисление времени завершения
-   144 00000339 B8E4000000                  mov rax, 228   ; 228 is system call for sys_clock_gettime
-   145 0000033E 31FF                        xor edi, edi   ; 0 for system clock (preferred over "mov rdi, 0")
-   146 00000340 488D3425[30000000]          lea rsi, [endTime]
-   147 00000348 0F05                        syscall        ; [time] contains number of seconds
-   148                                                     ; [time + 8] contains number of nanoseconds
-   149                                  
-   150                                      ; Получение времени работы
-   151 0000034A 488B0425[30000000]          mov rax, [endTime]
-   152 00000352 482B0425[20000000]          sub rax, [startTime]
-   153 0000035A 488B1C25[38000000]          mov rbx, [endTime+8]
-   154 00000362 488B0C25[28000000]          mov rcx, [startTime+8]
-   155 0000036A 4839CB                      cmp rbx, rcx
-   156 0000036D 7D0A                        jge .subNanoOnly
-   157                                      ; иначе занимаем секунду
-   158 0000036F 48FFC8                      dec rax
-   159 00000372 4881C300CA9A3B              add rbx, 1000000000
-   160                                  .subNanoOnly:
-   161 00000379 482B1C25[28000000]          sub rbx, [startTime+8]
-   162 00000381 48890425[40000000]          mov [deltaTime], rax
-   163 00000389 48891C25[48000000]          mov [deltaTime+8], rbx
-   164                                  
-   165                                      ; Вывод периметра нескольких фигур
-   166                                      PrintStr "Perimeter sum = ", [stdout]
-   166                              <1>  section .data
-   166 000001AC 506572696D65746572- <1>  %%arg1 db %1,0
-   166 000001B5 2073756D203D2000    <1>
-   166                              <1>  section .text
-   166 00000391 488B3C25[00000000]  <1>  mov rdi, %2
-   166 00000399 48BE-               <1>  mov rsi, %%arg1
-   166 0000039B [AC01000000000000]  <1>
-   166 000003A3 B800000000          <1>  mov rax, 0
-   166 000003A8 E8(00000000)        <1>  call fprintf
-   167                                      PrintDouble [sum], [stdout]
+   141                                      
+   142                                      ContainerSum cont, [len], [sum]
+   142 00000319 48BF-               <1>  mov rdi, %1
+   142 0000031B [6800000000000000]  <1>
+   142 00000323 488B3425[41010000]  <1>  mov rsi, %2
+   142 0000032B E8(00000000)        <1>  call PerimeterSumContainer
+   142 00000330 F20F110425-         <1>  movsd %3, xmm0
+   142 00000335 [08000000]          <1>
+   143                                      PrintDouble xmm0, [stdout]
+   143                              <1>  section .data
+   143 000001AC 256700              <1>  %%arg1 db "%g",0
+   143                              <1>  section .text
+   143 00000339 488B3C25[00000000]  <1>  mov rdi, %2
+   143 00000341 48BE-               <1>  mov rsi, %%arg1
+   143 00000343 [AC01000000000000]  <1>
+   143 0000034B F20F10C0            <1>  movsd xmm0, %1
+   143 0000034F B801000000          <1>  mov rax, 1
+   143 00000354 E8(00000000)        <1>  call fprintf
+   144                                      ; Вычисление времени завершения
+   145 00000359 B8E4000000                  mov rax, 228   ; 228 is system call for sys_clock_gettime
+   146 0000035E 31FF                        xor edi, edi   ; 0 for system clock (preferred over "mov rdi, 0")
+   147 00000360 488D3425[30000000]          lea rsi, [endTime]
+   148 00000368 0F05                        syscall        ; [time] contains number of seconds
+   149                                                     ; [time + 8] contains number of nanoseconds
+   150                                  
+   151                                      ; Получение времени работы
+   152 0000036A 488B0425[30000000]          mov rax, [endTime]
+   153 00000372 482B0425[20000000]          sub rax, [startTime]
+   154 0000037A 488B1C25[38000000]          mov rbx, [endTime+8]
+   155 00000382 488B0C25[28000000]          mov rcx, [startTime+8]
+   156 0000038A 4839CB                      cmp rbx, rcx
+   157 0000038D 7D0A                        jge .subNanoOnly
+   158                                      ; иначе занимаем секунду
+   159 0000038F 48FFC8                      dec rax
+   160 00000392 4881C300CA9A3B              add rbx, 1000000000
+   161                                  .subNanoOnly:
+   162 00000399 482B1C25[28000000]          sub rbx, [startTime+8]
+   163 000003A1 48890425[40000000]          mov [deltaTime], rax
+   164 000003A9 48891C25[48000000]          mov [deltaTime+8], rbx
+   165                                  
+   166                                      ; Вывод периметра нескольких фигур
+   167                                      PrintStr "Perimeter sum = ", [stdout]
    167                              <1>  section .data
-   167 000001BD 256700              <1>  %%arg1 db "%g",0
+   167 000001AF 506572696D65746572- <1>  %%arg1 db %1,0
+   167 000001B8 2073756D203D2000    <1>
    167                              <1>  section .text
-   167 000003AD 488B3C25[00000000]  <1>  mov rdi, %2
-   167 000003B5 48BE-               <1>  mov rsi, %%arg1
-   167 000003B7 [BD01000000000000]  <1>
-   167 000003BF F20F100425-         <1>  movsd xmm0, %1
-   167 000003C4 [08000000]          <1>
-   167 000003C8 B801000000          <1>  mov rax, 1
-   167 000003CD E8(00000000)        <1>  call fprintf
-   168                                      PrintStr ". Calculaton time = ", [stdout]
+   167 000003B1 488B3C25[00000000]  <1>  mov rdi, %2
+   167 000003B9 48BE-               <1>  mov rsi, %%arg1
+   167 000003BB [AF01000000000000]  <1>
+   167 000003C3 B800000000          <1>  mov rax, 0
+   167 000003C8 E8(00000000)        <1>  call fprintf
+   168                                      PrintDouble [sum], [stdout]
    168                              <1>  section .data
-   168 000001C0 2E2043616C63756C61- <1>  %%arg1 db %1,0
-   168 000001C9 746F6E2074696D6520- <1>
-   168 000001D2 3D2000              <1>
+   168 000001C0 256700              <1>  %%arg1 db "%g",0
    168                              <1>  section .text
-   168 000003D2 488B3C25[00000000]  <1>  mov rdi, %2
-   168 000003DA 48BE-               <1>  mov rsi, %%arg1
-   168 000003DC [C001000000000000]  <1>
-   168 000003E4 B800000000          <1>  mov rax, 0
-   168 000003E9 E8(00000000)        <1>  call fprintf
-   169                                      PrintLLUns [deltaTime], [stdout]
+   168 000003CD 488B3C25[00000000]  <1>  mov rdi, %2
+   168 000003D5 48BE-               <1>  mov rsi, %%arg1
+   168 000003D7 [C001000000000000]  <1>
+   168 000003DF F20F100425-         <1>  movsd xmm0, %1
+   168 000003E4 [08000000]          <1>
+   168 000003E8 B801000000          <1>  mov rax, 1
+   168 000003ED E8(00000000)        <1>  call fprintf
+   169                                      PrintStr ". Calculaton time = ", [stdout]
    169                              <1>  section .data
-   169 000001D5 256C6C7500          <1>  %%arg1 db "%llu",0
+   169 000001C3 2E2043616C63756C61- <1>  %%arg1 db %1,0
+   169 000001CC 746F6E2074696D6520- <1>
+   169 000001D5 3D2000              <1>
    169                              <1>  section .text
-   169 000003EE 488B3C25[00000000]  <1>  mov rdi, %2
-   169 000003F6 48BE-               <1>  mov rsi, %%arg1
-   169 000003F8 [D501000000000000]  <1>
-   169 00000400 488B1425[40000000]  <1>  mov rdx, %1
-   169 00000408 B800000000          <1>  mov rax, 0
-   169 0000040D E8(00000000)        <1>  call fprintf
-   170                                      PrintStr " sec, ", [stdout]
+   169 000003F2 488B3C25[00000000]  <1>  mov rdi, %2
+   169 000003FA 48BE-               <1>  mov rsi, %%arg1
+   169 000003FC [C301000000000000]  <1>
+   169 00000404 B800000000          <1>  mov rax, 0
+   169 00000409 E8(00000000)        <1>  call fprintf
+   170                                      PrintLLUns [deltaTime], [stdout]
    170                              <1>  section .data
-   170 000001DA 207365632C2000      <1>  %%arg1 db %1,0
+   170 000001D8 256C6C7500          <1>  %%arg1 db "%llu",0
    170                              <1>  section .text
-   170 00000412 488B3C25[00000000]  <1>  mov rdi, %2
-   170 0000041A 48BE-               <1>  mov rsi, %%arg1
-   170 0000041C [DA01000000000000]  <1>
-   170 00000424 B800000000          <1>  mov rax, 0
-   170 00000429 E8(00000000)        <1>  call fprintf
-   171                                      PrintLLUns [deltaTime+8], [stdout]
+   170 0000040E 488B3C25[00000000]  <1>  mov rdi, %2
+   170 00000416 48BE-               <1>  mov rsi, %%arg1
+   170 00000418 [D801000000000000]  <1>
+   170 00000420 488B1425[40000000]  <1>  mov rdx, %1
+   170 00000428 B800000000          <1>  mov rax, 0
+   170 0000042D E8(00000000)        <1>  call fprintf
+   171                                      PrintStr " sec, ", [stdout]
    171                              <1>  section .data
-   171 000001E1 256C6C7500          <1>  %%arg1 db "%llu",0
+   171 000001DD 207365632C2000      <1>  %%arg1 db %1,0
    171                              <1>  section .text
-   171 0000042E 488B3C25[00000000]  <1>  mov rdi, %2
-   171 00000436 48BE-               <1>  mov rsi, %%arg1
-   171 00000438 [E101000000000000]  <1>
-   171 00000440 488B1425[48000000]  <1>  mov rdx, %1
-   171 00000448 B800000000          <1>  mov rax, 0
-   171 0000044D E8(00000000)        <1>  call fprintf
-   172                                      PrintStr " nsec", [stdout]
+   171 00000432 488B3C25[00000000]  <1>  mov rdi, %2
+   171 0000043A 48BE-               <1>  mov rsi, %%arg1
+   171 0000043C [DD01000000000000]  <1>
+   171 00000444 B800000000          <1>  mov rax, 0
+   171 00000449 E8(00000000)        <1>  call fprintf
+   172                                      PrintLLUns [deltaTime+8], [stdout]
    172                              <1>  section .data
-   172 000001E6 206E73656300        <1>  %%arg1 db %1,0
+   172 000001E4 256C6C7500          <1>  %%arg1 db "%llu",0
    172                              <1>  section .text
-   172 00000452 488B3C25[00000000]  <1>  mov rdi, %2
-   172 0000045A 48BE-               <1>  mov rsi, %%arg1
-   172 0000045C [E601000000000000]  <1>
-   172 00000464 B800000000          <1>  mov rax, 0
-   172 00000469 E8(00000000)        <1>  call fprintf
-   173                                      PrintStr 10, [stdout]
+   172 0000044E 488B3C25[00000000]  <1>  mov rdi, %2
+   172 00000456 48BE-               <1>  mov rsi, %%arg1
+   172 00000458 [E401000000000000]  <1>
+   172 00000460 488B1425[48000000]  <1>  mov rdx, %1
+   172 00000468 B800000000          <1>  mov rax, 0
+   172 0000046D E8(00000000)        <1>  call fprintf
+   173                                      PrintStr " nsec", [stdout]
    173                              <1>  section .data
-   173 000001EC 0A00                <1>  %%arg1 db %1,0
+   173 000001E9 206E73656300        <1>  %%arg1 db %1,0
    173                              <1>  section .text
-   173 0000046E 488B3C25[00000000]  <1>  mov rdi, %2
-   173 00000476 48BE-               <1>  mov rsi, %%arg1
-   173 00000478 [EC01000000000000]  <1>
-   173 00000480 B800000000          <1>  mov rax, 0
-   173 00000485 E8(00000000)        <1>  call fprintf
-   174                                  
-   175                                      FileOpen [r13+32], "w", ofst2
-   175                              <1>  section .data
-   175 000001EE 7700                <1>  %%rw db %2,0
-   175                              <1>  section .text
-   175 0000048A 498B7D20            <1>  mov rdi, %1
-   175 0000048E 488D3425[EE010000]  <1>  lea rsi, [%%rw]
-   175 00000496 B800000000          <1>  mov rax, 0
-   175 0000049B E8(00000000)        <1>  call fopen
-   175 000004A0 48890425[60000000]  <1>  mov [%3], rax
-   176                                      PrintStr  "Perimeter sum = ", [ofst2]
+   173 00000472 488B3C25[00000000]  <1>  mov rdi, %2
+   173 0000047A 48BE-               <1>  mov rsi, %%arg1
+   173 0000047C [E901000000000000]  <1>
+   173 00000484 B800000000          <1>  mov rax, 0
+   173 00000489 E8(00000000)        <1>  call fprintf
+   174                                      PrintStr 10, [stdout]
+   174                              <1>  section .data
+   174 000001EF 0A00                <1>  %%arg1 db %1,0
+   174                              <1>  section .text
+   174 0000048E 488B3C25[00000000]  <1>  mov rdi, %2
+   174 00000496 48BE-               <1>  mov rsi, %%arg1
+   174 00000498 [EF01000000000000]  <1>
+   174 000004A0 B800000000          <1>  mov rax, 0
+   174 000004A5 E8(00000000)        <1>  call fprintf
+   175                                  
+   176                                      FileOpen [r13+32], "w", ofst2
    176                              <1>  section .data
-   176 000001F0 506572696D65746572- <1>  %%arg1 db %1,0
-   176 000001F9 2073756D203D2000    <1>
+   176 000001F1 7700                <1>  %%rw db %2,0
    176                              <1>  section .text
-   176 000004A8 488B3C25[60000000]  <1>  mov rdi, %2
-   176 000004B0 48BE-               <1>  mov rsi, %%arg1
-   176 000004B2 [F001000000000000]  <1>
-   176 000004BA B800000000          <1>  mov rax, 0
-   176 000004BF E8(00000000)        <1>  call fprintf
-   177                                      PrintDouble [sum], [ofst2]
+   176 000004AA 498B7D20            <1>  mov rdi, %1
+   176 000004AE 488D3425[F1010000]  <1>  lea rsi, [%%rw]
+   176 000004B6 B800000000          <1>  mov rax, 0
+   176 000004BB E8(00000000)        <1>  call fopen
+   176 000004C0 48890425[60000000]  <1>  mov [%3], rax
+   177                                      PrintStr  "Perimeter sum = ", [ofst2]
    177                              <1>  section .data
-   177 00000201 256700              <1>  %%arg1 db "%g",0
+   177 000001F3 506572696D65746572- <1>  %%arg1 db %1,0
+   177 000001FC 2073756D203D2000    <1>
    177                              <1>  section .text
-   177 000004C4 488B3C25[60000000]  <1>  mov rdi, %2
-   177 000004CC 48BE-               <1>  mov rsi, %%arg1
-   177 000004CE [0102000000000000]  <1>
-   177 000004D6 F20F100425-         <1>  movsd xmm0, %1
-   177 000004DB [08000000]          <1>
-   177 000004DF B801000000          <1>  mov rax, 1
-   177 000004E4 E8(00000000)        <1>  call fprintf
-   178                                      PrintStr ". Calculaton time = ", [ofst2]
+   177 000004C8 488B3C25[60000000]  <1>  mov rdi, %2
+   177 000004D0 48BE-               <1>  mov rsi, %%arg1
+   177 000004D2 [F301000000000000]  <1>
+   177 000004DA B800000000          <1>  mov rax, 0
+   177 000004DF E8(00000000)        <1>  call fprintf
+   178                                      PrintDouble [sum], [ofst2]
    178                              <1>  section .data
-   178 00000204 2E2043616C63756C61- <1>  %%arg1 db %1,0
-   178 0000020D 746F6E2074696D6520- <1>
-   178 00000216 3D2000              <1>
+   178 00000204 256700              <1>  %%arg1 db "%g",0
    178                              <1>  section .text
-   178 000004E9 488B3C25[60000000]  <1>  mov rdi, %2
-   178 000004F1 48BE-               <1>  mov rsi, %%arg1
-   178 000004F3 [0402000000000000]  <1>
-   178 000004FB B800000000          <1>  mov rax, 0
-   178 00000500 E8(00000000)        <1>  call fprintf
-   179                                      PrintLLUns [deltaTime], [ofst2]
+   178 000004E4 488B3C25[60000000]  <1>  mov rdi, %2
+   178 000004EC 48BE-               <1>  mov rsi, %%arg1
+   178 000004EE [0402000000000000]  <1>
+   178 000004F6 F20F100425-         <1>  movsd xmm0, %1
+   178 000004FB [08000000]          <1>
+   178 000004FF B801000000          <1>  mov rax, 1
+   178 00000504 E8(00000000)        <1>  call fprintf
+   179                                      PrintStr ". Calculaton time = ", [ofst2]
    179                              <1>  section .data
-   179 00000219 256C6C7500          <1>  %%arg1 db "%llu",0
+   179 00000207 2E2043616C63756C61- <1>  %%arg1 db %1,0
+   179 00000210 746F6E2074696D6520- <1>
+   179 00000219 3D2000              <1>
    179                              <1>  section .text
-   179 00000505 488B3C25[60000000]  <1>  mov rdi, %2
-   179 0000050D 48BE-               <1>  mov rsi, %%arg1
-   179 0000050F [1902000000000000]  <1>
-   179 00000517 488B1425[40000000]  <1>  mov rdx, %1
-   179 0000051F B800000000          <1>  mov rax, 0
-   179 00000524 E8(00000000)        <1>  call fprintf
-   180                                      PrintStr " sec, ", [ofst2]
+   179 00000509 488B3C25[60000000]  <1>  mov rdi, %2
+   179 00000511 48BE-               <1>  mov rsi, %%arg1
+   179 00000513 [0702000000000000]  <1>
+   179 0000051B B800000000          <1>  mov rax, 0
+   179 00000520 E8(00000000)        <1>  call fprintf
+   180                                      PrintLLUns [deltaTime], [ofst2]
    180                              <1>  section .data
-   180 0000021E 207365632C2000      <1>  %%arg1 db %1,0
+   180 0000021C 256C6C7500          <1>  %%arg1 db "%llu",0
    180                              <1>  section .text
-   180 00000529 488B3C25[60000000]  <1>  mov rdi, %2
-   180 00000531 48BE-               <1>  mov rsi, %%arg1
-   180 00000533 [1E02000000000000]  <1>
-   180 0000053B B800000000          <1>  mov rax, 0
-   180 00000540 E8(00000000)        <1>  call fprintf
-   181                                      PrintLLUns [deltaTime+8], [ofst2]
+   180 00000525 488B3C25[60000000]  <1>  mov rdi, %2
+   180 0000052D 48BE-               <1>  mov rsi, %%arg1
+   180 0000052F [1C02000000000000]  <1>
+   180 00000537 488B1425[40000000]  <1>  mov rdx, %1
+   180 0000053F B800000000          <1>  mov rax, 0
+   180 00000544 E8(00000000)        <1>  call fprintf
+   181                                      PrintStr " sec, ", [ofst2]
    181                              <1>  section .data
-   181 00000225 256C6C7500          <1>  %%arg1 db "%llu",0
+   181 00000221 207365632C2000      <1>  %%arg1 db %1,0
    181                              <1>  section .text
-   181 00000545 488B3C25[60000000]  <1>  mov rdi, %2
-   181 0000054D 48BE-               <1>  mov rsi, %%arg1
-   181 0000054F [2502000000000000]  <1>
-   181 00000557 488B1425[48000000]  <1>  mov rdx, %1
-   181 0000055F B800000000          <1>  mov rax, 0
-   181 00000564 E8(00000000)        <1>  call fprintf
-   182                                      PrintStr " nsec", [ofst2]
+   181 00000549 488B3C25[60000000]  <1>  mov rdi, %2
+   181 00000551 48BE-               <1>  mov rsi, %%arg1
+   181 00000553 [2102000000000000]  <1>
+   181 0000055B B800000000          <1>  mov rax, 0
+   181 00000560 E8(00000000)        <1>  call fprintf
+   182                                      PrintLLUns [deltaTime+8], [ofst2]
    182                              <1>  section .data
-   182 0000022A 206E73656300        <1>  %%arg1 db %1,0
+   182 00000228 256C6C7500          <1>  %%arg1 db "%llu",0
    182                              <1>  section .text
-   182 00000569 488B3C25[60000000]  <1>  mov rdi, %2
-   182 00000571 48BE-               <1>  mov rsi, %%arg1
-   182 00000573 [2A02000000000000]  <1>
-   182 0000057B B800000000          <1>  mov rax, 0
-   182 00000580 E8(00000000)        <1>  call fprintf
-   183                                      PrintStr 10, [ofst2]
+   182 00000565 488B3C25[60000000]  <1>  mov rdi, %2
+   182 0000056D 48BE-               <1>  mov rsi, %%arg1
+   182 0000056F [2802000000000000]  <1>
+   182 00000577 488B1425[48000000]  <1>  mov rdx, %1
+   182 0000057F B800000000          <1>  mov rax, 0
+   182 00000584 E8(00000000)        <1>  call fprintf
+   183                                      PrintStr " nsec", [ofst2]
    183                              <1>  section .data
-   183 00000230 0A00                <1>  %%arg1 db %1,0
+   183 0000022D 206E73656300        <1>  %%arg1 db %1,0
    183                              <1>  section .text
-   183 00000585 488B3C25[60000000]  <1>  mov rdi, %2
-   183 0000058D 48BE-               <1>  mov rsi, %%arg1
-   183 0000058F [3002000000000000]  <1>
-   183 00000597 B800000000          <1>  mov rax, 0
-   183 0000059C E8(00000000)        <1>  call fprintf
-   184                                      FileClose [ofst2]
-   184 000005A1 488B3C25[60000000]  <1>  mov rdi, %1
-   184 000005A9 B800000000          <1>  mov rax, 0
-   184 000005AE E8(00000000)        <1>  call fclose
-   185                                  
-   186                                      PrintStrLn "Stop", [stdout]
-   186                              <1>  section .data
-   186 00000232 53746F700A00        <1>  %%arg1 db %1,10,0
-   186                              <1>  section .text
-   186 000005B3 488B3C25[00000000]  <1>  mov rdi, %2
-   186 000005BB 48BE-               <1>  mov rsi, %%arg1
-   186 000005BD [3202000000000000]  <1>
-   186 000005C5 B800000000          <1>  mov rax, 0
-   186 000005CA E8(00000000)        <1>  call fprintf
-   187 000005CF EB5C                        jmp .return
-   188                                  .fall1:
-   189                                      PrintStr "incorrect numer of figures = ", [stdout]
-   189                              <1>  section .data
-   189 00000238 696E636F7272656374- <1>  %%arg1 db %1,0
-   189 00000241 206E756D6572206F66- <1>
-   189 0000024A 206669677572657320- <1>
-   189 00000253 3D2000              <1>
-   189                              <1>  section .text
-   189 000005D1 488B3C25[00000000]  <1>  mov rdi, %2
-   189 000005D9 48BE-               <1>  mov rsi, %%arg1
-   189 000005DB [3802000000000000]  <1>
-   189 000005E3 B800000000          <1>  mov rax, 0
-   189 000005E8 E8(00000000)        <1>  call fprintf
-   190                                      PrintInt [num], [stdout]
+   183 00000589 488B3C25[60000000]  <1>  mov rdi, %2
+   183 00000591 48BE-               <1>  mov rsi, %%arg1
+   183 00000593 [2D02000000000000]  <1>
+   183 0000059B B800000000          <1>  mov rax, 0
+   183 000005A0 E8(00000000)        <1>  call fprintf
+   184                                      PrintStr 10, [ofst2]
+   184                              <1>  section .data
+   184 00000233 0A00                <1>  %%arg1 db %1,0
+   184                              <1>  section .text
+   184 000005A5 488B3C25[60000000]  <1>  mov rdi, %2
+   184 000005AD 48BE-               <1>  mov rsi, %%arg1
+   184 000005AF [3302000000000000]  <1>
+   184 000005B7 B800000000          <1>  mov rax, 0
+   184 000005BC E8(00000000)        <1>  call fprintf
+   185                                      FileClose [ofst2]
+   185 000005C1 488B3C25[60000000]  <1>  mov rdi, %1
+   185 000005C9 B800000000          <1>  mov rax, 0
+   185 000005CE E8(00000000)        <1>  call fclose
+   186                                  
+   187                                      PrintStrLn "Stop", [stdout]
+   187                              <1>  section .data
+   187 00000235 53746F700A00        <1>  %%arg1 db %1,10,0
+   187                              <1>  section .text
+   187 000005D3 488B3C25[00000000]  <1>  mov rdi, %2
+   187 000005DB 48BE-               <1>  mov rsi, %%arg1
+   187 000005DD [3502000000000000]  <1>
+   187 000005E5 B800000000          <1>  mov rax, 0
+   187 000005EA E8(00000000)        <1>  call fprintf
+   188 000005EF EB5C                        jmp .return
+   189                                  .fall1:
+   190                                      PrintStr "incorrect numer of figures = ", [stdout]
    190                              <1>  section .data
-   190 00000256 256400              <1>  %%arg1 db "%d",0
+   190 0000023B 696E636F7272656374- <1>  %%arg1 db %1,0
+   190 00000244 206E756D6572206F66- <1>
+   190 0000024D 206669677572657320- <1>
+   190 00000256 3D2000              <1>
    190                              <1>  section .text
-   190 000005ED 488B3C25[00000000]  <1>  mov rdi, %2
-   190 000005F5 48BE-               <1>  mov rsi, %%arg1
-   190 000005F7 [5602000000000000]  <1>
-   190 000005FF 488B1425[04000000]  <1>  mov rdx, %1
-   190 00000607 B800000000          <1>  mov rax, 0
-   190 0000060C E8(00000000)        <1>  call fprintf
-   191                                      PrintStrLn ". Set 0 < number <= 10000", [stdout]
+   190 000005F1 488B3C25[00000000]  <1>  mov rdi, %2
+   190 000005F9 48BE-               <1>  mov rsi, %%arg1
+   190 000005FB [3B02000000000000]  <1>
+   190 00000603 B800000000          <1>  mov rax, 0
+   190 00000608 E8(00000000)        <1>  call fprintf
+   191                                      PrintInt [num], [stdout]
    191                              <1>  section .data
-   191 00000259 2E205365742030203C- <1>  %%arg1 db %1,10,0
-   191 00000262 206E756D626572203C- <1>
-   191 0000026B 3D2031303030300A00  <1>
+   191 00000259 256400              <1>  %%arg1 db "%d",0
    191                              <1>  section .text
-   191 00000611 488B3C25[00000000]  <1>  mov rdi, %2
-   191 00000619 48BE-               <1>  mov rsi, %%arg1
-   191 0000061B [5902000000000000]  <1>
-   191 00000623 B800000000          <1>  mov rax, 0
-   191 00000628 E8(00000000)        <1>  call fprintf
-   192                                  .return:
-   193 0000062D C9                      leave
-   194 0000062E C3                      ret
+   191 0000060D 488B3C25[00000000]  <1>  mov rdi, %2
+   191 00000615 48BE-               <1>  mov rsi, %%arg1
+   191 00000617 [5902000000000000]  <1>
+   191 0000061F 488B1425[04000000]  <1>  mov rdx, %1
+   191 00000627 B800000000          <1>  mov rax, 0
+   191 0000062C E8(00000000)        <1>  call fprintf
+   192                                      PrintStrLn ". Set 0 < number <= 10000", [stdout]
+   192                              <1>  section .data
+   192 0000025C 2E205365742030203C- <1>  %%arg1 db %1,10,0
+   192 00000265 206E756D626572203C- <1>
+   192 0000026E 3D2031303030300A00  <1>
+   192                              <1>  section .text
+   192 00000631 488B3C25[00000000]  <1>  mov rdi, %2
+   192 00000639 48BE-               <1>  mov rsi, %%arg1
+   192 0000063B [5C02000000000000]  <1>
+   192 00000643 B800000000          <1>  mov rax, 0
+   192 00000648 E8(00000000)        <1>  call fprintf
+   193                                  .return:
+   194 0000064D C9                      leave
+   195 0000064E C3                      ret

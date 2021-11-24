@@ -18,7 +18,7 @@ extern  InRndContainer
 extern  OutContainer
 extern  BubbleSortContainer
 extern  PerimeterSumContainer
-
+extern  BubbleSortContainer2
 ;-------------------------------------------------------------
 ; Вывод строки символов из буфера
 %macro	PrintStrBuf 2
@@ -111,6 +111,19 @@ extern  PerimeterSumContainer
     mov     rax, 0              ; нет чисел с плавающей точкой
     call    BubbleSortContainer
 %endmacro
+
+
+;-------------------------------------------------------------
+; Сортировка контейнера
+%macro  SortContainer2    4
+    mov     rdi, %1
+    mov     esi, %2
+    mov     rdx, %3
+    mov     rsi, %2
+    mov     rax, 0              ; нет чисел с плавающей точкой
+    call    BubbleSortContainer2
+%endmacro
+
 
 ;-------------------------------------------------------------
 ; Вычисление суммы периметров фигур в контейнере

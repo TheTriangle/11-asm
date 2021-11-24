@@ -1,10 +1,11 @@
 ;------------------------------------------------------------------------------
 ; perimeter.asm - единица компиляции, вбирающая функции вычисления периметра
 ;------------------------------------------------------------------------------
-
+%include "printmacros.mac"
 extern COMPLEXNUMBER
 extern FRACTION
 extern COORDINATES
+extern stdout 
 
 ;----------------------------------------------
 ; Вычисление периметра прямоугольника
@@ -86,6 +87,7 @@ push rbp
 mov rbp, rsp
 
     ; В rdi адрес фигуры
+    ; PrintStr2 "toreall:", [stdout]
     mov eax, [rdi]
     cmp eax, [COMPLEXNUMBER]
     je compToReal
@@ -98,15 +100,18 @@ mov rbp, rsp
     jmp     return
 compToReal:
     ; Вычисление периметра прямоугольника
+    ;  PrintStr2 "complex:", stdout
     add     rdi, 4
     call    ToRealComplexNumber
     jmp     return
 fracToReal:
+    ; PrintStr2 "fraction:", stdout
     ; Вычисление периметра прямоугольника
     add     rdi, 4
     call    ToRealFraction
     jmp     return
 cordToReal:
+    ; PrintStr2 "coordinates:", stdout
     ; Вычисление периметра прямоугольника
     add     rdi, 4
     call    ToRealCoordinates

@@ -25,11 +25,22 @@ extern  OutContainer
 
 %macro  PrintInt2    2
     section .data
-        %%arg1  db  "%d",0     ; first argument
+        %%arg1  db  "%d ",10,0     ; first argument
     section .text               ; the printf arguments
         mov rdi, %2
         mov rsi, %%arg1
         mov rdx, %1
         mov rax, 0              ; no floating point
+        call fprintf
+%endmacro
+
+%macro  PrintDouble2    2
+    section .data
+        %%arg1  db  "%g",0     ; first argument
+    section .text               ; the printf arguments
+        mov rdi, %2
+        mov rsi, %%arg1
+        movsd xmm0, %1
+        mov rax, 1              ; no floating point
         call fprintf
 %endmacro

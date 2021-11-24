@@ -1,43 +1,53 @@
-     1                                  global BubbleSort
-     2                                  BubbleSort:
-     3                                  	mov rdi,array						;pointer to starting of array
-     3          ******************       error: symbol `array' undefined
-     4                                  	mov byte[ptr],00h					; set this variable to 00
-     4          ******************       warning: `ptr' is not a NASM keyword [-w+ptr]
-     4          ******************       error: symbol `ptr' undefined
-     5                                  	mov cl,byte[lenn]					;set cl with array length
-     5          ******************       error: symbol `lenn' undefined
-     6                                  	mov byte[cntr],cl					;set this variable with array length
-     6          ******************       error: symbol `cntr' undefined
-     7                                  	
-     8                                  	up1 :
-     8          ******************       error: label `up1' changed during code generation [-w+error=label-redef-late]
-     9                                  	mov rdi,array						;Points to start
-     9          ******************       error: symbol `array' undefined
-    10                                  	mov al,byte[cntr]					;
-    10          ******************       error: symbol `cntr' undefined
-    11                                  	mov bl,byte[ptr]
-    11          ******************       warning: `ptr' is not a NASM keyword [-w+ptr]
-    11          ******************       error: symbol `ptr' undefined
-    12 00000000 28D8                    	sub al,bl						; n-i (Rather to increase i, Decrements n)
-    13                                  	mov byte[cntr2],al					; j pointer in bubble sort
-    13          ******************       error: symbol `cntr2' undefined
-    14                                  	up2:
-    14          ******************       error: label `up2' changed during code generation [-w+error=label-redef-late]
-    15 00000002 8A07                    		mov al,byte[rdi]				;Get [j] in al
-    16 00000004 8A5F01                  		mov bl,byte[rdi+1]				;Get [j+1]in bl
-    17 00000007 38D8                    		cmp al,bl
-    18 00000009 723A                    		jb skip						;Compares
-    19 0000000B 884701                  		mov [rdi+1],al					;If larger swapped
-    20 0000000E 881F                    		mov [rdi],bl
-    21                                  		skip:
-    21          ******************       error: label `skip' changed during code generation [-w+error=label-redef-late]
-    22 00000010 48FFC7                  		   inc rdi					;Else continues to next number
-    23                                  		   dec byte[cntr2]
-    23          ******************       error: symbol `cntr2' undefined
-    24 00000013 75ED                    		   jnz up2
-    25                                  			
-    26                                  	dec byte[cntr]						;Decrements n (Rather to increase i)
-    26          ******************       error: symbol `cntr' undefined
-    27 00000015 75E9                    	jnz up1
-    28 00000017 C3                      	ret
+     1                                  global SortContainer
+     2                                  SortContainer:
+     3                                  section .data
+     4 00000000 25643A2000                  numFmt  db  "%d: ",0
+     5                                  section .bss
+     6 00000000 <res 00000008>              .pcont  resq    1   ; адрес контейнера
+     7 00000008 <res 00000004>              .len    resd    1   ; адрес для сохранения числа введенных элементов
+     8 0000000C <res 00000008>              .FILE   resq    1   ; указатель на файл
+     9 00000014 <res 00000004>              .cntr   resd    1   ; вспомогательный счетчик
+    10 00000018 <res 00000004>              .cntr2   resd    1   ; вспомогательный счетчик
+    11 0000001C <res 00000004>              .ptr    resd    1   ; вспомогательный счетчик
+    12                                  
+    13                                  section .text
+    14 00000000 55                      push rbp
+    15 00000001 4889E5                  mov rbp, rsp
+    16                                  
+    17 00000004 48893C25[00000000]          mov [.pcont], rdi   ; сохраняется указатель на контейнер
+    18 0000000C 893425[08000000]            mov [.len],   esi     ; сохраняется число элементов
+    19 00000013 48891425[0C000000]          mov [.FILE],  rdx    ; сохраняется указатель на файл
+    20 0000001B 8A0C25[08000000]        	mov cl, [.len]					;set cl with array length
+    21 00000022 880C25[14000000]        	mov [.cntr],cl					;set this variable with array length
+    22                                  
+    23                                  	up1 :
+    24                                  	mov rdi, [.pcont]						;Points to start
+    24          ******************       error: symbol `up1.pcont' undefined
+    25                                  	mov al, [.cntr]					;
+    25          ******************       error: symbol `up1.cntr' undefined
+    26                                  	mov bl, [.ptr]
+    26          ******************       error: symbol `up1.ptr' undefined
+    27 00000029 28D8                    	sub al, bl						; n-i (Rather to increase i, Decrements n)
+    28                                  	mov [.cntr2], al					; j pointer in bubble sort
+    28          ******************       error: symbol `up1.cntr2' undefined
+    29                                  	up2:
+    29          ******************       error: label `up2' changed during code generation [-w+error=label-redef-late]
+    30 0000002B 8A07                    		mov al, [rdi]				;Get [j] in al
+    31 0000002D 8A5F10                  		mov bl, [rdi+16]			;Get [j+1]in bl
+    32 00000030 38D8                    		cmp al, bl
+    33 00000032 7222                    		jb skip						;Compares
+    34 00000034 884710                  		mov [rdi+16], al					;If larger swapped
+    35 00000037 881F                    		mov [rdi], bl
+    36                                  		skip:
+    36          ******************       error: label `skip' changed during code generation [-w+error=label-redef-late]
+    37 00000039 4883C710                		   add rdi, 16				;Else continues to next number
+    38                                  		   sub [.cntr2], 16
+    38          ******************       error: symbol `skip.cntr2' undefined
+    39 0000003D 75EC                    		   jnz up2
+    40                                  			
+    41                                  	sub [.cntr], 16						;Decrements n (Rather to increase i)
+    41          ******************       error: symbol `skip.cntr' undefined
+    42 0000003F 75E8                    	jnz up1
+    43 00000041 C3                      	ret
+    44 00000042 C9                      leave
+    45 00000043 C3                      ret

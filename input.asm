@@ -168,6 +168,7 @@ mov rbp, rsp
     mov     rsi, [.FILE]
     call    InFraction
     mov     rax, 1  ; Код возврата - true
+    jmp     .return
 .coordIn:
     ; Ввод треугольника
     mov     rdi, [.pnum]
@@ -175,6 +176,7 @@ mov rbp, rsp
     mov     rsi, [.FILE]
     call    InCoordinates
     mov     rax, 1  ; Код возврата - true
+    jmp     .return
 .return:
 
 leave

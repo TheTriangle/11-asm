@@ -20,7 +20,7 @@ mov rbp, rsp
 
     ; В rdi адрес прямоугольника
     mov eax, [rdi]
-    add ebx, [rdi+4]
+    mov ebx, [rdi+4]
     imul eax, eax
     imul ebx, ebx
     add eax, ebx 
@@ -47,8 +47,9 @@ mov rbp, rsp
     mov eax, [rdi]
     mov ebx, [rdi+4]
     div ebx
+    ; mov eax, [rdi+4]
     cvtsi2sd    xmm0, eax
-
+    
 leave
 ret
 

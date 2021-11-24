@@ -1,0 +1,43 @@
+     1                                  global BubbleSort
+     2                                  BubbleSort:
+     3                                  	mov rdi,array						;pointer to starting of array
+     3          ******************       error: symbol `array' undefined
+     4                                  	mov byte[ptr],00h					; set this variable to 00
+     4          ******************       warning: `ptr' is not a NASM keyword [-w+ptr]
+     4          ******************       error: symbol `ptr' undefined
+     5                                  	mov cl,byte[lenn]					;set cl with array length
+     5          ******************       error: symbol `lenn' undefined
+     6                                  	mov byte[cntr],cl					;set this variable with array length
+     6          ******************       error: symbol `cntr' undefined
+     7                                  	
+     8                                  	up1 :
+     8          ******************       error: label `up1' changed during code generation [-w+error=label-redef-late]
+     9                                  	mov rdi,array						;Points to start
+     9          ******************       error: symbol `array' undefined
+    10                                  	mov al,byte[cntr]					;
+    10          ******************       error: symbol `cntr' undefined
+    11                                  	mov bl,byte[ptr]
+    11          ******************       warning: `ptr' is not a NASM keyword [-w+ptr]
+    11          ******************       error: symbol `ptr' undefined
+    12 00000000 28D8                    	sub al,bl						; n-i (Rather to increase i, Decrements n)
+    13                                  	mov byte[cntr2],al					; j pointer in bubble sort
+    13          ******************       error: symbol `cntr2' undefined
+    14                                  	up2:
+    14          ******************       error: label `up2' changed during code generation [-w+error=label-redef-late]
+    15 00000002 8A07                    		mov al,byte[rdi]				;Get [j] in al
+    16 00000004 8A5F01                  		mov bl,byte[rdi+1]				;Get [j+1]in bl
+    17 00000007 38D8                    		cmp al,bl
+    18 00000009 723A                    		jb skip						;Compares
+    19 0000000B 884701                  		mov [rdi+1],al					;If larger swapped
+    20 0000000E 881F                    		mov [rdi],bl
+    21                                  		skip:
+    21          ******************       error: label `skip' changed during code generation [-w+error=label-redef-late]
+    22 00000010 48FFC7                  		   inc rdi					;Else continues to next number
+    23                                  		   dec byte[cntr2]
+    23          ******************       error: symbol `cntr2' undefined
+    24 00000013 75ED                    		   jnz up2
+    25                                  			
+    26                                  	dec byte[cntr]						;Decrements n (Rather to increase i)
+    26          ******************       error: symbol `cntr' undefined
+    27 00000015 75E9                    	jnz up1
+    28 00000017 C3                      	ret

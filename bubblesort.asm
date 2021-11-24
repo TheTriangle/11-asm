@@ -3,8 +3,10 @@ extern stdout
 extern OutNumber
 extern OutComplexNumber
 extern ToRealComplexNumber
-%include "printmacros.mac"
+%include "printmacros.mac" 
+; макросы для отладки
 
+; вызывается макросом SortContainer2 (macros.mac) из main.asm
 global BubbleSortContainer2
 BubbleSortContainer2:
 section .data
@@ -13,7 +15,7 @@ section .data
 section .bss
     pcont  resq    1   ; адрес контейнера
     len    resd    1   ; адрес для сохранения числа введенных элементов
-    FILE   resq    1   ; указатель на файл
+    FILE   resq    1   ; указатель на файл (поток)
     cntr   resd    1   ; вспомогательный счетчик
     cntr2   resd    1   ; вспомогательный счетчик
     lptr    resd    1   ; вспомогательный счетчик
@@ -26,7 +28,7 @@ mov rbp, rsp
     ; PrintInt2 rdi, [stdout]
     
     mov [len],   esi     ; сохраняется число элементов
-    mov [FILE],  rdx    ; сохраняется указатель на файл
+    mov [FILE],  rdx    ; сохраняется указатель на файл (поток)
 	mov cl, [len]					;set cl with array length
 	mov [cntr], cl					;set this variable with array length
 
@@ -36,26 +38,26 @@ mov rbp, rsp
     
     PrintStr2 "real:", [FILE]
     movsd [real], xmm0
-    PrintDouble2 xmm0, [FILE]
+    PrintDouble2 xmm0, [FILE] ; Как видим, это не работает
     PrintStr2 "rend:", [FILE]
 
     mov rax, [pcont + 1]
     PrintInt2 rax, [FILE]
     PrintStr2 "first:", [FILE]
-    PrintInt2 [pcont + 1], [FILE]
+    PrintInt2 [pcont + 1], [FILE] ; Как видим, тут тоже треш вместо нормальных чисел
     PrintStr2 "second:", [FILE]
     PrintInt2 [pcont + 2], [FILE]
     PrintStr2 "entered:", [FILE]
-    
+    ; здесь начинается скопипащенный алгоритм сортировки, который я так и не проверил
     up1 :
-	mov rdi, [pcont + 1]						;Points to start
+	mov rdi, [pcont + 1]		; Если +1 это биты, то должно указывать на тип переменной				;Points to start
 	mov al, [cntr]					;
 	mov bl, [lptr]
 	sub al, bl						; n-i (Rather to increase i, Decrements n)
 	mov [cntr2], al					; j pointer in bubble sort
 
     PrintStr2 "entered 2", [FILE]
-    PrintContainer2 [pcont], [len], [FILE]
+    PrintContainer2 [pcont], [len], [FILE] ; Но вот PrintContainer почему-то печатает адекватные числа
 
 	up2:
         PrintStr2 "entered 3", [FILE]
@@ -68,7 +70,7 @@ mov rbp, rsp
 		cmp al, bl
 		jb skip						;Compares
 		mov [rdi+1], al					;If larger swapped
-		mov [rdi], bl
+		mov [rdi], bl               ; Иногда код заходит сюда, но, как видно по PrintContainer, вообще ничего в нем не меняет (должен хоть что-то свопать, но нет)
 		skip:
             PrintStr2 "entered skip", [FILE]
 		    add rdi, 1			;Else continues to next number

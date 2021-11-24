@@ -116,11 +116,11 @@ mov rbp,rsp
     FileClose [ifst]
 
 .task2:
-    ; Вывод содержимого контейнера
+    ; Вывод содержимого контейнера в первый раз
 
     PrintStrLn "Filled container:", [stdout]
     PrintContainer cont, [len], [stdout]
-
+    ; БАБЛСОРТ ВЫЗЫВАЕТСЯ ЗДЕСЬ
     SortContainer2 cont, [len], [stdout]
     
     PrintStrLn "Filled container:", [stdout]

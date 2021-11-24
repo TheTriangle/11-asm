@@ -121,7 +121,7 @@ mov rbp,rsp
     PrintStrLn "Filled container:", [stdout]
     PrintContainer cont, [len], [stdout]
 
-    SortContainer cont, [len], [stdout]
+    SortContainer2 cont, [len], [stdout]
     
     PrintStrLn "Filled container:", [stdout]
     PrintContainer cont, [len], [stdout]

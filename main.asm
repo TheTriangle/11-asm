@@ -117,10 +117,11 @@ mov rbp,rsp
 
 .task2:
     ; Вывод содержимого контейнера
+    SortContainer cont, [len], [stdout]
+    
     PrintStrLn "Filled container:", [stdout]
-    ; SortContainer cont, [len], [stdout]
     PrintContainer cont, [len], [stdout]
-
+    
     FileOpen [r13+24], "w", ofst1
     PrintStrLn "Filled container:", [ofst1]
     PrintContainer cont, [len], [ofst1]

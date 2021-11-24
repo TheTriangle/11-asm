@@ -16,7 +16,7 @@ extern  CLOCKS_PER_SEC
 extern  InContainer
 extern  InRndContainer
 extern  OutContainer
-extern  SortContainer
+extern  BubbleSortContainer
 extern  PerimeterSumContainer
 
 ;-------------------------------------------------------------
@@ -109,7 +109,7 @@ extern  PerimeterSumContainer
     mov     esi, %2
     mov     rdx, %3
     mov     rax, 0              ; нет чисел с плавающей точкой
-    call    SortContainer
+    call    BubbleSortContainer
 %endmacro
 
 ;-------------------------------------------------------------

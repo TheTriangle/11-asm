@@ -1,5 +1,5 @@
-     1                                  global SortContainer
-     2                                  SortContainer:
+     1                                  global BubbleSortContainer
+     2                                  BubbleSortContainer:
      3                                  section .data
      4 00000000 25643A2000                  numFmt  db  "%d: ",0
      5                                  section .bss
@@ -28,19 +28,19 @@
     28 00000041 880425[18000000]        	mov [cntr2], al					; j pointer in bubble sort
     29                                  	up2:
     30 00000048 8A07                    		mov al, [rdi]				;Get [j] in al
-    31 0000004A 8A5F10                  		mov bl, [rdi+16]			;Get [j+1]in bl
+    31 0000004A 8A5F01                  		mov bl, [rdi+1]			;Get [j+1]in bl
     32 0000004D 38D8                    		cmp al, bl
     33 0000004F 7205                    		jb skip						;Compares
-    34 00000051 884710                  		mov [rdi+16], al					;If larger swapped
+    34 00000051 884701                  		mov [rdi+1], al					;If larger swapped
     35 00000054 881F                    		mov [rdi], bl
     36                                  		skip:
-    37 00000056 4883C710                		   add rdi, 16				;Else continues to next number
-    38 0000005A 48832C25[18000000]-     		   sub qword[cntr2], 16
-    38 00000062 10                 
+    37 00000056 4883C701                		   add rdi, 1				;Else continues to next number
+    38 0000005A 48832C25[18000000]-     		   sub qword[cntr2], 1
+    38 00000062 01                 
     39 00000063 75E3                    		   jnz up2
     40                                  			
-    41 00000065 48832C25[14000000]-     	sub qword[cntr], 16						;Decrements n (Rather to increase i)
-    41 0000006D 10                 
+    41 00000065 48832C25[14000000]-     	sub qword[cntr], 1						;Decrements n (Rather to increase i)
+    41 0000006D 01                 
     42 0000006E 75B9                    	jnz up1
     43 00000070 C3                      	ret
     44 00000071 C9                      leave

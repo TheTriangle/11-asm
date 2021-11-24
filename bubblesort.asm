@@ -1,5 +1,5 @@
-global SortContainer
-SortContainer:
+global BubbleSortContainer
+BubbleSortContainer:
 section .data
     numFmt  db  "%d: ",0
 section .bss
@@ -28,17 +28,17 @@ mov rbp, rsp
 	mov [cntr2], al					; j pointer in bubble sort
 	up2:
 		mov al, [rdi]				;Get [j] in al
-		mov bl, [rdi+16]			;Get [j+1]in bl
+		mov bl, [rdi+1]			;Get [j+1]in bl
 		cmp al, bl
 		jb skip						;Compares
-		mov [rdi+16], al					;If larger swapped
+		mov [rdi+1], al					;If larger swapped
 		mov [rdi], bl
 		skip:
-		   add rdi, 16				;Else continues to next number
-		   sub qword[cntr2], 16
+		   add rdi, 1				;Else continues to next number
+		   sub qword[cntr2], 1
 		   jnz up2
 			
-	sub qword[cntr], 16						;Decrements n (Rather to increase i)
+	sub qword[cntr], 1						;Decrements n (Rather to increase i)
 	jnz up1
 	ret
 leave

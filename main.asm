@@ -80,6 +80,7 @@ mov rbp,rsp
     jmp .return
 .next2:
     ; Генерация случайных фигур
+
     mov rdi, [r13+16]
     call atoi
     mov [num], eax
@@ -139,8 +140,8 @@ mov rbp,rsp
                    ; [time + 8] contains number of nanoseconds
 
     
-    ContainerSum cont, [len], [sum]
-    PrintDouble xmm0, [stdout]
+    ; ContainerSum cont, [len], [sum]
+    ; PrintDouble xmm0, [stdout]
     ; Вычисление времени завершения
     mov rax, 228   ; 228 is system call for sys_clock_gettime
     xor edi, edi   ; 0 for system clock (preferred over "mov rdi, 0")

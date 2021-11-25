@@ -13,13 +13,40 @@ extern stdout
 ;    return 2.0 * (*((int*)r)
 ;           + *((int*)(r+intSize)));
 ;}
+
+global sqrti
+sqrti:
+    mov rbx, r9
+    xor rax, rax
+
+    .while:
+    cmp rax, rbx
+    jnb .endwhile
+
+    add rbx, rax
+    shr rbx, 1
+
+    mov rax, r9
+    xor rdx, rdx
+    div rbx
+
+    jmp .while
+
+    .endwhile:
+    mov rax, rbx
+    ret
+
+
 global ToRealComplexNumber
 ToRealComplexNumber:
+section .data
+X dd 25
 section .text
 push rbp
 mov rbp, rsp
 
     ; В rdi адрес прямоугольника
+    xor rax, rax
     mov eax, [rdi]
     mov ebx, [rdi+4]
     imul eax, eax
@@ -27,7 +54,18 @@ mov rbp, rsp
     add eax, ebx 
     mov ebx, 2 ; TODO take square root
     div ebx
+breakpoint:
+    xor r9, r9
+    mov r9d, eax
+    call sqrti
+    mov rax, rbx
+    
+    ;call sqrti
     cvtsi2sd    xmm0, eax
+    
+    add rdi, 8
+    mov dword[rdi], eax
+    sub rdi, 8
 
 leave
 ret
@@ -50,6 +88,9 @@ mov rbp, rsp
     div ebx
     ; mov eax, [rdi+4]
     cvtsi2sd    xmm0, eax
+    add rdi, 8
+    mov dword[rdi], eax
+    sub rdi, 8
     
 leave
 ret
@@ -63,6 +104,9 @@ mov rbp, rsp
     ; В rdi адрес треугольника
     mov eax, [rdi+4]
     cvtsi2sd    xmm0, eax
+    add rdi, 8
+    mov dword[rdi], eax
+    sub rdi, 8
 
 leave
 ret

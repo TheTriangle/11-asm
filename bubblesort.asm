@@ -11,7 +11,6 @@ global BubbleSortContainer2
 BubbleSortContainer2:
 section .data
     numFmt  db  "%d: ",0
-    real1 dq 0.0
     outfmt db "Coorinates (%d, %d) - %g",10,0
 section .bss
     pcont  resq    1   ; адрес контейнера
@@ -20,6 +19,8 @@ section .bss
     cntr   resd    1   ; вспомогательный счетчик
     cntr2   resd    1   ; вспомогательный счетчик
     lptr    resd    1   ; вспомогательный счетчик
+    real1    resd    1   ; вспомогательный счетчик
+    real2    resd    1   ; вспомогательный счетчик
     i: resd 1
     j: resd 1
 
@@ -27,6 +28,7 @@ section .text
 push rbp
 mov rbp, rsp
 
+    ; PrintStr2 "at least entered bubblesort", [FILE]
     mov [pcont], rdi   ; сохраняется указатель на контейнер
     ; PrintInt2 rdi, [stdout]
     
@@ -40,7 +42,6 @@ mov rbp, rsp
 
     ;mov dword[rdi], 2
     ;sub rdi, 16
-    ;PrintStr2 "hey, Jude", [FILE]
 
     ;xor     edx, edx    
     ; mov [pcont], [rdi + 16]     
@@ -83,15 +84,25 @@ mov rbp, rsp
         mov r11d, 16 ; r11d - 16
         mul r11d ; eax - 16j
         add ebx, eax ; ebx - указатель на j-тый элемент контейнера 
+        mov r8d, [ebx+12]  ; r8d хранит дествительное число от элемента j
+
         mov eax, ebx ; eax - указатель на j-тый элемент контейнера
         add eax, 16 ; eax - указатель на j+1-ый элемент контейнера
+        mov r12d, [eax+12] ; r12d хранит действительное число от элемента j+1
+
         mov edx, dword[ebx] ; edx - j-тый элемент контейнера (тип числа)
         mov r9d, dword[eax] ; r9d - j+1-ый элемент контейнера (тип числа)
-        cmp r9d, edx ; сравниваем j и j+1 типы
+        cmp r12d, r8d ; сравниваем j и j+1 типы
         jl swap ; свопаем
         jmp no_swap ; не свопаем
     
         swap:
+        mov dword[ebx], r9d ; помещаем j+1-ый элемент по указателю на j
+        mov dword[eax], edx ; помещаем j-ый элемент по указателю на j+1-ый
+        add ebx, 4
+        add eax, 4
+        mov r9d, dword[eax]
+        mov edx, dword[ebx]
         mov dword[ebx], r9d ; помещаем j+1-ый элемент по указателю на j
         mov dword[eax], edx ; помещаем j-ый элемент по указателю на j+1-ый
         add ebx, 4

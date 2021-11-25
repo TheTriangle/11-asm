@@ -1,5 +1,4 @@
 extern ToRealNumber
-extern stdout
 extern OutNumber
 extern OutComplexNumber
 extern ToRealComplexNumber

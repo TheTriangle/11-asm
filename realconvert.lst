@@ -228,31 +228,3 @@
    176                                  ;    }
    177                                  ;    return sum;
    178                                  ;}
-   179                                  global PerimeterSumContainer
-   180                                  PerimeterSumContainer:
-   181                                  section .data
-   182 00000004 0000000000000000            .sum    dq  0.0
-   183                                  section .text
-   184 000000D7 55                      push rbp
-   185 000000D8 4889E5                  mov rbp, rsp
-   186                                  
-   187                                      ; В rdi адрес начала контейнера
-   188 000000DB 89F3                        mov ebx, esi            ; число фигур
-   189 000000DD 31C9                        xor ecx, ecx            ; счетчик фигур
-   190 000000DF F20F100C25-                 movsd xmm1, [.sum]      ; перенос накопителя суммы в регистр 1
-   190 000000E4 [04000000]         
-   191                                  .loop:
-   192 000000E8 39D9                        cmp ecx, ebx            ; проверка на окончание цикла
-   193 000000EA 7D18                        jge .return             ; Перебрали все фигуры
-   194                                  
-   195 000000EC 4989FA                      mov r10, rdi            ; сохранение начала фигуры
-   196 000000EF E897FFFFFF                  call ToRealNumber     ; Получение периметра первой фигуры
-   197 000000F4 F20F58C8                    addsd xmm1, xmm0        ; накопление суммы
-   198 000000F8 48FFC1                      inc rcx                 ; индекс следующей фигуры
-   199 000000FB 4983C210                    add r10, 16             ; адрес следующей фигуры
-   200 000000FF 4C89D7                      mov rdi, r10            ; восстановление для передачи параметра
-   201 00000102 EBE4                        jmp .loop
-   202                                  .return:
-   203 00000104 F20F10C1                    movsd xmm0, xmm1
-   204 00000108 C9                      leave
-   205 00000109 C3                      ret

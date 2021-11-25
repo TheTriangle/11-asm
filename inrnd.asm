@@ -8,18 +8,19 @@ extern COORDINATES
 
 
 ;----------------------------------------------
-; // rnd.c - содержит генератор случайных чисел в диапазоне от 1 до 20
+; // rnd.c - содержит генератор случайных чисел в диапазоне оdssdт 1 до 20
 ; int Random() {
 ;     return rand() % 20 + 1;
 ; }
 global Random
 Random:
 section .data
-    .i20     dq      20
+    .i20     dq      1000
     .rndNumFmt       db "Random number = %d",10,0
 section .text
 push rbp
 mov rbp, rsp
+
 
     xor     rax, rax    ;
     call    rand        ; запуск генератора случайных чисел
@@ -137,7 +138,7 @@ ret
 global InRndNumber
 InRndNumber:
 section .data
-    .i3     dq      3
+    .i3     dq      2
     .rndNumFmt       db "Random number = %d",10,0
 section .bss
     .pnumber     resq    1   ; адрес фигуры
@@ -151,7 +152,7 @@ mov rbp, rsp
 
     ; Формирование признака фигуры
     
-    xor     eax, eax    ;
+    xor     rdx, rdx    ;
     call    rand        ; запуск генератора случайных чисел
     xor     edx, edx    ; обнуление перед делением
     idiv    qword[.i3]       ; (/%) -> остаток в rdx
@@ -167,11 +168,11 @@ mov rbp, rsp
 
     mov     rdi, [.pnumber]
     mov     [rdi], eax      ; запись ключа в фигуру
-    cmp eax, [COMPLEXNUMBER]
+    cmp eax, [COMPLEXNUMBER] ; 1
     je .compInRnd
-    cmp eax, [FRACTION]
+    cmp eax, [FRACTION] ; 3
     je .fracInRnd
-    cmp eax, [COORDINATES]
+    cmp eax, [COORDINATES] ; 2
     je .coordInRnd
     xor eax, eax        ; код возврата = 0
     jmp     .return
@@ -186,6 +187,7 @@ mov rbp, rsp
     add     rdi, 4
     call    InRndFraction
     mov     eax, 1      ;код возврата = 1
+    jmp .return
 .coordInRnd:
     ; Генерация треугольника
     add     rdi, 4

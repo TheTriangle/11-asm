@@ -165,7 +165,6 @@ mov rbp,rsp
     mov [deltaTime+8], rbx
 
     ; Вывод периметра нескольких фигур
-    PrintStr "Perimeter sum = ", [stdout]
     PrintDouble [sum], [stdout]
     PrintStr ". Calculaton time = ", [stdout]
     PrintLLUns [deltaTime], [stdout]
@@ -175,7 +174,6 @@ mov rbp,rsp
     PrintStr 10, [stdout]
 
     FileOpen [r13+32], "w", ofst2
-    PrintStr  "Perimeter sum = ", [ofst2]
     PrintDouble [sum], [ofst2]
     PrintStr ". Calculaton time = ", [ofst2]
     PrintLLUns [deltaTime], [ofst2]

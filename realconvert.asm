@@ -176,30 +176,3 @@ ret
 ;    }
 ;    return sum;
 ;}
-global PerimeterSumContainer
-PerimeterSumContainer:
-section .data
-    .sum    dq  0.0
-section .text
-push rbp
-mov rbp, rsp
-
-    ; В rdi адрес начала контейнера
-    mov ebx, esi            ; число фигур
-    xor ecx, ecx            ; счетчик фигур
-    movsd xmm1, [.sum]      ; перенос накопителя суммы в регистр 1
-.loop:
-    cmp ecx, ebx            ; проверка на окончание цикла
-    jge .return             ; Перебрали все фигуры
-
-    mov r10, rdi            ; сохранение начала фигуры
-    call ToRealNumber     ; Получение периметра первой фигуры
-    addsd xmm1, xmm0        ; накопление суммы
-    inc rcx                 ; индекс следующей фигуры
-    add r10, 16             ; адрес следующей фигуры
-    mov rdi, r10            ; восстановление для передачи параметра
-    jmp .loop
-.return:
-    movsd xmm0, xmm1
-leave
-ret

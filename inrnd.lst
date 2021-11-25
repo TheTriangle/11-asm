@@ -8,14 +8,14 @@
      8                                  
      9                                  
     10                                  ;----------------------------------------------
-    11                                  ; // rnd.c - содержит генератор случайных чисел в диапазоне от 1 до 20
+    11                                  ; // rnd.c - содержит генератор случайных чисел в диапазоне оdssdт 1 до 20
     12                                  ; int Random() {
     13                                  ;     return rand() % 20 + 1;
     14                                  ; }
     15                                  global Random
     16                                  Random:
     17                                  section .data
-    18 00000000 1400000000000000            .i20     dq      20
+    18 00000000 E803000000000000            .i20     dq      1000
     19 00000008 52616E646F6D206E75-         .rndNumFmt       db "Random number = %d",10,0
     19 00000011 6D626572203D202564-
     19 0000001A 0A00               
@@ -23,230 +23,232 @@
     21 00000000 55                      push rbp
     22 00000001 4889E5                  mov rbp, rsp
     23                                  
-    24 00000004 4831C0                      xor     rax, rax    ;
-    25 00000007 E8(00000000)                call    rand        ; запуск генератора случайных чисел
-    26 0000000C 4831D2                      xor     rdx, rdx    ; обнуление перед делением
-    27 0000000F 48F73C25[00000000]          idiv    qword[.i20]       ; (/%) -> остаток в rdx
-    28 00000017 4889D0                      mov     rax, rdx
-    29 0000001A 48FFC0                      inc     rax         ; должно сформироваться случайное число
-    30                                  
-    31                                      ;mov     rdi, .rndNumFmt
-    32                                      ;mov     esi, eax
-    33                                      ;xor     rax, rax
-    34                                      ;call    printf
-    35 0000001D C9                      leave
-    36 0000001E C3                      ret
-    37                                  
-    38                                  ;----------------------------------------------
-    39                                  ;// Случайный ввод параметров прямоугольника
-    40                                  ;void InRndComplexNumber(void *r) {
-    41                                      ;int x = Random();
-    42                                      ;*((int*)r) = x;
-    43                                      ;int y = Random();
-    44                                      ;*((int*)(r+intSize)) = y;
-    45                                  ;//     printf("    Rectangle %d %d\n", *((int*)r), *((int*)r+1));
-    46                                  ;}
-    47                                  global InRndComplexNumber
-    48                                  InRndComplexNumber:
-    49                                  section .bss
-    50 00000000 <res 00000008>              .pcomp  resq 1   ; адрес прямоугольника
-    51                                  section .text
-    52 0000001F 55                      push rbp
-    53 00000020 4889E5                  mov rbp, rsp
-    54                                  
-    55                                      ; В rdi адрес прямоугольника
-    56 00000023 48893C25[00000000]          mov     [.pcomp], rdi
-    57                                      ; Генерация сторон прямоугольника
-    58 0000002B E8D0FFFFFF                  call    Random
-    59 00000030 488B1C25[00000000]          mov     rbx, [.pcomp]
-    60 00000038 8903                        mov     [rbx], eax
-    61 0000003A E8C1FFFFFF                  call    Random
-    62 0000003F 488B1C25[00000000]          mov     rbx, [.pcomp]
-    63 00000047 894304                      mov     [rbx+4], eax
-    64                                  
-    65 0000004A C9                      leave
-    66 0000004B C3                      ret
-    67                                  
-    68                                  ;----------------------------------------------
-    69                                  ;// Случайный ввод параметров треугольника
-    70                                  ;void InRndTriangle(void *t) {
-    71                                      ;int a, b, c;
-    72                                      ;a = *((int*)t) = Random();
-    73                                      ;b = *((int*)(t+intSize)) = Random();
-    74                                      ;do {
-    75                                          ;c = *((int*)(t+2*intSize)) = Random();
-    76                                      ;} while((c >= a + b) || (a >= c + b) || (b >= c + a));
-    77                                  ;//     printf("    Triangle %d %d %d\n", *((int*)t), *((int*)t+1), *((int*)t+2));
-    78                                  ;}
-    79                                  global InRndFraction
-    80                                  InRndFraction:
-    81                                  section .bss
-    82 00000008 <res 00000008>              .pfrac  resq 1   ; адрес треугольника
-    83                                  section .text
-    84 0000004C 55                      push rbp
-    85 0000004D 4889E5                  mov rbp, rsp
-    86                                  
-    87                                      ; В rdi адрес треугольника
-    88 00000050 48893C25[08000000]          mov     [.pfrac], rdi
-    89                                      ; Генерация сторон треугольника
-    90 00000058 E8A3FFFFFF                  call    Random
-    91 0000005D 488B1C25[08000000]          mov     rbx, [.pfrac]
-    92 00000065 8903                        mov     [rbx], eax
-    93 00000067 E894FFFFFF                  call    Random
-    94 0000006C 488B1C25[08000000]          mov     rbx, [.pfrac]
-    95 00000074 894304                      mov     [rbx+4], eax
-    96                                  
-    97 00000077 C9                      leave
-    98 00000078 C3                      ret
-    99                                  
-   100                                  global InRndCoordinates
-   101                                  InRndCoordinates:
-   102                                  section .bss
-   103 00000010 <res 00000008>              .pcord  resq 1   ; адрес треугольника
-   104                                  section .text
-   105 00000079 55                      push rbp
-   106 0000007A 4889E5                  mov rbp, rsp
-   107                                  
-   108                                      ; В rdi адрес треугольника
-   109 0000007D 48893C25[10000000]          mov     [.pcord], rdi
-   110                                      ; Генерация сторон треугольника
-   111 00000085 E876FFFFFF                  call    Random
-   112 0000008A 488B1C25[10000000]          mov     rbx, [.pcord]
-   113 00000092 8903                        mov     [rbx], eax
-   114 00000094 E867FFFFFF                  call    Random
-   115 00000099 488B1C25[10000000]          mov     rbx, [.pcord]
-   116 000000A1 894304                      mov     [rbx+4], eax
-   117                                  
-   118 000000A4 C9                      leave
-   119 000000A5 C3                      ret
-   120                                  ;----------------------------------------------
-   121                                  ;// Случайный ввод обобщенной фигуры
-   122                                  ;int InRndShape(void *s) {
-   123                                      ;int k = rand() % 2 + 1;
-   124                                      ;switch(k) {
-   125                                          ;case 1:
-   126                                              ;*((int*)s) = RECTANGLE;
-   127                                              ;InRndRectangle(s+intSize);
-   128                                              ;return 1;
-   129                                          ;case 2:
-   130                                              ;*((int*)s) = TRIANGLE;
-   131                                              ;InRndTriangle(s+intSize);
-   132                                              ;return 1;
-   133                                          ;default:
-   134                                              ;return 0;
-   135                                      ;}
-   136                                  ;}
-   137                                  global InRndNumber
-   138                                  InRndNumber:
-   139                                  section .data
-   140 0000001C 0300000000000000            .i3     dq      3
-   141 00000024 52616E646F6D206E75-         .rndNumFmt       db "Random number = %d",10,0
-   141 0000002D 6D626572203D202564-
-   141 00000036 0A00               
-   142                                  section .bss
-   143 00000018 <res 00000008>              .pnumber     resq    1   ; адрес фигуры
-   144 00000020 <res 00000004>              .key        resd    1   ; ключ
-   145                                  section .text
-   146 000000A6 55                      push rbp
-   147 000000A7 4889E5                  mov rbp, rsp
-   148                                  
-   149                                      ; В rdi адрес фигуры
-   150 000000AA 48893C25[18000000]          mov [.pnumber], rdi
-   151                                  
-   152                                      ; Формирование признака фигуры
-   153                                      
-   154 000000B2 31C0                        xor     eax, eax    ;
-   155 000000B4 E8(00000000)                call    rand        ; запуск генератора случайных чисел
-   156 000000B9 31D2                        xor     edx, edx    ; обнуление перед делением
-   157 000000BB 48F73C25[1C000000]          idiv    qword[.i3]       ; (/%) -> остаток в rdx
-   158 000000C3 89D0                        mov     eax, edx
-   159 000000C5 FFC0                        inc     eax         ; должно сформироваться случайное число
-   160                                  
-   161                                      ;mov     [.key], eax
-   162                                      ;mov     rdi, .rndNumFmt
-   163                                      ;mov     esi, [.key]
-   164                                      ;xor     rax, rax
-   165                                      ;call    printf
-   166                                      ;mov     eax, [.key]
-   167                                  
-   168 000000C7 488B3C25[18000000]          mov     rdi, [.pnumber]
-   169 000000CF 8907                        mov     [rdi], eax      ; запись ключа в фигуру
-   170 000000D1 3B0425[00000000]            cmp eax, [COMPLEXNUMBER]
-   171 000000D8 7416                        je .compInRnd
-   172 000000DA 3B0425[00000000]            cmp eax, [FRACTION]
-   173 000000E1 741D                        je .fracInRnd
-   174 000000E3 3B0425[00000000]            cmp eax, [COORDINATES]
-   175 000000EA 7422                        je .coordInRnd
-   176 000000EC 31C0                        xor eax, eax        ; код возврата = 0
-   177 000000EE EB2C                        jmp     .return
-   178                                  .compInRnd:
-   179                                      ; Генерация прямоугольника
-   180 000000F0 4883C704                    add     rdi, 4
-   181 000000F4 E826FFFFFF                  call    InRndComplexNumber
-   182 000000F9 B801000000                  mov     eax, 1      ;код возврата = 1
-   183 000000FE EB1C                        jmp     .return
-   184                                  .fracInRnd:
-   185                                      ; Генерация треугольника
-   186 00000100 4883C704                    add     rdi, 4
-   187 00000104 E843FFFFFF                  call    InRndFraction
-   188 00000109 B801000000                  mov     eax, 1      ;код возврата = 1
-   189                                  .coordInRnd:
-   190                                      ; Генерация треугольника
-   191 0000010E 4883C704                    add     rdi, 4
-   192 00000112 E862FFFFFF                  call    InRndCoordinates
-   193 00000117 B801000000                  mov     eax, 1      ;код возврата = 1
-   194                                  .return:
-   195 0000011C C9                      leave
-   196 0000011D C3                      ret
-   197                                  
-   198                                  ;----------------------------------------------
-   199                                  ;// Случайный ввод содержимого контейнера
-   200                                  ;void InRndContainer(void *c, int *len, int size) {
-   201                                      ;void *tmp = c;
-   202                                      ;while(*len < size) {
-   203                                          ;if(InRndShape(tmp)) {
-   204                                              ;tmp = tmp + shapeSize;
-   205                                              ;(*len)++;
-   206                                          ;}
-   207                                      ;}
-   208                                  ;}
-   209                                  global InRndContainer
-   210                                  InRndContainer:
-   211                                  section .bss
-   212 00000024 <res 00000008>              .pcont  resq    1   ; адрес контейнера
-   213 0000002C <res 00000008>              .plen   resq    1   ; адрес для сохранения числа введенных элементов
-   214 00000034 <res 00000004>              .psize  resd    1   ; число порождаемых элементов
-   215                                  section .text
-   216 0000011E 55                      push rbp
-   217 0000011F 4889E5                  mov rbp, rsp
-   218                                  
-   219 00000122 48893C25[24000000]          mov [.pcont], rdi   ; сохраняется указатель на контейнер
-   220 0000012A 48893425[2C000000]          mov [.plen], rsi    ; сохраняется указатель на длину
-   221 00000132 891425[34000000]            mov [.psize], edx    ; сохраняется число порождаемых элементов
-   222                                      ; В rdi адрес начала контейнера
-   223 00000139 31DB                        xor ebx, ebx        ; число фигур = 0
-   224                                  .loop:
-   225 0000013B 39D3                        cmp ebx, edx
-   226 0000013D 7D1A                        jge     .return
-   227                                      ; сохранение рабочих регистров
-   228 0000013F 57                          push rdi
-   229 00000140 53                          push rbx
-   230 00000141 52                          push rdx
-   231                                  
-   232 00000142 E85FFFFFFF                  call    InRndNumber     ; ввод фигуры
-   233 00000147 4883F800                    cmp rax, 0          ; проверка успешности ввода
-   234 0000014B 7E0C                        jle  .return        ; выход, если признак меньше или равен 0
-   235                                  
-   236 0000014D 5A                          pop rdx
-   237 0000014E 5B                          pop rbx
-   238 0000014F 48FFC3                      inc rbx
-   239                                  
-   240 00000152 5F                          pop rdi
-   241 00000153 4883C710                    add rdi, 16             ; адрес следующей фигуры
-   242                                  
-   243 00000157 EBE2                        jmp .loop
-   244                                  .return:
-   245 00000159 488B0425[2C000000]          mov rax, [.plen]    ; перенос указателя на длину
-   246 00000161 8918                        mov [rax], ebx      ; занесение длины
-   247 00000163 C9                      leave
-   248 00000164 C3                      ret
+    24                                  
+    25 00000004 4831C0                      xor     rax, rax    ;
+    26 00000007 E8(00000000)                call    rand        ; запуск генератора случайных чисел
+    27 0000000C 4831D2                      xor     rdx, rdx    ; обнуление перед делением
+    28 0000000F 48F73C25[00000000]          idiv    qword[.i20]       ; (/%) -> остаток в rdx
+    29 00000017 4889D0                      mov     rax, rdx
+    30 0000001A 48FFC0                      inc     rax         ; должно сформироваться случайное число
+    31                                  
+    32                                      ;mov     rdi, .rndNumFmt
+    33                                      ;mov     esi, eax
+    34                                      ;xor     rax, rax
+    35                                      ;call    printf
+    36 0000001D C9                      leave
+    37 0000001E C3                      ret
+    38                                  
+    39                                  ;----------------------------------------------
+    40                                  ;// Случайный ввод параметров прямоугольника
+    41                                  ;void InRndComplexNumber(void *r) {
+    42                                      ;int x = Random();
+    43                                      ;*((int*)r) = x;
+    44                                      ;int y = Random();
+    45                                      ;*((int*)(r+intSize)) = y;
+    46                                  ;//     printf("    Rectangle %d %d\n", *((int*)r), *((int*)r+1));
+    47                                  ;}
+    48                                  global InRndComplexNumber
+    49                                  InRndComplexNumber:
+    50                                  section .bss
+    51 00000000 <res 00000008>              .pcomp  resq 1   ; адрес прямоугольника
+    52                                  section .text
+    53 0000001F 55                      push rbp
+    54 00000020 4889E5                  mov rbp, rsp
+    55                                  
+    56                                      ; В rdi адрес прямоугольника
+    57 00000023 48893C25[00000000]          mov     [.pcomp], rdi
+    58                                      ; Генерация сторон прямоугольника
+    59 0000002B E8D0FFFFFF                  call    Random
+    60 00000030 488B1C25[00000000]          mov     rbx, [.pcomp]
+    61 00000038 8903                        mov     [rbx], eax
+    62 0000003A E8C1FFFFFF                  call    Random
+    63 0000003F 488B1C25[00000000]          mov     rbx, [.pcomp]
+    64 00000047 894304                      mov     [rbx+4], eax
+    65                                  
+    66 0000004A C9                      leave
+    67 0000004B C3                      ret
+    68                                  
+    69                                  ;----------------------------------------------
+    70                                  ;// Случайный ввод параметров треугольника
+    71                                  ;void InRndTriangle(void *t) {
+    72                                      ;int a, b, c;
+    73                                      ;a = *((int*)t) = Random();
+    74                                      ;b = *((int*)(t+intSize)) = Random();
+    75                                      ;do {
+    76                                          ;c = *((int*)(t+2*intSize)) = Random();
+    77                                      ;} while((c >= a + b) || (a >= c + b) || (b >= c + a));
+    78                                  ;//     printf("    Triangle %d %d %d\n", *((int*)t), *((int*)t+1), *((int*)t+2));
+    79                                  ;}
+    80                                  global InRndFraction
+    81                                  InRndFraction:
+    82                                  section .bss
+    83 00000008 <res 00000008>              .pfrac  resq 1   ; адрес треугольника
+    84                                  section .text
+    85 0000004C 55                      push rbp
+    86 0000004D 4889E5                  mov rbp, rsp
+    87                                  
+    88                                      ; В rdi адрес треугольника
+    89 00000050 48893C25[08000000]          mov     [.pfrac], rdi
+    90                                      ; Генерация сторон треугольника
+    91 00000058 E8A3FFFFFF                  call    Random
+    92 0000005D 488B1C25[08000000]          mov     rbx, [.pfrac]
+    93 00000065 8903                        mov     [rbx], eax
+    94 00000067 E894FFFFFF                  call    Random
+    95 0000006C 488B1C25[08000000]          mov     rbx, [.pfrac]
+    96 00000074 894304                      mov     [rbx+4], eax
+    97                                  
+    98 00000077 C9                      leave
+    99 00000078 C3                      ret
+   100                                  
+   101                                  global InRndCoordinates
+   102                                  InRndCoordinates:
+   103                                  section .bss
+   104 00000010 <res 00000008>              .pcord  resq 1   ; адрес треугольника
+   105                                  section .text
+   106 00000079 55                      push rbp
+   107 0000007A 4889E5                  mov rbp, rsp
+   108                                  
+   109                                      ; В rdi адрес треугольника
+   110 0000007D 48893C25[10000000]          mov     [.pcord], rdi
+   111                                      ; Генерация сторон треугольника
+   112 00000085 E876FFFFFF                  call    Random
+   113 0000008A 488B1C25[10000000]          mov     rbx, [.pcord]
+   114 00000092 8903                        mov     [rbx], eax
+   115 00000094 E867FFFFFF                  call    Random
+   116 00000099 488B1C25[10000000]          mov     rbx, [.pcord]
+   117 000000A1 894304                      mov     [rbx+4], eax
+   118                                  
+   119 000000A4 C9                      leave
+   120 000000A5 C3                      ret
+   121                                  ;----------------------------------------------
+   122                                  ;// Случайный ввод обобщенной фигуры
+   123                                  ;int InRndShape(void *s) {
+   124                                      ;int k = rand() % 2 + 1;
+   125                                      ;switch(k) {
+   126                                          ;case 1:
+   127                                              ;*((int*)s) = RECTANGLE;
+   128                                              ;InRndRectangle(s+intSize);
+   129                                              ;return 1;
+   130                                          ;case 2:
+   131                                              ;*((int*)s) = TRIANGLE;
+   132                                              ;InRndTriangle(s+intSize);
+   133                                              ;return 1;
+   134                                          ;default:
+   135                                              ;return 0;
+   136                                      ;}
+   137                                  ;}
+   138                                  global InRndNumber
+   139                                  InRndNumber:
+   140                                  section .data
+   141 0000001C 0200000000000000            .i3     dq      2
+   142 00000024 52616E646F6D206E75-         .rndNumFmt       db "Random number = %d",10,0
+   142 0000002D 6D626572203D202564-
+   142 00000036 0A00               
+   143                                  section .bss
+   144 00000018 <res 00000008>              .pnumber     resq    1   ; адрес фигуры
+   145 00000020 <res 00000004>              .key        resd    1   ; ключ
+   146                                  section .text
+   147 000000A6 55                      push rbp
+   148 000000A7 4889E5                  mov rbp, rsp
+   149                                  
+   150                                      ; В rdi адрес фигуры
+   151 000000AA 48893C25[18000000]          mov [.pnumber], rdi
+   152                                  
+   153                                      ; Формирование признака фигуры
+   154                                      
+   155 000000B2 4831D2                      xor     rdx, rdx    ;
+   156 000000B5 E8(00000000)                call    rand        ; запуск генератора случайных чисел
+   157 000000BA 31D2                        xor     edx, edx    ; обнуление перед делением
+   158 000000BC 48F73C25[1C000000]          idiv    qword[.i3]       ; (/%) -> остаток в rdx
+   159 000000C4 89D0                        mov     eax, edx
+   160 000000C6 FFC0                        inc     eax         ; должно сформироваться случайное число
+   161                                  
+   162                                      ;mov     [.key], eax
+   163                                      ;mov     rdi, .rndNumFmt
+   164                                      ;mov     esi, [.key]
+   165                                      ;xor     rax, rax
+   166                                      ;call    printf
+   167                                      ;mov     eax, [.key]
+   168                                  
+   169 000000C8 488B3C25[18000000]          mov     rdi, [.pnumber]
+   170 000000D0 8907                        mov     [rdi], eax      ; запись ключа в фигуру
+   171 000000D2 3B0425[00000000]            cmp eax, [COMPLEXNUMBER] ; 1
+   172 000000D9 7416                        je .compInRnd
+   173 000000DB 3B0425[00000000]            cmp eax, [FRACTION] ; 3
+   174 000000E2 741D                        je .fracInRnd
+   175 000000E4 3B0425[00000000]            cmp eax, [COORDINATES] ; 2
+   176 000000EB 7424                        je .coordInRnd
+   177 000000ED 31C0                        xor eax, eax        ; код возврата = 0
+   178 000000EF EB2E                        jmp     .return
+   179                                  .compInRnd:
+   180                                      ; Генерация прямоугольника
+   181 000000F1 4883C704                    add     rdi, 4
+   182 000000F5 E825FFFFFF                  call    InRndComplexNumber
+   183 000000FA B801000000                  mov     eax, 1      ;код возврата = 1
+   184 000000FF EB1E                        jmp     .return
+   185                                  .fracInRnd:
+   186                                      ; Генерация треугольника
+   187 00000101 4883C704                    add     rdi, 4
+   188 00000105 E842FFFFFF                  call    InRndFraction
+   189 0000010A B801000000                  mov     eax, 1      ;код возврата = 1
+   190 0000010F EB0E                        jmp .return
+   191                                  .coordInRnd:
+   192                                      ; Генерация треугольника
+   193 00000111 4883C704                    add     rdi, 4
+   194 00000115 E85FFFFFFF                  call    InRndCoordinates
+   195 0000011A B801000000                  mov     eax, 1      ;код возврата = 1
+   196                                  .return:
+   197 0000011F C9                      leave
+   198 00000120 C3                      ret
+   199                                  
+   200                                  ;----------------------------------------------
+   201                                  ;// Случайный ввод содержимого контейнера
+   202                                  ;void InRndContainer(void *c, int *len, int size) {
+   203                                      ;void *tmp = c;
+   204                                      ;while(*len < size) {
+   205                                          ;if(InRndShape(tmp)) {
+   206                                              ;tmp = tmp + shapeSize;
+   207                                              ;(*len)++;
+   208                                          ;}
+   209                                      ;}
+   210                                  ;}
+   211                                  global InRndContainer
+   212                                  InRndContainer:
+   213                                  section .bss
+   214 00000024 <res 00000008>              .pcont  resq    1   ; адрес контейнера
+   215 0000002C <res 00000008>              .plen   resq    1   ; адрес для сохранения числа введенных элементов
+   216 00000034 <res 00000004>              .psize  resd    1   ; число порождаемых элементов
+   217                                  section .text
+   218 00000121 55                      push rbp
+   219 00000122 4889E5                  mov rbp, rsp
+   220                                  
+   221 00000125 48893C25[24000000]          mov [.pcont], rdi   ; сохраняется указатель на контейнер
+   222 0000012D 48893425[2C000000]          mov [.plen], rsi    ; сохраняется указатель на длину
+   223 00000135 891425[34000000]            mov [.psize], edx    ; сохраняется число порождаемых элементов
+   224                                      ; В rdi адрес начала контейнера
+   225 0000013C 31DB                        xor ebx, ebx        ; число фигур = 0
+   226                                  .loop:
+   227 0000013E 39D3                        cmp ebx, edx
+   228 00000140 7D1A                        jge     .return
+   229                                      ; сохранение рабочих регистров
+   230 00000142 57                          push rdi
+   231 00000143 53                          push rbx
+   232 00000144 52                          push rdx
+   233                                  
+   234 00000145 E85CFFFFFF                  call    InRndNumber     ; ввод фигуры
+   235 0000014A 4883F800                    cmp rax, 0          ; проверка успешности ввода
+   236 0000014E 7E0C                        jle  .return        ; выход, если признак меньше или равен 0
+   237                                  
+   238 00000150 5A                          pop rdx
+   239 00000151 5B                          pop rbx
+   240 00000152 48FFC3                      inc rbx
+   241                                  
+   242 00000155 5F                          pop rdi
+   243 00000156 4883C710                    add rdi, 16             ; адрес следующей фигуры
+   244                                  
+   245 0000015A EBE2                        jmp .loop
+   246                                  .return:
+   247 0000015C 488B0425[2C000000]          mov rax, [.plen]    ; перенос указателя на длину
+   248 00000164 8918                        mov [rax], ebx      ; занесение длины
+   249 00000166 C9                      leave
+   250 00000167 C3                      ret

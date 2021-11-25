@@ -1,9 +1,8 @@
      1                                  extern ToRealNumber
-     2                                  extern stdout
-     3                                  extern OutNumber
-     4                                  extern OutComplexNumber
-     5                                  extern ToRealComplexNumber
-     6                                  %include "printmacros.mac" 
+     2                                  extern OutNumber
+     3                                  extern OutComplexNumber
+     4                                  extern ToRealComplexNumber
+     5                                  %include "printmacros.mac" 
      1                              <1> extern  fprintf
      2                              <1> extern  OutContainer
      3                              <1> 
@@ -56,137 +55,137 @@
     50                              <1>         mov rax, 1              ; no floating point
     51                              <1>         call fprintf
     52                              <1> %endmacro
-     7                                  ; макросы для отладки
-     8                                  
-     9                                  ; вызывается макросом SortContainer2 (macros.mac) из main.asm
-    10                                  global BubbleSortContainer2
-    11                                  BubbleSortContainer2:
-    12                                  section .data
-    13 00000000 25643A2000                  numFmt  db  "%d: ",0
-    14 00000005 436F6F72696E617465-         outfmt db "Coorinates (%d, %d) - %g",10,0
-    14 0000000E 73202825642C202564-
-    14 00000017 29202D2025670A00   
-    15                                  section .bss
-    16 00000000 <res 00000008>              pcont  resq    1   ; адрес контейнера
-    17 00000008 <res 00000004>              len    resd    1   ; адрес для сохранения числа введенных элементов
-    18 0000000C <res 00000008>              FILE   resq    1   ; указатель на файл (поток)
-    19 00000014 <res 00000004>              cntr   resd    1   ; вспомогательный счетчик
-    20 00000018 <res 00000004>              cntr2   resd    1   ; вспомогательный счетчик
-    21 0000001C <res 00000004>              lptr    resd    1   ; вспомогательный счетчик
-    22 00000020 <res 00000004>              real1    resd    1   ; вспомогательный счетчик
-    23 00000024 <res 00000004>              real2    resd    1   ; вспомогательный счетчик
-    24 00000028 <res 00000004>              i: resd 1
-    25 0000002C <res 00000004>              j: resd 1
-    26                                  
-    27                                  section .text
-    28 00000000 55                      push rbp
-    29 00000001 4889E5                  mov rbp, rsp
-    30                                  
-    31                                      ; PrintStr2 "at least entered bubblesort", [FILE]
-    32 00000004 48893C25[00000000]          mov [pcont], rdi   ; сохраняется указатель на контейнер
-    33                                      ; PrintInt2 rdi, [stdout]
-    34                                      
-    35 0000000C 893425[08000000]            mov [len],   esi     ; сохраняется число элементов
-    36 00000013 48891425[0C000000]          mov [FILE],  rdx    ; сохраняется указатель на файл (поток)
-    37                                  	;mov cl, [len]					;set cl with array length
-    38                                  	;mov [cntr], cl					;set this variable with array length
-    39                                      ;mov rbx, rsi            ; число фигур
-    40                                      ;xor ecx, ecx            ; счетчик фигур = 0
-    41                                      ;mov rsi, rdx            ; перенос указателя на файл
-    42                                  
-    43                                      ;mov dword[rdi], 2
-    44                                      ;sub rdi, 16
-    45                                  
-    46                                      ;xor     edx, edx    
-    47                                      ; mov [pcont], [rdi + 16]     
-    48                                      ;mov     rdi, [pcont]
-    49                                      ;mov     rsi, [FILE]
-    50                                      ;call OutNumber     ; Получение периметра первой фигуры
-    51                                  
-    52                                      ;mov rdi, [pcont]
-    53                                      ;call ToRealNumber     ; Получение периметра первой фигуры
-    54                                      ;movsd [real], xmm0
-    55                                  
-    56                                      ;mov rdi, [pcont]
-    57                                      ;mov [pcont], rdi
-    58                                      ;PrintStr2 "don't make it bad", [FILE]
-    59                                  
-    60                                      ;mov     rdi, [FILE]
-    61                                      ;mov     rsi, outfmt        ; Формат - 2-й аргумент
-    62                                      ;mov     rax, [pcont]        ; адрес прямоугольника
-    63                                      ;mov     edx, [rax+4]          ; x
-    64                                      ;mov     ecx, [rax+8]        ; y
-    65                                      ;movsd   xmm0, [real]
-    66                                      ;mov     rax, 1              ; есть числа с плавающей точкой
-    67                                      ;call    fprintf
-    68                                      ;PrintStr2 "take a sad song", [FILE]
-    69                                  
-    70                                      ; здесь начинается скопипащенный алгоритм сортировки, который я так и не проверил
-    71                                      
-    72                                      ; PrintStr2 "and make it better", [FILE]  
-    73                                     
-    74                                      ; movzx ecx, byte[len]
-    75 0000001B BB[00000000]                mov ebx, pcont
-    76                                  
-    77 00000020 C70425[28000000]00-         mov dword[i], 0
-    77 00000028 000000             
-    78                                      i_loop:
-    79                                      ; PrintStr2 "remember", [FILE]
-    80 0000002B C70425[2C000000]00-         mov dword[j], 0
-    80 00000033 000000             
-    81                                      j_loop:
-    82 00000036 8B1C25[00000000]                mov ebx, [pcont] ; ebx - указатель на начало контейнера
-    83 0000003D 8B0425[2C000000]                mov eax, dword[j] ; eax - j
-    84 00000044 41BB10000000                    mov r11d, 16 ; r11d - 16
-    85 0000004A 41F7E3                          mul r11d ; eax - 16j
-    86 0000004D 01C3                            add ebx, eax ; ebx - указатель на j-тый элемент контейнера 
-    87 0000004F 67448B430C                      mov r8d, [ebx+12]  ; r8d хранит дествительное число от элемента j
-    88                                  
-    89 00000054 89D8                            mov eax, ebx ; eax - указатель на j-тый элемент контейнера
-    90 00000056 83C010                          add eax, 16 ; eax - указатель на j+1-ый элемент контейнера
-    91 00000059 67448B600C                      mov r12d, [eax+12] ; r12d хранит действительное число от элемента j+1
-    92                                  
-    93 0000005E 678B13                          mov edx, dword[ebx] ; edx - j-тый элемент контейнера (тип числа)
-    94 00000061 67448B08                        mov r9d, dword[eax] ; r9d - j+1-ый элемент контейнера (тип числа)
-    95 00000065 4539C4                          cmp r12d, r8d ; сравниваем j и j+1 типы
-    96 00000068 7C02                            jl swap ; свопаем
-    97 0000006A EB43                            jmp no_swap ; не свопаем
-    98                                      
-    99                                          swap:
-   100 0000006C 6744890B                        mov dword[ebx], r9d ; помещаем j+1-ый элемент по указателю на j
-   101 00000070 678910                          mov dword[eax], edx ; помещаем j-ый элемент по указателю на j+1-ый
-   102 00000073 83C304                          add ebx, 4
-   103 00000076 83C004                          add eax, 4
-   104 00000079 67448B08                        mov r9d, dword[eax]
-   105 0000007D 678B13                          mov edx, dword[ebx]
-   106 00000080 6744890B                        mov dword[ebx], r9d ; помещаем j+1-ый элемент по указателю на j
-   107 00000084 678910                          mov dword[eax], edx ; помещаем j-ый элемент по указателю на j+1-ый
-   108 00000087 83C304                          add ebx, 4
-   109 0000008A 83C004                          add eax, 4
-   110 0000008D 67448B08                        mov r9d, dword[eax]
-   111 00000091 678B13                          mov edx, dword[ebx]
-   112 00000094 6744890B                        mov dword[ebx], r9d ; помещаем j+1-ый элемент по указателю на j
-   113 00000098 678910                          mov dword[eax], edx ; помещаем j-ый элемент по указателю на j+1-ый
-   114 0000009B 83C304                          add ebx, 4
-   115 0000009E 83C004                          add eax, 4
-   116 000000A1 67448B08                        mov r9d, dword[eax]
-   117 000000A5 678B13                          mov edx, dword[ebx]
-   118 000000A8 6744890B                        mov dword[ebx], r9d ; помещаем j+1-ый элемент по указателю на j
-   119 000000AC 678910                          mov dword[eax], edx ; помещаем j-ый элемент по указателю на j+1-ый
+     6                                  ; макросы для отладки
+     7                                  
+     8                                  ; вызывается макросом SortContainer2 (macros.mac) из main.asm
+     9                                  global BubbleSortContainer2
+    10                                  BubbleSortContainer2:
+    11                                  section .data
+    12 00000000 25643A2000                  numFmt  db  "%d: ",0
+    13 00000005 436F6F72696E617465-         outfmt db "Coorinates (%d, %d) - %g",10,0
+    13 0000000E 73202825642C202564-
+    13 00000017 29202D2025670A00   
+    14                                  section .bss
+    15 00000000 <res 00000008>              pcont  resq    1   ; адрес контейнера
+    16 00000008 <res 00000004>              len    resd    1   ; адрес для сохранения числа введенных элементов
+    17 0000000C <res 00000008>              FILE   resq    1   ; указатель на файл (поток)
+    18 00000014 <res 00000004>              cntr   resd    1   ; вспомогательный счетчик
+    19 00000018 <res 00000004>              cntr2   resd    1   ; вспомогательный счетчик
+    20 0000001C <res 00000004>              lptr    resd    1   ; вспомогательный счетчик
+    21 00000020 <res 00000004>              real1    resd    1   ; вспомогательный счетчик
+    22 00000024 <res 00000004>              real2    resd    1   ; вспомогательный счетчик
+    23 00000028 <res 00000004>              i: resd 1
+    24 0000002C <res 00000004>              j: resd 1
+    25                                  
+    26                                  section .text
+    27 00000000 55                      push rbp
+    28 00000001 4889E5                  mov rbp, rsp
+    29                                  
+    30                                      ; PrintStr2 "at least entered bubblesort", [FILE]
+    31 00000004 48893C25[00000000]          mov [pcont], rdi   ; сохраняется указатель на контейнер
+    32                                      ; PrintInt2 rdi, [stdout]
+    33                                      
+    34 0000000C 893425[08000000]            mov [len],   esi     ; сохраняется число элементов
+    35 00000013 48891425[0C000000]          mov [FILE],  rdx    ; сохраняется указатель на файл (поток)
+    36                                  	;mov cl, [len]					;set cl with array length
+    37                                  	;mov [cntr], cl					;set this variable with array length
+    38                                      ;mov rbx, rsi            ; число фигур
+    39                                      ;xor ecx, ecx            ; счетчик фигур = 0
+    40                                      ;mov rsi, rdx            ; перенос указателя на файл
+    41                                  
+    42                                      ;mov dword[rdi], 2
+    43                                      ;sub rdi, 16
+    44                                  
+    45                                      ;xor     edx, edx    
+    46                                      ; mov [pcont], [rdi + 16]     
+    47                                      ;mov     rdi, [pcont]
+    48                                      ;mov     rsi, [FILE]
+    49                                      ;call OutNumber     ; Получение периметра первой фигуры
+    50                                  
+    51                                      ;mov rdi, [pcont]
+    52                                      ;call ToRealNumber     ; Получение периметра первой фигуры
+    53                                      ;movsd [real], xmm0
+    54                                  
+    55                                      ;mov rdi, [pcont]
+    56                                      ;mov [pcont], rdi
+    57                                      ;PrintStr2 "don't make it bad", [FILE]
+    58                                  
+    59                                      ;mov     rdi, [FILE]
+    60                                      ;mov     rsi, outfmt        ; Формат - 2-й аргумент
+    61                                      ;mov     rax, [pcont]        ; адрес прямоугольника
+    62                                      ;mov     edx, [rax+4]          ; x
+    63                                      ;mov     ecx, [rax+8]        ; y
+    64                                      ;movsd   xmm0, [real]
+    65                                      ;mov     rax, 1              ; есть числа с плавающей точкой
+    66                                      ;call    fprintf
+    67                                      ;PrintStr2 "take a sad song", [FILE]
+    68                                  
+    69                                      ; здесь начинается скопипащенный алгоритм сортировки, который я так и не проверил
+    70                                      
+    71                                      ; PrintStr2 "and make it better", [FILE]  
+    72                                     
+    73                                      ; movzx ecx, byte[len]
+    74 0000001B BB[00000000]                mov ebx, pcont
+    75                                  
+    76 00000020 C70425[28000000]00-         mov dword[i], 0
+    76 00000028 000000             
+    77                                      i_loop:
+    78                                      ; PrintStr2 "remember", [FILE]
+    79 0000002B C70425[2C000000]00-         mov dword[j], 0
+    79 00000033 000000             
+    80                                      j_loop:
+    81 00000036 8B1C25[00000000]                mov ebx, [pcont] ; ebx - указатель на начало контейнера
+    82 0000003D 8B0425[2C000000]                mov eax, dword[j] ; eax - j
+    83 00000044 41BB10000000                    mov r11d, 16 ; r11d - 16
+    84 0000004A 41F7E3                          mul r11d ; eax - 16j
+    85 0000004D 01C3                            add ebx, eax ; ebx - указатель на j-тый элемент контейнера 
+    86 0000004F 67448B430C                      mov r8d, [ebx+12]  ; r8d хранит дествительное число от элемента j
+    87                                  
+    88 00000054 89D8                            mov eax, ebx ; eax - указатель на j-тый элемент контейнера
+    89 00000056 83C010                          add eax, 16 ; eax - указатель на j+1-ый элемент контейнера
+    90 00000059 67448B600C                      mov r12d, [eax+12] ; r12d хранит действительное число от элемента j+1
+    91                                  
+    92 0000005E 678B13                          mov edx, dword[ebx] ; edx - j-тый элемент контейнера (тип числа)
+    93 00000061 67448B08                        mov r9d, dword[eax] ; r9d - j+1-ый элемент контейнера (тип числа)
+    94 00000065 4539C4                          cmp r12d, r8d ; сравниваем j и j+1 типы
+    95 00000068 7C02                            jl swap ; свопаем
+    96 0000006A EB43                            jmp no_swap ; не свопаем
+    97                                      
+    98                                          swap:
+    99 0000006C 6744890B                        mov dword[ebx], r9d ; помещаем j+1-ый элемент по указателю на j
+   100 00000070 678910                          mov dword[eax], edx ; помещаем j-ый элемент по указателю на j+1-ый
+   101 00000073 83C304                          add ebx, 4
+   102 00000076 83C004                          add eax, 4
+   103 00000079 67448B08                        mov r9d, dword[eax]
+   104 0000007D 678B13                          mov edx, dword[ebx]
+   105 00000080 6744890B                        mov dword[ebx], r9d ; помещаем j+1-ый элемент по указателю на j
+   106 00000084 678910                          mov dword[eax], edx ; помещаем j-ый элемент по указателю на j+1-ый
+   107 00000087 83C304                          add ebx, 4
+   108 0000008A 83C004                          add eax, 4
+   109 0000008D 67448B08                        mov r9d, dword[eax]
+   110 00000091 678B13                          mov edx, dword[ebx]
+   111 00000094 6744890B                        mov dword[ebx], r9d ; помещаем j+1-ый элемент по указателю на j
+   112 00000098 678910                          mov dword[eax], edx ; помещаем j-ый элемент по указателю на j+1-ый
+   113 0000009B 83C304                          add ebx, 4
+   114 0000009E 83C004                          add eax, 4
+   115 000000A1 67448B08                        mov r9d, dword[eax]
+   116 000000A5 678B13                          mov edx, dword[ebx]
+   117 000000A8 6744890B                        mov dword[ebx], r9d ; помещаем j+1-ый элемент по указателю на j
+   118 000000AC 678910                          mov dword[eax], edx ; помещаем j-ый элемент по указателю на j+1-ый
+   119                                  
    120                                  
-   121                                  
-   122                                      no_swap:
-   123 000000AF FF0425[2C000000]                inc dword[j] ; увеличиваем j
-   124 000000B6 448B1425[08000000]              mov r10d, dword[len] ; r10d - длина массива
-   125 000000BE 442B1425[28000000]              sub r10d, dword[i] ; r10d - длина массива - i
-   126 000000C6 4183EA01                        sub r10d, 1 ; r10d - длина массива - i - 1
-   127 000000CA 44391425[2C000000]              cmp dword[j], r10d ; если j < длины - i - 1, продолжаем
-   128 000000D2 0F8C5EFFFFFF                    jl j_loop
-   129                                  
-   130 000000D8 FF0425[28000000]            inc dword[i] ; увеличиваем i
-   131 000000DF 448B1425[08000000]          mov r10d, dword[len] ; r10d - длина массива
-   132 000000E7 44391425[28000000]          cmp dword[i], r10d
-   133 000000EF 0F8C36FFFFFF                jl i_loop
-   134                                  
-   135 000000F5 C9                          leave
-   136 000000F6 C3                      	ret
+   121                                      no_swap:
+   122 000000AF FF0425[2C000000]                inc dword[j] ; увеличиваем j
+   123 000000B6 448B1425[08000000]              mov r10d, dword[len] ; r10d - длина массива
+   124 000000BE 442B1425[28000000]              sub r10d, dword[i] ; r10d - длина массива - i
+   125 000000C6 4183EA01                        sub r10d, 1 ; r10d - длина массива - i - 1
+   126 000000CA 44391425[2C000000]              cmp dword[j], r10d ; если j < длины - i - 1, продолжаем
+   127 000000D2 0F8C5EFFFFFF                    jl j_loop
+   128                                  
+   129 000000D8 FF0425[28000000]            inc dword[i] ; увеличиваем i
+   130 000000DF 448B1425[08000000]          mov r10d, dword[len] ; r10d - длина массива
+   131 000000E7 44391425[28000000]          cmp dword[i], r10d
+   132 000000EF 0F8C36FFFFFF                jl i_loop
+   133                                  
+   134 000000F5 C9                          leave
+   135 000000F6 C3                      	ret

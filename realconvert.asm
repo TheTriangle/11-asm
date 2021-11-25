@@ -85,7 +85,13 @@ mov rbp, rsp
     ; В rdi адрес треугольника
     mov eax, [rdi]
     mov ebx, [rdi+4]
+    
+    cmp ebx, 0
+    je zerodenom
     div ebx
+
+    zerodenom:
+
     ; mov eax, [rdi+4]
     cvtsi2sd    xmm0, eax
     add rdi, 8

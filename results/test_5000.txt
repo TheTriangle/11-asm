@@ -1,0 +1,5001 @@
+Filled container:
+0: Fraction 1744/4451 - 0
+1: Fraction 1333/4254 - 0
+2: Fraction 1421/3604 - 0
+3: Fraction 2943/4782 - 0
+4: Fraction 4600/4751 - 0
+5: Fraction 3205/4405 - 0
+6: Fraction 848/2082 - 0
+7: Fraction 627/3660 - 0
+8: Fraction 262/4750 - 0
+9: Fraction 3282/3663 - 0
+10: Fraction 20/361 - 0
+11: Fraction 901/2969 - 0
+12: Fraction 3144/3739 - 0
+13: Fraction 4155/4366 - 0
+14: Fraction 2486/3334 - 0
+15: Fraction 1118/3165 - 0
+16: Fraction 1681/2254 - 0
+17: Fraction 2414/3377 - 0
+18: Fraction 204/3109 - 0
+19: Fraction 438/2662 - 0
+20: Fraction 3430/4386 - 0
+21: Fraction 4581/4715 - 0
+22: Fraction 2318/2461 - 0
+23: Fraction 606/2492 - 0
+24: Fraction 1624/1802 - 0
+25: Fraction 3110/4542 - 0
+26: Fraction 2588/3128 - 0
+27: Fraction 3605/4327 - 0
+28: Fraction 257/658 - 0
+29: Fraction 990/1105 - 0
+30: Fraction 72/2776 - 0
+31: Fraction 3429/4597 - 0
+32: Fraction 1810/2003 - 0
+33: Fraction 3389/4009 - 0
+34: Fraction 3998/4695 - 0
+35: Fraction 242/2551 - 0
+36: Fraction 1213/2818 - 0
+37: Fraction 45/1719 - 0
+38: Fraction 611/4733 - 0
+39: Fraction 1638/3498 - 0
+40: Fraction 83/2690 - 0
+41: Fraction 1028/1737 - 0
+42: Fraction 2216/3225 - 0
+43: Fraction 25/119 - 0
+44: Fraction 3056/3556 - 0
+45: Fraction 1057/1996 - 0
+46: Fraction 3423/3929 - 0
+47: Fraction 885/2635 - 0
+48: Fraction 1108/4607 - 0
+49: Fraction 142/3866 - 0
+50: Fraction 3559/4461 - 0
+51: Fraction 2220/3466 - 0
+52: Fraction 2132/2571 - 0
+53: Fraction 1931/3930 - 0
+54: Fraction 546/4838 - 0
+55: Fraction 102/442 - 0
+56: Fraction 3113/3891 - 0
+57: Fraction 516/4584 - 0
+58: Fraction 2543/4841 - 0
+59: Fraction 1752/3609 - 0
+60: Fraction 741/3195 - 0
+61: Fraction 776/2738 - 0
+62: Fraction 2728/4303 - 0
+63: Fraction 870/4780 - 0
+64: Fraction 1835/3139 - 0
+65: Fraction 1893/2586 - 0
+66: Fraction 1207/4476 - 0
+67: Fraction 2321/3619 - 0
+68: Fraction 910/3189 - 0
+69: Fraction 65/648 - 0
+70: Fraction 2652/3725 - 0
+71: Fraction 216/2882 - 0
+72: Fraction 694/3920 - 0
+73: Fraction 1239/1457 - 0
+74: Fraction 1058/3079 - 0
+75: Fraction 0/570 - 0
+76: Fraction 2935/3565 - 0
+77: Fraction 1570/2173 - 0
+78: Fraction 200/2538 - 0
+79: Fraction 613/2840 - 0
+80: Fraction 561/1685 - 0
+81: Fraction 3341/4535 - 0
+82: Fraction 2234/3702 - 0
+83: Fraction 2196/2666 - 0
+84: Fraction 277/2841 - 0
+85: Fraction 1646/2697 - 0
+86: Fraction 1999/3587 - 0
+87: Fraction 1309/2194 - 0
+88: Fraction 874/2724 - 0
+89: Fraction 977/4872 - 0
+90: Fraction 2507/2635 - 0
+91: Fraction 1755/3017 - 0
+92: Fraction 3452/3968 - 0
+93: Fraction 2233/3964 - 0
+94: Fraction 3383/3926 - 0
+95: Fraction 1291/4129 - 0
+96: Fraction 546/1272 - 0
+97: Fraction 2313/4175 - 0
+98: Fraction 74/403 - 0
+99: Fraction 456/2897 - 0
+100: Fraction 221/2899 - 0
+101: Fraction 4240/4297 - 0
+102: Fraction 1482/4924 - 0
+103: Fraction 1113/2648 - 0
+104: Fraction 2285/2303 - 0
+105: Fraction 1296/4430 - 0
+106: Fraction 571/3557 - 0
+107: Fraction 3638/3714 - 0
+108: Fraction 690/1524 - 0
+109: Fraction 503/3865 - 0
+110: Fraction 1430/2301 - 0
+111: Fraction 2373/2997 - 0
+112: Fraction 943/3453 - 0
+113: Fraction 735/4186 - 0
+114: Fraction 851/871 - 0
+115: Fraction 1191/4829 - 0
+116: Fraction 259/264 - 0
+117: Fraction 412/3423 - 0
+118: Fraction 2524/2578 - 0
+119: Fraction 3714/4098 - 0
+120: Fraction 30/3036 - 0
+121: Fraction 1708/4945 - 0
+122: Fraction 834/2863 - 0
+123: Fraction 1626/3279 - 0
+124: Fraction 2630/2792 - 0
+125: Fraction 550/3688 - 0
+126: Fraction 2042/2471 - 0
+127: Fraction 947/1484 - 0
+128: Fraction 77/2833 - 0
+129: Fraction 10/487 - 0
+130: Fraction 3594/4342 - 0
+131: Fraction 2123/3791 - 0
+132: Fraction 1605/4747 - 0
+133: Fraction 561/3764 - 0
+134: Fraction 2847/3029 - 0
+135: Fraction 2567/2880 - 0
+136: Fraction 1065/2726 - 0
+137: Fraction 2823/3938 - 0
+138: Fraction 1381/3441 - 0
+139: Fraction 1988/4445 - 0
+140: Fraction 2093/4322 - 0
+141: Fraction 1682/4982 - 0
+142: Fraction 124/2386 - 0
+143: Fraction 2500/4536 - 0
+144: Fraction 627/1402 - 0
+145: Fraction 2521/3498 - 0
+146: Fraction 1958/4728 - 0
+147: Fraction 1604/3169 - 0
+148: Fraction 1764/1915 - 0
+149: Fraction 2389/4860 - 0
+150: Fraction 282/372 - 0
+151: Fraction 462/3183 - 0
+152: Fraction 818/835 - 0
+153: Fraction 1412/1717 - 0
+154: Fraction 618/4877 - 0
+155: Fraction 1005/1483 - 0
+156: Fraction 1086/4471 - 0
+157: Fraction 3322/3958 - 0
+158: Fraction 2103/2838 - 0
+159: Fraction 440/1150 - 0
+160: Fraction 2788/3454 - 0
+161: Fraction 44/2046 - 0
+162: Fraction 1484/4329 - 0
+163: Fraction 472/762 - 0
+164: Fraction 2640/4958 - 0
+165: Fraction 1380/2362 - 0
+166: Fraction 2321/2326 - 0
+167: Fraction 4187/4633 - 0
+168: Fraction 24/4176 - 0
+169: Fraction 506/3853 - 0
+170: Fraction 3764/4484 - 0
+171: Fraction 3688/4852 - 0
+172: Fraction 537/892 - 0
+173: Fraction 1134/1613 - 0
+174: Fraction 1460/3442 - 0
+175: Fraction 2814/3659 - 0
+176: Fraction 2434/4713 - 0
+177: Fraction 705/3181 - 0
+178: Fraction 2676/2893 - 0
+179: Fraction 69/293 - 0
+180: Fraction 2690/3189 - 0
+181: Fraction 1203/2497 - 0
+182: Fraction 2071/2753 - 0
+183: Fraction 3023/3322 - 0
+184: Fraction 3759/3871 - 0
+185: Fraction 718/1200 - 0
+186: Fraction 1218/4521 - 0
+187: Fraction 968/1173 - 0
+188: Fraction 4495/4527 - 0
+189: Fraction 2665/4022 - 0
+190: Fraction 4807/4879 - 0
+191: Fraction 1584/4294 - 0
+192: Fraction 2082/4997 - 0
+193: Fraction 488/2504 - 0
+194: Fraction 2617/2786 - 0
+195: Fraction 2745/2839 - 0
+196: Fraction 2056/2233 - 0
+197: Fraction 1797/2654 - 0
+198: Fraction 6/2237 - 0
+199: Fraction 2812/4870 - 0
+200: Fraction 751/1877 - 0
+201: Fraction 696/3079 - 0
+202: Fraction 1520/3447 - 0
+203: Fraction 1739/4057 - 0
+204: Fraction 1983/3669 - 0
+205: Fraction 4275/4944 - 0
+206: Fraction 2446/4493 - 0
+207: Fraction 129/1333 - 0
+208: Fraction 345/1957 - 0
+209: Fraction 1072/3561 - 0
+210: Fraction 2560/4342 - 0
+211: Fraction 2266/4959 - 0
+212: Fraction 1895/2285 - 0
+213: Fraction 601/3649 - 0
+214: Fraction 1041/3205 - 0
+215: Fraction 2044/4124 - 0
+216: Fraction 2654/2764 - 0
+217: Fraction 2373/4809 - 0
+218: Fraction 4886/4992 - 0
+219: Fraction 599/814 - 0
+220: Fraction 719/4739 - 0
+221: Fraction 1713/4998 - 0
+222: Fraction 577/4572 - 0
+223: Fraction 792/3577 - 0
+224: Fraction 4035/4754 - 0
+225: Fraction 2259/3856 - 0
+226: Fraction 1351/2201 - 0
+227: Fraction 3680/4976 - 0
+228: Fraction 994/2190 - 0
+229: Fraction 2280/4684 - 0
+230: Fraction 2509/4897 - 0
+231: Fraction 3436/4392 - 0
+232: Fraction 463/871 - 0
+233: Fraction 951/4492 - 0
+234: Fraction 1330/4211 - 0
+235: Fraction 2791/4988 - 0
+236: Fraction 1439/4233 - 0
+237: Fraction 2777/4240 - 0
+238: Fraction 1587/2770 - 0
+239: Fraction 3712/4773 - 0
+240: Fraction 1542/2395 - 0
+241: Fraction 1371/4171 - 0
+242: Fraction 241/2241 - 0
+243: Fraction 2724/3805 - 0
+244: Fraction 2901/3966 - 0
+245: Fraction 2735/3555 - 0
+246: Fraction 1988/3227 - 0
+247: Fraction 45/1036 - 0
+248: Fraction 58/1660 - 0
+249: Fraction 3286/4666 - 0
+250: Fraction 877/4457 - 0
+251: Fraction 4488/4831 - 0
+252: Fraction 148/1879 - 0
+253: Fraction 602/2942 - 0
+254: Fraction 1637/3267 - 0
+255: Fraction 2169/4934 - 0
+256: Fraction 433/4473 - 0
+257: Fraction 294/3912 - 0
+258: Fraction 1889/3853 - 0
+259: Fraction 2966/3677 - 0
+260: Fraction 959/1399 - 0
+261: Fraction 2027/3006 - 0
+262: Fraction 292/4907 - 0
+263: Fraction 1584/3835 - 0
+264: Fraction 408/1592 - 0
+265: Fraction 1202/4808 - 0
+266: Fraction 2430/3757 - 0
+267: Fraction 736/3467 - 0
+268: Fraction 3874/4591 - 0
+269: Fraction 661/3525 - 0
+270: Fraction 2161/4138 - 0
+271: Fraction 1353/3073 - 0
+272: Fraction 670/3494 - 0
+273: Fraction 3843/4176 - 0
+274: Fraction 1917/3419 - 0
+275: Fraction 2559/4235 - 0
+276: Fraction 1265/1684 - 0
+277: Fraction 2466/2746 - 0
+278: Fraction 2556/3880 - 0
+279: Fraction 2133/2597 - 0
+280: Fraction 701/2971 - 0
+281: Fraction 1927/4471 - 0
+282: Fraction 17/874 - 0
+283: Fraction 2378/3855 - 0
+284: Fraction 214/3572 - 0
+285: Fraction 337/1554 - 0
+286: Fraction 2759/3101 - 0
+287: Fraction 2864/4511 - 0
+288: Fraction 2072/3494 - 0
+289: Fraction 2615/2819 - 0
+290: Fraction 1165/1784 - 0
+291: Fraction 14/1139 - 0
+292: Fraction 726/3497 - 0
+293: Fraction 161/4898 - 0
+294: Fraction 3871/3880 - 0
+295: Fraction 2036/4508 - 0
+296: Fraction 115/2614 - 0
+297: Fraction 719/2191 - 0
+298: Fraction 3334/4229 - 0
+299: Fraction 2242/2962 - 0
+300: Fraction 1507/2331 - 0
+301: Fraction 2314/3730 - 0
+302: Fraction 3120/3712 - 0
+303: Fraction 853/4711 - 0
+304: Fraction 145/1840 - 0
+305: Fraction 2353/4972 - 0
+306: Fraction 2127/3936 - 0
+307: Fraction 3672/4952 - 0
+308: Fraction 2034/4373 - 0
+309: Fraction 725/2396 - 0
+310: Fraction 352/3583 - 0
+311: Fraction 3115/3669 - 0
+312: Fraction 1092/4221 - 0
+313: Fraction 895/3249 - 0
+314: Fraction 411/1510 - 0
+315: Fraction 4066/4682 - 0
+316: Fraction 2834/4868 - 0
+317: Fraction 1596/3283 - 0
+318: Fraction 2453/3973 - 0
+319: Fraction 410/3472 - 0
+320: Fraction 1168/4562 - 0
+321: Fraction 523/3457 - 0
+322: Fraction 694/824 - 0
+323: Fraction 1280/3478 - 0
+324: Fraction 1693/4751 - 0
+325: Fraction 281/460 - 0
+326: Fraction 1800/4951 - 0
+327: Fraction 3273/4984 - 0
+328: Fraction 2069/2752 - 0
+329: Fraction 11/783 - 0
+330: Fraction 1128/1304 - 0
+331: Fraction 807/2220 - 0
+332: Fraction 179/3960 - 0
+333: Fraction 3288/4922 - 0
+334: Fraction 222/521 - 0
+335: Fraction 406/741 - 0
+336: Fraction 1135/2321 - 0
+337: Fraction 395/2485 - 0
+338: Fraction 3765/4952 - 0
+339: Fraction 2814/3592 - 0
+340: Fraction 1675/2293 - 0
+341: Fraction 1962/3087 - 0
+342: Fraction 3391/3579 - 0
+343: Fraction 2516/3039 - 0
+344: Fraction 1152/2337 - 0
+345: Fraction 413/567 - 0
+346: Fraction 4632/4670 - 0
+347: Fraction 1128/4237 - 0
+348: Fraction 942/3635 - 0
+349: Fraction 179/495 - 0
+350: Fraction 3157/4746 - 0
+351: Fraction 976/2193 - 0
+352: Fraction 1783/3733 - 0
+353: Fraction 2265/4333 - 0
+354: Fraction 256/2983 - 0
+355: Fraction 980/2334 - 0
+356: Fraction 967/4876 - 0
+357: Fraction 992/2408 - 0
+358: Fraction 1383/3570 - 0
+359: Fraction 141/3067 - 0
+360: Fraction 3123/3498 - 0
+361: Fraction 2005/3337 - 0
+362: Fraction 1184/3242 - 0
+363: Fraction 801/1028 - 0
+364: Fraction 1463/2806 - 0
+365: Fraction 1281/1465 - 0
+366: Fraction 2324/4068 - 0
+367: Fraction 1724/2238 - 0
+368: Fraction 218/2299 - 0
+369: Fraction 389/2439 - 0
+370: Fraction 781/3170 - 0
+371: Fraction 751/4030 - 0
+372: Fraction 832/4664 - 0
+373: Fraction 942/3428 - 0
+374: Fraction 3237/4232 - 0
+375: Fraction 1806/3655 - 0
+376: Fraction 2715/3032 - 0
+377: Fraction 3041/3436 - 0
+378: Fraction 1584/3116 - 0
+379: Fraction 2417/3245 - 0
+380: Fraction 2177/2898 - 0
+381: Fraction 1470/4012 - 0
+382: Fraction 4074/4287 - 0
+383: Fraction 436/4631 - 0
+384: Fraction 717/4704 - 0
+385: Fraction 223/3951 - 0
+386: Fraction 2619/3021 - 0
+387: Fraction 1016/1500 - 0
+388: Fraction 988/4718 - 0
+389: Fraction 3654/3986 - 0
+390: Fraction 927/3012 - 0
+391: Fraction 1087/3489 - 0
+392: Fraction 2473/3048 - 0
+393: Fraction 712/1256 - 0
+394: Fraction 3729/4748 - 0
+395: Fraction 2027/2749 - 0
+396: Fraction 3956/4181 - 0
+397: Fraction 860/4232 - 0
+398: Fraction 1878/3032 - 0
+399: Fraction 3442/3521 - 0
+400: Fraction 375/3706 - 0
+401: Fraction 120/2682 - 0
+402: Fraction 2229/3369 - 0
+403: Fraction 1752/4615 - 0
+404: Fraction 161/4967 - 0
+405: Fraction 265/1563 - 0
+406: Fraction 1394/1512 - 0
+407: Fraction 237/3226 - 0
+408: Fraction 3014/4028 - 0
+409: Fraction 3094/4655 - 0
+410: Fraction 3089/4788 - 0
+411: Fraction 2081/4614 - 0
+412: Fraction 2757/2759 - 0
+413: Fraction 872/4994 - 0
+414: Fraction 165/2151 - 0
+415: Fraction 761/3722 - 0
+416: Fraction 2916/4947 - 0
+417: Fraction 544/4630 - 0
+418: Fraction 83/3846 - 0
+419: Fraction 1788/3839 - 0
+420: Fraction 3405/3934 - 0
+421: Fraction 24/821 - 0
+422: Fraction 785/4022 - 0
+423: Fraction 493/917 - 0
+424: Fraction 924/1853 - 0
+425: Fraction 3425/3643 - 0
+426: Fraction 792/1099 - 0
+427: Fraction 705/2177 - 0
+428: Fraction 2417/3730 - 0
+429: Fraction 708/1648 - 0
+430: Fraction 459/3680 - 0
+431: Fraction 1069/2417 - 0
+432: Fraction 148/2849 - 0
+433: Fraction 528/769 - 0
+434: Fraction 1594/2934 - 0
+435: Fraction 530/2112 - 0
+436: Fraction 1404/3667 - 0
+437: Fraction 1647/3888 - 0
+438: Fraction 4417/4854 - 0
+439: Fraction 4182/4333 - 0
+440: Fraction 1396/2905 - 0
+441: Fraction 896/1259 - 0
+442: Fraction 1417/3867 - 0
+443: Fraction 1177/3918 - 0
+444: Fraction 1674/4891 - 0
+445: Fraction 265/2838 - 0
+446: Fraction 316/2550 - 0
+447: Fraction 156/1151 - 0
+448: Fraction 1100/1868 - 0
+449: Fraction 1572/1705 - 0
+450: Fraction 1504/1742 - 0
+451: Fraction 529/1986 - 0
+452: Fraction 818/1924 - 0
+453: Fraction 2061/3766 - 0
+454: Fraction 482/2281 - 0
+455: Fraction 1847/2269 - 0
+456: Fraction 2353/2858 - 0
+457: Fraction 1965/2843 - 0
+458: Fraction 448/2448 - 0
+459: Fraction 1669/4002 - 0
+460: Fraction 3969/4132 - 0
+461: Fraction 295/1406 - 0
+462: Fraction 2871/3291 - 0
+463: Fraction 1659/2053 - 0
+464: Fraction 1893/4934 - 0
+465: Fraction 3926/4680 - 0
+466: Fraction 1291/2951 - 0
+467: Fraction 269/3285 - 0
+468: Fraction 1073/2330 - 0
+469: Fraction 3508/3546 - 0
+470: Fraction 1596/3395 - 0
+471: Fraction 1619/1778 - 0
+472: Fraction 448/3361 - 0
+473: Fraction 1522/1605 - 0
+474: Fraction 1470/1516 - 0
+475: Fraction 3233/3236 - 0
+476: Fraction 148/3818 - 0
+477: Fraction 3515/3885 - 0
+478: Fraction 536/3257 - 0
+479: Fraction 549/4530 - 0
+480: Fraction 2364/4972 - 0
+481: Fraction 2509/2581 - 0
+482: Fraction 1323/2565 - 0
+483: Fraction 1840/2398 - 0
+484: Fraction 2189/2883 - 0
+485: Fraction 2973/4285 - 0
+486: Fraction 229/506 - 0
+487: Fraction 4685/4701 - 0
+488: Fraction 2044/2526 - 0
+489: Fraction 57/2487 - 0
+490: Fraction 603/3611 - 0
+491: Fraction 192/2448 - 0
+492: Fraction 4575/4812 - 0
+493: Fraction 1667/4036 - 0
+494: Fraction 3134/4341 - 0
+495: Fraction 258/2952 - 0
+496: Fraction 2850/4318 - 0
+497: Fraction 2195/3944 - 0
+498: Fraction 503/1317 - 0
+499: Fraction 2523/3455 - 0
+500: Fraction 947/2544 - 0
+501: Fraction 512/2372 - 0
+502: Fraction 1082/4295 - 0
+503: Fraction 693/2372 - 0
+504: Fraction 2066/4264 - 0
+505: Fraction 4434/4530 - 0
+506: Fraction 2080/2623 - 0
+507: Fraction 3570/4281 - 0
+508: Fraction 1241/2454 - 0
+509: Fraction 3777/4710 - 0
+510: Fraction 1232/4570 - 0
+511: Fraction 1067/3391 - 0
+512: Fraction 277/982 - 0
+513: Fraction 3037/3319 - 0
+514: Fraction 265/380 - 0
+515: Fraction 3631/3994 - 0
+516: Fraction 177/2822 - 0
+517: Fraction 952/3997 - 0
+518: Fraction 2335/3317 - 0
+519: Fraction 3906/4489 - 0
+520: Fraction 690/1743 - 0
+521: Fraction 1347/4626 - 0
+522: Fraction 145/3131 - 0
+523: Fraction 98/4431 - 0
+524: Fraction 461/1677 - 0
+525: Fraction 622/3452 - 0
+526: Fraction 1120/3889 - 0
+527: Fraction 2739/4297 - 0
+528: Fraction 82/1692 - 0
+529: Fraction 1673/1917 - 0
+530: Fraction 847/896 - 0
+531: Fraction 3354/3663 - 0
+532: Fraction 323/1021 - 0
+533: Fraction 3216/3981 - 0
+534: Fraction 846/864 - 0
+535: Fraction 2191/4694 - 0
+536: Fraction 1249/4878 - 0
+537: Fraction 1711/4865 - 0
+538: Fraction 2205/3413 - 0
+539: Fraction 2187/4076 - 0
+540: Fraction 2052/2662 - 0
+541: Fraction 690/3439 - 0
+542: Fraction 344/559 - 0
+543: Fraction 1463/3032 - 0
+544: Fraction 906/4898 - 0
+545: Fraction 4278/4810 - 0
+546: Fraction 2302/3270 - 0
+547: Fraction 2370/3054 - 0
+548: Fraction 214/472 - 0
+549: Fraction 733/4904 - 0
+550: Fraction 2184/3162 - 0
+551: Fraction 1458/4947 - 0
+552: Fraction 4620/4681 - 0
+553: Fraction 431/1111 - 0
+554: Fraction 58/765 - 0
+555: Fraction 1529/4780 - 0
+556: Fraction 1772/4629 - 0
+557: Fraction 638/2273 - 0
+558: Fraction 1903/2361 - 0
+559: Fraction 877/917 - 0
+560: Fraction 506/953 - 0
+561: Fraction 1868/3380 - 0
+562: Fraction 2757/3652 - 0
+563: Fraction 1734/2212 - 0
+564: Fraction 1685/3597 - 0
+565: Fraction 403/1988 - 0
+566: Fraction 2451/3416 - 0
+567: Fraction 1105/1979 - 0
+568: Fraction 350/1359 - 0
+569: Fraction 610/1009 - 0
+570: Fraction 2490/4571 - 0
+571: Fraction 1462/3764 - 0
+572: Fraction 4375/4968 - 0
+573: Fraction 3121/3592 - 0
+574: Fraction 2391/2841 - 0
+575: Fraction 2370/4879 - 0
+576: Fraction 1866/2496 - 0
+577: Fraction 22/2864 - 0
+578: Fraction 259/2167 - 0
+579: Fraction 1704/2273 - 0
+580: Fraction 1326/4294 - 0
+581: Fraction 1616/1803 - 0
+582: Fraction 2265/3319 - 0
+583: Fraction 2627/4476 - 0
+584: Fraction 142/1591 - 0
+585: Fraction 1314/2417 - 0
+586: Fraction 329/4381 - 0
+587: Fraction 2015/2548 - 0
+588: Fraction 2236/3197 - 0
+589: Fraction 214/4265 - 0
+590: Fraction 196/1613 - 0
+591: Fraction 2158/2289 - 0
+592: Fraction 4173/4226 - 0
+593: Fraction 3369/4868 - 0
+594: Fraction 1207/4090 - 0
+595: Fraction 1619/1658 - 0
+596: Fraction 2834/3651 - 0
+597: Fraction 692/1136 - 0
+598: Fraction 3054/3126 - 0
+599: Fraction 1191/1347 - 0
+600: Fraction 3230/3657 - 0
+601: Fraction 36/539 - 0
+602: Fraction 791/4008 - 0
+603: Fraction 2467/3134 - 0
+604: Fraction 2020/3426 - 0
+605: Fraction 337/2297 - 0
+606: Fraction 4055/4974 - 0
+607: Fraction 2652/4504 - 0
+608: Fraction 1890/4154 - 0
+609: Fraction 2764/4995 - 0
+610: Fraction 1376/3986 - 0
+611: Fraction 582/4405 - 0
+612: Fraction 578/2539 - 0
+613: Fraction 728/3317 - 0
+614: Fraction 2221/4333 - 0
+615: Fraction 16/4351 - 0
+616: Fraction 2673/4619 - 0
+617: Fraction 4279/4325 - 0
+618: Fraction 848/3578 - 0
+619: Fraction 753/4082 - 0
+620: Fraction 976/3777 - 0
+621: Fraction 3536/4039 - 0
+622: Fraction 2408/4046 - 0
+623: Fraction 1928/3030 - 0
+624: Fraction 848/4650 - 0
+625: Fraction 397/687 - 0
+626: Fraction 3482/3812 - 0
+627: Fraction 801/1085 - 0
+628: Fraction 370/4137 - 0
+629: Fraction 3285/4841 - 0
+630: Fraction 799/4214 - 0
+631: Fraction 2412/4628 - 0
+632: Fraction 922/4339 - 0
+633: Fraction 399/4791 - 0
+634: Fraction 1975/2201 - 0
+635: Fraction 1059/2205 - 0
+636: Fraction 1731/4844 - 0
+637: Fraction 2471/4465 - 0
+638: Fraction 2667/3043 - 0
+639: Fraction 466/2351 - 0
+640: Fraction 709/4853 - 0
+641: Fraction 520/3156 - 0
+642: Fraction 645/1909 - 0
+643: Fraction 891/1888 - 0
+644: Fraction 2475/3640 - 0
+645: Fraction 3409/4430 - 0
+646: Fraction 325/4717 - 0
+647: Fraction 373/576 - 0
+648: Fraction 558/4858 - 0
+649: Fraction 2686/4910 - 0
+650: Fraction 1600/2943 - 0
+651: Fraction 1250/1780 - 0
+652: Fraction 1191/1535 - 0
+653: Fraction 1894/3619 - 0
+654: Fraction 2669/2901 - 0
+655: Fraction 284/3454 - 0
+656: Fraction 1553/2457 - 0
+657: Fraction 253/438 - 0
+658: Fraction 774/1059 - 0
+659: Fraction 1879/2328 - 0
+660: Fraction 2938/4153 - 0
+661: Fraction 2947/4362 - 0
+662: Fraction 535/1586 - 0
+663: Fraction 1335/1658 - 0
+664: Fraction 849/2449 - 0
+665: Fraction 423/3322 - 0
+666: Fraction 936/4386 - 0
+667: Fraction 1275/3781 - 0
+668: Fraction 1000/1421 - 0
+669: Fraction 348/627 - 0
+670: Fraction 4156/4973 - 0
+671: Fraction 311/2641 - 0
+672: Fraction 408/2929 - 0
+673: Fraction 818/1900 - 0
+674: Fraction 1654/3970 - 0
+675: Fraction 1162/2591 - 0
+676: Fraction 2721/3250 - 0
+677: Fraction 2968/4221 - 0
+678: Fraction 2126/2161 - 0
+679: Fraction 214/3614 - 0
+680: Fraction 209/4845 - 0
+681: Fraction 1919/3037 - 0
+682: Fraction 3362/4260 - 0
+683: Fraction 485/3448 - 0
+684: Fraction 24/2473 - 0
+685: Fraction 2742/3918 - 0
+686: Fraction 561/4383 - 0
+687: Fraction 4398/4755 - 0
+688: Fraction 1956/4404 - 0
+689: Fraction 2048/4973 - 0
+690: Fraction 1120/3392 - 0
+691: Fraction 1747/3388 - 0
+692: Fraction 3523/3797 - 0
+693: Fraction 1356/3110 - 0
+694: Fraction 226/1250 - 0
+695: Fraction 1219/3450 - 0
+696: Fraction 144/1299 - 0
+697: Fraction 2185/4322 - 0
+698: Fraction 2124/2390 - 0
+699: Fraction 1047/4855 - 0
+700: Fraction 902/4976 - 0
+701: Fraction 337/1169 - 0
+702: Fraction 1688/2396 - 0
+703: Fraction 4113/4410 - 0
+704: Fraction 332/4090 - 0
+705: Fraction 2149/2332 - 0
+706: Fraction 2803/2933 - 0
+707: Fraction 439/2961 - 0
+708: Fraction 2667/4477 - 0
+709: Fraction 863/2700 - 0
+710: Fraction 1053/3025 - 0
+711: Fraction 229/3107 - 0
+712: Fraction 470/651 - 0
+713: Fraction 2303/3635 - 0
+714: Fraction 2476/4242 - 0
+715: Fraction 1692/3001 - 0
+716: Fraction 1741/1753 - 0
+717: Fraction 2878/4118 - 0
+718: Fraction 4578/4698 - 0
+719: Fraction 4293/4853 - 0
+720: Fraction 352/4256 - 0
+721: Fraction 2833/3530 - 0
+722: Fraction 196/3697 - 0
+723: Fraction 50/963 - 0
+724: Fraction 2827/4340 - 0
+725: Fraction 2433/2905 - 0
+726: Fraction 3694/4113 - 0
+727: Fraction 498/3493 - 0
+728: Fraction 3768/4284 - 0
+729: Fraction 1194/3356 - 0
+730: Fraction 1943/3784 - 0
+731: Fraction 3201/3717 - 0
+732: Fraction 2230/4540 - 0
+733: Fraction 2868/4978 - 0
+734: Fraction 270/4480 - 0
+735: Fraction 3244/4694 - 0
+736: Fraction 954/4096 - 0
+737: Fraction 4567/4665 - 0
+738: Fraction 2921/3902 - 0
+739: Fraction 430/2653 - 0
+740: Fraction 3238/3276 - 0
+741: Fraction 644/3894 - 0
+742: Fraction 26/1962 - 0
+743: Fraction 2035/4775 - 0
+744: Fraction 2966/4949 - 0
+745: Fraction 1932/4783 - 0
+746: Fraction 1802/2591 - 0
+747: Fraction 1561/3015 - 0
+748: Fraction 324/4060 - 0
+749: Fraction 1656/1816 - 0
+750: Fraction 3448/3787 - 0
+751: Fraction 39/4106 - 0
+752: Fraction 671/1668 - 0
+753: Fraction 1660/3507 - 0
+754: Fraction 4018/4358 - 0
+755: Fraction 1709/2203 - 0
+756: Fraction 3508/3742 - 0
+757: Fraction 2399/3697 - 0
+758: Fraction 4726/4968 - 0
+759: Fraction 1538/2456 - 0
+760: Fraction 2943/4438 - 0
+761: Fraction 724/2863 - 0
+762: Fraction 1295/3701 - 0
+763: Fraction 1370/3021 - 0
+764: Fraction 2192/3737 - 0
+765: Fraction 2771/4842 - 0
+766: Fraction 2112/4444 - 0
+767: Fraction 2636/3387 - 0
+768: Fraction 150/3485 - 0
+769: Fraction 814/2323 - 0
+770: Fraction 3409/3459 - 0
+771: Fraction 1810/3338 - 0
+772: Fraction 1501/2987 - 0
+773: Fraction 515/2229 - 0
+774: Fraction 2438/2725 - 0
+775: Fraction 1001/3641 - 0
+776: Fraction 506/3553 - 0
+777: Fraction 4440/4764 - 0
+778: Fraction 3939/4183 - 0
+779: Fraction 642/3212 - 0
+780: Fraction 3839/4929 - 0
+781: Fraction 301/432 - 0
+782: Fraction 2051/3316 - 0
+783: Fraction 561/3889 - 0
+784: Fraction 1904/3891 - 0
+785: Fraction 2262/3849 - 0
+786: Fraction 666/3494 - 0
+787: Fraction 3694/4357 - 0
+788: Fraction 1775/4647 - 0
+789: Fraction 2652/4768 - 0
+790: Fraction 245/3647 - 0
+791: Fraction 2571/3646 - 0
+792: Fraction 558/4339 - 0
+793: Fraction 499/1878 - 0
+794: Fraction 2490/3197 - 0
+795: Fraction 1839/4240 - 0
+796: Fraction 137/2295 - 0
+797: Fraction 2373/2945 - 0
+798: Fraction 315/2189 - 0
+799: Fraction 83/2319 - 0
+800: Fraction 2673/4319 - 0
+801: Fraction 3924/4969 - 0
+802: Fraction 403/1538 - 0
+803: Fraction 3712/4944 - 0
+804: Fraction 1179/2662 - 0
+805: Fraction 3257/4347 - 0
+806: Fraction 130/3349 - 0
+807: Fraction 127/3935 - 0
+808: Fraction 2931/4427 - 0
+809: Fraction 629/1121 - 0
+810: Fraction 821/1571 - 0
+811: Fraction 878/2736 - 0
+812: Fraction 2079/3476 - 0
+813: Fraction 3113/3223 - 0
+814: Fraction 1453/4519 - 0
+815: Fraction 1967/3179 - 0
+816: Fraction 1172/4722 - 0
+817: Fraction 4038/4535 - 0
+818: Fraction 665/2056 - 0
+819: Fraction 520/4339 - 0
+820: Fraction 2397/4024 - 0
+821: Fraction 1356/1817 - 0
+822: Fraction 2567/1823 - 1
+823: Fraction 2235/1537 - 1
+824: Fraction 4923/3802 - 1
+825: Fraction 2762/1795 - 1
+826: Fraction 3436/2262 - 1
+827: Fraction 3786/2654 - 1
+828: Fraction 3596/2730 - 1
+829: Fraction 4166/2992 - 1
+830: Fraction 3653/3135 - 1
+831: Fraction 3637/3420 - 1
+832: Fraction 1656/1441 - 1
+833: Fraction 497/469 - 1
+834: Fraction 3094/2628 - 1
+835: Fraction 4180/3129 - 1
+836: Fraction 2170/1578 - 1
+837: Fraction 2664/1928 - 1
+838: Fraction 3286/2972 - 1
+839: Fraction 3228/2984 - 1
+840: Fraction 2386/2233 - 1
+841: Fraction 371/293 - 1
+842: Fraction 4617/3151 - 1
+843: Fraction 3976/2438 - 1
+844: Fraction 1137/633 - 1
+845: Fraction 3242/2309 - 1
+846: Fraction 2482/1968 - 1
+847: Fraction 4727/4447 - 1
+848: Fraction 4240/2634 - 1
+849: Fraction 3501/3192 - 1
+850: Fraction 1909/1871 - 1
+851: Fraction 894/863 - 1
+852: Fraction 4850/3725 - 1
+853: Fraction 4177/3009 - 1
+854: Fraction 1435/941 - 1
+855: Fraction 2763/1425 - 1
+856: Fraction 4350/3378 - 1
+857: Fraction 1800/1235 - 1
+858: Fraction 3697/2085 - 1
+859: Fraction 4620/2588 - 1
+860: Fraction 711/412 - 1
+861: Fraction 2793/1776 - 1
+862: Fraction 3580/1954 - 1
+863: Fraction 3458/2296 - 1
+864: Fraction 4665/3534 - 1
+865: Fraction 2564/2123 - 1
+866: Fraction 2843/2213 - 1
+867: Fraction 4965/3611 - 1
+868: Fraction 2738/1567 - 1
+869: Fraction 3151/1883 - 1
+870: Fraction 2189/1669 - 1
+871: Fraction 3713/2235 - 1
+872: Fraction 3055/2180 - 1
+873: Fraction 3581/2756 - 1
+874: Fraction 1275/999 - 1
+875: Fraction 4165/3881 - 1
+876: Fraction 3915/2572 - 1
+877: Fraction 3388/2503 - 1
+878: Fraction 3878/3188 - 1
+879: Fraction 2630/1751 - 1
+880: Fraction 4364/3857 - 1
+881: Fraction 3626/2730 - 1
+882: Fraction 1296/1011 - 1
+883: Fraction 1182/760 - 1
+884: Fraction 4277/2285 - 1
+885: Fraction 1587/1323 - 1
+886: Fraction 2101/1894 - 1
+887: Fraction 2098/2020 - 1
+888: Fraction 2744/1793 - 1
+889: Fraction 1182/1040 - 1
+890: Fraction 4716/3570 - 1
+891: Fraction 3271/2922 - 1
+892: Fraction 4480/2302 - 1
+893: Fraction 2765/2410 - 1
+894: Fraction 848/433 - 1
+895: Fraction 4976/4731 - 1
+896: Fraction 3354/3120 - 1
+897: Fraction 2975/2883 - 1
+898: Fraction 4834/4536 - 1
+899: Fraction 1877/1659 - 1
+900: Fraction 2697/2251 - 1
+901: Fraction 2404/1569 - 1
+902: Fraction 3590/2309 - 1
+903: Fraction 1429/929 - 1
+904: Fraction 4570/2369 - 1
+905: Fraction 4753/4507 - 1
+906: Fraction 3776/2433 - 1
+907: Fraction 2426/1437 - 1
+908: Fraction 2025/1902 - 1
+909: Fraction 368/219 - 1
+910: Fraction 3637/2602 - 1
+911: Fraction 2360/2322 - 1
+912: Fraction 4817/3259 - 1
+913: Fraction 3794/2053 - 1
+914: Fraction 2054/1554 - 1
+915: Fraction 4987/4672 - 1
+916: Fraction 666/499 - 1
+917: Fraction 3445/2740 - 1
+918: Fraction 3996/2774 - 1
+919: Fraction 2836/2457 - 1
+920: Fraction 3297/2800 - 1
+921: Fraction 1939/1408 - 1
+922: Fraction 4581/4074 - 1
+923: Fraction 4696/4355 - 1
+924: Fraction 4875/3360 - 1
+925: Fraction 3841/2655 - 1
+926: Fraction 1590/1038 - 1
+927: Fraction 4008/2015 - 1
+928: Fraction 2834/1800 - 1
+929: Fraction 2853/2579 - 1
+930: Fraction 2800/1794 - 1
+931: Fraction 994/823 - 1
+932: Fraction 3885/2768 - 1
+933: Fraction 2894/2503 - 1
+934: Fraction 1427/1322 - 1
+935: Fraction 4701/3266 - 1
+936: Fraction 2831/2080 - 1
+937: Fraction 3518/2277 - 1
+938: Fraction 921/725 - 1
+939: Fraction 4965/4146 - 1
+940: Fraction 1259/809 - 1
+941: Fraction 1214/675 - 1
+942: Fraction 4450/3237 - 1
+943: Fraction 3639/3408 - 1
+944: Fraction 4965/4434 - 1
+945: Fraction 2856/1811 - 1
+946: Fraction 4650/4428 - 1
+947: Fraction 2266/2098 - 1
+948: Fraction 4572/4299 - 1
+949: Fraction 3267/2794 - 1
+950: Fraction 1455/1258 - 1
+951: Fraction 2771/1880 - 1
+952: Fraction 1152/645 - 1
+953: Fraction 3725/2665 - 1
+954: Fraction 3859/2851 - 1
+955: Fraction 1434/1105 - 1
+956: Fraction 3518/1961 - 1
+957: Fraction 4995/3349 - 1
+958: Fraction 1100/697 - 1
+959: Fraction 4415/3568 - 1
+960: Fraction 3267/3034 - 1
+961: Fraction 2966/2162 - 1
+962: Fraction 2792/2469 - 1
+963: Fraction 4839/3575 - 1
+964: Fraction 4147/2845 - 1
+965: Fraction 4883/3233 - 1
+966: Fraction 4293/2544 - 1
+967: Fraction 4125/3007 - 1
+968: Fraction 2289/1551 - 1
+969: Fraction 4315/4093 - 1
+970: Fraction 2975/1969 - 1
+971: Fraction 3027/2912 - 1
+972: Fraction 4724/3127 - 1
+973: Fraction 4455/3757 - 1
+974: Fraction 4321/3116 - 1
+975: Fraction 3555/2568 - 1
+976: Fraction 4048/3785 - 1
+977: Fraction 3848/3831 - 1
+978: Fraction 4924/4918 - 1
+979: Fraction 4488/4332 - 1
+980: Fraction 2501/2178 - 1
+981: Fraction 3981/2674 - 1
+982: Fraction 2129/1465 - 1
+983: Fraction 4797/3177 - 1
+984: Fraction 3046/1560 - 1
+985: Fraction 4719/3487 - 1
+986: Fraction 4487/2829 - 1
+987: Fraction 4795/4620 - 1
+988: Fraction 1720/1070 - 1
+989: Fraction 869/475 - 1
+990: Fraction 4474/4338 - 1
+991: Fraction 4554/2802 - 1
+992: Fraction 4461/3073 - 1
+993: Fraction 1835/1352 - 1
+994: Fraction 1825/1571 - 1
+995: Fraction 3178/1673 - 1
+996: Fraction 4889/4861 - 1
+997: Fraction 4315/2194 - 1
+998: Fraction 2253/1616 - 1
+999: Fraction 3543/1980 - 1
+1000: Fraction 3640/2129 - 1
+1001: Fraction 4085/2933 - 1
+1002: Fraction 4176/3075 - 1
+1003: Fraction 1441/870 - 1
+1004: Fraction 3586/2233 - 1
+1005: Fraction 4272/2266 - 1
+1006: Fraction 3119/3050 - 1
+1007: Fraction 2467/1304 - 1
+1008: Fraction 2191/1989 - 1
+1009: Fraction 1507/1402 - 1
+1010: Fraction 4939/3602 - 1
+1011: Fraction 2154/1098 - 1
+1012: Fraction 4530/3844 - 1
+1013: Fraction 4272/2890 - 1
+1014: Fraction 2533/1920 - 1
+1015: Fraction 4270/4124 - 1
+1016: Fraction 3122/2918 - 1
+1017: Fraction 4814/3556 - 1
+1018: Fraction 4607/4506 - 1
+1019: Fraction 4373/2295 - 1
+1020: Fraction 4000/2006 - 1
+1021: Fraction 3185/3027 - 1
+1022: Fraction 866/638 - 1
+1023: Fraction 4743/3441 - 1
+1024: Fraction 4435/4231 - 1
+1025: Fraction 2555/2265 - 1
+1026: Fraction 2427/1414 - 1
+1027: Fraction 2116/1635 - 1
+1028: Fraction 4693/3174 - 1
+1029: Fraction 4858/3889 - 1
+1030: Fraction 4509/2750 - 1
+1031: Fraction 3586/3221 - 1
+1032: Fraction 4543/4221 - 1
+1033: Fraction 3853/2555 - 1
+1034: Fraction 2881/2768 - 1
+1035: Fraction 4249/3830 - 1
+1036: Fraction 3827/2605 - 1
+1037: Fraction 1764/1272 - 1
+1038: Fraction 4657/2619 - 1
+1039: Fraction 4348/2314 - 1
+1040: Fraction 3095/2907 - 1
+1041: Fraction 4575/4213 - 1
+1042: Fraction 4250/2435 - 1
+1043: Fraction 3957/2691 - 1
+1044: Fraction 4787/4626 - 1
+1045: Fraction 4951/2632 - 1
+1046: Fraction 4962/3935 - 1
+1047: Fraction 3679/3006 - 1
+1048: Fraction 3536/3393 - 1
+1049: Fraction 4954/4158 - 1
+1050: Fraction 3133/3131 - 1
+1051: Fraction 4644/2436 - 1
+1052: Fraction 4184/2247 - 1
+1053: Fraction 1023/958 - 1
+1054: Fraction 2877/2239 - 1
+1055: Fraction 3794/3311 - 1
+1056: Fraction 4578/3731 - 1
+1057: Fraction 2570/2494 - 1
+1058: Fraction 4795/2925 - 1
+1059: Fraction 4586/3018 - 1
+1060: Fraction 3734/3195 - 1
+1061: Fraction 3957/2788 - 1
+1062: Fraction 1698/1149 - 1
+1063: Fraction 3561/2795 - 1
+1064: Fraction 2948/2640 - 1
+1065: Fraction 4098/3092 - 1
+1066: Fraction 3430/2075 - 1
+1067: Fraction 2866/1708 - 1
+1068: Fraction 4744/3253 - 1
+1069: Fraction 1258/672 - 1
+1070: Fraction 3794/2610 - 1
+1071: Fraction 4140/3708 - 1
+1072: Fraction 2208/1194 - 1
+1073: Fraction 3459/2620 - 1
+1074: Fraction 2326/1646 - 1
+1075: Fraction 3533/2330 - 1
+1076: Fraction 4135/3012 - 1
+1077: Fraction 3908/2800 - 1
+1078: Fraction 3151/1588 - 1
+1079: Fraction 4909/3336 - 1
+1080: Fraction 3243/2731 - 1
+1081: Fraction 3036/1635 - 1
+1082: Fraction 1977/1479 - 1
+1083: Fraction 3390/1952 - 1
+1084: Fraction 3811/2599 - 1
+1085: Fraction 4802/3341 - 1
+1086: Fraction 4345/3010 - 1
+1087: Fraction 3454/2809 - 1
+1088: Fraction 4257/2718 - 1
+1089: Fraction 52/47 - 1
+1090: Fraction 4922/2833 - 1
+1091: Fraction 4649/4322 - 1
+1092: Fraction 4741/4275 - 1
+1093: Fraction 2642/2136 - 1
+1094: Fraction 4274/4148 - 1
+1095: Fraction 2649/1538 - 1
+1096: Fraction 3485/3183 - 1
+1097: Fraction 2920/2079 - 1
+1098: Fraction 2131/1231 - 1
+1099: Fraction 2869/1733 - 1
+1100: Fraction 1271/657 - 1
+1101: Fraction 3241/2625 - 1
+1102: Fraction 2570/1590 - 1
+1103: Fraction 4666/2541 - 1
+1104: Fraction 2444/1568 - 1
+1105: Fraction 3576/1977 - 1
+1106: Fraction 4433/3369 - 1
+1107: Fraction 4187/2710 - 1
+1108: Fraction 4691/3356 - 1
+1109: Fraction 4770/4136 - 1
+1110: Fraction 3476/3145 - 1
+1111: Fraction 1462/1004 - 1
+1112: Fraction 3662/2220 - 1
+1113: Fraction 2715/1569 - 1
+1114: Fraction 2777/1908 - 1
+1115: Fraction 1207/1187 - 1
+1116: Fraction 3905/3339 - 1
+1117: Fraction 4688/4140 - 1
+1118: Fraction 4401/3205 - 1
+1119: Fraction 4666/2912 - 1
+1120: Fraction 3209/1718 - 1
+1121: Fraction 4307/3022 - 1
+1122: Fraction 4470/3197 - 1
+1123: Fraction 4978/4782 - 1
+1124: Fraction 1148/844 - 1
+1125: Fraction 4834/3593 - 1
+1126: Fraction 1061/656 - 1
+1127: Fraction 3351/2200 - 1
+1128: Fraction 4971/3212 - 1
+1129: Fraction 677/527 - 1
+1130: Fraction 3112/2188 - 1
+1131: Fraction 3820/2601 - 1
+1132: Fraction 4143/2743 - 1
+1133: Fraction 2966/2648 - 1
+1134: Fraction 2409/1344 - 1
+1135: Fraction 2170/1925 - 1
+1136: Fraction 4418/2239 - 1
+1137: Fraction 2537/1781 - 1
+1138: Fraction 513/480 - 1
+1139: Fraction 3595/3516 - 1
+1140: Fraction 3679/2438 - 1
+1141: Fraction 1639/1613 - 1
+1142: Fraction 3879/2406 - 1
+1143: Fraction 3568/2436 - 1
+1144: Fraction 2635/2628 - 1
+1145: Fraction 4811/4207 - 1
+1146: Fraction 4776/2545 - 1
+1147: Fraction 2203/1517 - 1
+1148: Fraction 3020/1613 - 1
+1149: Fraction 3585/3431 - 1
+1150: Fraction 4645/3091 - 1
+1151: Fraction 4533/2331 - 1
+1152: Fraction 3621/2208 - 1
+1153: Fraction 1323/971 - 1
+1154: Fraction 4196/2517 - 1
+1155: Fraction 3691/2808 - 1
+1156: Fraction 2940/1606 - 1
+1157: Fraction 3283/2090 - 1
+1158: Fraction 3718/2128 - 1
+1159: Fraction 3390/3229 - 1
+1160: Fraction 1033/949 - 1
+1161: Fraction 4613/3040 - 1
+1162: Fraction 2398/1479 - 1
+1163: Fraction 3477/1927 - 1
+1164: Fraction 4264/2134 - 1
+1165: Fraction 3464/2436 - 1
+1166: Fraction 3889/2016 - 1
+1167: Fraction 4418/3889 - 1
+1168: Fraction 2347/2195 - 1
+1169: Fraction 4803/4067 - 1
+1170: Fraction 4878/3542 - 1
+1171: Fraction 3886/3299 - 1
+1172: Fraction 3718/2171 - 1
+1173: Fraction 1177/740 - 1
+1174: Fraction 3560/2804 - 1
+1175: Fraction 3643/2123 - 1
+1176: Fraction 3785/2729 - 1
+1177: Fraction 4307/2928 - 1
+1178: Fraction 2587/2298 - 1
+1179: Fraction 3130/2119 - 1
+1180: Fraction 3591/2718 - 1
+1181: Fraction 4760/3942 - 1
+1182: Fraction 3918/3281 - 1
+1183: Fraction 2919/1673 - 1
+1184: Fraction 3578/3189 - 1
+1185: Fraction 2201/1929 - 1
+1186: Fraction 2297/2180 - 1
+1187: Fraction 177/110 - 1
+1188: Fraction 3890/3465 - 1
+1189: Fraction 1555/1490 - 1
+1190: Fraction 3182/1689 - 1
+1191: Fraction 1702/1618 - 1
+1192: Fraction 4310/3804 - 1
+1193: Fraction 3034/2747 - 1
+1194: Fraction 4506/4491 - 1
+1195: Fraction 1249/718 - 1
+1196: Fraction 3086/2974 - 1
+1197: Fraction 2272/1904 - 1
+1198: Fraction 3902/2608 - 1
+1199: Fraction 4511/4449 - 1
+1200: Fraction 4483/3082 - 1
+1201: Fraction 1480/1258 - 1
+1202: Fraction 4761/3708 - 1
+1203: Fraction 1641/923 - 1
+1204: Fraction 3676/2470 - 1
+1205: Fraction 4145/3064 - 1
+1206: Fraction 4095/3788 - 1
+1207: Fraction 4996/3696 - 1
+1208: Fraction 3785/2336 - 1
+1209: Fraction 2648/1332 - 1
+1210: Fraction 2022/1590 - 1
+1211: Fraction 2618/1904 - 1
+1212: Fraction 1443/796 - 1
+1213: Fraction 3514/2797 - 1
+1214: Fraction 4961/4960 - 1
+1215: Fraction 2727/1552 - 1
+1216: Fraction 4426/4029 - 1
+1217: Fraction 4688/2950 - 1
+1218: Fraction 1513/1021 - 1
+1219: Fraction 2313/1923 - 1
+1220: Fraction 3649/3434 - 1
+1221: Fraction 1564/1040 - 1
+1222: Fraction 3836/3648 - 1
+1223: Fraction 3122/2284 - 1
+1224: Fraction 740/702 - 1
+1225: Fraction 1223/696 - 1
+1226: Fraction 2639/2343 - 1
+1227: Fraction 3172/2588 - 1
+1228: Fraction 978/925 - 1
+1229: Fraction 4224/3643 - 1
+1230: Fraction 548/546 - 1
+1231: Fraction 3570/2944 - 1
+1232: Fraction 2587/1332 - 1
+1233: Fraction 1663/1241 - 1
+1234: Fraction 3366/1718 - 1
+1235: Fraction 2993/1877 - 1
+1236: Fraction 4765/4645 - 1
+1237: Fraction 2061/1104 - 1
+1238: Fraction 2004/783 - 2
+1239: Fraction 4457/2001 - 2
+1240: Fraction 4038/1762 - 2
+1241: Fraction 961/430 - 2
+1242: Fraction 4659/2188 - 2
+1243: Fraction 2200/829 - 2
+1244: Fraction 3560/1524 - 2
+1245: Fraction 4793/2182 - 2
+1246: Fraction 4672/2136 - 2
+1247: Fraction 2369/1054 - 2
+1248: Fraction 2387/1095 - 2
+1249: Fraction 3032/1053 - 2
+1250: Fraction 2985/1162 - 2
+1251: Fraction 4694/1899 - 2
+1252: Fraction 1283/531 - 2
+1253: Fraction 3234/1246 - 2
+1254: Fraction 2893/1149 - 2
+1255: Fraction 4522/2141 - 2
+1256: Fraction 1455/584 - 2
+1257: Fraction 2598/1237 - 2
+1258: Fraction 2132/904 - 2
+1259: Fraction 2822/1189 - 2
+1260: Fraction 4414/1584 - 2
+1261: Fraction 4075/1404 - 2
+1262: Fraction 3309/1180 - 2
+1263: Fraction 3378/1489 - 2
+1264: Fraction 4768/2195 - 2
+1265: Fraction 3834/1823 - 2
+1266: Fraction 4335/1969 - 2
+1267: Fraction 2132/771 - 2
+1268: Fraction 2874/1107 - 2
+1269: Fraction 2784/951 - 2
+1270: Fraction 4216/1578 - 2
+1271: Fraction 3589/1511 - 2
+1272: Fraction 3488/1266 - 2
+1273: Fraction 279/128 - 2
+1274: Fraction 4931/2116 - 2
+1275: Fraction 2654/910 - 2
+1276: Fraction 1949/809 - 2
+1277: Fraction 4732/1695 - 2
+1278: Fraction 4692/2345 - 2
+1279: Fraction 1202/582 - 2
+1280: Fraction 4485/1506 - 2
+1281: Fraction 677/267 - 2
+1282: Fraction 4042/1820 - 2
+1283: Fraction 4326/1770 - 2
+1284: Fraction 1580/736 - 2
+1285: Fraction 1804/890 - 2
+1286: Fraction 2447/1208 - 2
+1287: Fraction 4190/1578 - 2
+1288: Fraction 3893/1734 - 2
+1289: Fraction 4576/2164 - 2
+1290: Fraction 3266/1599 - 2
+1291: Fraction 4970/2223 - 2
+1292: Fraction 4964/1683 - 2
+1293: Fraction 4140/1878 - 2
+1294: Fraction 4718/1992 - 2
+1295: Fraction 4116/1881 - 2
+1296: Fraction 2017/844 - 2
+1297: Fraction 3777/1368 - 2
+1298: Fraction 4339/1530 - 2
+1299: Fraction 970/328 - 2
+1300: Fraction 788/292 - 2
+1301: Fraction 1191/499 - 2
+1302: Fraction 801/310 - 2
+1303: Fraction 1882/647 - 2
+1304: Fraction 3578/1517 - 2
+1305: Fraction 2197/960 - 2
+1306: Fraction 3077/1496 - 2
+1307: Fraction 4180/1407 - 2
+1308: Fraction 3028/1434 - 2
+1309: Fraction 3721/1476 - 2
+1310: Fraction 2612/1049 - 2
+1311: Fraction 1519/671 - 2
+1312: Fraction 1237/438 - 2
+1313: Fraction 4072/1674 - 2
+1314: Fraction 3637/1286 - 2
+1315: Fraction 4393/2061 - 2
+1316: Fraction 2949/1179 - 2
+1317: Fraction 3789/1533 - 2
+1318: Fraction 3960/1766 - 2
+1319: Fraction 2521/1099 - 2
+1320: Fraction 3363/1380 - 2
+1321: Fraction 2953/1295 - 2
+1322: Fraction 2035/715 - 2
+1323: Fraction 3929/1360 - 2
+1324: Fraction 2546/1230 - 2
+1325: Fraction 3632/1275 - 2
+1326: Fraction 4221/1503 - 2
+1327: Fraction 4132/2001 - 2
+1328: Fraction 4869/2072 - 2
+1329: Fraction 3655/1536 - 2
+1330: Fraction 4460/1601 - 2
+1331: Fraction 3815/1862 - 2
+1332: Fraction 4862/2327 - 2
+1333: Fraction 2398/901 - 2
+1334: Fraction 4570/2256 - 2
+1335: Fraction 3932/1812 - 2
+1336: Fraction 3944/1343 - 2
+1337: Fraction 4674/1763 - 2
+1338: Fraction 3930/1585 - 2
+1339: Fraction 4252/1671 - 2
+1340: Fraction 4021/1386 - 2
+1341: Fraction 4294/1576 - 2
+1342: Fraction 350/148 - 2
+1343: Fraction 2408/852 - 2
+1344: Fraction 3751/1648 - 2
+1345: Fraction 3139/1358 - 2
+1346: Fraction 587/219 - 2
+1347: Fraction 2867/1265 - 2
+1348: Fraction 2773/1122 - 2
+1349: Fraction 1654/786 - 2
+1350: Fraction 3244/1178 - 2
+1351: Fraction 4006/1555 - 2
+1352: Fraction 3648/1791 - 2
+1353: Fraction 2032/825 - 2
+1354: Fraction 1635/665 - 2
+1355: Fraction 3143/1077 - 2
+1356: Fraction 2537/955 - 2
+1357: Fraction 1957/688 - 2
+1358: Fraction 4992/2385 - 2
+1359: Fraction 4131/1821 - 2
+1360: Fraction 1443/544 - 2
+1361: Fraction 1658/687 - 2
+1362: Fraction 2002/696 - 2
+1363: Fraction 3928/1366 - 2
+1364: Fraction 4158/2045 - 2
+1365: Fraction 3347/1414 - 2
+1366: Fraction 1715/573 - 2
+1367: Fraction 4322/1559 - 2
+1368: Fraction 4703/1834 - 2
+1369: Fraction 3024/1113 - 2
+1370: Fraction 4644/1720 - 2
+1371: Fraction 3295/1377 - 2
+1372: Fraction 4885/1989 - 2
+1373: Fraction 4074/1903 - 2
+1374: Fraction 3194/1148 - 2
+1375: Fraction 3330/1146 - 2
+1376: Fraction 1177/497 - 2
+1377: Fraction 3442/1275 - 2
+1378: Fraction 4539/1745 - 2
+1379: Fraction 3711/1798 - 2
+1380: Fraction 1673/760 - 2
+1381: Fraction 2241/937 - 2
+1382: Fraction 4282/1679 - 2
+1383: Fraction 2152/865 - 2
+1384: Fraction 4494/1944 - 2
+1385: Fraction 3187/1434 - 2
+1386: Fraction 2888/1180 - 2
+1387: Fraction 3490/1684 - 2
+1388: Fraction 3763/1675 - 2
+1389: Fraction 1808/556 - 3
+1390: Fraction 2517/785 - 3
+1391: Fraction 4632/1165 - 3
+1392: Fraction 2955/945 - 3
+1393: Fraction 3341/1054 - 3
+1394: Fraction 1628/503 - 3
+1395: Fraction 4016/1011 - 3
+1396: Fraction 3648/930 - 3
+1397: Fraction 560/158 - 3
+1398: Fraction 3969/1082 - 3
+1399: Fraction 4076/1134 - 3
+1400: Fraction 2002/564 - 3
+1401: Fraction 1425/378 - 3
+1402: Fraction 3386/998 - 3
+1403: Fraction 1803/596 - 3
+1404: Fraction 512/142 - 3
+1405: Fraction 2148/706 - 3
+1406: Fraction 4898/1368 - 3
+1407: Fraction 1717/567 - 3
+1408: Fraction 4367/1455 - 3
+1409: Fraction 4759/1498 - 3
+1410: Fraction 4921/1287 - 3
+1411: Fraction 3144/818 - 3
+1412: Fraction 4208/1228 - 3
+1413: Fraction 578/158 - 3
+1414: Fraction 1029/293 - 3
+1415: Fraction 4791/1311 - 3
+1416: Fraction 4465/1212 - 3
+1417: Fraction 3087/803 - 3
+1418: Fraction 1369/444 - 3
+1419: Fraction 2166/650 - 3
+1420: Fraction 3338/1091 - 3
+1421: Fraction 3902/1272 - 3
+1422: Fraction 1431/388 - 3
+1423: Fraction 3548/1138 - 3
+1424: Fraction 4137/1126 - 3
+1425: Fraction 2265/620 - 3
+1426: Fraction 4595/1491 - 3
+1427: Fraction 3658/934 - 3
+1428: Fraction 4524/1204 - 3
+1429: Fraction 4085/1344 - 3
+1430: Fraction 4680/1511 - 3
+1431: Fraction 1984/582 - 3
+1432: Fraction 2040/610 - 3
+1433: Fraction 2575/796 - 3
+1434: Fraction 2377/665 - 3
+1435: Fraction 4195/1159 - 3
+1436: Fraction 2560/811 - 3
+1437: Fraction 4045/1153 - 3
+1438: Fraction 2419/738 - 3
+1439: Fraction 3532/991 - 3
+1440: Fraction 3193/928 - 3
+1441: Fraction 4886/1350 - 3
+1442: Fraction 2039/591 - 3
+1443: Fraction 2525/664 - 3
+1444: Fraction 2815/803 - 3
+1445: Fraction 3051/1001 - 3
+1446: Fraction 1674/464 - 3
+1447: Fraction 4864/1274 - 3
+1448: Fraction 919/268 - 3
+1449: Fraction 4568/1224 - 3
+1450: Fraction 2614/855 - 3
+1451: Fraction 1130/361 - 3
+1452: Fraction 4253/1356 - 3
+1453: Fraction 4222/1396 - 3
+1454: Fraction 4508/1433 - 3
+1455: Fraction 4393/1134 - 3
+1456: Fraction 4117/1312 - 3
+1457: Fraction 3801/1165 - 3
+1458: Fraction 2328/637 - 3
+1459: Fraction 1459/484 - 3
+1460: Fraction 4692/1497 - 3
+1461: Fraction 2816/767 - 3
+1462: Fraction 4454/1417 - 3
+1463: Fraction 3066/951 - 3
+1464: Fraction 968/260 - 3
+1465: Fraction 4055/1186 - 3
+1466: Fraction 2621/674 - 3
+1467: Fraction 2422/679 - 3
+1468: Fraction 4818/1411 - 3
+1469: Fraction 4544/1428 - 3
+1470: Fraction 3611/1102 - 3
+1471: Fraction 2033/519 - 3
+1472: Fraction 4458/1405 - 3
+1473: Fraction 3034/708 - 4
+1474: Fraction 4853/1191 - 4
+1475: Fraction 2945/680 - 4
+1476: Fraction 3736/787 - 4
+1477: Fraction 4815/1058 - 4
+1478: Fraction 4723/1176 - 4
+1479: Fraction 4551/934 - 4
+1480: Fraction 3596/805 - 4
+1481: Fraction 3147/745 - 4
+1482: Fraction 4718/1107 - 4
+1483: Fraction 3754/917 - 4
+1484: Fraction 3138/679 - 4
+1485: Fraction 3868/782 - 4
+1486: Fraction 1980/467 - 4
+1487: Fraction 3616/754 - 4
+1488: Fraction 4145/857 - 4
+1489: Fraction 2602/559 - 4
+1490: Fraction 4919/1074 - 4
+1491: Fraction 4354/1066 - 4
+1492: Fraction 3390/833 - 4
+1493: Fraction 1363/310 - 4
+1494: Fraction 4537/1011 - 4
+1495: Fraction 4867/1127 - 4
+1496: Fraction 880/188 - 4
+1497: Fraction 1610/339 - 4
+1498: Fraction 4530/930 - 4
+1499: Fraction 4118/954 - 4
+1500: Fraction 4096/947 - 4
+1501: Fraction 1853/412 - 4
+1502: Fraction 2399/593 - 4
+1503: Fraction 2681/638 - 4
+1504: Fraction 3185/676 - 4
+1505: Fraction 1706/343 - 4
+1506: Fraction 3780/916 - 4
+1507: Fraction 2864/612 - 4
+1508: Fraction 4340/1043 - 4
+1509: Fraction 3890/841 - 4
+1510: Fraction 2631/570 - 4
+1511: Fraction 785/191 - 4
+1512: Fraction 574/123 - 4
+1513: Fraction 4688/866 - 5
+1514: Fraction 3747/630 - 5
+1515: Fraction 2317/462 - 5
+1516: Fraction 3921/750 - 5
+1517: Fraction 3751/693 - 5
+1518: Fraction 654/110 - 5
+1519: Fraction 2211/405 - 5
+1520: Fraction 3647/631 - 5
+1521: Fraction 2064/394 - 5
+1522: Fraction 3286/562 - 5
+1523: Fraction 4527/806 - 5
+1524: Fraction 3121/571 - 5
+1525: Fraction 3499/662 - 5
+1526: Fraction 1318/239 - 5
+1527: Fraction 4322/846 - 5
+1528: Fraction 3198/628 - 5
+1529: Fraction 4692/830 - 5
+1530: Fraction 4774/886 - 5
+1531: Fraction 4300/826 - 5
+1532: Fraction 1918/339 - 5
+1533: Fraction 3359/664 - 5
+1534: Fraction 3241/587 - 5
+1535: Fraction 3055/535 - 5
+1536: Fraction 3236/539 - 6
+1537: Fraction 3071/504 - 6
+1538: Fraction 2229/338 - 6
+1539: Fraction 4233/621 - 6
+1540: Fraction 2213/345 - 6
+1541: Fraction 2221/345 - 6
+1542: Coorinates (2925, 6) - 6
+1543: Fraction 3448/559 - 6
+1544: Fraction 4848/732 - 6
+1545: Fraction 1874/270 - 6
+1546: Fraction 4327/696 - 6
+1547: Fraction 3086/468 - 6
+1548: Fraction 4864/792 - 6
+1549: Fraction 1832/277 - 6
+1550: Fraction 4281/710 - 6
+1551: Fraction 2028/314 - 6
+1552: Fraction 4727/703 - 6
+1553: Fraction 3733/475 - 7
+1554: Fraction 1346/187 - 7
+1555: Fraction 3437/448 - 7
+1556: Fraction 2454/349 - 7
+1557: Fraction 4235/544 - 7
+1558: Fraction 4211/575 - 7
+1559: Fraction 3901/493 - 7
+1560: Fraction 3839/513 - 7
+1561: Fraction 2623/373 - 7
+1562: Fraction 2785/360 - 7
+1563: Fraction 1154/159 - 7
+1564: Fraction 4229/577 - 7
+1565: Fraction 4202/550 - 7
+1566: Fraction 4790/552 - 8
+1567: Fraction 3890/448 - 8
+1568: Fraction 1585/177 - 8
+1569: Fraction 4969/580 - 8
+1570: Fraction 4705/576 - 8
+1571: Fraction 2399/270 - 8
+1572: Fraction 4320/521 - 8
+1573: Fraction 3133/382 - 8
+1574: Fraction 1348/152 - 8
+1575: Fraction 3982/453 - 8
+1576: Fraction 2834/350 - 8
+1577: Fraction 3853/474 - 8
+1578: Fraction 4463/487 - 9
+1579: Fraction 4458/459 - 9
+1580: Fraction 3876/405 - 9
+1581: Fraction 2299/241 - 9
+1582: Fraction 4905/483 - 10
+1583: Fraction 4689/437 - 10
+1584: Fraction 774/71 - 10
+1585: Fraction 1667/161 - 10
+1586: Fraction 1174/110 - 10
+1587: Fraction 3853/366 - 10
+1588: Fraction 2161/215 - 10
+1589: Fraction 804/69 - 11
+1590: Fraction 1723/153 - 11
+1591: Fraction 3955/312 - 12
+1592: Fraction 3960/316 - 12
+1593: Fraction 4605/365 - 12
+1594: Fraction 4999/385 - 12
+1595: Fraction 3241/266 - 12
+1596: Fraction 4746/348 - 13
+1597: Fraction 4812/356 - 13
+1598: Fraction 1835/136 - 13
+1599: Fraction 1342/101 - 13
+1600: Fraction 4486/332 - 13
+1601: Fraction 2377/175 - 13
+1602: Fraction 2162/150 - 14
+1603: Fraction 4438/297 - 14
+1604: Fraction 3840/258 - 14
+1605: Fraction 2561/173 - 14
+1606: Fraction 4205/285 - 14
+1607: Fraction 2992/210 - 14
+1608: Fraction 2890/183 - 15
+1609: Fraction 4574/297 - 15
+1610: Fraction 3773/243 - 15
+1611: Fraction 2986/188 - 15
+1612: Coorinates (3582, 16) - 16
+1613: Fraction 4710/287 - 16
+1614: Fraction 4225/244 - 17
+1615: Coorinates (321, 17) - 17
+1616: Fraction 1118/65 - 17
+1617: Fraction 4565/255 - 17
+1618: Fraction 4005/231 - 17
+1619: Fraction 3772/211 - 17
+1620: Fraction 4831/264 - 18
+1621: Fraction 4937/272 - 18
+1622: Fraction 3992/206 - 19
+1623: Fraction 4952/252 - 19
+1624: Fraction 3541/186 - 19
+1625: Fraction 2396/116 - 20
+1626: Fraction 3531/165 - 21
+1627: Coorinates (2098, 22) - 22
+1628: Fraction 2977/126 - 23
+1629: Fraction 3703/160 - 23
+1630: Fraction 2176/91 - 23
+1631: Fraction 4528/195 - 23
+1632: Fraction 4448/175 - 25
+1633: Fraction 4600/179 - 25
+1634: Fraction 4874/183 - 26
+1635: Coorinates (820, 26) - 26
+1636: Coorinates (4650, 26) - 26
+1637: Fraction 1741/60 - 29
+1638: Fraction 1318/43 - 30
+1639: Coorinates (1960, 32) - 32
+1640: Fraction 3130/94 - 33
+1641: Coorinates (2893, 34) - 34
+1642: Coorinates (3490, 34) - 34
+1643: Fraction 4370/124 - 35
+1644: Coorinates (4443, 35) - 35
+1645: Coorinates (4410, 36) - 36
+1646: Coorinates (4904, 39) - 39
+1647: Coorinates (1143, 39) - 39
+1648: Complex number (53, 27) - 42
+1649: Fraction 482/11 - 43
+1650: Fraction 3140/67 - 46
+1651: Coorinates (2394, 48) - 48
+1652: Coorinates (2221, 50) - 50
+1653: Fraction 3011/59 - 51
+1654: Fraction 4225/80 - 52
+1655: Coorinates (3413, 52) - 52
+1656: Fraction 4905/92 - 53
+1657: Fraction 4995/93 - 53
+1658: Coorinates (50, 57) - 57
+1659: Complex number (55, 61) - 58
+1660: Fraction 3884/66 - 58
+1661: Fraction 4699/77 - 61
+1662: Fraction 3048/46 - 66
+1663: Coorinates (3341, 69) - 69
+1664: Coorinates (642, 70) - 70
+1665: Coorinates (2865, 74) - 74
+1666: Coorinates (2094, 74) - 74
+1667: Fraction 2664/30 - 88
+1668: Coorinates (87, 92) - 92
+1669: Coorinates (4818, 93) - 93
+1670: Coorinates (2022, 96) - 96
+1671: Coorinates (2288, 100) - 100
+1672: Coorinates (2068, 103) - 103
+1673: Coorinates (2635, 103) - 103
+1674: Coorinates (3179, 104) - 104
+1675: Coorinates (2172, 104) - 104
+1676: Coorinates (2809, 105) - 105
+1677: Coorinates (2677, 110) - 110
+1678: Fraction 1740/15 - 116
+1679: Coorinates (2456, 120) - 120
+1680: Coorinates (909, 120) - 120
+1681: Coorinates (570, 122) - 122
+1682: Coorinates (2953, 126) - 126
+1683: Coorinates (4893, 128) - 128
+1684: Coorinates (501, 128) - 128
+1685: Coorinates (649, 130) - 130
+1686: Coorinates (2276, 133) - 133
+1687: Fraction 2313/17 - 136
+1688: Coorinates (3437, 137) - 137
+1689: Coorinates (2412, 143) - 143
+1690: Coorinates (1241, 143) - 143
+1691: Coorinates (615, 146) - 146
+1692: Coorinates (1018, 148) - 148
+1693: Fraction 4165/28 - 148
+1694: Coorinates (4190, 152) - 152
+1695: Coorinates (2323, 158) - 158
+1696: Coorinates (3176, 159) - 159
+1697: Coorinates (2389, 160) - 160
+1698: Complex number (89, 210) - 161
+1699: Coorinates (4807, 163) - 163
+1700: Coorinates (317, 164) - 164
+1701: Coorinates (2993, 165) - 165
+1702: Coorinates (2742, 166) - 166
+1703: Coorinates (1749, 169) - 169
+1704: Coorinates (4761, 170) - 170
+1705: Complex number (107, 225) - 176
+1706: Coorinates (4766, 178) - 178
+1707: Coorinates (4110, 178) - 178
+1708: Coorinates (2976, 179) - 179
+1709: Coorinates (1287, 181) - 181
+1710: Coorinates (3545, 181) - 181
+1711: Coorinates (3167, 184) - 184
+1712: Coorinates (4066, 186) - 186
+1713: Coorinates (227, 188) - 188
+1714: Coorinates (4875, 190) - 190
+1715: Coorinates (1107, 195) - 195
+1716: Coorinates (3694, 198) - 198
+1717: Coorinates (2456, 201) - 201
+1718: Coorinates (4581, 203) - 203
+1719: Coorinates (1404, 208) - 208
+1720: Complex number (292, 41) - 208
+1721: Coorinates (491, 210) - 210
+1722: Coorinates (4939, 210) - 210
+1723: Coorinates (302, 212) - 212
+1724: Coorinates (422, 216) - 216
+1725: Fraction 4156/19 - 218
+1726: Coorinates (3641, 219) - 219
+1727: Coorinates (4690, 222) - 222
+1728: Coorinates (2471, 225) - 225
+1729: Complex number (308, 94) - 227
+1730: Coorinates (877, 227) - 227
+1731: Coorinates (658, 231) - 231
+1732: Complex number (198, 270) - 236
+1733: Coorinates (4600, 236) - 236
+1734: Coorinates (3467, 242) - 242
+1735: Complex number (342, 13) - 242
+1736: Complex number (130, 321) - 244
+1737: Coorinates (3837, 250) - 250
+1738: Coorinates (104, 251) - 251
+1739: Coorinates (1369, 251) - 251
+1740: Coorinates (1008, 252) - 252
+1741: Coorinates (508, 254) - 254
+1742: Coorinates (2938, 254) - 254
+1743: Coorinates (131, 254) - 254
+1744: Coorinates (789, 259) - 259
+1745: Coorinates (3898, 260) - 260
+1746: Complex number (359, 102) - 263
+1747: Coorinates (2217, 267) - 267
+1748: Coorinates (2807, 272) - 272
+1749: Coorinates (4851, 283) - 283
+1750: Coorinates (749, 284) - 284
+1751: Coorinates (1046, 288) - 288
+1752: Coorinates (3417, 289) - 289
+1753: Coorinates (2719, 290) - 290
+1754: Coorinates (4247, 292) - 292
+1755: Coorinates (4616, 298) - 298
+1756: Coorinates (3714, 299) - 299
+1757: Coorinates (1743, 299) - 299
+1758: Coorinates (606, 304) - 304
+1759: Coorinates (4952, 304) - 304
+1760: Fraction 3668/12 - 305
+1761: Complex number (220, 379) - 309
+1762: Complex number (32, 439) - 311
+1763: Coorinates (1930, 325) - 325
+1764: Coorinates (1671, 326) - 326
+1765: Complex number (466, 67) - 332
+1766: Coorinates (1899, 332) - 332
+1767: Coorinates (4802, 334) - 334
+1768: Coorinates (4840, 337) - 337
+1769: Complex number (383, 285) - 337
+1770: Coorinates (189, 337) - 337
+1771: Coorinates (2452, 340) - 340
+1772: Coorinates (1508, 347) - 347
+1773: Coorinates (1023, 349) - 349
+1774: Coorinates (3710, 349) - 349
+1775: Complex number (337, 365) - 351
+1776: Fraction 2118/6 - 353
+1777: Coorinates (2869, 358) - 358
+1778: Coorinates (15, 361) - 361
+1779: Coorinates (496, 363) - 363
+1780: Coorinates (3581, 367) - 367
+1781: Complex number (500, 162) - 371
+1782: Complex number (166, 501) - 373
+1783: Complex number (471, 252) - 377
+1784: Coorinates (940, 377) - 377
+1785: Coorinates (4637, 381) - 381
+1786: Complex number (315, 442) - 383
+1787: Coorinates (3954, 384) - 384
+1788: Coorinates (1598, 392) - 392
+1789: Coorinates (2711, 402) - 402
+1790: Coorinates (1654, 405) - 405
+1791: Coorinates (2235, 407) - 407
+1792: Coorinates (2885, 413) - 413
+1793: Coorinates (4272, 414) - 414
+1794: Complex number (566, 163) - 416
+1795: Coorinates (228, 417) - 417
+1796: Coorinates (1571, 418) - 418
+1797: Coorinates (3408, 420) - 420
+1798: Coorinates (1167, 423) - 423
+1799: Coorinates (4218, 426) - 426
+1800: Coorinates (3666, 427) - 427
+1801: Coorinates (4306, 431) - 431
+1802: Coorinates (3994, 437) - 437
+1803: Coorinates (2920, 439) - 439
+1804: Coorinates (2952, 441) - 441
+1805: Coorinates (1447, 443) - 443
+1806: Complex number (243, 579) - 444
+1807: Coorinates (1262, 445) - 445
+1808: Coorinates (179, 445) - 445
+1809: Coorinates (3155, 447) - 447
+1810: Complex number (191, 610) - 451
+1811: Coorinates (1014, 452) - 452
+1812: Coorinates (2983, 454) - 454
+1813: Coorinates (1460, 455) - 455
+1814: Coorinates (3155, 456) - 456
+1815: Complex number (603, 244) - 459
+1816: Coorinates (2583, 459) - 459
+1817: Complex number (644, 125) - 463
+1818: Coorinates (1276, 465) - 465
+1819: Coorinates (743, 467) - 467
+1820: Coorinates (4857, 468) - 468
+1821: Coorinates (2359, 475) - 475
+1822: Coorinates (648, 478) - 478
+1823: Coorinates (4759, 478) - 478
+1824: Coorinates (4647, 478) - 478
+1825: Coorinates (2278, 488) - 488
+1826: Coorinates (975, 488) - 488
+1827: Coorinates (2415, 490) - 490
+1828: Coorinates (1105, 494) - 494
+1829: Complex number (690, 122) - 495
+1830: Coorinates (422, 495) - 495
+1831: Coorinates (1121, 496) - 496
+1832: Complex number (428, 560) - 498
+1833: Coorinates (3568, 499) - 499
+1834: Coorinates (329, 503) - 503
+1835: Coorinates (786, 507) - 507
+1836: Coorinates (3659, 509) - 509
+1837: Coorinates (2398, 511) - 511
+1838: Coorinates (716, 512) - 512
+1839: Complex number (497, 534) - 515
+1840: Coorinates (4716, 516) - 516
+1841: Coorinates (4700, 519) - 519
+1842: Coorinates (1827, 522) - 522
+1843: Complex number (321, 668) - 524
+1844: Coorinates (2139, 526) - 526
+1845: Coorinates (1483, 529) - 529
+1846: Complex number (572, 485) - 530
+1847: Coorinates (3837, 532) - 532
+1848: Coorinates (1626, 533) - 533
+1849: Coorinates (1039, 536) - 536
+1850: Complex number (116, 757) - 541
+1851: Coorinates (4456, 542) - 542
+1852: Coorinates (2280, 543) - 543
+1853: Coorinates (4602, 543) - 543
+1854: Coorinates (4994, 544) - 544
+1855: Coorinates (3373, 548) - 548
+1856: Coorinates (4532, 550) - 550
+1857: Coorinates (267, 551) - 551
+1858: Complex number (761, 188) - 554
+1859: Complex number (590, 521) - 556
+1860: Complex number (667, 421) - 557
+1861: Coorinates (4761, 566) - 566
+1862: Coorinates (778, 567) - 567
+1863: Complex number (785, 177) - 569
+1864: Coorinates (473, 569) - 569
+1865: Coorinates (2133, 572) - 572
+1866: Complex number (630, 515) - 575
+1867: Coorinates (3610, 577) - 577
+1868: Complex number (292, 770) - 582
+1869: Coorinates (4625, 583) - 583
+1870: Coorinates (1964, 583) - 583
+1871: Coorinates (3334, 583) - 583
+1872: Coorinates (259, 588) - 588
+1873: Coorinates (34, 590) - 590
+1874: Coorinates (1715, 590) - 590
+1875: Coorinates (841, 594) - 594
+1876: Coorinates (663, 594) - 594
+1877: Complex number (179, 823) - 595
+1878: Coorinates (2613, 596) - 596
+1879: Coorinates (4944, 606) - 606
+1880: Coorinates (3785, 606) - 606
+1881: Coorinates (2675, 608) - 608
+1882: Coorinates (1875, 610) - 610
+1883: Coorinates (2600, 612) - 612
+1884: Complex number (699, 511) - 612
+1885: Coorinates (1530, 612) - 612
+1886: Coorinates (577, 614) - 614
+1887: Complex number (865, 97) - 615
+1888: Coorinates (231, 619) - 619
+1889: Coorinates (1744, 624) - 624
+1890: Complex number (230, 857) - 627
+1891: Complex number (847, 302) - 635
+1892: Coorinates (1767, 638) - 638
+1893: Coorinates (278, 639) - 639
+1894: Complex number (425, 803) - 642
+1895: Complex number (876, 255) - 645
+1896: Coorinates (3227, 647) - 647
+1897: Coorinates (1736, 648) - 648
+1898: Coorinates (2852, 654) - 654
+1899: Coorinates (4605, 654) - 654
+1900: Coorinates (524, 657) - 657
+1901: Coorinates (2526, 659) - 659
+1902: Coorinates (3565, 660) - 660
+1903: Coorinates (557, 665) - 665
+1904: Coorinates (1465, 666) - 666
+1905: Coorinates (1549, 667) - 667
+1906: Complex number (194, 926) - 668
+1907: Coorinates (182, 669) - 669
+1908: Complex number (666, 674) - 670
+1909: Coorinates (2601, 674) - 674
+1910: Complex number (252, 923) - 676
+1911: Coorinates (3170, 682) - 682
+1912: Complex number (847, 468) - 684
+1913: Complex number (966, 142) - 690
+1914: Coorinates (4908, 694) - 694
+1915: Coorinates (2277, 698) - 698
+1916: Complex number (256, 959) - 701
+1917: Complex number (806, 586) - 704
+1918: Coorinates (2275, 705) - 705
+1919: Coorinates (214, 706) - 706
+1920: Complex number (992, 151) - 709
+1921: Coorinates (4961, 709) - 709
+1922: Coorinates (4262, 710) - 710
+1923: Coorinates (1646, 714) - 714
+1924: Coorinates (970, 716) - 716
+1925: Coorinates (2065, 719) - 719
+1926: Coorinates (1670, 720) - 720
+1927: Coorinates (1240, 721) - 721
+1928: Coorinates (2821, 722) - 722
+1929: Complex number (829, 598) - 722
+1930: Coorinates (19, 722) - 722
+1931: Coorinates (1669, 722) - 722
+1932: Coorinates (969, 724) - 724
+1933: Coorinates (3360, 726) - 726
+1934: Coorinates (1988, 727) - 727
+1935: Complex number (1032, 14) - 729
+1936: Complex number (824, 631) - 733
+1937: Complex number (744, 725) - 734
+1938: Coorinates (3069, 737) - 737
+1939: Coorinates (4829, 739) - 739
+1940: Coorinates (2895, 741) - 741
+1941: Coorinates (3636, 741) - 741
+1942: Coorinates (4980, 744) - 744
+1943: Coorinates (2796, 745) - 745
+1944: Coorinates (2881, 751) - 751
+1945: Coorinates (1181, 752) - 752
+1946: Coorinates (3161, 753) - 753
+1947: Coorinates (4296, 753) - 753
+1948: Coorinates (4660, 755) - 755
+1949: Complex number (16, 1073) - 758
+1950: Complex number (305, 1028) - 758
+1951: Coorinates (2509, 759) - 759
+1952: Coorinates (4819, 760) - 760
+1953: Complex number (434, 996) - 768
+1954: Coorinates (2979, 769) - 769
+1955: Complex number (1009, 408) - 769
+1956: Coorinates (450, 770) - 770
+1957: Coorinates (2990, 771) - 771
+1958: Coorinates (2887, 777) - 777
+1959: Coorinates (3074, 779) - 779
+1960: Coorinates (3729, 780) - 780
+1961: Coorinates (2247, 781) - 781
+1962: Coorinates (2250, 784) - 784
+1963: Coorinates (3825, 784) - 784
+1964: Complex number (1086, 252) - 788
+1965: Coorinates (2621, 795) - 795
+1966: Coorinates (1233, 798) - 798
+1967: Coorinates (1541, 800) - 800
+1968: Complex number (1130, 70) - 800
+1969: Coorinates (1216, 803) - 803
+1970: Coorinates (3424, 812) - 812
+1971: Coorinates (1369, 813) - 813
+1972: Coorinates (3787, 813) - 813
+1973: Complex number (1149, 76) - 814
+1974: Coorinates (4628, 814) - 814
+1975: Coorinates (4548, 815) - 815
+1976: Coorinates (4346, 816) - 816
+1977: Coorinates (3935, 817) - 817
+1978: Coorinates (3725, 820) - 820
+1979: Complex number (558, 1018) - 820
+1980: Complex number (711, 926) - 825
+1981: Coorinates (2953, 827) - 827
+1982: Coorinates (424, 828) - 828
+1983: Coorinates (2846, 830) - 830
+1984: Coorinates (1006, 836) - 836
+1985: Coorinates (3205, 838) - 838
+1986: Coorinates (2344, 839) - 839
+1987: Complex number (1081, 495) - 840
+1988: Coorinates (225, 846) - 846
+1989: Coorinates (2129, 848) - 848
+1990: Coorinates (2412, 848) - 848
+1991: Complex number (1201, 78) - 851
+1992: Coorinates (501, 854) - 854
+1993: Complex number (595, 1057) - 857
+1994: Complex number (1046, 615) - 858
+1995: Complex number (1170, 327) - 859
+1996: Coorinates (2370, 860) - 860
+1997: Coorinates (2268, 862) - 862
+1998: Coorinates (2995, 865) - 865
+1999: Coorinates (2046, 866) - 866
+2000: Coorinates (4319, 867) - 867
+2001: Coorinates (4384, 867) - 867
+2002: Complex number (533, 1107) - 868
+2003: Coorinates (2499, 870) - 870
+2004: Complex number (130, 1224) - 870
+2005: Coorinates (3764, 872) - 872
+2006: Complex number (749, 982) - 873
+2007: Coorinates (1936, 873) - 873
+2008: Coorinates (1817, 875) - 875
+2009: Complex number (361, 1184) - 875
+2010: Coorinates (4779, 876) - 876
+2011: Coorinates (223, 877) - 877
+2012: Complex number (1086, 601) - 877
+2013: Coorinates (1517, 877) - 877
+2014: Complex number (964, 786) - 879
+2015: Complex number (1220, 247) - 880
+2016: Coorinates (4753, 880) - 880
+2017: Coorinates (398, 880) - 880
+2018: Coorinates (2421, 880) - 880
+2019: Coorinates (2399, 881) - 881
+2020: Complex number (990, 759) - 882
+2021: Complex number (1182, 410) - 884
+2022: Coorinates (3094, 884) - 884
+2023: Coorinates (3750, 889) - 889
+2024: Coorinates (300, 891) - 891
+2025: Coorinates (2019, 891) - 891
+2026: Complex number (619, 1100) - 892
+2027: Complex number (1231, 282) - 892
+2028: Coorinates (4852, 894) - 894
+2029: Complex number (1258, 146) - 895
+2030: Complex number (172, 1265) - 902
+2031: Complex number (231, 1263) - 907
+2032: Coorinates (4943, 910) - 910
+2033: Coorinates (272, 911) - 911
+2034: Coorinates (3805, 911) - 911
+2035: Coorinates (2290, 918) - 918
+2036: Complex number (610, 1148) - 919
+2037: Complex number (1163, 585) - 920
+2038: Coorinates (37, 920) - 920
+2039: Coorinates (4040, 925) - 925
+2040: Coorinates (2769, 926) - 926
+2041: Complex number (679, 1130) - 932
+2042: Coorinates (2349, 932) - 932
+2043: Coorinates (3094, 938) - 938
+2044: Complex number (1027, 843) - 939
+2045: Complex number (366, 1281) - 942
+2046: Coorinates (1622, 946) - 946
+2047: Complex number (107, 1335) - 947
+2048: Coorinates (4921, 948) - 948
+2049: Coorinates (2798, 948) - 948
+2050: Complex number (1343, 29) - 949
+2051: Coorinates (2437, 950) - 950
+2052: Coorinates (2160, 951) - 951
+2053: Coorinates (3931, 957) - 957
+2054: Complex number (684, 1177) - 962
+2055: Complex number (845, 1075) - 966
+2056: Coorinates (4541, 966) - 966
+2057: Coorinates (4189, 967) - 967
+2058: Coorinates (1, 970) - 970
+2059: Coorinates (2279, 972) - 972
+2060: Complex number (750, 1155) - 973
+2061: Coorinates (1348, 977) - 977
+2062: Coorinates (476, 977) - 977
+2063: Coorinates (3887, 979) - 979
+2064: Complex number (191, 1372) - 979
+2065: Coorinates (3196, 980) - 980
+2066: Coorinates (3226, 982) - 982
+2067: Complex number (1261, 590) - 984
+2068: Coorinates (3239, 984) - 984
+2069: Complex number (686, 1214) - 986
+2070: Complex number (870, 1090) - 986
+2071: Coorinates (3591, 988) - 988
+2072: Coorinates (2581, 991) - 991
+2073: Complex number (1354, 379) - 994
+2074: Coorinates (1775, 995) - 995
+2075: Coorinates (1438, 998) - 998
+2076: Complex number (378, 1360) - 998
+2077: Coorinates (3425, 999) - 999
+2078: Complex number (1406, 141) - 999
+2079: Complex number (1406, 170) - 1001
+2080: Coorinates (435, 1002) - 1002
+2081: Coorinates (2768, 1003) - 1003
+2082: Complex number (191, 1409) - 1005
+2083: Coorinates (4420, 1007) - 1007
+2084: Coorinates (1525, 1007) - 1007
+2085: Coorinates (2666, 1008) - 1008
+2086: Complex number (509, 1332) - 1008
+2087: Coorinates (1060, 1009) - 1009
+2088: Coorinates (27, 1016) - 1016
+2089: Coorinates (1787, 1017) - 1017
+2090: Coorinates (4449, 1021) - 1021
+2091: Coorinates (4836, 1022) - 1022
+2092: Coorinates (1006, 1024) - 1024
+2093: Coorinates (2049, 1027) - 1027
+2094: Complex number (92, 1452) - 1028
+2095: Coorinates (4494, 1029) - 1029
+2096: Complex number (1408, 374) - 1030
+2097: Coorinates (4701, 1033) - 1033
+2098: Coorinates (4970, 1036) - 1036
+2099: Coorinates (3906, 1038) - 1038
+2100: Coorinates (2481, 1039) - 1039
+2101: Complex number (383, 1421) - 1040
+2102: Coorinates (2447, 1044) - 1044
+2103: Complex number (1343, 620) - 1045
+2104: Coorinates (550, 1047) - 1047
+2105: Coorinates (1744, 1048) - 1048
+2106: Coorinates (1157, 1050) - 1050
+2107: Complex number (1200, 881) - 1052
+2108: Complex number (899, 1189) - 1054
+2109: Coorinates (1269, 1059) - 1059
+2110: Coorinates (194, 1059) - 1059
+2111: Coorinates (1926, 1061) - 1061
+2112: Coorinates (3224, 1063) - 1063
+2113: Coorinates (3625, 1068) - 1068
+2114: Coorinates (3315, 1069) - 1069
+2115: Coorinates (3281, 1069) - 1069
+2116: Coorinates (468, 1072) - 1072
+2117: Coorinates (3043, 1076) - 1076
+2118: Complex number (1461, 432) - 1077
+2119: Complex number (885, 1242) - 1078
+2120: Coorinates (64, 1078) - 1078
+2121: Coorinates (4679, 1080) - 1080
+2122: Complex number (284, 1505) - 1082
+2123: Coorinates (3641, 1083) - 1083
+2124: Complex number (1527, 237) - 1092
+2125: Coorinates (2069, 1093) - 1093
+2126: Coorinates (2513, 1095) - 1095
+2127: Complex number (1279, 874) - 1095
+2128: Coorinates (4150, 1097) - 1097
+2129: Complex number (1417, 636) - 1098
+2130: Coorinates (4641, 1099) - 1099
+2131: Coorinates (4479, 1100) - 1100
+2132: Complex number (552, 1455) - 1100
+2133: Complex number (455, 1488) - 1100
+2134: Coorinates (4153, 1101) - 1101
+2135: Complex number (1549, 172) - 1102
+2136: Complex number (911, 1268) - 1104
+2137: Complex number (1536, 290) - 1105
+2138: Coorinates (1607, 1106) - 1106
+2139: Coorinates (1517, 1107) - 1107
+2140: Coorinates (1040, 1107) - 1107
+2141: Coorinates (2914, 1107) - 1107
+2142: Complex number (974, 1232) - 1110
+2143: Coorinates (564, 1114) - 1114
+2144: Coorinates (3563, 1114) - 1114
+2145: Complex number (1360, 802) - 1116
+2146: Coorinates (2491, 1121) - 1121
+2147: Coorinates (4749, 1127) - 1127
+2148: Coorinates (3095, 1128) - 1128
+2149: Complex number (1592, 152) - 1130
+2150: Coorinates (2929, 1132) - 1132
+2151: Coorinates (376, 1133) - 1133
+2152: Coorinates (4945, 1137) - 1137
+2153: Complex number (567, 1507) - 1138
+2154: Coorinates (3188, 1140) - 1140
+2155: Complex number (1593, 278) - 1143
+2156: Complex number (983, 1284) - 1143
+2157: Complex number (962, 1305) - 1146
+2158: Coorinates (3739, 1146) - 1146
+2159: Complex number (726, 1451) - 1147
+2160: Coorinates (4618, 1149) - 1149
+2161: Coorinates (2179, 1149) - 1149
+2162: Coorinates (4142, 1151) - 1151
+2163: Coorinates (511, 1152) - 1152
+2164: Coorinates (1439, 1153) - 1153
+2165: Complex number (554, 1535) - 1153
+2166: Complex number (880, 1380) - 1157
+2167: Complex number (671, 1493) - 1157
+2168: Coorinates (3552, 1159) - 1159
+2169: Complex number (1485, 698) - 1160
+2170: Coorinates (1833, 1161) - 1161
+2171: Coorinates (4022, 1165) - 1165
+2172: Coorinates (4896, 1166) - 1166
+2173: Complex number (1636, 213) - 1166
+2174: Complex number (527, 1564) - 1167
+2175: Coorinates (4149, 1168) - 1168
+2176: Coorinates (4973, 1168) - 1168
+2177: Coorinates (4769, 1170) - 1170
+2178: Coorinates (2085, 1176) - 1176
+2179: Complex number (1123, 1234) - 1179
+2180: Complex number (1381, 937) - 1180
+2181: Complex number (1672, 79) - 1183
+2182: Coorinates (3947, 1184) - 1184
+2183: Complex number (1636, 362) - 1184
+2184: Coorinates (720, 1185) - 1185
+2185: Complex number (1401, 927) - 1187
+2186: Coorinates (546, 1187) - 1187
+2187: Complex number (900, 1421) - 1189
+2188: Complex number (24, 1683) - 1190
+2189: Complex number (1411, 920) - 1191
+2190: Complex number (1610, 500) - 1192
+2191: Coorinates (3520, 1193) - 1193
+2192: Coorinates (791, 1194) - 1194
+2193: Coorinates (696, 1196) - 1196
+2194: Coorinates (2950, 1197) - 1197
+2195: Complex number (285, 1672) - 1199
+2196: Complex number (744, 1528) - 1201
+2197: Coorinates (337, 1207) - 1207
+2198: Complex number (1693, 238) - 1208
+2199: Complex number (1467, 886) - 1211
+2200: Coorinates (2853, 1211) - 1211
+2201: Complex number (1696, 246) - 1211
+2202: Complex number (1519, 799) - 1213
+2203: Complex number (1381, 1024) - 1215
+2204: Coorinates (3936, 1216) - 1216
+2205: Complex number (1692, 316) - 1217
+2206: Complex number (1708, 231) - 1218
+2207: Complex number (521, 1644) - 1219
+2208: Coorinates (1803, 1223) - 1223
+2209: Coorinates (2800, 1223) - 1223
+2210: Complex number (1554, 765) - 1224
+2211: Complex number (1534, 802) - 1224
+2212: Complex number (1320, 1126) - 1226
+2213: Coorinates (1118, 1226) - 1226
+2214: Coorinates (4392, 1226) - 1226
+2215: Coorinates (3668, 1227) - 1227
+2216: Complex number (1234, 1221) - 1227
+2217: Coorinates (1074, 1229) - 1229
+2218: Coorinates (777, 1229) - 1229
+2219: Coorinates (2883, 1230) - 1230
+2220: Coorinates (1698, 1233) - 1233
+2221: Complex number (99, 1746) - 1236
+2222: Coorinates (2715, 1238) - 1238
+2223: Coorinates (1521, 1238) - 1238
+2224: Coorinates (1624, 1238) - 1238
+2225: Complex number (1390, 1073) - 1241
+2226: Coorinates (340, 1242) - 1242
+2227: Complex number (446, 1701) - 1243
+2228: Complex number (753, 1591) - 1244
+2229: Coorinates (2543, 1246) - 1246
+2230: Complex number (1172, 1318) - 1247
+2231: Coorinates (2255, 1247) - 1247
+2232: Coorinates (4078, 1248) - 1248
+2233: Coorinates (1004, 1248) - 1248
+2234: Complex number (13, 1766) - 1248
+2235: Coorinates (2066, 1251) - 1251
+2236: Coorinates (4082, 1253) - 1253
+2237: Complex number (1311, 1200) - 1256
+2238: Coorinates (302, 1256) - 1256
+2239: Complex number (534, 1698) - 1258
+2240: Coorinates (4564, 1259) - 1259
+2241: Coorinates (1452, 1261) - 1261
+2242: Coorinates (792, 1262) - 1262
+2243: Coorinates (459, 1264) - 1264
+2244: Coorinates (4991, 1267) - 1267
+2245: Coorinates (1861, 1268) - 1268
+2246: Coorinates (740, 1269) - 1269
+2247: Complex number (628, 1682) - 1269
+2248: Complex number (556, 1711) - 1272
+2249: Coorinates (942, 1273) - 1273
+2250: Complex number (1776, 310) - 1274
+2251: Complex number (1776, 317) - 1275
+2252: Complex number (1804, 2) - 1275
+2253: Complex number (1664, 695) - 1275
+2254: Coorinates (281, 1276) - 1276
+2255: Complex number (83, 1805) - 1277
+2256: Complex number (1809, 105) - 1281
+2257: Complex number (297, 1791) - 1283
+2258: Complex number (1196, 1374) - 1288
+2259: Coorinates (373, 1288) - 1288
+2260: Coorinates (3064, 1293) - 1293
+2261: Coorinates (756, 1294) - 1294
+2262: Complex number (1827, 120) - 1294
+2263: Coorinates (1814, 1298) - 1298
+2264: Coorinates (386, 1299) - 1299
+2265: Coorinates (2886, 1300) - 1300
+2266: Complex number (1741, 595) - 1300
+2267: Coorinates (3990, 1302) - 1302
+2268: Complex number (1261, 1347) - 1304
+2269: Coorinates (2131, 1305) - 1305
+2270: Complex number (1359, 1252) - 1306
+2271: Complex number (1625, 883) - 1307
+2272: Complex number (12, 1851) - 1308
+2273: Complex number (1817, 363) - 1310
+2274: Coorinates (2830, 1310) - 1310
+2275: Coorinates (1201, 1314) - 1314
+2276: Complex number (1506, 1105) - 1320
+2277: Coorinates (4005, 1323) - 1323
+2278: Complex number (947, 1615) - 1323
+2279: Complex number (1738, 709) - 1327
+2280: Complex number (1603, 980) - 1328
+2281: Coorinates (2636, 1328) - 1328
+2282: Coorinates (2959, 1329) - 1329
+2283: Coorinates (2842, 1329) - 1329
+2284: Complex number (1876, 160) - 1331
+2285: Complex number (1755, 686) - 1332
+2286: Coorinates (1608, 1336) - 1336
+2287: Coorinates (3532, 1338) - 1338
+2288: Coorinates (2474, 1338) - 1338
+2289: Coorinates (3994, 1340) - 1340
+2290: Complex number (1342, 1340) - 1341
+2291: Complex number (1830, 511) - 1343
+2292: Complex number (1186, 1489) - 1346
+2293: Complex number (1751, 751) - 1347
+2294: Complex number (1711, 838) - 1347
+2295: Coorinates (4901, 1348) - 1348
+2296: Complex number (149, 1903) - 1349
+2297: Complex number (1816, 601) - 1352
+2298: Coorinates (1589, 1353) - 1353
+2299: Coorinates (3725, 1354) - 1354
+2300: Complex number (1915, 109) - 1356
+2301: Coorinates (1560, 1359) - 1359
+2302: Complex number (1558, 1131) - 1361
+2303: Coorinates (1963, 1365) - 1365
+2304: Coorinates (271, 1366) - 1366
+2305: Coorinates (1212, 1367) - 1367
+2306: Complex number (1798, 717) - 1368
+2307: Coorinates (110, 1370) - 1370
+2308: Coorinates (4448, 1373) - 1373
+2309: Complex number (619, 1841) - 1373
+2310: Complex number (1288, 1456) - 1374
+2311: Complex number (1867, 548) - 1375
+2312: Coorinates (326, 1375) - 1375
+2313: Complex number (1841, 637) - 1377
+2314: Coorinates (699, 1377) - 1377
+2315: Coorinates (4145, 1381) - 1381
+2316: Complex number (1932, 286) - 1381
+2317: Complex number (1768, 855) - 1388
+2318: Coorinates (171, 1389) - 1389
+2319: Complex number (1821, 738) - 1389
+2320: Coorinates (4275, 1392) - 1392
+2321: Coorinates (78, 1395) - 1395
+2322: Complex number (1716, 983) - 1398
+2323: Coorinates (3438, 1400) - 1400
+2324: Coorinates (1489, 1400) - 1400
+2325: Coorinates (1043, 1403) - 1403
+2326: Coorinates (4446, 1404) - 1404
+2327: Complex number (1883, 647) - 1407
+2328: Complex number (47, 1991) - 1408
+2329: Coorinates (2189, 1410) - 1410
+2330: Coorinates (3175, 1411) - 1411
+2331: Complex number (1881, 668) - 1411
+2332: Coorinates (4366, 1412) - 1412
+2333: Complex number (1012, 1722) - 1412
+2334: Complex number (360, 1968) - 1414
+2335: Coorinates (4547, 1415) - 1415
+2336: Coorinates (2284, 1415) - 1415
+2337: Complex number (1768, 941) - 1416
+2338: Coorinates (498, 1417) - 1417
+2339: Complex number (185, 1996) - 1417
+2340: Complex number (1744, 991) - 1418
+2341: Complex number (1157, 1643) - 1420
+2342: Complex number (1307, 1526) - 1420
+2343: Complex number (684, 1889) - 1420
+2344: Coorinates (1809, 1421) - 1421
+2345: Complex number (1939, 547) - 1424
+2346: Complex number (836, 1834) - 1425
+2347: Coorinates (1565, 1427) - 1427
+2348: Coorinates (500, 1427) - 1427
+2349: Coorinates (69, 1427) - 1427
+2350: Coorinates (3552, 1427) - 1427
+2351: Coorinates (1931, 1429) - 1429
+2352: Complex number (1962, 491) - 1430
+2353: Complex number (2019, 163) - 1432
+2354: Coorinates (2499, 1434) - 1434
+2355: Coorinates (2679, 1434) - 1434
+2356: Coorinates (646, 1434) - 1434
+2357: Coorinates (4161, 1435) - 1435
+2358: Coorinates (2056, 1435) - 1435
+2359: Complex number (1971, 505) - 1438
+2360: Complex number (13, 2037) - 1440
+2361: Complex number (1389, 1495) - 1442
+2362: Complex number (119, 2037) - 1442
+2363: Coorinates (2987, 1442) - 1442
+2364: Coorinates (1759, 1446) - 1446
+2365: Coorinates (1216, 1447) - 1447
+2366: Coorinates (2227, 1450) - 1450
+2367: Coorinates (2630, 1450) - 1450
+2368: Coorinates (4603, 1450) - 1450
+2369: Coorinates (267, 1450) - 1450
+2370: Complex number (27, 2053) - 1451
+2371: Coorinates (3244, 1452) - 1452
+2372: Coorinates (1785, 1454) - 1454
+2373: Coorinates (2099, 1454) - 1454
+2374: Coorinates (519, 1455) - 1455
+2375: Coorinates (4973, 1456) - 1456
+2376: Complex number (1913, 766) - 1457
+2377: Complex number (563, 1983) - 1457
+2378: Complex number (2062, 55) - 1458
+2379: Coorinates (1746, 1458) - 1458
+2380: Coorinates (4865, 1461) - 1461
+2381: Complex number (458, 2019) - 1463
+2382: Complex number (280, 2051) - 1463
+2383: Complex number (1145, 1724) - 1463
+2384: Coorinates (3541, 1464) - 1464
+2385: Coorinates (2749, 1464) - 1464
+2386: Coorinates (1220, 1465) - 1465
+2387: Complex number (170, 2067) - 1466
+2388: Coorinates (2872, 1470) - 1470
+2389: Coorinates (2805, 1473) - 1473
+2390: Coorinates (1780, 1479) - 1479
+2391: Coorinates (2559, 1485) - 1485
+2392: Complex number (2090, 223) - 1486
+2393: Complex number (2027, 573) - 1489
+2394: Complex number (1507, 1472) - 1489
+2395: Complex number (577, 2028) - 1490
+2396: Coorinates (1261, 1491) - 1491
+2397: Complex number (826, 1942) - 1492
+2398: Complex number (1473, 1513) - 1493
+2399: Coorinates (1061, 1494) - 1494
+2400: Coorinates (3115, 1495) - 1495
+2401: Complex number (1410, 1577) - 1495
+2402: Complex number (448, 2070) - 1497
+2403: Coorinates (2124, 1497) - 1497
+2404: Coorinates (513, 1501) - 1501
+2405: Complex number (776, 1977) - 1501
+2406: Complex number (1980, 769) - 1501
+2407: Coorinates (2379, 1502) - 1502
+2408: Complex number (2094, 391) - 1506
+2409: Complex number (2129, 71) - 1506
+2410: Coorinates (3285, 1508) - 1508
+2411: Coorinates (518, 1508) - 1508
+2412: Coorinates (2966, 1509) - 1509
+2413: Coorinates (2198, 1509) - 1509
+2414: Complex number (1543, 1480) - 1511
+2415: Complex number (1830, 1114) - 1514
+2416: Complex number (558, 2069) - 1515
+2417: Complex number (1874, 1041) - 1515
+2418: Coorinates (1315, 1517) - 1517
+2419: Coorinates (3354, 1518) - 1518
+2420: Coorinates (2581, 1525) - 1525
+2421: Coorinates (2610, 1527) - 1527
+2422: Coorinates (3108, 1528) - 1528
+2423: Complex number (262, 2147) - 1529
+2424: Complex number (42, 2164) - 1530
+2425: Coorinates (4138, 1534) - 1534
+2426: Complex number (1081, 1882) - 1534
+2427: Complex number (16, 2172) - 1535
+2428: Complex number (2127, 434) - 1535
+2429: Coorinates (2716, 1535) - 1535
+2430: Complex number (1048, 1903) - 1536
+2431: Coorinates (158, 1538) - 1538
+2432: Complex number (1399, 1667) - 1538
+2433: Complex number (2038, 761) - 1538
+2434: Complex number (1488, 1590) - 1539
+2435: Coorinates (4547, 1540) - 1540
+2436: Coorinates (2207, 1540) - 1540
+2437: Coorinates (4044, 1542) - 1542
+2438: Complex number (1777, 1271) - 1544
+2439: Complex number (2112, 564) - 1545
+2440: Coorinates (4083, 1548) - 1548
+2441: Coorinates (702, 1549) - 1549
+2442: Complex number (516, 2132) - 1551
+2443: Complex number (1655, 1447) - 1554
+2444: Complex number (1503, 1604) - 1554
+2445: Complex number (1806, 1257) - 1555
+2446: Coorinates (2058, 1556) - 1556
+2447: Complex number (1427, 1681) - 1559
+2448: Coorinates (4716, 1561) - 1561
+2449: Complex number (350, 2187) - 1566
+2450: Coorinates (467, 1567) - 1567
+2451: Coorinates (432, 1570) - 1570
+2452: Coorinates (3861, 1576) - 1576
+2453: Coorinates (519, 1576) - 1576
+2454: Coorinates (2272, 1576) - 1576
+2455: Coorinates (3868, 1585) - 1585
+2456: Complex number (1799, 1343) - 1587
+2457: Coorinates (2605, 1588) - 1588
+2458: Coorinates (1583, 1590) - 1590
+2459: Complex number (1798, 1352) - 1590
+2460: Complex number (865, 2083) - 1594
+2461: Complex number (2255, 61) - 1595
+2462: Coorinates (1191, 1595) - 1595
+2463: Coorinates (3846, 1600) - 1600
+2464: Complex number (235, 2252) - 1601
+2465: Coorinates (2491, 1602) - 1602
+2466: Complex number (2268, 170) - 1608
+2467: Coorinates (2857, 1608) - 1608
+2468: Coorinates (3183, 1612) - 1612
+2469: Complex number (919, 2095) - 1617
+2470: Coorinates (4861, 1617) - 1617
+2471: Complex number (390, 2256) - 1618
+2472: Complex number (1756, 1470) - 1619
+2473: Complex number (2283, 184) - 1619
+2474: Coorinates (489, 1620) - 1620
+2475: Complex number (2256, 441) - 1625
+2476: Complex number (1391, 1831) - 1625
+2477: Coorinates (474, 1627) - 1627
+2478: Complex number (2273, 369) - 1628
+2479: Coorinates (863, 1630) - 1630
+2480: Complex number (881, 2132) - 1631
+2481: Coorinates (4202, 1631) - 1631
+2482: Complex number (1483, 1767) - 1631
+2483: Complex number (1846, 1386) - 1632
+2484: Coorinates (600, 1633) - 1633
+2485: Complex number (1713, 1550) - 1633
+2486: Coorinates (3718, 1634) - 1634
+2487: Complex number (986, 2094) - 1636
+2488: Complex number (1221, 1971) - 1639
+2489: Complex number (2128, 920) - 1639
+2490: Complex number (2015, 1152) - 1641
+2491: Complex number (1627, 1663) - 1645
+2492: Complex number (2330, 38) - 1647
+2493: Coorinates (4238, 1648) - 1648
+2494: Coorinates (329, 1649) - 1649
+2495: Complex number (1756, 1537) - 1650
+2496: Coorinates (2449, 1653) - 1653
+2497: Complex number (1553, 1749) - 1653
+2498: Complex number (2257, 630) - 1656
+2499: Complex number (1811, 1485) - 1656
+2500: Complex number (1292, 1957) - 1658
+2501: Coorinates (1499, 1662) - 1662
+2502: Complex number (2119, 1032) - 1666
+2503: Coorinates (3535, 1667) - 1667
+2504: Coorinates (2746, 1669) - 1669
+2505: Complex number (1521, 1809) - 1671
+2506: Coorinates (4966, 1671) - 1671
+2507: Coorinates (2479, 1672) - 1672
+2508: Coorinates (1704, 1672) - 1672
+2509: Complex number (2264, 694) - 1674
+2510: Coorinates (2691, 1674) - 1674
+2511: Complex number (2198, 886) - 1675
+2512: Coorinates (451, 1676) - 1676
+2513: Complex number (2340, 401) - 1678
+2514: Coorinates (4, 1678) - 1678
+2515: Coorinates (2010, 1678) - 1678
+2516: Coorinates (781, 1680) - 1680
+2517: Complex number (822, 2233) - 1682
+2518: Complex number (2380, 127) - 1685
+2519: Complex number (951, 2186) - 1685
+2520: Coorinates (1149, 1686) - 1686
+2521: Coorinates (838, 1690) - 1690
+2522: Coorinates (4487, 1691) - 1691
+2523: Coorinates (2946, 1691) - 1691
+2524: Complex number (2165, 1022) - 1692
+2525: Complex number (1360, 1971) - 1693
+2526: Complex number (1162, 2096) - 1694
+2527: Coorinates (3513, 1695) - 1695
+2528: Complex number (2011, 1311) - 1697
+2529: Complex number (2401, 76) - 1698
+2530: Coorinates (706, 1698) - 1698
+2531: Coorinates (397, 1699) - 1699
+2532: Coorinates (695, 1701) - 1701
+2533: Coorinates (3913, 1701) - 1701
+2534: Complex number (561, 2345) - 1704
+2535: Complex number (2413, 39) - 1706
+2536: Coorinates (3294, 1706) - 1706
+2537: Coorinates (1566, 1706) - 1706
+2538: Complex number (2204, 994) - 1709
+2539: Coorinates (1102, 1711) - 1711
+2540: Coorinates (3398, 1713) - 1713
+2541: Coorinates (3934, 1713) - 1713
+2542: Coorinates (2716, 1714) - 1714
+2543: Complex number (2025, 1337) - 1715
+2544: Complex number (1224, 2095) - 1715
+2545: Complex number (2428, 63) - 1717
+2546: Coorinates (1799, 1719) - 1719
+2547: Coorinates (4493, 1720) - 1720
+2548: Complex number (1226, 2104) - 1721
+2549: Complex number (2386, 497) - 1723
+2550: Complex number (2369, 571) - 1723
+2551: Complex number (2360, 613) - 1724
+2552: Coorinates (2622, 1726) - 1726
+2553: Complex number (2219, 1021) - 1727
+2554: Coorinates (3298, 1728) - 1728
+2555: Coorinates (770, 1729) - 1729
+2556: Complex number (776, 2320) - 1729
+2557: Coorinates (47, 1731) - 1731
+2558: Complex number (2398, 493) - 1731
+2559: Coorinates (3683, 1732) - 1732
+2560: Complex number (143, 2448) - 1733
+2561: Coorinates (923, 1735) - 1735
+2562: Coorinates (1362, 1737) - 1737
+2563: Coorinates (1531, 1738) - 1738
+2564: Coorinates (3902, 1739) - 1739
+2565: Coorinates (1453, 1741) - 1741
+2566: Coorinates (2622, 1741) - 1741
+2567: Complex number (604, 2392) - 1744
+2568: Complex number (1843, 1642) - 1745
+2569: Complex number (202, 2462) - 1746
+2570: Coorinates (1269, 1746) - 1746
+2571: Coorinates (1539, 1747) - 1747
+2572: Coorinates (308, 1750) - 1750
+2573: Coorinates (3860, 1751) - 1751
+2574: Complex number (483, 2433) - 1753
+2575: Complex number (2119, 1288) - 1753
+2576: Coorinates (296, 1754) - 1754
+2577: Complex number (929, 2303) - 1755
+2578: Complex number (475, 2437) - 1755
+2579: Complex number (549, 2427) - 1759
+2580: Complex number (1019, 2272) - 1760
+2581: Coorinates (1840, 1761) - 1761
+2582: Coorinates (1348, 1762) - 1762
+2583: Complex number (2470, 331) - 1762
+2584: Coorinates (2847, 1765) - 1765
+2585: Coorinates (709, 1765) - 1765
+2586: Coorinates (539, 1767) - 1767
+2587: Complex number (2485, 269) - 1767
+2588: Complex number (2047, 1435) - 1767
+2589: Coorinates (1909, 1768) - 1768
+2590: Complex number (2471, 397) - 1769
+2591: Complex number (522, 2449) - 1770
+2592: Complex number (1332, 2122) - 1771
+2593: Coorinates (783, 1772) - 1772
+2594: Complex number (444, 2471) - 1775
+2595: Complex number (513, 2463) - 1778
+2596: Complex number (2433, 642) - 1779
+2597: Coorinates (3821, 1782) - 1782
+2598: Coorinates (374, 1783) - 1783
+2599: Complex number (1535, 2004) - 1784
+2600: Coorinates (2480, 1784) - 1784
+2601: Coorinates (461, 1786) - 1786
+2602: Complex number (979, 2331) - 1787
+2603: Coorinates (4773, 1787) - 1787
+2604: Complex number (849, 2382) - 1788
+2605: Complex number (2102, 1417) - 1792
+2606: Complex number (2532, 154) - 1793
+2607: Coorinates (470, 1794) - 1794
+2608: Complex number (101, 2540) - 1797
+2609: Coorinates (3269, 1800) - 1800
+2610: Coorinates (3556, 1801) - 1801
+2611: Complex number (1651, 1940) - 1801
+2612: Coorinates (2655, 1802) - 1802
+2613: Complex number (2407, 838) - 1802
+2614: Coorinates (3776, 1802) - 1802
+2615: Coorinates (3698, 1804) - 1804
+2616: Coorinates (4674, 1804) - 1804
+2617: Complex number (1093, 2309) - 1806
+2618: Coorinates (944, 1809) - 1809
+2619: Complex number (728, 2454) - 1809
+2620: Complex number (2294, 1138) - 1810
+2621: Complex number (1930, 1686) - 1812
+2622: Complex number (2558, 153) - 1812
+2623: Complex number (1852, 1774) - 1813
+2624: Coorinates (4332, 1813) - 1813
+2625: Complex number (1586, 2019) - 1815
+2626: Complex number (2199, 1327) - 1816
+2627: Complex number (2253, 1240) - 1818
+2628: Complex number (2337, 1076) - 1819
+2629: Coorinates (1922, 1820) - 1820
+2630: Coorinates (3057, 1822) - 1822
+2631: Complex number (2569, 239) - 1824
+2632: Complex number (2581, 33) - 1825
+2633: Complex number (570, 2520) - 1826
+2634: Complex number (876, 2435) - 1829
+2635: Coorinates (3172, 1829) - 1829
+2636: Complex number (1551, 2070) - 1829
+2637: Coorinates (4703, 1833) - 1833
+2638: Complex number (705, 2497) - 1834
+2639: Complex number (2111, 1509) - 1834
+2640: Complex number (1441, 2158) - 1834
+2641: Coorinates (4269, 1837) - 1837
+2642: Complex number (2418, 954) - 1838
+2643: Complex number (2498, 725) - 1839
+2644: Complex number (1703, 1968) - 1840
+2645: Complex number (2018, 1643) - 1840
+2646: Coorinates (942, 1841) - 1841
+2647: Coorinates (1470, 1843) - 1843
+2648: Complex number (1038, 2391) - 1843
+2649: Complex number (2267, 1294) - 1845
+2650: Complex number (962, 2429) - 1847
+2651: Complex number (105, 2611) - 1847
+2652: Complex number (1881, 1813) - 1847
+2653: Coorinates (2951, 1848) - 1848
+2654: Coorinates (2932, 1849) - 1849
+2655: Coorinates (2392, 1851) - 1851
+2656: Coorinates (472, 1853) - 1853
+2657: Coorinates (4188, 1854) - 1854
+2658: Coorinates (3606, 1854) - 1854
+2659: Coorinates (1605, 1855) - 1855
+2660: Complex number (1791, 1922) - 1857
+2661: Complex number (342, 2604) - 1857
+2662: Coorinates (2556, 1860) - 1860
+2663: Coorinates (977, 1861) - 1861
+2664: Coorinates (3980, 1862) - 1862
+2665: Complex number (1928, 1799) - 1864
+2666: Coorinates (2962, 1864) - 1864
+2667: Complex number (2328, 1243) - 1866
+2668: Complex number (740, 2542) - 1872
+2669: Coorinates (1989, 1872) - 1872
+2670: Coorinates (2136, 1872) - 1872
+2671: Complex number (2021, 1714) - 1873
+2672: Coorinates (1600, 1873) - 1873
+2673: Complex number (1000, 2456) - 1875
+2674: Complex number (1966, 1780) - 1875
+2675: Coorinates (3801, 1876) - 1876
+2676: Coorinates (2553, 1876) - 1876
+2677: Coorinates (2700, 1878) - 1878
+2678: Complex number (2531, 807) - 1878
+2679: Complex number (1127, 2408) - 1879
+2680: Complex number (2231, 1445) - 1879
+2681: Complex number (2647, 235) - 1879
+2682: Coorinates (2522, 1879) - 1879
+2683: Coorinates (4243, 1879) - 1879
+2684: Complex number (1918, 1846) - 1882
+2685: Complex number (2537, 819) - 1885
+2686: Complex number (2598, 599) - 1885
+2687: Coorinates (1349, 1885) - 1885
+2688: Coorinates (3172, 1889) - 1889
+2689: Coorinates (1377, 1891) - 1891
+2690: Coorinates (162, 1894) - 1894
+2691: Complex number (2523, 906) - 1895
+2692: Coorinates (4072, 1898) - 1898
+2693: Complex number (2604, 661) - 1899
+2694: Coorinates (166, 1902) - 1902
+2695: Coorinates (4161, 1903) - 1903
+2696: Coorinates (3383, 1903) - 1903
+2697: Coorinates (923, 1904) - 1904
+2698: Complex number (684, 2606) - 1905
+2699: Complex number (2484, 1053) - 1907
+2700: Coorinates (543, 1908) - 1908
+2701: Coorinates (1671, 1908) - 1908
+2702: Complex number (2415, 1204) - 1908
+2703: Coorinates (1527, 1910) - 1910
+2704: Coorinates (1777, 1910) - 1910
+2705: Complex number (1671, 2129) - 1913
+2706: Complex number (1775, 2049) - 1916
+2707: Complex number (11, 2710) - 1916
+2708: Coorinates (1567, 1920) - 1920
+2709: Coorinates (3085, 1922) - 1922
+2710: Coorinates (3601, 1923) - 1923
+2711: Complex number (1143, 2471) - 1925
+2712: Complex number (2647, 646) - 1926
+2713: Complex number (86, 2723) - 1926
+2714: Complex number (2155, 1666) - 1926
+2715: Complex number (1020, 2527) - 1926
+2716: Complex number (1427, 2321) - 1926
+2717: Complex number (456, 2688) - 1927
+2718: Coorinates (4716, 1927) - 1927
+2719: Coorinates (1786, 1930) - 1930
+2720: Complex number (2158, 1672) - 1930
+2721: Complex number (1163, 2472) - 1931
+2722: Coorinates (3167, 1936) - 1936
+2723: Complex number (1512, 2291) - 1940
+2724: Coorinates (3287, 1940) - 1940
+2725: Coorinates (3628, 1940) - 1940
+2726: Complex number (2612, 853) - 1942
+2727: Coorinates (4749, 1942) - 1942
+2728: Complex number (2666, 666) - 1943
+2729: Complex number (2528, 1079) - 1943
+2730: Coorinates (1965, 1944) - 1944
+2731: Coorinates (1308, 1947) - 1947
+2732: Complex number (370, 2730) - 1948
+2733: Complex number (2100, 1785) - 1948
+2734: Coorinates (4663, 1950) - 1950
+2735: Complex number (2758, 75) - 1950
+2736: Complex number (2505, 1156) - 1950
+2737: Coorinates (429, 1951) - 1951
+2738: Coorinates (302, 1951) - 1951
+2739: Complex number (2015, 1888) - 1952
+2740: Complex number (2425, 1327) - 1954
+2741: Complex number (2692, 634) - 1955
+2742: Complex number (2647, 799) - 1955
+2743: Coorinates (4565, 1958) - 1958
+2744: Complex number (1443, 2364) - 1958
+2745: Coorinates (3862, 1959) - 1959
+2746: Complex number (1462, 2358) - 1961
+2747: Complex number (1576, 2290) - 1965
+2748: Coorinates (3571, 1968) - 1968
+2749: Complex number (1437, 2385) - 1968
+2750: Coorinates (3362, 1969) - 1969
+2751: Coorinates (2688, 1970) - 1970
+2752: Coorinates (4625, 1971) - 1971
+2753: Complex number (160, 2791) - 1976
+2754: Coorinates (1412, 1976) - 1976
+2755: Coorinates (2278, 1978) - 1978
+2756: Coorinates (4238, 1978) - 1978
+2757: Coorinates (861, 1979) - 1979
+2758: Complex number (1493, 2370) - 1980
+2759: Complex number (1410, 2421) - 1981
+2760: Complex number (698, 2717) - 1983
+2761: Coorinates (431, 1984) - 1984
+2762: Complex number (1484, 2389) - 1988
+2763: Coorinates (4583, 1989) - 1989
+2764: Complex number (25, 2813) - 1989
+2765: Coorinates (3310, 1989) - 1989
+2766: Complex number (2682, 857) - 1990
+2767: Complex number (1772, 2188) - 1990
+2768: Coorinates (1139, 1993) - 1993
+2769: Complex number (2773, 508) - 1993
+2770: Coorinates (3626, 1993) - 1993
+2771: Complex number (1697, 2255) - 1995
+2772: Complex number (2716, 765) - 1995
+2773: Complex number (805, 2707) - 1996
+2774: Coorinates (2145, 1997) - 1997
+2775: Coorinates (1392, 2000) - 2000
+2776: Complex number (1936, 2071) - 2004
+2777: Coorinates (3880, 2005) - 2005
+2778: Complex number (2783, 557) - 2006
+2779: Coorinates (2632, 2006) - 2006
+2780: Complex number (1886, 2120) - 2006
+2781: Complex number (5, 2839) - 2007
+2782: Complex number (2230, 1757) - 2007
+2783: Coorinates (4096, 2007) - 2007
+2784: Complex number (2468, 1407) - 2008
+2785: Coorinates (291, 2009) - 2009
+2786: Complex number (1716, 2266) - 2009
+2787: Complex number (217, 2834) - 2009
+2788: Coorinates (1363, 2010) - 2010
+2789: Coorinates (2803, 2011) - 2011
+2790: Complex number (795, 2733) - 2012
+2791: Complex number (1319, 2526) - 2014
+2792: Coorinates (1197, 2015) - 2015
+2793: Complex number (504, 2809) - 2017
+2794: Complex number (2839, 316) - 2019
+2795: Complex number (2785, 632) - 2019
+2796: Coorinates (1980, 2020) - 2020
+2797: Complex number (2611, 1160) - 2020
+2798: Coorinates (4378, 2022) - 2022
+2799: Complex number (645, 2793) - 2026
+2800: Complex number (2621, 1158) - 2026
+2801: Coorinates (672, 2027) - 2027
+2802: Complex number (1455, 2479) - 2032
+2803: Complex number (2325, 1691) - 2032
+2804: Coorinates (87, 2033) - 2033
+2805: Complex number (2503, 1417) - 2033
+2806: Complex number (2219, 1830) - 2033
+2807: Coorinates (2807, 2034) - 2034
+2808: Complex number (2880, 47) - 2036
+2809: Complex number (1510, 2454) - 2037
+2810: Coorinates (3572, 2037) - 2037
+2811: Complex number (2607, 1232) - 2038
+2812: Complex number (1561, 2431) - 2042
+2813: Complex number (2606, 1247) - 2042
+2814: Coorinates (656, 2043) - 2043
+2815: Coorinates (1190, 2047) - 2047
+2816: Coorinates (3129, 2047) - 2047
+2817: Coorinates (3202, 2048) - 2048
+2818: Complex number (1219, 2629) - 2049
+2819: Complex number (2900, 58) - 2051
+2820: Complex number (1935, 2161) - 2051
+2821: Coorinates (4998, 2051) - 2051
+2822: Complex number (2651, 1192) - 2055
+2823: Coorinates (2594, 2055) - 2055
+2824: Coorinates (3316, 2056) - 2056
+2825: Complex number (474, 2872) - 2058
+2826: Complex number (1893, 2215) - 2060
+2827: Coorinates (3253, 2061) - 2061
+2828: Coorinates (2242, 2062) - 2062
+2829: Complex number (597, 2855) - 2062
+2830: Coorinates (1735, 2066) - 2066
+2831: Coorinates (832, 2067) - 2067
+2832: Complex number (2925, 18) - 2068
+2833: Complex number (1499, 2512) - 2068
+2834: Complex number (2915, 254) - 2069
+2835: Complex number (54, 2930) - 2072
+2836: Coorinates (2755, 2072) - 2072
+2837: Complex number (1412, 2573) - 2075
+2838: Complex number (15, 2936) - 2076
+2839: Complex number (2009, 2146) - 2078
+2840: Complex number (677, 2863) - 2080
+2841: Coorinates (2927, 2081) - 2081
+2842: Complex number (21, 2943) - 2081
+2843: Complex number (1704, 2403) - 2083
+2844: Complex number (779, 2843) - 2084
+2845: Coorinates (2429, 2085) - 2085
+2846: Complex number (2923, 412) - 2087
+2847: Complex number (1946, 2224) - 2089
+2848: Complex number (1186, 2706) - 2089
+2849: Coorinates (1895, 2090) - 2090
+2850: Complex number (1928, 2246) - 2093
+2851: Coorinates (3717, 2093) - 2093
+2852: Complex number (2887, 661) - 2094
+2853: Complex number (2623, 1379) - 2095
+2854: Coorinates (516, 2095) - 2095
+2855: Coorinates (4564, 2096) - 2096
+2856: Complex number (48, 2965) - 2096
+2857: Coorinates (4074, 2097) - 2097
+2858: Complex number (1652, 2464) - 2097
+2859: Complex number (2924, 505) - 2098
+2860: Complex number (1925, 2259) - 2098
+2861: Complex number (1130, 2750) - 2102
+2862: Coorinates (3629, 2105) - 2105
+2863: Complex number (1440, 2612) - 2109
+2864: Complex number (953, 2830) - 2111
+2865: Complex number (2859, 863) - 2111
+2866: Coorinates (2148, 2115) - 2115
+2867: Complex number (1473, 2614) - 2121
+2868: Complex number (2378, 1832) - 2122
+2869: Coorinates (485, 2124) - 2124
+2870: Complex number (1234, 2740) - 2124
+2871: Coorinates (1181, 2126) - 2126
+2872: Coorinates (2451, 2129) - 2129
+2873: Complex number (1051, 2824) - 2130
+2874: Coorinates (3799, 2131) - 2131
+2875: Complex number (3005, 230) - 2131
+2876: Complex number (2010, 2248) - 2132
+2877: Complex number (1230, 2756) - 2134
+2878: Complex number (2830, 1054) - 2135
+2879: Coorinates (2594, 2136) - 2136
+2880: Complex number (866, 2901) - 2140
+2881: Complex number (786, 2924) - 2140
+2882: Coorinates (31, 2140) - 2140
+2883: Complex number (3002, 445) - 2145
+2884: Coorinates (159, 2145) - 2145
+2885: Coorinates (3133, 2145) - 2145
+2886: Complex number (2682, 1426) - 2147
+2887: Coorinates (446, 2148) - 2148
+2888: Coorinates (2209, 2153) - 2153
+2889: Complex number (1201, 2798) - 2153
+2890: Coorinates (4069, 2159) - 2159
+2891: Coorinates (2860, 2159) - 2159
+2892: Coorinates (781, 2160) - 2160
+2893: Coorinates (361, 2160) - 2160
+2894: Complex number (274, 3045) - 2161
+2895: Complex number (1978, 2334) - 2163
+2896: Complex number (1323, 2761) - 2164
+2897: Coorinates (105, 2166) - 2166
+2898: Coorinates (2208, 2167) - 2167
+2899: Complex number (1352, 2751) - 2167
+2900: Coorinates (1639, 2170) - 2170
+2901: Coorinates (4407, 2170) - 2170
+2902: Complex number (649, 3002) - 2171
+2903: Complex number (2141, 2207) - 2174
+2904: Complex number (1965, 2366) - 2174
+2905: Coorinates (3221, 2175) - 2175
+2906: Complex number (2325, 2016) - 2175
+2907: Complex number (1397, 2742) - 2176
+2908: Coorinates (1248, 2177) - 2177
+2909: Complex number (2940, 920) - 2178
+2910: Complex number (520, 3038) - 2179
+2911: Complex number (1027, 2907) - 2180
+2912: Complex number (2266, 2093) - 2181
+2913: Complex number (2300, 2058) - 2182
+2914: Complex number (2973, 842) - 2184
+2915: Complex number (2597, 1676) - 2185
+2916: Coorinates (635, 2185) - 2185
+2917: Coorinates (1901, 2187) - 2187
+2918: Coorinates (2118, 2188) - 2188
+2919: Complex number (2196, 2186) - 2191
+2920: Coorinates (4966, 2191) - 2191
+2921: Complex number (2787, 1355) - 2191
+2922: Coorinates (1532, 2192) - 2192
+2923: Coorinates (4268, 2194) - 2194
+2924: Coorinates (3970, 2198) - 2198
+2925: Coorinates (4968, 2198) - 2198
+2926: Complex number (3092, 345) - 2199
+2927: Coorinates (4455, 2200) - 2200
+2928: Coorinates (2120, 2200) - 2200
+2929: Complex number (3016, 774) - 2201
+2930: Complex number (3104, 278) - 2203
+2931: Complex number (2084, 2317) - 2203
+2932: Complex number (1357, 2805) - 2203
+2933: Coorinates (3558, 2204) - 2204
+2934: Complex number (1181, 2885) - 2204
+2935: Complex number (3071, 536) - 2204
+2936: Complex number (2943, 1041) - 2207
+2937: Coorinates (1102, 2208) - 2208
+2938: Complex number (3116, 208) - 2208
+2939: Coorinates (1493, 2211) - 2211
+2940: Complex number (2498, 1881) - 2211
+2941: Complex number (2166, 2257) - 2211
+2942: Coorinates (595, 2212) - 2212
+2943: Complex number (2007, 2401) - 2212
+2944: Complex number (2874, 1239) - 2213
+2945: Coorinates (2189, 2214) - 2214
+2946: Coorinates (3050, 2216) - 2216
+2947: Coorinates (2093, 2216) - 2216
+2948: Coorinates (4978, 2216) - 2216
+2949: Coorinates (463, 2216) - 2216
+2950: Complex number (2282, 2148) - 2216
+2951: Coorinates (545, 2221) - 2221
+2952: Complex number (2954, 1083) - 2224
+2953: Complex number (2158, 2290) - 2224
+2954: Complex number (2428, 2000) - 2224
+2955: Complex number (2830, 1378) - 2225
+2956: Complex number (2868, 1298) - 2226
+2957: Coorinates (2424, 2228) - 2228
+2958: Complex number (2973, 1056) - 2230
+2959: Complex number (2715, 1609) - 2231
+2960: Complex number (1213, 2921) - 2236
+2961: Complex number (1769, 2623) - 2237
+2962: Complex number (1222, 2922) - 2239
+2963: Complex number (2207, 2272) - 2239
+2964: Coorinates (2557, 2239) - 2239
+2965: Complex number (449, 3136) - 2240
+2966: Coorinates (1223, 2240) - 2240
+2967: Coorinates (731, 2240) - 2240
+2968: Complex number (1035, 2997) - 2242
+2969: Complex number (1265, 2908) - 2242
+2970: Coorinates (559, 2242) - 2242
+2971: Complex number (3019, 978) - 2243
+2972: Complex number (3127, 540) - 2243
+2973: Coorinates (4932, 2245) - 2245
+2974: Coorinates (4079, 2245) - 2245
+2975: Coorinates (3644, 2246) - 2246
+2976: Complex number (2604, 1822) - 2247
+2977: Coorinates (1739, 2248) - 2248
+2978: Coorinates (2708, 2248) - 2248
+2979: Coorinates (3586, 2249) - 2249
+2980: Coorinates (4612, 2250) - 2250
+2981: Complex number (702, 3104) - 2250
+2982: Coorinates (4887, 2250) - 2250
+2983: Complex number (1113, 2986) - 2253
+2984: Coorinates (4792, 2257) - 2257
+2985: Coorinates (4317, 2257) - 2257
+2986: Complex number (2089, 2424) - 2262
+2987: Complex number (2903, 1359) - 2266
+2988: Complex number (2859, 1448) - 2266
+2989: Coorinates (2286, 2267) - 2267
+2990: Complex number (1285, 2944) - 2271
+2991: Coorinates (648, 2273) - 2273
+2992: Complex number (2805, 1577) - 2275
+2993: Coorinates (1288, 2277) - 2277
+2994: Complex number (715, 3143) - 2279
+2995: Complex number (3226, 104) - 2282
+2996: Complex number (3230, 32) - 2284
+2997: Coorinates (3726, 2285) - 2285
+2998: Complex number (3200, 462) - 2286
+2999: Complex number (3212, 388) - 2287
+3000: Complex number (286, 3224) - 2288
+3001: Complex number (476, 3203) - 2289
+3002: Complex number (3237, 175) - 2292
+3003: Coorinates (1758, 2293) - 2293
+3004: Coorinates (1882, 2293) - 2293
+3005: Complex number (700, 3168) - 2294
+3006: Complex number (3248, 27) - 2296
+3007: Complex number (457, 3216) - 2296
+3008: Coorinates (4446, 2297) - 2297
+3009: Complex number (445, 3219) - 2297
+3010: Complex number (1355, 2954) - 2298
+3011: Complex number (2598, 1956) - 2299
+3012: Complex number (2436, 2157) - 2300
+3013: Coorinates (3655, 2300) - 2300
+3014: Complex number (3163, 768) - 2301
+3015: Coorinates (4196, 2303) - 2303
+3016: Coorinates (21, 2303) - 2303
+3017: Complex number (2775, 1710) - 2304
+3018: Coorinates (1508, 2306) - 2306
+3019: Coorinates (2044, 2307) - 2307
+3020: Coorinates (3136, 2307) - 2307
+3021: Coorinates (420, 2309) - 2309
+3022: Coorinates (4411, 2309) - 2309
+3023: Coorinates (662, 2310) - 2310
+3024: Coorinates (1241, 2310) - 2310
+3025: Complex number (3183, 742) - 2311
+3026: Complex number (1507, 2903) - 2312
+3027: Coorinates (2192, 2314) - 2314
+3028: Complex number (3225, 580) - 2317
+3029: Complex number (2770, 1759) - 2320
+3030: Coorinates (3310, 2320) - 2320
+3031: Complex number (3130, 1014) - 2326
+3032: Complex number (3258, 521) - 2333
+3033: Complex number (29, 3302) - 2334
+3034: Complex number (1468, 2957) - 2334
+3035: Coorinates (3390, 2337) - 2337
+3036: Complex number (2988, 1415) - 2337
+3037: Complex number (3025, 1335) - 2338
+3038: Complex number (1515, 2943) - 2340
+3039: Coorinates (3900, 2342) - 2342
+3040: Complex number (1124, 3117) - 2342
+3041: Coorinates (3983, 2342) - 2342
+3042: Complex number (902, 3189) - 2343
+3043: Coorinates (2018, 2343) - 2343
+3044: Complex number (2380, 2307) - 2343
+3045: Complex number (3230, 743) - 2343
+3046: Coorinates (1765, 2344) - 2344
+3047: Complex number (1573, 2920) - 2345
+3048: Coorinates (3240, 2348) - 2348
+3049: Complex number (3315, 268) - 2351
+3050: Coorinates (3868, 2351) - 2351
+3051: Complex number (3171, 1013) - 2353
+3052: Complex number (3035, 1367) - 2353
+3053: Complex number (772, 3238) - 2353
+3054: Complex number (3075, 1276) - 2354
+3055: Coorinates (38, 2357) - 2357
+3056: Coorinates (1951, 2359) - 2359
+3057: Complex number (878, 3222) - 2361
+3058: Complex number (309, 3326) - 2361
+3059: Complex number (2990, 1495) - 2363
+3060: Coorinates (1273, 2366) - 2366
+3061: Coorinates (3945, 2367) - 2367
+3062: Complex number (1036, 3185) - 2368
+3063: Complex number (2920, 1646) - 2370
+3064: Complex number (3353, 95) - 2371
+3065: Complex number (2609, 2116) - 2375
+3066: Complex number (147, 3359) - 2377
+3067: Complex number (3120, 1254) - 2377
+3068: Complex number (2669, 2046) - 2377
+3069: Complex number (1666, 2922) - 2378
+3070: Coorinates (4068, 2382) - 2382
+3071: Complex number (418, 3343) - 2382
+3072: Complex number (797, 3274) - 2382
+3073: Complex number (1857, 2819) - 2386
+3074: Coorinates (4876, 2387) - 2387
+3075: Complex number (98, 3378) - 2389
+3076: Coorinates (2305, 2389) - 2389
+3077: Coorinates (108, 2389) - 2389
+3078: Coorinates (880, 2391) - 2391
+3079: Complex number (3110, 1334) - 2392
+3080: Coorinates (1458, 2392) - 2392
+3081: Coorinates (2655, 2392) - 2392
+3082: Complex number (1822, 2853) - 2393
+3083: Complex number (2722, 2013) - 2393
+3084: Complex number (2776, 1947) - 2397
+3085: Coorinates (4583, 2397) - 2397
+3086: Coorinates (2077, 2398) - 2398
+3087: Complex number (726, 3313) - 2398
+3088: Complex number (2866, 1813) - 2398
+3089: Complex number (3292, 823) - 2399
+3090: Coorinates (1107, 2400) - 2400
+3091: Coorinates (2897, 2401) - 2401
+3092: Coorinates (548, 2403) - 2403
+3093: Complex number (2528, 2274) - 2404
+3094: Coorinates (3025, 2406) - 2406
+3095: Coorinates (4982, 2407) - 2407
+3096: Coorinates (3568, 2407) - 2407
+3097: Complex number (1607, 3003) - 2408
+3098: Complex number (2792, 1951) - 2408
+3099: Complex number (3122, 1363) - 2408
+3100: Complex number (3025, 1566) - 2408
+3101: Complex number (1882, 2843) - 2410
+3102: Coorinates (2916, 2410) - 2410
+3103: Complex number (2336, 2485) - 2411
+3104: Complex number (567, 3365) - 2412
+3105: Complex number (1711, 2953) - 2413
+3106: Coorinates (4675, 2414) - 2414
+3107: Complex number (2149, 2657) - 2416
+3108: Coorinates (2355, 2418) - 2418
+3109: Complex number (3413, 243) - 2419
+3110: Coorinates (705, 2424) - 2424
+3111: Complex number (2741, 2061) - 2424
+3112: Complex number (2564, 2278) - 2425
+3113: Complex number (2859, 1895) - 2425
+3114: Complex number (2460, 2400) - 2430
+3115: Coorinates (4543, 2431) - 2431
+3116: Complex number (3433, 209) - 2431
+3117: Complex number (2715, 2110) - 2431
+3118: Complex number (1899, 2866) - 2431
+3119: Coorinates (558, 2432) - 2432
+3120: Coorinates (2566, 2435) - 2435
+3121: Coorinates (786, 2437) - 2437
+3122: Complex number (2337, 2537) - 2439
+3123: Coorinates (2213, 2439) - 2439
+3124: Complex number (408, 3427) - 2440
+3125: Coorinates (4271, 2442) - 2442
+3126: Complex number (1462, 3136) - 2446
+3127: Complex number (2011, 2818) - 2447
+3128: Coorinates (3621, 2447) - 2447
+3129: Coorinates (4413, 2448) - 2448
+3130: Complex number (3361, 837) - 2449
+3131: Complex number (2536, 2359) - 2449
+3132: Coorinates (3710, 2452) - 2452
+3133: Coorinates (4085, 2453) - 2453
+3134: Complex number (89, 3470) - 2454
+3135: Coorinates (4728, 2454) - 2454
+3136: Complex number (3283, 1128) - 2454
+3137: Coorinates (2243, 2455) - 2455
+3138: Complex number (497, 3437) - 2455
+3139: Complex number (1240, 3248) - 2458
+3140: Coorinates (3078, 2459) - 2459
+3141: Complex number (3074, 1632) - 2460
+3142: Coorinates (1675, 2461) - 2461
+3143: Complex number (3243, 1265) - 2461
+3144: Complex number (1148, 3290) - 2463
+3145: Coorinates (1358, 2463) - 2463
+3146: Coorinates (573, 2464) - 2464
+3147: Complex number (492, 3451) - 2464
+3148: Coorinates (1758, 2464) - 2464
+3149: Coorinates (4863, 2467) - 2467
+3150: Complex number (3372, 899) - 2467
+3151: Coorinates (1159, 2470) - 2470
+3152: Complex number (3128, 1560) - 2471
+3153: Complex number (1034, 3339) - 2471
+3154: Complex number (3465, 467) - 2472
+3155: Complex number (2183, 2731) - 2472
+3156: Complex number (1750, 3028) - 2472
+3157: Coorinates (4610, 2473) - 2473
+3158: Complex number (2524, 2422) - 2473
+3159: Complex number (882, 3385) - 2473
+3160: Complex number (2649, 2285) - 2473
+3161: Coorinates (4860, 2473) - 2473
+3162: Complex number (3248, 1302) - 2474
+3163: Complex number (2106, 2795) - 2474
+3164: Complex number (1704, 3057) - 2474
+3165: Coorinates (2279, 2475) - 2475
+3166: Coorinates (11, 2476) - 2476
+3167: Coorinates (4096, 2476) - 2476
+3168: Complex number (3505, 6) - 2478
+3169: Complex number (2130, 2787) - 2480
+3170: Complex number (3187, 1480) - 2484
+3171: Coorinates (4151, 2484) - 2484
+3172: Coorinates (341, 2484) - 2484
+3173: Complex number (2667, 2292) - 2486
+3174: Complex number (278, 3515) - 2493
+3175: Coorinates (1743, 2496) - 2496
+3176: Complex number (3232, 1421) - 2496
+3177: Complex number (2576, 2417) - 2497
+3178: Coorinates (3990, 2499) - 2499
+3179: Coorinates (3572, 2499) - 2499
+3180: Coorinates (2336, 2500) - 2500
+3181: Complex number (272, 3526) - 2500
+3182: Complex number (1514, 3196) - 2500
+3183: Complex number (1385, 3254) - 2500
+3184: Complex number (3341, 1164) - 2501
+3185: Complex number (930, 3414) - 2502
+3186: Coorinates (1141, 2502) - 2502
+3187: Complex number (2257, 2729) - 2504
+3188: Coorinates (1496, 2504) - 2504
+3189: Complex number (2302, 2693) - 2505
+3190: Coorinates (4054, 2505) - 2505
+3191: Complex number (3290, 1321) - 2506
+3192: Complex number (3276, 1357) - 2507
+3193: Complex number (1962, 2956) - 2508
+3194: Coorinates (1845, 2508) - 2508
+3195: Complex number (2322, 2682) - 2508
+3196: Complex number (3293, 1327) - 2510
+3197: Coorinates (2056, 2510) - 2510
+3198: Complex number (191, 3553) - 2515
+3199: Complex number (1541, 3211) - 2518
+3200: Coorinates (4612, 2518) - 2518
+3201: Complex number (1506, 3227) - 2518
+3202: Complex number (895, 3447) - 2518
+3203: Complex number (3357, 1207) - 2522
+3204: Complex number (89, 3566) - 2522
+3205: Coorinates (4488, 2522) - 2522
+3206: Coorinates (2909, 2523) - 2523
+3207: Coorinates (4866, 2523) - 2523
+3208: Complex number (2404, 2642) - 2525
+3209: Coorinates (1904, 2527) - 2527
+3210: Coorinates (4279, 2531) - 2531
+3211: Coorinates (1269, 2531) - 2531
+3212: Complex number (3462, 934) - 2535
+3213: Coorinates (1584, 2537) - 2537
+3214: Complex number (1541, 3246) - 2540
+3215: Complex number (392, 3573) - 2541
+3216: Complex number (3515, 755) - 2542
+3217: Complex number (3222, 1600) - 2543
+3218: Complex number (3552, 564) - 2543
+3219: Complex number (1896, 3059) - 2544
+3220: Coorinates (3016, 2545) - 2545
+3221: Coorinates (1473, 2546) - 2546
+3222: Complex number (3395, 1204) - 2547
+3223: Complex number (2713, 2373) - 2548
+3224: Complex number (2973, 2041) - 2549
+3225: Complex number (1093, 3437) - 2550
+3226: Coorinates (1652, 2550) - 2550
+3227: Complex number (3561, 593) - 2552
+3228: Coorinates (4857, 2553) - 2553
+3229: Complex number (1793, 3137) - 2554
+3230: Complex number (2284, 2805) - 2557
+3231: Complex number (3614, 179) - 2558
+3232: Coorinates (512, 2559) - 2559
+3233: Coorinates (4299, 2561) - 2561
+3234: Complex number (952, 3496) - 2562
+3235: Complex number (1394, 3349) - 2565
+3236: Complex number (65, 3631) - 2567
+3237: Complex number (3293, 1531) - 2567
+3238: Complex number (2996, 2057) - 2569
+3239: Complex number (2325, 2796) - 2571
+3240: Coorinates (4901, 2571) - 2571
+3241: Complex number (112, 3638) - 2573
+3242: Coorinates (563, 2575) - 2575
+3243: Complex number (3521, 936) - 2576
+3244: Coorinates (4728, 2578) - 2578
+3245: Coorinates (2467, 2578) - 2578
+3246: Complex number (338, 3634) - 2580
+3247: Coorinates (1064, 2582) - 2582
+3248: Complex number (2692, 2469) - 2582
+3249: Coorinates (2380, 2583) - 2583
+3250: Complex number (1707, 3233) - 2585
+3251: Coorinates (1001, 2588) - 2588
+3252: Complex number (1935, 3111) - 2590
+3253: Complex number (2336, 2824) - 2591
+3254: Coorinates (1738, 2591) - 2591
+3255: Complex number (2750, 2422) - 2591
+3256: Complex number (908, 3550) - 2591
+3257: Coorinates (1920, 2592) - 2592
+3258: Coorinates (3398, 2592) - 2592
+3259: Complex number (1674, 3266) - 2595
+3260: Complex number (2172, 2960) - 2596
+3261: Coorinates (4884, 2596) - 2596
+3262: Complex number (2136, 2990) - 2598
+3263: Coorinates (3700, 2599) - 2599
+3264: Coorinates (1584, 2599) - 2599
+3265: Coorinates (2218, 2600) - 2600
+3266: Coorinates (1469, 2600) - 2600
+3267: Complex number (3236, 1747) - 2600
+3268: Coorinates (2865, 2602) - 2602
+3269: Complex number (1462, 3380) - 2604
+3270: Complex number (3503, 1145) - 2605
+3271: Complex number (1048, 3532) - 2605
+3272: Complex number (1103, 3517) - 2606
+3273: Coorinates (4852, 2607) - 2607
+3274: Complex number (1257, 3468) - 2608
+3275: Coorinates (4249, 2609) - 2609
+3276: Coorinates (2024, 2610) - 2610
+3277: Coorinates (1672, 2610) - 2610
+3278: Coorinates (4781, 2611) - 2611
+3279: Coorinates (1604, 2612) - 2612
+3280: Complex number (3697, 4) - 2614
+3281: Complex number (3685, 327) - 2615
+3282: Coorinates (3149, 2615) - 2615
+3283: Complex number (2344, 2861) - 2615
+3284: Coorinates (1004, 2617) - 2617
+3285: Complex number (3686, 339) - 2617
+3286: Complex number (1344, 3452) - 2619
+3287: Complex number (792, 3619) - 2619
+3288: Complex number (3539, 1100) - 2620
+3289: Coorinates (1421, 2620) - 2620
+3290: Complex number (1136, 3530) - 2622
+3291: Coorinates (1203, 2622) - 2622
+3292: Complex number (2783, 2454) - 2623
+3293: Complex number (3681, 511) - 2627
+3294: Coorinates (1346, 2629) - 2629
+3295: Coorinates (2821, 2630) - 2630
+3296: Complex number (3188, 1923) - 2632
+3297: Coorinates (613, 2632) - 2632
+3298: Coorinates (3226, 2632) - 2632
+3299: Coorinates (1976, 2634) - 2634
+3300: Complex number (891, 3621) - 2636
+3301: Complex number (1832, 3248) - 2636
+3302: Complex number (3517, 1239) - 2636
+3303: Complex number (314, 3717) - 2637
+3304: Complex number (2824, 2440) - 2638
+3305: Coorinates (1529, 2639) - 2639
+3306: Complex number (1001, 3597) - 2640
+3307: Coorinates (4636, 2641) - 2641
+3308: Complex number (1619, 3368) - 2642
+3309: Complex number (2460, 2814) - 2642
+3310: Complex number (3109, 2080) - 2645
+3311: Complex number (2336, 2922) - 2645
+3312: Complex number (3022, 2205) - 2645
+3313: Coorinates (4969, 2646) - 2646
+3314: Complex number (3094, 2109) - 2647
+3315: Complex number (1926, 3216) - 2650
+3316: Complex number (2079, 3119) - 2650
+3317: Complex number (938, 3630) - 2651
+3318: Coorinates (4366, 2652) - 2652
+3319: Complex number (3362, 1670) - 2654
+3320: Complex number (3754, 25) - 2654
+3321: Complex number (647, 3700) - 2655
+3322: Coorinates (724, 2655) - 2655
+3323: Coorinates (178, 2656) - 2656
+3324: Coorinates (991, 2657) - 2657
+3325: Coorinates (4001, 2660) - 2660
+3326: Coorinates (774, 2660) - 2660
+3327: Coorinates (4967, 2661) - 2661
+3328: Complex number (3255, 1891) - 2661
+3329: Coorinates (2286, 2662) - 2662
+3330: Complex number (3734, 485) - 2662
+3331: Coorinates (2176, 2663) - 2663
+3332: Complex number (3475, 1457) - 2664
+3333: Complex number (3007, 2271) - 2664
+3334: Coorinates (4333, 2665) - 2665
+3335: Coorinates (4859, 2665) - 2665
+3336: Coorinates (4118, 2665) - 2665
+3337: Complex number (679, 3710) - 2666
+3338: Coorinates (3306, 2668) - 2668
+3339: Coorinates (1779, 2668) - 2668
+3340: Complex number (3434, 1569) - 2669
+3341: Coorinates (4772, 2671) - 2671
+3342: Complex number (3139, 2109) - 2674
+3343: Coorinates (223, 2674) - 2674
+3344: Complex number (3103, 2162) - 2674
+3345: Coorinates (1395, 2674) - 2674
+3346: Complex number (3775, 264) - 2675
+3347: Coorinates (1716, 2675) - 2675
+3348: Complex number (2962, 2357) - 2676
+3349: Complex number (2512, 2832) - 2676
+3350: Complex number (1968, 3237) - 2678
+3351: Complex number (920, 3676) - 2679
+3352: Coorinates (2372, 2679) - 2679
+3353: Complex number (2108, 3153) - 2681
+3354: Complex number (3604, 1186) - 2682
+3355: Complex number (3321, 1839) - 2684
+3356: Coorinates (1965, 2685) - 2685
+3357: Coorinates (721, 2688) - 2688
+3358: Complex number (1901, 3293) - 2688
+3359: Coorinates (4748, 2688) - 2688
+3360: Coorinates (3959, 2688) - 2688
+3361: Coorinates (3296, 2689) - 2689
+3362: Complex number (2575, 2799) - 2689
+3363: Complex number (2225, 3086) - 2690
+3364: Complex number (3558, 1353) - 2691
+3365: Complex number (191, 3803) - 2692
+3366: Complex number (921, 3696) - 2693
+3367: Complex number (1365, 3556) - 2693
+3368: Complex number (3758, 639) - 2695
+3369: Coorinates (4814, 2697) - 2697
+3370: Complex number (1649, 3448) - 2702
+3371: Complex number (2744, 2660) - 2702
+3372: Coorinates (3087, 2702) - 2702
+3373: Complex number (2538, 2860) - 2703
+3374: Complex number (3828, 130) - 2708
+3375: Coorinates (572, 2708) - 2708
+3376: Complex number (3617, 1265) - 2709
+3377: Complex number (3662, 1128) - 2709
+3378: Coorinates (1666, 2709) - 2709
+3379: Complex number (2242, 3109) - 2710
+3380: Coorinates (718, 2710) - 2710
+3381: Complex number (1539, 3513) - 2711
+3382: Coorinates (2310, 2711) - 2711
+3383: Coorinates (2028, 2712) - 2712
+3384: Complex number (1011, 3702) - 2713
+3385: Complex number (3294, 1971) - 2714
+3386: Complex number (3471, 1648) - 2716
+3387: Coorinates (3202, 2717) - 2717
+3388: Coorinates (811, 2719) - 2719
+3389: Complex number (3666, 1169) - 2720
+3390: Complex number (1306, 3621) - 2721
+3391: Coorinates (3903, 2722) - 2722
+3392: Complex number (3655, 1219) - 2724
+3393: Coorinates (3775, 2728) - 2728
+3394: Coorinates (257, 2728) - 2728
+3395: Complex number (3462, 1707) - 2729
+3396: Complex number (2122, 3224) - 2729
+3397: Coorinates (1818, 2729) - 2729
+3398: Complex number (89, 3859) - 2729
+3399: Complex number (2804, 2654) - 2730
+3400: Coorinates (1366, 2731) - 2731
+3401: Complex number (1296, 3639) - 2731
+3402: Complex number (3628, 1329) - 2732
+3403: Coorinates (4786, 2732) - 2732
+3404: Complex number (1745, 3449) - 2733
+3405: Coorinates (1749, 2734) - 2734
+3406: Coorinates (1390, 2736) - 2736
+3407: Coorinates (4134, 2736) - 2736
+3408: Complex number (2664, 2807) - 2736
+3409: Complex number (3186, 2201) - 2738
+3410: Coorinates (993, 2741) - 2741
+3411: Complex number (3317, 2013) - 2743
+3412: Complex number (2758, 2731) - 2744
+3413: Complex number (2973, 2499) - 2746
+3414: Complex number (2031, 3317) - 2750
+3415: Complex number (468, 3863) - 2751
+3416: Complex number (2383, 3077) - 2751
+3417: Complex number (2462, 3015) - 2752
+3418: Coorinates (1484, 2753) - 2753
+3419: Coorinates (198, 2761) - 2761
+3420: Coorinates (3331, 2761) - 2761
+3421: Complex number (1711, 3512) - 2762
+3422: Coorinates (559, 2764) - 2764
+3423: Complex number (3909, 15) - 2764
+3424: Complex number (1677, 3534) - 2765
+3425: Complex number (1984, 3374) - 2767
+3426: Coorinates (4120, 2768) - 2768
+3427: Coorinates (2386, 2769) - 2769
+3428: Complex number (2711, 2826) - 2769
+3429: Complex number (3229, 2219) - 2770
+3430: Complex number (3919, 21) - 2771
+3431: Complex number (1915, 3422) - 2772
+3432: Complex number (2649, 2893) - 2773
+3433: Coorinates (4624, 2773) - 2773
+3434: Complex number (2911, 2632) - 2775
+3435: Complex number (3270, 2171) - 2775
+3436: Complex number (1919, 3428) - 2777
+3437: Coorinates (3053, 2778) - 2778
+3438: Complex number (3199, 2290) - 2781
+3439: Coorinates (1149, 2781) - 2781
+3440: Complex number (3833, 883) - 2781
+3441: Complex number (2903, 2655) - 2781
+3442: Complex number (2636, 2922) - 2782
+3443: Complex number (3203, 2287) - 2782
+3444: Coorinates (4965, 2782) - 2782
+3445: Coorinates (218, 2785) - 2785
+3446: Coorinates (801, 2785) - 2785
+3447: Coorinates (3543, 2786) - 2786
+3448: Complex number (1661, 3575) - 2787
+3449: Complex number (869, 3848) - 2789
+3450: Complex number (3936, 311) - 2791
+3451: Coorinates (478, 2791) - 2791
+3452: Coorinates (2096, 2792) - 2792
+3453: Coorinates (197, 2793) - 2793
+3454: Coorinates (458, 2793) - 2793
+3455: Complex number (3377, 2056) - 2795
+3456: Coorinates (4355, 2796) - 2796
+3457: Complex number (557, 3917) - 2797
+3458: Complex number (2248, 3255) - 2797
+3459: Complex number (1431, 3690) - 2798
+3460: Coorinates (4415, 2799) - 2799
+3461: Complex number (3743, 1309) - 2803
+3462: Complex number (703, 3904) - 2804
+3463: Coorinates (755, 2804) - 2804
+3464: Coorinates (3688, 2804) - 2804
+3465: Coorinates (402, 2804) - 2804
+3466: Complex number (1516, 3667) - 2805
+3467: Complex number (3968, 62) - 2806
+3468: Complex number (3966, 189) - 2807
+3469: Complex number (2931, 2681) - 2808
+3470: Complex number (3295, 2225) - 2811
+3471: Complex number (3838, 1037) - 2811
+3472: Complex number (2956, 2661) - 2812
+3473: Complex number (2275, 3265) - 2813
+3474: Complex number (3462, 1969) - 2816
+3475: Complex number (3913, 741) - 2816
+3476: Complex number (2248, 3290) - 2817
+3477: Complex number (3416, 2051) - 2817
+3478: Complex number (3401, 2078) - 2818
+3479: Complex number (3950, 546) - 2819
+3480: Complex number (3858, 1011) - 2820
+3481: Complex number (3845, 1060) - 2820
+3482: Complex number (3042, 2580) - 2820
+3483: Complex number (3836, 1096) - 2821
+3484: Coorinates (439, 2822) - 2822
+3485: Coorinates (4215, 2824) - 2824
+3486: Complex number (3188, 2406) - 2824
+3487: Complex number (3890, 919) - 2826
+3488: Complex number (1023, 3866) - 2827
+3489: Complex number (1879, 3533) - 2829
+3490: Coorinates (4372, 2829) - 2829
+3491: Complex number (3747, 1407) - 2830
+3492: Coorinates (3074, 2833) - 2833
+3493: Complex number (1290, 3796) - 2834
+3494: Complex number (1352, 3773) - 2834
+3495: Complex number (4002, 242) - 2835
+3496: Complex number (3420, 2097) - 2836
+3497: Complex number (3964, 624) - 2837
+3498: Complex number (2663, 3005) - 2839
+3499: Complex number (1193, 3835) - 2839
+3500: Complex number (1636, 3667) - 2839
+3501: Complex number (2812, 2872) - 2842
+3502: Coorinates (2187, 2843) - 2843
+3503: Complex number (471, 3993) - 2843
+3504: Coorinates (1727, 2844) - 2844
+3505: Complex number (2569, 3099) - 2846
+3506: Complex number (2586, 3086) - 2846
+3507: Complex number (2444, 3200) - 2847
+3508: Complex number (1196, 3846) - 2847
+3509: Coorinates (2703, 2849) - 2849
+3510: Complex number (4030, 151) - 2851
+3511: Complex number (2573, 3108) - 2853
+3512: Complex number (2366, 3270) - 2854
+3513: Complex number (3499, 2015) - 2855
+3514: Complex number (202, 4036) - 2857
+3515: Coorinates (3340, 2858) - 2858
+3516: Coorinates (1563, 2858) - 2858
+3517: Complex number (3530, 1972) - 2859
+3518: Complex number (3190, 2485) - 2859
+3519: Complex number (1489, 3762) - 2860
+3520: Coorinates (337, 2862) - 2862
+3521: Coorinates (2967, 2862) - 2862
+3522: Coorinates (3456, 2864) - 2864
+3523: Complex number (191, 4048) - 2865
+3524: Coorinates (1600, 2866) - 2866
+3525: Complex number (3993, 703) - 2866
+3526: Complex number (2973, 2758) - 2867
+3527: Complex number (3204, 2485) - 2867
+3528: Complex number (3361, 2272) - 2868
+3529: Complex number (2123, 3456) - 2868
+3530: Complex number (298, 4046) - 2868
+3531: Complex number (693, 3998) - 2869
+3532: Complex number (3621, 1839) - 2871
+3533: Complex number (3963, 905) - 2874
+3534: Complex number (3424, 2192) - 2874
+3535: Coorinates (1262, 2875) - 2875
+3536: Coorinates (1511, 2875) - 2875
+3537: Complex number (3176, 2541) - 2876
+3538: Coorinates (2781, 2876) - 2876
+3539: Complex number (1054, 3931) - 2877
+3540: Complex number (4070, 133) - 2879
+3541: Coorinates (4, 2883) - 2883
+3542: Complex number (3828, 1407) - 2883
+3543: Complex number (3613, 1894) - 2884
+3544: Coorinates (3132, 2889) - 2889
+3545: Complex number (3126, 2632) - 2889
+3546: Complex number (3526, 2068) - 2890
+3547: Complex number (4013, 796) - 2892
+3548: Coorinates (2764, 2892) - 2892
+3549: Complex number (2590, 3167) - 2892
+3550: Complex number (4087, 159) - 2892
+3551: Complex number (3445, 2209) - 2893
+3552: Complex number (3463, 2184) - 2895
+3553: Complex number (3968, 1017) - 2896
+3554: Complex number (2820, 2971) - 2896
+3555: Coorinates (2042, 2898) - 2898
+3556: Complex number (534, 4064) - 2898
+3557: Complex number (2019, 3571) - 2900
+3558: Coorinates (3212, 2901) - 2901
+3559: Coorinates (1637, 2901) - 2901
+3560: Coorinates (508, 2902) - 2902
+3561: Complex number (4084, 446) - 2904
+3562: Complex number (1234, 3919) - 2905
+3563: Coorinates (216, 2905) - 2905
+3564: Complex number (3677, 1837) - 2906
+3565: Coorinates (3919, 2908) - 2908
+3566: Coorinates (1828, 2908) - 2908
+3567: Coorinates (613, 2908) - 2908
+3568: Coorinates (2443, 2910) - 2910
+3569: Complex number (2967, 2856) - 2912
+3570: Coorinates (2233, 2920) - 2920
+3571: Coorinates (3140, 2920) - 2920
+3572: Complex number (1441, 3878) - 2925
+3573: Complex number (88, 4138) - 2926
+3574: Complex number (3930, 1298) - 2926
+3575: Complex number (2034, 3605) - 2926
+3576: Complex number (1175, 3973) - 2929
+3577: Complex number (3957, 1227) - 2929
+3578: Complex number (2560, 3258) - 2929
+3579: Coorinates (759, 2931) - 2931
+3580: Complex number (1630, 3813) - 2932
+3581: Complex number (1440, 3891) - 2933
+3582: Complex number (3589, 2083) - 2934
+3583: Coorinates (844, 2935) - 2935
+3584: Coorinates (4178, 2935) - 2935
+3585: Complex number (3666, 1959) - 2939
+3586: Coorinates (1974, 2941) - 2941
+3587: Complex number (1361, 3932) - 2942
+3588: Complex number (3031, 2851) - 2942
+3589: Complex number (3705, 1902) - 2944
+3590: Coorinates (273, 2946) - 2946
+3591: Coorinates (1137, 2946) - 2946
+3592: Complex number (249, 4162) - 2948
+3593: Complex number (257, 4163) - 2949
+3594: Complex number (3403, 2411) - 2949
+3595: Complex number (2671, 3208) - 2951
+3596: Complex number (594, 4132) - 2951
+3597: Coorinates (4190, 2952) - 2952
+3598: Coorinates (2220, 2952) - 2952
+3599: Complex number (3084, 2817) - 2953
+3600: Complex number (3012, 2894) - 2953
+3601: Complex number (3265, 2610) - 2955
+3602: Complex number (894, 4083) - 2955
+3603: Complex number (2587, 3282) - 2955
+3604: Coorinates (935, 2955) - 2955
+3605: Complex number (1667, 3835) - 2956
+3606: Coorinates (1867, 2957) - 2957
+3607: Coorinates (4717, 2958) - 2958
+3608: Coorinates (1163, 2958) - 2958
+3609: Complex number (2321, 3482) - 2959
+3610: Coorinates (4278, 2960) - 2960
+3611: Complex number (2761, 3150) - 2961
+3612: Complex number (1063, 4053) - 2962
+3613: Complex number (3841, 1676) - 2963
+3614: Coorinates (1318, 2964) - 2964
+3615: Coorinates (4252, 2964) - 2964
+3616: Coorinates (3332, 2966) - 2966
+3617: Complex number (4143, 668) - 2967
+3618: Complex number (4016, 1224) - 2968
+3619: Complex number (2855, 3079) - 2969
+3620: Coorinates (4261, 2970) - 2970
+3621: Complex number (1889, 3753) - 2970
+3622: Complex number (2591, 3312) - 2973
+3623: Complex number (2939, 3010) - 2974
+3624: Coorinates (3488, 2974) - 2974
+3625: Complex number (3830, 1747) - 2976
+3626: Coorinates (2539, 2978) - 2978
+3627: Complex number (2679, 3252) - 2979
+3628: Coorinates (1296, 2979) - 2979
+3629: Complex number (3698, 2022) - 2980
+3630: Complex number (4206, 282) - 2980
+3631: Coorinates (294, 2981) - 2981
+3632: Complex number (2544, 3363) - 2981
+3633: Complex number (2938, 3026) - 2982
+3634: Coorinates (1634, 2984) - 2984
+3635: Complex number (3866, 1692) - 2984
+3636: Coorinates (3094, 2984) - 2984
+3637: Complex number (414, 4204) - 2987
+3638: Complex number (890, 4130) - 2987
+3639: Complex number (4087, 1076) - 2988
+3640: Complex number (79, 4225) - 2988
+3641: Complex number (2586, 3349) - 2991
+3642: Complex number (4013, 1338) - 2991
+3643: Coorinates (99, 2991) - 2991
+3644: Coorinates (4186, 2994) - 2994
+3645: Complex number (2580, 3359) - 2994
+3646: Complex number (1254, 4045) - 2994
+3647: Coorinates (550, 2996) - 2996
+3648: Coorinates (695, 2998) - 2998
+3649: Coorinates (3773, 2999) - 2999
+3650: Complex number (1993, 3748) - 3001
+3651: Complex number (2758, 3231) - 3003
+3652: Complex number (3850, 1793) - 3003
+3653: Coorinates (1750, 3004) - 3004
+3654: Complex number (2639, 3330) - 3004
+3655: Coorinates (3853, 3007) - 3007
+3656: Complex number (3615, 2241) - 3007
+3657: Complex number (2300, 3585) - 3011
+3658: Complex number (4205, 673) - 3011
+3659: Complex number (761, 4190) - 3011
+3660: Complex number (1438, 4011) - 3012
+3661: Complex number (1307, 4057) - 3013
+3662: Complex number (4261, 56) - 3013
+3663: Coorinates (2530, 3015) - 3015
+3664: Complex number (2658, 3338) - 3017
+3665: Complex number (946, 4162) - 3018
+3666: Complex number (1226, 4089) - 3018
+3667: Complex number (3347, 2649) - 3018
+3668: Complex number (3967, 1584) - 3020
+3669: Coorinates (2352, 3021) - 3021
+3670: Complex number (4185, 882) - 3024
+3671: Complex number (3568, 2358) - 3024
+3672: Complex number (4035, 1426) - 3026
+3673: Complex number (3589, 2333) - 3026
+3674: Coorinates (2399, 3026) - 3026
+3675: Coorinates (2348, 3026) - 3026
+3676: Complex number (4165, 987) - 3026
+3677: Coorinates (3961, 3029) - 3029
+3678: Coorinates (303, 3029) - 3029
+3679: Complex number (2388, 3560) - 3031
+3680: Complex number (4017, 1502) - 3032
+3681: Coorinates (1628, 3033) - 3033
+3682: Complex number (2264, 3646) - 3034
+3683: Complex number (891, 4201) - 3036
+3684: Complex number (2552, 3453) - 3036
+3685: Complex number (4208, 878) - 3039
+3686: Complex number (1292, 4101) - 3040
+3687: Coorinates (2842, 3040) - 3040
+3688: Coorinates (1890, 3041) - 3041
+3689: Coorinates (4343, 3041) - 3041
+3690: Coorinates (1349, 3041) - 3041
+3691: Coorinates (2458, 3041) - 3041
+3692: Coorinates (2191, 3042) - 3042
+3693: Complex number (4301, 114) - 3042
+3694: Complex number (723, 4243) - 3043
+3695: Coorinates (4627, 3045) - 3045
+3696: Complex number (3769, 2086) - 3046
+3697: Complex number (3486, 2534) - 3047
+3698: Coorinates (3837, 3050) - 3050
+3699: Complex number (3697, 2233) - 3054
+3700: Complex number (2336, 3636) - 3055
+3701: Coorinates (3849, 3056) - 3056
+3702: Coorinates (2458, 3057) - 3057
+3703: Complex number (3880, 1916) - 3059
+3704: Coorinates (692, 3059) - 3059
+3705: Coorinates (1860, 3060) - 3060
+3706: Complex number (1788, 3947) - 3063
+3707: Complex number (4110, 1379) - 3065
+3708: Coorinates (3536, 3065) - 3065
+3709: Complex number (2027, 3834) - 3066
+3710: Complex number (3264, 2858) - 3067
+3711: Coorinates (4234, 3067) - 3067
+3712: Complex number (3188, 2945) - 3068
+3713: Complex number (1198, 4171) - 3068
+3714: Complex number (3852, 2000) - 3069
+3715: Complex number (2312, 3675) - 3070
+3716: Complex number (3409, 2692) - 3071
+3717: Complex number (3397, 2710) - 3072
+3718: Complex number (313, 4335) - 3073
+3719: Coorinates (696, 3074) - 3074
+3720: Complex number (4168, 1243) - 3075
+3721: Complex number (3622, 2411) - 3076
+3722: Complex number (2898, 3245) - 3076
+3723: Coorinates (1632, 3076) - 3076
+3724: Complex number (2965, 3186) - 3077
+3725: Complex number (1386, 4125) - 3077
+3726: Coorinates (2607, 3078) - 3078
+3727: Complex number (3677, 2332) - 3078
+3728: Coorinates (175, 3079) - 3079
+3729: Complex number (2590, 3504) - 3081
+3730: Complex number (3665, 2363) - 3083
+3731: Coorinates (3818, 3087) - 3087
+3732: Coorinates (103, 3088) - 3088
+3733: Complex number (113, 4367) - 3088
+3734: Coorinates (4733, 3089) - 3089
+3735: Complex number (2017, 3876) - 3089
+3736: Complex number (2418, 3641) - 3090
+3737: Complex number (276, 4366) - 3093
+3738: Complex number (4039, 1681) - 3093
+3739: Complex number (4161, 1353) - 3093
+3740: Complex number (3384, 2774) - 3094
+3741: Complex number (2977, 3212) - 3096
+3742: Complex number (4369, 295) - 3096
+3743: Coorinates (1501, 3096) - 3096
+3744: Coorinates (1405, 3097) - 3097
+3745: Coorinates (3468, 3097) - 3097
+3746: Complex number (2760, 3401) - 3097
+3747: Complex number (3905, 1986) - 3097
+3748: Complex number (905, 4287) - 3098
+3749: Complex number (854, 4298) - 3098
+3750: Complex number (19, 4382) - 3098
+3751: Coorinates (4101, 3100) - 3100
+3752: Complex number (2026, 3888) - 3100
+3753: Coorinates (1525, 3100) - 3100
+3754: Complex number (2596, 3534) - 3100
+3755: Complex number (3922, 1965) - 3101
+3756: Complex number (627, 4341) - 3101
+3757: Coorinates (1640, 3105) - 3105
+3758: Complex number (210, 4387) - 3105
+3759: Complex number (708, 4336) - 3106
+3760: Complex number (1530, 4120) - 3107
+3761: Coorinates (955, 3110) - 3110
+3762: Complex number (4313, 878) - 3112
+3763: Coorinates (3764, 3114) - 3114
+3764: Coorinates (664, 3115) - 3115
+3765: Complex number (1641, 4089) - 3115
+3766: Complex number (1667, 4083) - 3118
+3767: Complex number (4242, 1206) - 3118
+3768: Coorinates (1560, 3119) - 3119
+3769: Coorinates (2512, 3123) - 3123
+3770: Complex number (4414, 264) - 3126
+3771: Complex number (4074, 1721) - 3127
+3772: Complex number (3450, 2771) - 3128
+3773: Coorinates (2457, 3128) - 3128
+3774: Complex number (3250, 3006) - 3130
+3775: Complex number (4360, 765) - 3130
+3776: Coorinates (350, 3130) - 3130
+3777: Coorinates (3521, 3131) - 3131
+3778: Coorinates (3008, 3131) - 3131
+3779: Complex number (1622, 4121) - 3131
+3780: Complex number (1870, 4016) - 3132
+3781: Complex number (2379, 3738) - 3133
+3782: Complex number (4431, 58) - 3133
+3783: Complex number (1774, 4061) - 3133
+3784: Complex number (3983, 1956) - 3137
+3785: Complex number (4403, 572) - 3139
+3786: Complex number (1948, 3993) - 3141
+3787: Complex number (4364, 836) - 3141
+3788: Coorinates (1833, 3142) - 3142
+3789: Complex number (2867, 3397) - 3143
+3790: Complex number (4416, 511) - 3143
+3791: Complex number (207, 4443) - 3145
+3792: Complex number (4280, 1218) - 3146
+3793: Coorinates (1485, 3146) - 3146
+3794: Complex number (712, 4393) - 3146
+3795: Complex number (4083, 1771) - 3147
+3796: Coorinates (1361, 3149) - 3149
+3797: Complex number (4141, 1644) - 3150
+3798: Complex number (4446, 328) - 3152
+3799: Complex number (3213, 3092) - 3153
+3800: Coorinates (4472, 3153) - 3153
+3801: Complex number (2080, 3945) - 3153
+3802: Complex number (4346, 1008) - 3154
+3803: Complex number (179, 4458) - 3154
+3804: Complex number (2743, 3518) - 3154
+3805: Complex number (1651, 4146) - 3155
+3806: Complex number (4163, 1609) - 3155
+3807: Coorinates (2678, 3155) - 3155
+3808: Complex number (4448, 369) - 3156
+3809: Coorinates (2958, 3160) - 3160
+3810: Complex number (4234, 1432) - 3160
+3811: Complex number (3786, 2379) - 3161
+3812: Coorinates (3098, 3161) - 3161
+3813: Complex number (4043, 1913) - 3162
+3814: Coorinates (2821, 3162) - 3162
+3815: Complex number (1780, 4109) - 3166
+3816: Complex number (3069, 3262) - 3166
+3817: Complex number (2914, 3402) - 3167
+3818: Coorinates (201, 3171) - 3171
+3819: Coorinates (4297, 3171) - 3171
+3820: Complex number (1421, 4256) - 3172
+3821: Coorinates (479, 3172) - 3172
+3822: Complex number (4485, 102) - 3172
+3823: Coorinates (3158, 3173) - 3173
+3824: Complex number (2007, 4018) - 3175
+3825: Complex number (3387, 2952) - 3176
+3826: Complex number (3035, 3314) - 3177
+3827: Complex number (3819, 2371) - 3178
+3828: Complex number (4112, 1817) - 3178
+3829: Complex number (396, 4479) - 3179
+3830: Coorinates (4878, 3179) - 3179
+3831: Complex number (4065, 1923) - 3179
+3832: Complex number (4405, 908) - 3180
+3833: Complex number (2595, 3675) - 3181
+3834: Complex number (4364, 1104) - 3183
+3835: Coorinates (4385, 3183) - 3183
+3836: Complex number (4503, 14) - 3184
+3837: Coorinates (1029, 3184) - 3184
+3838: Complex number (203, 4500) - 3185
+3839: Coorinates (2478, 3185) - 3185
+3840: Complex number (874, 4419) - 3185
+3841: Coorinates (2024, 3185) - 3185
+3842: Complex number (2064, 4005) - 3185
+3843: Complex number (1834, 4116) - 3186
+3844: Coorinates (326, 3187) - 3187
+3845: Complex number (3492, 2850) - 3187
+3846: Complex number (4480, 518) - 3188
+3847: Complex number (4121, 1840) - 3191
+3848: Complex number (1003, 4401) - 3191
+3849: Complex number (4105, 1880) - 3192
+3850: Coorinates (833, 3192) - 3192
+3851: Complex number (369, 4501) - 3193
+3852: Complex number (1164, 4367) - 3195
+3853: Complex number (4117, 1862) - 3195
+3854: Complex number (4507, 341) - 3196
+3855: Complex number (3392, 2992) - 3198
+3856: Coorinates (1770, 3199) - 3199
+3857: Complex number (3904, 2288) - 3199
+3858: Complex number (4510, 382) - 3200
+3859: Coorinates (1086, 3201) - 3201
+3860: Complex number (1653, 4216) - 3202
+3861: Complex number (4235, 1614) - 3204
+3862: Complex number (3632, 2710) - 3204
+3863: Complex number (4073, 1992) - 3206
+3864: Complex number (4466, 790) - 3206
+3865: Complex number (2816, 3554) - 3206
+3866: Coorinates (6, 3207) - 3207
+3867: Complex number (4497, 609) - 3208
+3868: Complex number (2964, 3436) - 3208
+3869: Complex number (3801, 2480) - 3209
+3870: Coorinates (3362, 3211) - 3211
+3871: Complex number (3697, 2639) - 3211
+3872: Complex number (1937, 4110) - 3212
+3873: Complex number (2665, 3680) - 3212
+3874: Complex number (1052, 4420) - 3212
+3875: Coorinates (798, 3212) - 3212
+3876: Complex number (4544, 2) - 3213
+3877: Complex number (3231, 3196) - 3213
+3878: Complex number (4209, 1717) - 3214
+3879: Complex number (1660, 4233) - 3215
+3880: Complex number (2982, 3435) - 3216
+3881: Complex number (1609, 4254) - 3216
+3882: Complex number (1644, 4242) - 3216
+3883: Complex number (3359, 3076) - 3220
+3884: Complex number (1535, 4289) - 3221
+3885: Complex number (3330, 3111) - 3222
+3886: Complex number (4178, 1822) - 3222
+3887: Complex number (4558, 151) - 3224
+3888: Coorinates (3977, 3226) - 3226
+3889: Complex number (4561, 149) - 3226
+3890: Complex number (2043, 4082) - 3227
+3891: Coorinates (1886, 3228) - 3228
+3892: Complex number (220, 4561) - 3228
+3893: Complex number (2940, 3494) - 3228
+3894: Complex number (652, 4521) - 3229
+3895: Coorinates (1494, 3230) - 3230
+3896: Coorinates (910, 3231) - 3231
+3897: Complex number (4253, 1672) - 3231
+3898: Coorinates (2963, 3232) - 3232
+3899: Complex number (1453, 4334) - 3232
+3900: Complex number (2444, 3863) - 3232
+3901: Complex number (1497, 4321) - 3233
+3902: Complex number (3385, 3075) - 3233
+3903: Complex number (3846, 2473) - 3233
+3904: Complex number (4516, 730) - 3234
+3905: Coorinates (400, 3235) - 3235
+3906: Complex number (43, 4576) - 3235
+3907: Complex number (1477, 4332) - 3236
+3908: Coorinates (1537, 3238) - 3238
+3909: Complex number (4255, 1698) - 3239
+3910: Coorinates (3248, 3242) - 3242
+3911: Coorinates (1677, 3242) - 3242
+3912: Complex number (4585, 28) - 3242
+3913: Complex number (4112, 2033) - 3243
+3914: Coorinates (4343, 3243) - 3243
+3915: Complex number (4485, 961) - 3243
+3916: Complex number (4244, 1741) - 3243
+3917: Complex number (3687, 2731) - 3244
+3918: Complex number (3222, 3268) - 3245
+3919: Complex number (1100, 4458) - 3246
+3920: Complex number (604, 4553) - 3247
+3921: Complex number (1902, 4182) - 3248
+3922: Complex number (4569, 478) - 3248
+3923: Complex number (3694, 2736) - 3250
+3924: Complex number (1495, 4347) - 3250
+3925: Complex number (1105, 4465) - 3252
+3926: Coorinates (311, 3252) - 3252
+3927: Complex number (2525, 3846) - 3253
+3928: Complex number (598, 4564) - 3254
+3929: Complex number (4561, 647) - 3257
+3930: Coorinates (3693, 3260) - 3260
+3931: Complex number (3237, 3287) - 3262
+3932: Complex number (2380, 3954) - 3263
+3933: Coorinates (1421, 3264) - 3264
+3934: Complex number (3050, 3466) - 3264
+3935: Coorinates (1095, 3265) - 3265
+3936: Complex number (4614, 242) - 3267
+3937: Complex number (3528, 2987) - 3268
+3938: Complex number (589, 4586) - 3269
+3939: Coorinates (2550, 3272) - 3272
+3940: Coorinates (469, 3273) - 3273
+3941: Complex number (4483, 1172) - 3276
+3942: Coorinates (905, 3277) - 3277
+3943: Complex number (1960, 4202) - 3278
+3944: Complex number (3820, 2627) - 3278
+3945: Coorinates (4592, 3279) - 3279
+3946: Complex number (1971, 4200) - 3280
+3947: Coorinates (2069, 3280) - 3280
+3948: Complex number (4335, 1659) - 3282
+3949: Coorinates (1643, 3282) - 3282
+3950: Complex number (2093, 4143) - 3282
+3951: Complex number (4618, 494) - 3284
+3952: Coorinates (976, 3284) - 3284
+3953: Coorinates (1755, 3284) - 3284
+3954: Complex number (3023, 3533) - 3287
+3955: Complex number (2482, 3935) - 3289
+3956: Coorinates (183, 3290) - 3290
+3957: Coorinates (4324, 3291) - 3291
+3958: Complex number (4204, 2006) - 3293
+3959: Complex number (3373, 3214) - 3294
+3960: Coorinates (3534, 3297) - 3297
+3961: Complex number (2262, 4081) - 3299
+3962: Coorinates (3108, 3300) - 3300
+3963: Complex number (2633, 3856) - 3301
+3964: Coorinates (2538, 3303) - 3303
+3965: Complex number (1198, 4517) - 3304
+3966: Complex number (3316, 3299) - 3307
+3967: Complex number (1360, 4476) - 3307
+3968: Coorinates (3246, 3312) - 3312
+3969: Complex number (4249, 1976) - 3313
+3970: Complex number (692, 4635) - 3313
+3971: Complex number (3690, 2890) - 3314
+3972: Complex number (3253, 3374) - 3314
+3973: Complex number (759, 4627) - 3315
+3974: Complex number (2075, 4206) - 3316
+3975: Complex number (3093, 3528) - 3317
+3976: Coorinates (858, 3318) - 3318
+3977: Complex number (4425, 1566) - 3319
+3978: Coorinates (1974, 3321) - 3321
+3979: Coorinates (2062, 3322) - 3322
+3980: Complex number (3919, 2596) - 3323
+3981: Coorinates (830, 3326) - 3326
+3982: Coorinates (3332, 3328) - 3328
+3983: Complex number (3540, 3102) - 3328
+3984: Complex number (4443, 1566) - 3331
+3985: Coorinates (3399, 3332) - 3332
+3986: Complex number (3861, 2705) - 3333
+3987: Complex number (1411, 4499) - 3334
+3988: Complex number (4712, 240) - 3336
+3989: Coorinates (546, 3337) - 3337
+3990: Complex number (4077, 2381) - 3338
+3991: Coorinates (2329, 3339) - 3339
+3992: Complex number (4717, 241) - 3339
+3993: Complex number (4654, 802) - 3339
+3994: Complex number (3469, 3207) - 3340
+3995: Coorinates (1390, 3340) - 3340
+3996: Coorinates (3376, 3341) - 3341
+3997: Coorinates (4683, 3342) - 3342
+3998: Complex number (3939, 2614) - 3342
+3999: Complex number (641, 4683) - 3342
+4000: Complex number (2365, 4095) - 3343
+4001: Complex number (4599, 1098) - 3343
+4002: Coorinates (4460, 3343) - 3343
+4003: Complex number (4654, 844) - 3344
+4004: Coorinates (3299, 3345) - 3345
+4005: Coorinates (2845, 3348) - 3348
+4006: Complex number (4734, 153) - 3349
+4007: Complex number (4714, 483) - 3350
+4008: Coorinates (435, 3352) - 3352
+4009: Complex number (4705, 593) - 3353
+4010: Complex number (2723, 3895) - 3360
+4011: Coorinates (4056, 3360) - 3360
+4012: Complex number (3593, 3115) - 3362
+4013: Complex number (1995, 4319) - 3364
+4014: Coorinates (2511, 3364) - 3364
+4015: Complex number (2555, 4017) - 3366
+4016: Coorinates (829, 3366) - 3366
+4017: Complex number (4524, 1486) - 3367
+4018: Complex number (4225, 2204) - 3369
+4019: Complex number (2443, 4093) - 3370
+4020: Coorinates (3302, 3372) - 3372
+4021: Coorinates (2678, 3373) - 3373
+4022: Coorinates (1921, 3374) - 3374
+4023: Complex number (1830, 4411) - 3376
+4024: Complex number (2956, 3751) - 3376
+4025: Complex number (673, 4728) - 3376
+4026: Complex number (3176, 3572) - 3379
+4027: Complex number (4754, 498) - 3379
+4028: Complex number (4077, 2495) - 3379
+4029: Coorinates (1667, 3380) - 3380
+4030: Coorinates (597, 3381) - 3381
+4031: Complex number (3184, 3569) - 3381
+4032: Complex number (2480, 4090) - 3382
+4033: Complex number (1413, 4570) - 3382
+4034: Complex number (4761, 460) - 3382
+4035: Complex number (3163, 3591) - 3383
+4036: Complex number (1199, 4634) - 3384
+4037: Complex number (4034, 2579) - 3385
+4038: Complex number (1586, 4517) - 3385
+4039: Complex number (4781, 314) - 3387
+4040: Complex number (4754, 594) - 3387
+4041: Complex number (2599, 4026) - 3388
+4042: Coorinates (2086, 3389) - 3389
+4043: Coorinates (1931, 3391) - 3391
+4044: Complex number (3579, 3197) - 3393
+4045: Coorinates (261, 3395) - 3395
+4046: Complex number (4774, 521) - 3395
+4047: Complex number (3654, 3116) - 3395
+4048: Complex number (3474, 3317) - 3396
+4049: Complex number (4798, 229) - 3396
+4050: Coorinates (1153, 3400) - 3400
+4051: Complex number (4807, 120) - 3400
+4052: Complex number (4810, 52) - 3401
+4053: Complex number (4097, 2522) - 3401
+4054: Complex number (4555, 1555) - 3403
+4055: Complex number (950, 4719) - 3403
+4056: Complex number (4147, 2447) - 3404
+4057: Complex number (4331, 2106) - 3405
+4058: Complex number (3202, 3597) - 3405
+4059: Coorinates (3905, 3405) - 3405
+4060: Complex number (976, 4717) - 3406
+4061: Complex number (4165, 2425) - 3407
+4062: Complex number (4511, 1699) - 3408
+4063: Complex number (2854, 3885) - 3408
+4064: Coorinates (3429, 3409) - 3409
+4065: Complex number (4689, 1124) - 3409
+4066: Complex number (4127, 2497) - 3410
+4067: Complex number (1145, 4688) - 3412
+4068: Complex number (3720, 3074) - 3412
+4069: Complex number (4757, 813) - 3412
+4070: Complex number (3194, 3619) - 3413
+4071: Complex number (1808, 4478) - 3414
+4072: Complex number (4377, 2039) - 3414
+4073: Coorinates (4267, 3416) - 3416
+4074: Complex number (1546, 4579) - 3417
+4075: Coorinates (2337, 3417) - 3417
+4076: Coorinates (111, 3419) - 3419
+4077: Coorinates (3054, 3420) - 3420
+4078: Coorinates (1269, 3421) - 3421
+4079: Complex number (2778, 3961) - 3421
+4080: Coorinates (2009, 3421) - 3421
+4081: Complex number (4121, 2535) - 3421
+4082: Coorinates (3265, 3423) - 3423
+4083: Complex number (3831, 2960) - 3423
+4084: Complex number (2255, 4286) - 3424
+4085: Complex number (2091, 4369) - 3424
+4086: Complex number (3193, 3646) - 3426
+4087: Complex number (2379, 4224) - 3427
+4088: Complex number (4824, 472) - 3427
+4089: Complex number (4625, 1457) - 3428
+4090: Coorinates (3350, 3429) - 3429
+4091: Complex number (4318, 2208) - 3429
+4092: Coorinates (4172, 3430) - 3430
+4093: Coorinates (2793, 3431) - 3431
+4094: Complex number (2845, 3932) - 3431
+4095: Complex number (1463, 4628) - 3432
+4096: Complex number (1220, 4701) - 3434
+4097: Complex number (3071, 3764) - 3435
+4098: Complex number (2604, 4102) - 3435
+4099: Complex number (1276, 4688) - 3435
+4100: Coorinates (1154, 3436) - 3436
+4101: Complex number (2848, 3940) - 3437
+4102: Complex number (2842, 3946) - 3438
+4103: Complex number (2749, 4013) - 3439
+4104: Complex number (1995, 4436) - 3439
+4105: Complex number (3715, 3144) - 3441
+4106: Complex number (3046, 3798) - 3442
+4107: Complex number (4108, 2616) - 3443
+4108: Coorinates (336, 3443) - 3443
+4109: Complex number (3304, 3580) - 3444
+4110: Complex number (4793, 903) - 3448
+4111: Complex number (1706, 4571) - 3449
+4112: Complex number (711, 4826) - 3449
+4113: Complex number (3950, 2866) - 3450
+4114: Complex number (4848, 563) - 3451
+4115: Complex number (4140, 2585) - 3451
+4116: Complex number (3934, 2893) - 3452
+4117: Complex number (4202, 2490) - 3453
+4118: Complex number (1632, 4603) - 3453
+4119: Complex number (219, 4882) - 3455
+4120: Complex number (4231, 2456) - 3459
+4121: Complex number (4890, 260) - 3462
+4122: Complex number (282, 4888) - 3462
+4123: Complex number (3609, 3315) - 3465
+4124: Complex number (3786, 3119) - 3468
+4125: Complex number (1017, 4805) - 3472
+4126: Complex number (4302, 2370) - 3473
+4127: Complex number (1447, 4695) - 3473
+4128: Complex number (2665, 4130) - 3475
+4129: Complex number (4195, 2564) - 3476
+4130: Complex number (2722, 4094) - 3476
+4131: Complex number (4027, 2824) - 3477
+4132: Complex number (3307, 3640) - 3477
+4133: Complex number (4742, 1305) - 3477
+4134: Complex number (4331, 2332) - 3478
+4135: Coorinates (1395, 3478) - 3478
+4136: Complex number (3656, 3292) - 3478
+4137: Coorinates (3369, 3479) - 3479
+4138: Complex number (758, 4863) - 3480
+4139: Complex number (2092, 4456) - 3480
+4140: Complex number (3513, 3450) - 3481
+4141: Coorinates (699, 3484) - 3484
+4142: Complex number (160, 4927) - 3485
+4143: Complex number (4728, 1392) - 3485
+4144: Complex number (1779, 4598) - 3486
+4145: Complex number (4280, 2450) - 3487
+4146: Complex number (4928, 190) - 3487
+4147: Coorinates (1559, 3489) - 3489
+4148: Coorinates (4729, 3491) - 3491
+4149: Complex number (3583, 3398) - 3491
+4150: Coorinates (1486, 3492) - 3492
+4151: Complex number (3631, 3350) - 3493
+4152: Complex number (1401, 4739) - 3494
+4153: Coorinates (2162, 3494) - 3494
+4154: Complex number (4871, 841) - 3495
+4155: Coorinates (3718, 3503) - 3503
+4156: Complex number (830, 4886) - 3504
+4157: Complex number (1950, 4561) - 3507
+4158: Complex number (4944, 425) - 3508
+4159: Complex number (3438, 3578) - 3508
+4160: Complex number (3798, 3197) - 3510
+4161: Complex number (1752, 4647) - 3511
+4162: Complex number (3898, 3080) - 3512
+4163: Coorinates (3199, 3513) - 3513
+4164: Complex number (3754, 3256) - 3513
+4165: Complex number (228, 4963) - 3513
+4166: Complex number (4611, 1854) - 3514
+4167: Complex number (3858, 3133) - 3514
+4168: Coorinates (1664, 3515) - 3515
+4169: Complex number (4627, 1818) - 3515
+4170: Complex number (4064, 2868) - 3517
+4171: Complex number (4451, 2221) - 3517
+4172: Coorinates (208, 3518) - 3518
+4173: Coorinates (1703, 3519) - 3519
+4174: Complex number (4077, 2858) - 3520
+4175: Complex number (3045, 3940) - 3521
+4176: Complex number (3856, 3153) - 3522
+4177: Coorinates (3379, 3523) - 3523
+4178: Complex number (4627, 1853) - 3524
+4179: Coorinates (969, 3524) - 3524
+4180: Complex number (4446, 2255) - 3525
+4181: Complex number (744, 4930) - 3525
+4182: Coorinates (1682, 3527) - 3527
+4183: Complex number (1158, 4853) - 3527
+4184: Complex number (4989, 96) - 3528
+4185: Complex number (3601, 3461) - 3531
+4186: Complex number (2846, 4104) - 3531
+4187: Complex number (270, 4988) - 3532
+4188: Coorinates (3534, 3532) - 3532
+4189: Complex number (4421, 2330) - 3533
+4190: Complex number (4910, 933) - 3534
+4191: Coorinates (274, 3534) - 3534
+4192: Complex number (2087, 4544) - 3535
+4193: Complex number (2849, 4111) - 3536
+4194: Complex number (3810, 3239) - 3536
+4195: Coorinates (1504, 3537) - 3537
+4196: Complex number (1721, 4697) - 3537
+4197: Complex number (4297, 2565) - 3538
+4198: Complex number (4254, 2635) - 3538
+4199: Complex number (4936, 828) - 3539
+4200: Coorinates (3492, 3542) - 3542
+4201: Complex number (890, 4930) - 3542
+4202: Coorinates (3623, 3543) - 3543
+4203: Complex number (703, 4963) - 3544
+4204: Complex number (3202, 3858) - 3545
+4205: Complex number (2480, 4360) - 3546
+4206: Complex number (3802, 3274) - 3547
+4207: Complex number (4713, 1719) - 3547
+4208: Complex number (601, 4982) - 3548
+4209: Complex number (4827, 1374) - 3548
+4210: Coorinates (2049, 3548) - 3548
+4211: Coorinates (183, 3548) - 3548
+4212: Complex number (1198, 4875) - 3549
+4213: Complex number (1341, 4839) - 3550
+4214: Complex number (4233, 2701) - 3550
+4215: Complex number (3014, 4016) - 3550
+4216: Complex number (880, 4945) - 3551
+4217: Complex number (4375, 2470) - 3552
+4218: Complex number (1201, 4878) - 3552
+4219: Complex number (3781, 3311) - 3553
+4220: Complex number (4681, 1833) - 3554
+4221: Complex number (4535, 2183) - 3558
+4222: Complex number (655, 4990) - 3558
+4223: Complex number (3760, 3349) - 3560
+4224: Complex number (788, 4975) - 3561
+4225: Coorinates (3156, 3563) - 3563
+4226: Complex number (684, 4995) - 3564
+4227: Coorinates (1019, 3564) - 3564
+4228: Complex number (2919, 4112) - 3565
+4229: Coorinates (1802, 3566) - 3566
+4230: Complex number (4204, 2790) - 3567
+4231: Complex number (4840, 1429) - 3568
+4232: Complex number (4940, 1031) - 3568
+4233: Complex number (4272, 2691) - 3570
+4234: Complex number (4003, 3081) - 3571
+4235: Complex number (1997, 4640) - 3571
+4236: Coorinates (1068, 3571) - 3571
+4237: Coorinates (2927, 3573) - 3573
+4238: Complex number (1114, 4930) - 3573
+4239: Coorinates (2049, 3576) - 3576
+4240: Complex number (3890, 3235) - 3577
+4241: Complex number (4984, 880) - 3578
+4242: Coorinates (303, 3578) - 3578
+4243: Coorinates (4914, 3579) - 3579
+4244: Complex number (3029, 4057) - 3580
+4245: Complex number (4945, 1089) - 3580
+4246: Complex number (1715, 4765) - 3580
+4247: Complex number (4077, 3004) - 3580
+4248: Complex number (4756, 1750) - 3583
+4249: Complex number (1001, 4969) - 3584
+4250: Complex number (4945, 1120) - 3585
+4251: Complex number (2819, 4216) - 3586
+4252: Coorinates (2332, 3589) - 3589
+4253: Complex number (2668, 4320) - 3590
+4254: Complex number (4498, 2357) - 3590
+4255: Complex number (2574, 4379) - 3591
+4256: Complex number (4963, 1078) - 3591
+4257: Coorinates (3927, 3592) - 3592
+4258: Complex number (4753, 1798) - 3593
+4259: Coorinates (2753, 3593) - 3593
+4260: Coorinates (3065, 3594) - 3594
+4261: Coorinates (1711, 3595) - 3595
+4262: Complex number (4987, 1011) - 3598
+4263: Complex number (1180, 4952) - 3599
+4264: Coorinates (777, 3602) - 3602
+4265: Complex number (2273, 4561) - 3603
+4266: Complex number (2593, 4389) - 3604
+4267: Coorinates (429, 3608) - 3608
+4268: Complex number (1282, 4947) - 3613
+4269: Complex number (3423, 3796) - 3614
+4270: Complex number (2588, 4409) - 3615
+4271: Complex number (4518, 2396) - 3616
+4272: Coorinates (2287, 3618) - 3618
+4273: Coorinates (1865, 3618) - 3618
+4274: Coorinates (1919, 3620) - 3620
+4275: Complex number (3993, 3210) - 3622
+4276: Coorinates (975, 3624) - 3624
+4277: Complex number (3466, 3781) - 3626
+4278: Complex number (3321, 3912) - 3628
+4279: Complex number (3246, 3974) - 3628
+4280: Complex number (4242, 2898) - 3632
+4281: Complex number (1432, 4934) - 3632
+4282: Complex number (2202, 4643) - 3633
+4283: Coorinates (1529, 3634) - 3634
+4284: Complex number (2134, 4676) - 3634
+4285: Coorinates (324, 3634) - 3634
+4286: Complex number (3453, 3807) - 3634
+4287: Complex number (2057, 4716) - 3638
+4288: Complex number (2543, 4477) - 3640
+4289: Complex number (4964, 1366) - 3640
+4290: Complex number (2174, 4669) - 3641
+4291: Complex number (3134, 4087) - 3641
+4292: Coorinates (1008, 3641) - 3641
+4293: Coorinates (3678, 3642) - 3642
+4294: Coorinates (2824, 3643) - 3643
+4295: Complex number (3483, 3800) - 3644
+4296: Complex number (4127, 3088) - 3644
+4297: Complex number (4918, 1545) - 3645
+4298: Complex number (4648, 2230) - 3645
+4299: Complex number (4257, 2912) - 3647
+4300: Coorinates (3774, 3647) - 3647
+4301: Complex number (3023, 4185) - 3650
+4302: Complex number (4010, 3254) - 3651
+4303: Coorinates (2418, 3652) - 3652
+4304: Coorinates (4940, 3652) - 3652
+4305: Complex number (2324, 4613) - 3652
+4306: Complex number (4842, 1804) - 3653
+4307: Complex number (4570, 2411) - 3653
+4308: Complex number (4474, 2588) - 3654
+4309: Complex number (4196, 3019) - 3655
+4310: Coorinates (943, 3659) - 3659
+4311: Coorinates (4595, 3661) - 3661
+4312: Complex number (4820, 1893) - 3661
+4313: Complex number (4986, 1401) - 3662
+4314: Complex number (2805, 4354) - 3662
+4315: Complex number (4970, 1460) - 3662
+4316: Complex number (3495, 3824) - 3663
+4317: Complex number (4932, 1599) - 3666
+4318: Complex number (2345, 4626) - 3667
+4319: Complex number (4687, 2222) - 3667
+4320: Complex number (3252, 4043) - 3668
+4321: Complex number (4979, 1456) - 3668
+4322: Coorinates (1825, 3670) - 3670
+4323: Coorinates (3857, 3671) - 3671
+4324: Complex number (3193, 4096) - 3672
+4325: Coorinates (2535, 3674) - 3674
+4326: Coorinates (145, 3675) - 3675
+4327: Coorinates (1614, 3677) - 3677
+4328: Complex number (3733, 3630) - 3681
+4329: Complex number (2575, 4525) - 3681
+4330: Complex number (1775, 4898) - 3683
+4331: Coorinates (11, 3684) - 3684
+4332: Complex number (4970, 1565) - 3684
+4333: Complex number (4093, 3225) - 3684
+4334: Coorinates (2841, 3686) - 3686
+4335: Complex number (4162, 3146) - 3689
+4336: Coorinates (3689, 3690) - 3690
+4337: Complex number (1976, 4831) - 3690
+4338: Complex number (4909, 1777) - 3691
+4339: Coorinates (3471, 3691) - 3691
+4340: Complex number (2719, 4460) - 3693
+4341: Complex number (2648, 4508) - 3696
+4342: Coorinates (2652, 3696) - 3696
+4343: Coorinates (1526, 3697) - 3697
+4344: Coorinates (1736, 3698) - 3698
+4345: Coorinates (3151, 3699) - 3699
+4346: Coorinates (3176, 3699) - 3699
+4347: Coorinates (3389, 3700) - 3700
+4348: Complex number (3328, 4038) - 3700
+4349: Complex number (2064, 4813) - 3703
+4350: Complex number (2136, 4783) - 3704
+4351: Coorinates (1662, 3705) - 3705
+4352: Coorinates (2322, 3705) - 3705
+4353: Coorinates (147, 3706) - 3706
+4354: Complex number (3654, 3758) - 3706
+4355: Complex number (2278, 4724) - 3708
+4356: Complex number (4712, 2309) - 3710
+4357: Complex number (2225, 4756) - 3712
+4358: Complex number (3222, 4151) - 3715
+4359: Complex number (4739, 2273) - 3716
+4360: Coorinates (3145, 3716) - 3716
+4361: Coorinates (4612, 3718) - 3718
+4362: Coorinates (4516, 3719) - 3719
+4363: Complex number (2906, 4384) - 3719
+4364: Complex number (3385, 4027) - 3719
+4365: Complex number (4267, 3077) - 3719
+4366: Coorinates (1337, 3720) - 3720
+4367: Coorinates (1153, 3720) - 3720
+4368: Coorinates (3349, 3721) - 3721
+4369: Coorinates (2691, 3723) - 3723
+4370: Coorinates (2658, 3723) - 3723
+4371: Complex number (4298, 3043) - 3723
+4372: Coorinates (4185, 3723) - 3723
+4373: Coorinates (2350, 3724) - 3724
+4374: Complex number (3200, 4185) - 3725
+4375: Complex number (4917, 1896) - 3726
+4376: Complex number (4386, 2922) - 3726
+4377: Coorinates (3255, 3726) - 3726
+4378: Coorinates (1513, 3727) - 3727
+4379: Coorinates (57, 3727) - 3727
+4380: Coorinates (1890, 3729) - 3729
+4381: Coorinates (4431, 3730) - 3730
+4382: Complex number (3879, 3577) - 3731
+4383: Coorinates (4976, 3731) - 3731
+4384: Complex number (4240, 3142) - 3731
+4385: Coorinates (4480, 3734) - 3734
+4386: Coorinates (1301, 3735) - 3735
+4387: Complex number (3558, 3909) - 3737
+4388: Complex number (2709, 4540) - 3738
+4389: Coorinates (845, 3740) - 3740
+4390: Coorinates (442, 3740) - 3740
+4391: Complex number (3888, 3589) - 3741
+4392: Complex number (4261, 3140) - 3742
+4393: Coorinates (4805, 3743) - 3743
+4394: Coorinates (696, 3743) - 3743
+4395: Coorinates (2226, 3744) - 3744
+4396: Complex number (2770, 4513) - 3744
+4397: Complex number (4989, 1781) - 3745
+4398: Complex number (4927, 1948) - 3746
+4399: Coorinates (3439, 3746) - 3746
+4400: Coorinates (2025, 3747) - 3747
+4401: Coorinates (895, 3751) - 3751
+4402: Complex number (2083, 4882) - 3753
+4403: Coorinates (3247, 3754) - 3754
+4404: Complex number (3832, 3678) - 3755
+4405: Complex number (3047, 4350) - 3755
+4406: Complex number (3781, 3731) - 3756
+4407: Coorinates (2006, 3757) - 3757
+4408: Complex number (3029, 4368) - 3758
+4409: Coorinates (2734, 3758) - 3758
+4410: Coorinates (4506, 3759) - 3759
+4411: Coorinates (1880, 3760) - 3760
+4412: Coorinates (4221, 3762) - 3762
+4413: Complex number (4135, 3350) - 3763
+4414: Coorinates (4487, 3766) - 3766
+4415: Coorinates (552, 3767) - 3767
+4416: Complex number (4779, 2366) - 3770
+4417: Coorinates (4407, 3772) - 3772
+4418: Coorinates (1538, 3776) - 3776
+4419: Coorinates (3829, 3779) - 3779
+4420: Coorinates (258, 3780) - 3780
+4421: Complex number (4991, 1917) - 3780
+4422: Coorinates (4060, 3784) - 3784
+4423: Complex number (4591, 2754) - 3785
+4424: Complex number (3305, 4216) - 3787
+4425: Coorinates (1818, 3787) - 3787
+4426: Complex number (3902, 3675) - 3790
+4427: Coorinates (2650, 3792) - 3792
+4428: Coorinates (3227, 3793) - 3793
+4429: Complex number (2159, 4915) - 3795
+4430: Complex number (2720, 4629) - 3796
+4431: Complex number (4188, 3362) - 3797
+4432: Complex number (4650, 2691) - 3798
+4433: Complex number (3392, 4168) - 3799
+4434: Coorinates (983, 3800) - 3800
+4435: Complex number (2713, 4642) - 3801
+4436: Complex number (3100, 4399) - 3805
+4437: Complex number (4676, 2665) - 3805
+4438: Complex number (4332, 3197) - 3807
+4439: Coorinates (4817, 3808) - 3808
+4440: Complex number (2277, 4883) - 3809
+4441: Coorinates (3618, 3812) - 3812
+4442: Coorinates (612, 3814) - 3814
+4443: Coorinates (2904, 3814) - 3814
+4444: Complex number (3413, 4179) - 3815
+4445: Complex number (4757, 2547) - 3815
+4446: Coorinates (406, 3816) - 3816
+4447: Complex number (2915, 4544) - 3817
+4448: Complex number (3679, 3957) - 3820
+4449: Coorinates (4436, 3828) - 3828
+4450: Coorinates (658, 3829) - 3829
+4451: Coorinates (791, 3829) - 3829
+4452: Complex number (4667, 2766) - 3836
+4453: Coorinates (3955, 3837) - 3837
+4454: Complex number (2476, 4837) - 3842
+4455: Complex number (4771, 2609) - 3845
+4456: Complex number (3731, 3960) - 3847
+4457: Coorinates (4480, 3847) - 3847
+4458: Coorinates (1155, 3848) - 3848
+4459: Complex number (2216, 4971) - 3848
+4460: Coorinates (2240, 3849) - 3849
+4461: Complex number (4324, 3311) - 3850
+4462: Complex number (2585, 4792) - 3850
+4463: Coorinates (4359, 3851) - 3851
+4464: Coorinates (4088, 3852) - 3852
+4465: Complex number (4661, 2823) - 3853
+4466: Coorinates (3937, 3856) - 3856
+4467: Coorinates (3864, 3862) - 3862
+4468: Coorinates (260, 3863) - 3863
+4469: Coorinates (4047, 3867) - 3867
+4470: Complex number (2908, 4633) - 3867
+4471: Coorinates (3711, 3869) - 3869
+4472: Coorinates (1468, 3871) - 3871
+4473: Complex number (3054, 4546) - 3872
+4474: Coorinates (564, 3875) - 3875
+4475: Coorinates (240, 3881) - 3881
+4476: Coorinates (3547, 3881) - 3881
+4477: Coorinates (1710, 3883) - 3883
+4478: Coorinates (2153, 3884) - 3884
+4479: Coorinates (123, 3885) - 3885
+4480: Coorinates (636, 3885) - 3885
+4481: Complex number (4148, 3609) - 3887
+4482: Coorinates (1831, 3887) - 3887
+4483: Complex number (4395, 3336) - 3901
+4484: Coorinates (1744, 3901) - 3901
+4485: Complex number (4138, 3653) - 3903
+4486: Coorinates (4385, 3903) - 3903
+4487: Complex number (4427, 3301) - 3904
+4488: Complex number (2619, 4865) - 3906
+4489: Coorinates (331, 3906) - 3906
+4490: Coorinates (3980, 3908) - 3908
+4491: Complex number (3067, 4601) - 3909
+4492: Coorinates (3674, 3909) - 3909
+4493: Complex number (2512, 4927) - 3910
+4494: Complex number (3172, 4532) - 3911
+4495: Complex number (3682, 4131) - 3912
+4496: Coorinates (1840, 3913) - 3913
+4497: Complex number (4968, 2443) - 3914
+4498: Complex number (4733, 2877) - 3916
+4499: Complex number (3961, 3873) - 3917
+4500: Coorinates (1682, 3920) - 3920
+4501: Coorinates (3232, 3920) - 3920
+4502: Complex number (2573, 4916) - 3923
+4503: Complex number (3374, 4406) - 3924
+4504: Complex number (3974, 3877) - 3925
+4505: Complex number (4016, 3833) - 3925
+4506: Complex number (4133, 3710) - 3927
+4507: Complex number (3472, 4336) - 3927
+4508: Complex number (3621, 4214) - 3928
+4509: Complex number (4100, 3751) - 3929
+4510: Complex number (2585, 4921) - 3930
+4511: Complex number (4894, 2641) - 3932
+4512: Complex number (3682, 4172) - 3934
+4513: Complex number (3172, 4571) - 3934
+4514: Coorinates (227, 3936) - 3936
+4515: Coorinates (3183, 3937) - 3937
+4516: Coorinates (3748, 3938) - 3938
+4517: Complex number (2808, 4810) - 3938
+4518: Coorinates (1414, 3940) - 3940
+4519: Coorinates (276, 3940) - 3940
+4520: Complex number (3178, 4580) - 3941
+4521: Complex number (4209, 3659) - 3943
+4522: Coorinates (3151, 3949) - 3949
+4523: Coorinates (634, 3954) - 3954
+4524: Coorinates (789, 3954) - 3954
+4525: Complex number (4985, 2537) - 3955
+4526: Complex number (4003, 3910) - 3956
+4527: Complex number (4166, 3739) - 3958
+4528: Coorinates (4364, 3958) - 3958
+4529: Complex number (3013, 4718) - 3958
+4530: Complex number (4997, 2533) - 3961
+4531: Complex number (3947, 3994) - 3970
+4532: Coorinates (3766, 3977) - 3977
+4533: Complex number (3805, 4150) - 3981
+4534: Coorinates (3517, 3983) - 3983
+4535: Coorinates (3144, 3983) - 3983
+4536: Complex number (3799, 4159) - 3983
+4537: Complex number (4964, 2670) - 3985
+4538: Complex number (4894, 2796) - 3985
+4539: Coorinates (4500, 3986) - 3986
+4540: Coorinates (53, 3986) - 3986
+4541: Complex number (3803, 4161) - 3986
+4542: Complex number (3429, 4481) - 3989
+4543: Coorinates (2670, 3989) - 3989
+4544: Complex number (4520, 3378) - 3990
+4545: Coorinates (4558, 3992) - 3992
+4546: Coorinates (2863, 3992) - 3992
+4547: Coorinates (1251, 3994) - 3994
+4548: Coorinates (1911, 3997) - 3997
+4549: Coorinates (1169, 3997) - 3997
+4550: Complex number (4263, 3714) - 3997
+4551: Coorinates (1522, 3999) - 3999
+4552: Coorinates (3616, 4002) - 4002
+4553: Complex number (4520, 3409) - 4003
+4554: Coorinates (648, 4003) - 4003
+4555: Coorinates (2601, 4006) - 4006
+4556: Coorinates (3831, 4007) - 4007
+4557: Complex number (2899, 4873) - 4009
+4558: Coorinates (2898, 4011) - 4011
+4559: Coorinates (2455, 4013) - 4013
+4560: Complex number (4921, 2839) - 4017
+4561: Complex number (2887, 4899) - 4020
+4562: Coorinates (3847, 4025) - 4025
+4563: Complex number (4145, 3909) - 4028
+4564: Coorinates (860, 4030) - 4030
+4565: Complex number (4416, 3608) - 4032
+4566: Complex number (4340, 3703) - 4034
+4567: Coorinates (3559, 4034) - 4034
+4568: Coorinates (1727, 4036) - 4036
+4569: Complex number (3396, 4592) - 4038
+4570: Coorinates (1936, 4039) - 4039
+4571: Coorinates (1759, 4040) - 4040
+4572: Complex number (3520, 4506) - 4043
+4573: Coorinates (3282, 4045) - 4045
+4574: Coorinates (3542, 4047) - 4047
+4575: Complex number (4371, 3703) - 4050
+4576: Coorinates (2612, 4053) - 4053
+4577: Complex number (3681, 4397) - 4054
+4578: Coorinates (4959, 4057) - 4057
+4579: Complex number (4631, 3391) - 4058
+4580: Complex number (4917, 2974) - 4063
+4581: Coorinates (4211, 4066) - 4066
+4582: Complex number (4459, 3632) - 4066
+4583: Complex number (4992, 2858) - 4067
+4584: Coorinates (4411, 4067) - 4067
+4585: Complex number (3930, 4200) - 4067
+4586: Complex number (4657, 3383) - 4070
+4587: Complex number (2897, 4977) - 4072
+4588: Coorinates (4475, 4073) - 4073
+4589: Coorinates (4379, 4074) - 4074
+4590: Coorinates (4433, 4075) - 4075
+4591: Complex number (3456, 4614) - 4076
+4592: Coorinates (1512, 4080) - 4080
+4593: Complex number (3975, 4188) - 4082
+4594: Complex number (4704, 3365) - 4089
+4595: Coorinates (3390, 4090) - 4090
+4596: Coorinates (3810, 4091) - 4091
+4597: Complex number (4428, 3728) - 4092
+4598: Complex number (4476, 3675) - 4095
+4599: Coorinates (2418, 4096) - 4096
+4600: Coorinates (2866, 4098) - 4098
+4601: Complex number (4226, 3973) - 4101
+4602: Coorinates (825, 4101) - 4101
+4603: Coorinates (4794, 4106) - 4106
+4604: Complex number (4141, 4077) - 4109
+4605: Complex number (4523, 3659) - 4113
+4606: Coorinates (4961, 4113) - 4113
+4607: Coorinates (4874, 4114) - 4114
+4608: Complex number (3173, 4883) - 4117
+4609: Coorinates (4482, 4122) - 4122
+4610: Coorinates (4844, 4127) - 4127
+4611: Complex number (3787, 4443) - 4128
+4612: Complex number (3118, 4942) - 4131
+4613: Coorinates (4339, 4131) - 4131
+4614: Complex number (3872, 4383) - 4135
+4615: Coorinates (1657, 4136) - 4136
+4616: Coorinates (1594, 4136) - 4136
+4617: Complex number (4308, 3962) - 4138
+4618: Coorinates (313, 4140) - 4140
+4619: Coorinates (1555, 4140) - 4140
+4620: Coorinates (1960, 4145) - 4145
+4621: Complex number (3727, 4525) - 4145
+4622: Coorinates (1891, 4147) - 4147
+4623: Coorinates (851, 4147) - 4147
+4624: Complex number (4349, 3935) - 4147
+4625: Coorinates (4444, 4150) - 4150
+4626: Complex number (4028, 4272) - 4151
+4627: Complex number (4325, 3977) - 4154
+4628: Coorinates (4925, 4155) - 4155
+4629: Complex number (4847, 3324) - 4155
+4630: Coorinates (3131, 4156) - 4156
+4631: Coorinates (3255, 4157) - 4157
+4632: Coorinates (3293, 4158) - 4158
+4633: Coorinates (1054, 4160) - 4160
+4634: Complex number (3847, 4454) - 4161
+4635: Coorinates (3918, 4165) - 4165
+4636: Coorinates (4156, 4169) - 4169
+4637: Coorinates (2602, 4170) - 4170
+4638: Complex number (4118, 4227) - 4172
+4639: Coorinates (4400, 4180) - 4180
+4640: Complex number (3724, 4597) - 4183
+4641: Complex number (4685, 3612) - 4183
+4642: Complex number (3394, 4853) - 4187
+4643: Coorinates (201, 4187) - 4187
+4644: Coorinates (364, 4189) - 4189
+4645: Coorinates (2345, 4190) - 4190
+4646: Complex number (3544, 4749) - 4190
+4647: Complex number (4523, 3832) - 4191
+4648: Coorinates (914, 4191) - 4191
+4649: Complex number (3869, 4508) - 4200
+4650: Coorinates (4393, 4202) - 4202
+4651: Coorinates (4266, 4204) - 4204
+4652: Coorinates (4978, 4205) - 4205
+4653: Coorinates (3052, 4207) - 4207
+4654: Complex number (3545, 4784) - 4210
+4655: Coorinates (4859, 4212) - 4212
+4656: Complex number (4116, 4306) - 4212
+4657: Coorinates (1769, 4214) - 4214
+4658: Complex number (4884, 3415) - 4214
+4659: Coorinates (2156, 4217) - 4217
+4660: Complex number (3912, 4514) - 4223
+4661: Complex number (3414, 4906) - 4226
+4662: Coorinates (13, 4228) - 4228
+4663: Coorinates (1322, 4233) - 4233
+4664: Coorinates (3632, 4238) - 4238
+4665: Complex number (4629, 3808) - 4238
+4666: Coorinates (1825, 4239) - 4239
+4667: Coorinates (708, 4241) - 4241
+4668: Complex number (4600, 3852) - 4242
+4669: Complex number (4924, 3433) - 4244
+4670: Coorinates (580, 4245) - 4245
+4671: Coorinates (3613, 4252) - 4252
+4672: Coorinates (4130, 4253) - 4253
+4673: Coorinates (61, 4254) - 4254
+4674: Coorinates (2423, 4255) - 4255
+4675: Coorinates (1081, 4257) - 4257
+4676: Complex number (4590, 3897) - 4257
+4677: Coorinates (3417, 4258) - 4258
+4678: Coorinates (1141, 4260) - 4260
+4679: Coorinates (1770, 4260) - 4260
+4680: Complex number (4023, 4492) - 4263
+4681: Coorinates (1035, 4263) - 4263
+4682: Complex number (3429, 4961) - 4264
+4683: Coorinates (3939, 4268) - 4268
+4684: Complex number (4627, 3879) - 4269
+4685: Coorinates (821, 4269) - 4269
+4686: Complex number (4293, 4249) - 4271
+4687: Coorinates (4574, 4273) - 4273
+4688: Complex number (3758, 4739) - 4276
+4689: Complex number (4818, 3660) - 4278
+4690: Complex number (3587, 4872) - 4278
+4691: Coorinates (1508, 4279) - 4279
+4692: Complex number (4771, 3731) - 4282
+4693: Coorinates (2671, 4283) - 4283
+4694: Complex number (4273, 4293) - 4283
+4695: Coorinates (4547, 4284) - 4284
+4696: Complex number (4002, 4551) - 4285
+4697: Complex number (4955, 3498) - 4288
+4698: Coorinates (2503, 4288) - 4288
+4699: Complex number (3544, 4925) - 4290
+4700: Coorinates (1494, 4290) - 4290
+4701: Complex number (4391, 4190) - 4291
+4702: Coorinates (2197, 4293) - 4293
+4703: Coorinates (4793, 4295) - 4295
+4704: Coorinates (1613, 4297) - 4297
+4705: Coorinates (2832, 4298) - 4298
+4706: Complex number (4681, 3892) - 4304
+4707: Coorinates (186, 4304) - 4304
+4708: Complex number (3797, 4760) - 4305
+4709: Complex number (4655, 3924) - 4305
+4710: Coorinates (4060, 4309) - 4309
+4711: Coorinates (1282, 4310) - 4310
+4712: Coorinates (4141, 4310) - 4310
+4713: Coorinates (4658, 4312) - 4312
+4714: Coorinates (1809, 4312) - 4312
+4715: Coorinates (1204, 4312) - 4312
+4716: Coorinates (1854, 4313) - 4313
+4717: Complex number (3774, 4793) - 4313
+4718: Coorinates (4583, 4315) - 4315
+4719: Coorinates (3609, 4316) - 4316
+4720: Coorinates (4989, 4320) - 4320
+4721: Complex number (3979, 4640) - 4322
+4722: Coorinates (1638, 4324) - 4324
+4723: Complex number (4613, 4019) - 4326
+4724: Coorinates (559, 4326) - 4326
+4725: Complex number (3959, 4667) - 4327
+4726: Coorinates (2275, 4329) - 4329
+4727: Complex number (4232, 4434) - 4334
+4728: Complex number (3979, 4668) - 4337
+4729: Complex number (4494, 4177) - 4338
+4730: Coorinates (433, 4339) - 4339
+4731: Complex number (4582, 4090) - 4342
+4732: Coorinates (2117, 4344) - 4344
+4733: Coorinates (1939, 4350) - 4350
+4734: Coorinates (2881, 4352) - 4352
+4735: Complex number (4732, 3938) - 4353
+4736: Coorinates (3489, 4355) - 4355
+4737: Complex number (4935, 3687) - 4355
+4738: Coorinates (3754, 4356) - 4356
+4739: Coorinates (720, 4366) - 4366
+4740: Coorinates (3276, 4367) - 4367
+4741: Coorinates (2490, 4369) - 4369
+4742: Complex number (3952, 4754) - 4371
+4743: Complex number (4589, 4148) - 4374
+4744: Complex number (4215, 4530) - 4375
+4745: Complex number (3775, 4905) - 4376
+4746: Coorinates (958, 4378) - 4378
+4747: Coorinates (2311, 4380) - 4380
+4748: Coorinates (1514, 4381) - 4381
+4749: Coorinates (295, 4383) - 4383
+4750: Complex number (4817, 3903) - 4383
+4751: Coorinates (2690, 4389) - 4389
+4752: Coorinates (813, 4392) - 4392
+4753: Coorinates (1474, 4395) - 4395
+4754: Coorinates (4851, 4396) - 4396
+4755: Coorinates (2229, 4397) - 4397
+4756: Coorinates (1180, 4397) - 4397
+4757: Complex number (3973, 4786) - 4398
+4758: Complex number (4174, 4617) - 4401
+4759: Coorinates (3200, 4403) - 4403
+4760: Coorinates (1979, 4403) - 4403
+4761: Complex number (4439, 4384) - 4411
+4762: Complex number (4836, 3942) - 4411
+4763: Coorinates (2307, 4412) - 4412
+4764: Complex number (4202, 4620) - 4415
+4765: Coorinates (3366, 4416) - 4416
+4766: Coorinates (2086, 4419) - 4419
+4767: Coorinates (3971, 4422) - 4422
+4768: Coorinates (658, 4422) - 4422
+4769: Coorinates (3492, 4424) - 4424
+4770: Coorinates (4060, 4424) - 4424
+4771: Complex number (3904, 4892) - 4425
+4772: Coorinates (1771, 4425) - 4425
+4773: Complex number (4727, 4101) - 4425
+4774: Coorinates (3172, 4427) - 4427
+4775: Coorinates (3778, 4430) - 4430
+4776: Coorinates (1178, 4430) - 4430
+4777: Complex number (3866, 4934) - 4432
+4778: Coorinates (3174, 4435) - 4435
+4779: Coorinates (87, 4436) - 4436
+4780: Coorinates (4130, 4439) - 4439
+4781: Coorinates (358, 4440) - 4440
+4782: Complex number (3935, 4898) - 4442
+4783: Coorinates (4653, 4442) - 4442
+4784: Coorinates (2849, 4443) - 4443
+4785: Coorinates (4884, 4446) - 4446
+4786: Coorinates (3057, 4449) - 4449
+4787: Coorinates (3817, 4449) - 4449
+4788: Coorinates (3913, 4450) - 4450
+4789: Complex number (4408, 4495) - 4451
+4790: Coorinates (1562, 4452) - 4452
+4791: Coorinates (263, 4454) - 4454
+4792: Coorinates (2676, 4457) - 4457
+4793: Coorinates (2026, 4459) - 4459
+4794: Coorinates (1710, 4459) - 4459
+4795: Complex number (4455, 4464) - 4459
+4796: Coorinates (3644, 4461) - 4461
+4797: Coorinates (4342, 4462) - 4462
+4798: Complex number (4246, 4670) - 4463
+4799: Complex number (4072, 4824) - 4463
+4800: Coorinates (1340, 4464) - 4464
+4801: Coorinates (1751, 4466) - 4466
+4802: Coorinates (2009, 4466) - 4466
+4803: Complex number (4685, 4236) - 4466
+4804: Coorinates (2260, 4470) - 4470
+4805: Coorinates (1894, 4471) - 4471
+4806: Complex number (4816, 4101) - 4472
+4807: Coorinates (3630, 4473) - 4473
+4808: Complex number (4548, 4400) - 4474
+4809: Complex number (3946, 4946) - 4474
+4810: Coorinates (418, 4482) - 4482
+4811: Complex number (4695, 4260) - 4482
+4812: Coorinates (2851, 4484) - 4484
+4813: Coorinates (4220, 4485) - 4485
+4814: Coorinates (2293, 4485) - 4485
+4815: Complex number (4710, 4254) - 4487
+4816: Complex number (4586, 4396) - 4492
+4817: Complex number (4497, 4489) - 4493
+4818: Coorinates (1200, 4494) - 4494
+4819: Coorinates (3628, 4498) - 4498
+4820: Coorinates (2100, 4498) - 4498
+4821: Complex number (4250, 4739) - 4501
+4822: Complex number (4866, 4126) - 4511
+4823: Coorinates (3426, 4512) - 4512
+4824: Coorinates (4383, 4513) - 4513
+4825: Coorinates (579, 4514) - 4514
+4826: Complex number (4148, 4859) - 4517
+4827: Coorinates (4110, 4519) - 4519
+4828: Complex number (4936, 4075) - 4526
+4829: Coorinates (847, 4527) - 4527
+4830: Coorinates (2722, 4534) - 4534
+4831: Complex number (4473, 4596) - 4534
+4832: Coorinates (207, 4534) - 4534
+4833: Coorinates (4913, 4536) - 4536
+4834: Coorinates (3790, 4537) - 4537
+4835: Coorinates (3184, 4538) - 4538
+4836: Complex number (4046, 4982) - 4538
+4837: Coorinates (4512, 4538) - 4538
+4838: Coorinates (4375, 4539) - 4539
+4839: Complex number (4523, 4568) - 4545
+4840: Complex number (4940, 4116) - 4546
+4841: Coorinates (3981, 4549) - 4549
+4842: Coorinates (2937, 4551) - 4551
+4843: Coorinates (2412, 4554) - 4554
+4844: Coorinates (1625, 4554) - 4554
+4845: Complex number (4142, 4933) - 4554
+4846: Complex number (4365, 4743) - 4557
+4847: Coorinates (1395, 4560) - 4560
+4848: Complex number (4606, 4525) - 4565
+4849: Coorinates (1774, 4568) - 4568
+4850: Coorinates (1177, 4570) - 4570
+4851: Complex number (4665, 4476) - 4571
+4852: Coorinates (3483, 4573) - 4573
+4853: Coorinates (2262, 4573) - 4573
+4854: Complex number (4323, 4823) - 4579
+4855: Complex number (4638, 4521) - 4579
+4856: Coorinates (3326, 4584) - 4584
+4857: Complex number (4376, 4790) - 4587
+4858: Complex number (4729, 4442) - 4587
+4859: Coorinates (2165, 4588) - 4588
+4860: Coorinates (1594, 4589) - 4589
+4861: Coorinates (3730, 4590) - 4590
+4862: Complex number (4502, 4686) - 4594
+4863: Coorinates (4028, 4595) - 4595
+4864: Coorinates (4565, 4602) - 4602
+4865: Coorinates (2496, 4613) - 4613
+4866: Complex number (4706, 4520) - 4613
+4867: Coorinates (2339, 4620) - 4620
+4868: Coorinates (1059, 4626) - 4626
+4869: Coorinates (2600, 4629) - 4629
+4870: Coorinates (4554, 4634) - 4634
+4871: Coorinates (4464, 4639) - 4639
+4872: Coorinates (448, 4643) - 4643
+4873: Coorinates (4252, 4646) - 4646
+4874: Complex number (4370, 4911) - 4648
+4875: Coorinates (4462, 4657) - 4657
+4876: Complex number (4432, 4879) - 4660
+4877: Coorinates (454, 4662) - 4662
+4878: Coorinates (865, 4666) - 4666
+4879: Coorinates (3585, 4666) - 4666
+4880: Coorinates (2472, 4667) - 4667
+4881: Complex number (4933, 4395) - 4671
+4882: Complex number (4953, 4376) - 4673
+4883: Coorinates (2045, 4674) - 4674
+4884: Complex number (4925, 4411) - 4675
+4885: Coorinates (3104, 4678) - 4678
+4886: Coorinates (1622, 4679) - 4679
+4887: Coorinates (2272, 4679) - 4679
+4888: Coorinates (1192, 4684) - 4684
+4889: Coorinates (837, 4689) - 4689
+4890: Coorinates (4005, 4689) - 4689
+4891: Coorinates (3941, 4698) - 4698
+4892: Complex number (4502, 4899) - 4704
+4893: Coorinates (3362, 4705) - 4705
+4894: Coorinates (3248, 4706) - 4706
+4895: Complex number (4524, 4884) - 4707
+4896: Coorinates (439, 4709) - 4709
+4897: Coorinates (3432, 4711) - 4711
+4898: Coorinates (2483, 4711) - 4711
+4899: Complex number (4638, 4795) - 4717
+4900: Coorinates (490, 4719) - 4719
+4901: Coorinates (578, 4728) - 4728
+4902: Coorinates (1821, 4730) - 4730
+4903: Coorinates (3047, 4730) - 4730
+4904: Coorinates (3230, 4732) - 4732
+4905: Coorinates (1898, 4734) - 4734
+4906: Coorinates (1109, 4735) - 4735
+4907: Coorinates (152, 4741) - 4741
+4908: Coorinates (4936, 4741) - 4741
+4909: Coorinates (2012, 4745) - 4745
+4910: Coorinates (4055, 4751) - 4751
+4911: Coorinates (3626, 4751) - 4751
+4912: Complex number (4729, 4775) - 4752
+4913: Complex number (4744, 4763) - 4753
+4914: Coorinates (2116, 4757) - 4757
+4915: Coorinates (2015, 4761) - 4761
+4916: Coorinates (2393, 4765) - 4765
+4917: Coorinates (3840, 4766) - 4766
+4918: Coorinates (826, 4767) - 4767
+4919: Coorinates (2460, 4767) - 4767
+4920: Coorinates (1046, 4769) - 4769
+4921: Coorinates (2835, 4771) - 4771
+4922: Coorinates (4696, 4776) - 4776
+4923: Coorinates (657, 4780) - 4780
+4924: Coorinates (1559, 4787) - 4787
+4925: Coorinates (3120, 4788) - 4788
+4926: Coorinates (4986, 4790) - 4790
+4927: Coorinates (2782, 4790) - 4790
+4928: Coorinates (3562, 4795) - 4795
+4929: Complex number (4612, 4978) - 4798
+4930: Coorinates (3703, 4798) - 4798
+4931: Coorinates (1627, 4799) - 4799
+4932: Coorinates (1388, 4803) - 4803
+4933: Coorinates (3480, 4806) - 4806
+4934: Coorinates (4337, 4807) - 4807
+4935: Coorinates (1526, 4808) - 4808
+4936: Coorinates (3056, 4812) - 4812
+4937: Coorinates (1820, 4817) - 4817
+4938: Coorinates (896, 4821) - 4821
+4939: Complex number (4858, 4790) - 4824
+4940: Complex number (4941, 4708) - 4825
+4941: Coorinates (776, 4828) - 4828
+4942: Coorinates (3361, 4830) - 4830
+4943: Complex number (4730, 4934) - 4833
+4944: Coorinates (3569, 4835) - 4835
+4945: Coorinates (451, 4839) - 4839
+4946: Coorinates (1996, 4841) - 4841
+4947: Coorinates (1481, 4846) - 4846
+4948: Coorinates (4088, 4851) - 4851
+4949: Coorinates (3705, 4853) - 4853
+4950: Coorinates (2413, 4861) - 4861
+4951: Coorinates (2631, 4861) - 4861
+4952: Coorinates (3046, 4861) - 4861
+4953: Coorinates (3351, 4861) - 4861
+4954: Complex number (4759, 4964) - 4862
+4955: Coorinates (2595, 4865) - 4865
+4956: Coorinates (3966, 4873) - 4873
+4957: Coorinates (3176, 4875) - 4875
+4958: Coorinates (87, 4875) - 4875
+4959: Coorinates (4540, 4887) - 4887
+4960: Coorinates (606, 4889) - 4889
+4961: Coorinates (3039, 4890) - 4890
+4962: Coorinates (1727, 4891) - 4891
+4963: Coorinates (2140, 4895) - 4895
+4964: Coorinates (1801, 4895) - 4895
+4965: Coorinates (573, 4908) - 4908
+4966: Coorinates (1805, 4915) - 4915
+4967: Coorinates (3202, 4920) - 4920
+4968: Coorinates (900, 4921) - 4921
+4969: Coorinates (4464, 4924) - 4924
+4970: Coorinates (3509, 4925) - 4925
+4971: Coorinates (2982, 4926) - 4926
+4972: Coorinates (2914, 4935) - 4935
+4973: Coorinates (1326, 4935) - 4935
+4974: Coorinates (3698, 4941) - 4941
+4975: Complex number (4957, 4934) - 4945
+4976: Coorinates (3920, 4948) - 4948
+4977: Coorinates (4427, 4951) - 4951
+4978: Coorinates (2407, 4951) - 4951
+4979: Coorinates (693, 4953) - 4953
+4980: Coorinates (1167, 4955) - 4955
+4981: Complex number (4978, 4937) - 4957
+4982: Coorinates (2198, 4957) - 4957
+4983: Coorinates (2884, 4961) - 4961
+4984: Coorinates (4746, 4962) - 4962
+4985: Coorinates (2494, 4963) - 4963
+4986: Coorinates (2361, 4965) - 4965
+4987: Coorinates (877, 4969) - 4969
+4988: Coorinates (889, 4972) - 4972
+4989: Coorinates (4673, 4972) - 4972
+4990: Coorinates (343, 4973) - 4973
+4991: Coorinates (1741, 4974) - 4974
+4992: Coorinates (4518, 4976) - 4976
+4993: Coorinates (3145, 4977) - 4977
+4994: Coorinates (2292, 4981) - 4981
+4995: Coorinates (3975, 4988) - 4988
+4996: Coorinates (4394, 4990) - 4990
+4997: Coorinates (3889, 4992) - 4992
+4998: Coorinates (2285, 4995) - 4995
+4999: Coorinates (304, 4997) - 4997

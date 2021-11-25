@@ -1,0 +1,6 @@
+Filled container:
+0: Fraction 0/0 - 0
+1: Fraction 1/0 - 1
+2: Coorinates (1, 4) - 4
+3: Complex number (4, 6) - 5
+4: Fraction 8/0 - 8

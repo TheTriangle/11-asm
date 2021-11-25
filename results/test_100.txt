@@ -1,0 +1,101 @@
+Filled container:
+0: Fraction 34/89 - 0
+1: Fraction 26/85 - 0
+2: Fraction 28/72 - 0
+3: Fraction 58/95 - 0
+4: Fraction 92/95 - 0
+5: Fraction 64/88 - 0
+6: Fraction 16/41 - 0
+7: Fraction 12/73 - 0
+8: Fraction 5/95 - 0
+9: Fraction 65/73 - 0
+10: Fraction 0/7 - 0
+11: Fraction 18/59 - 0
+12: Fraction 62/74 - 0
+13: Fraction 83/87 - 0
+14: Fraction 49/66 - 0
+15: Fraction 22/63 - 0
+16: Fraction 33/45 - 0
+17: Fraction 48/67 - 0
+18: Fraction 4/62 - 0
+19: Fraction 8/53 - 0
+20: Fraction 68/87 - 0
+21: Fraction 91/94 - 0
+22: Fraction 51/36 - 1
+23: Fraction 44/30 - 1
+24: Fraction 98/76 - 1
+25: Fraction 55/35 - 1
+26: Fraction 68/45 - 1
+27: Fraction 75/53 - 1
+28: Fraction 71/54 - 1
+29: Fraction 83/59 - 1
+30: Fraction 73/62 - 1
+31: Fraction 40/15 - 2
+32: Fraction 89/40 - 2
+33: Fraction 80/35 - 2
+34: Fraction 19/8 - 2
+35: Coorinates (45, 2) - 2
+36: Fraction 93/43 - 2
+37: Fraction 44/16 - 2
+38: Fraction 71/30 - 2
+39: Fraction 95/43 - 2
+40: Fraction 36/11 - 3
+41: Fraction 60/14 - 4
+42: Fraction 97/23 - 4
+43: Coorinates (15, 5) - 5
+44: Coorinates (20, 6) - 6
+45: Coorinates (99, 10) - 10
+46: Complex number (12, 10) - 11
+47: Coorinates (52, 13) - 13
+48: Fraction 94/6 - 15
+49: Coorinates (74, 16) - 16
+50: Coorinates (98, 18) - 18
+51: Complex number (13, 24) - 19
+52: Complex number (24, 17) - 20
+53: Coorinates (88, 20) - 20
+54: Complex number (27, 18) - 22
+55: Complex number (23, 32) - 27
+56: Complex number (0, 43) - 30
+57: Coorinates (18, 34) - 34
+58: Coorinates (29, 36) - 36
+59: Coorinates (76, 37) - 37
+60: Coorinates (91, 39) - 39
+61: Complex number (24, 58) - 44
+62: Complex number (24, 64) - 48
+63: Complex number (63, 29) - 49
+64: Coorinates (97, 49) - 49
+65: Complex number (70, 22) - 51
+66: Coorinates (97, 51) - 51
+67: Complex number (59, 47) - 53
+68: Complex number (20, 74) - 54
+69: Coorinates (47, 55) - 55
+70: Complex number (38, 68) - 55
+71: Complex number (38, 68) - 55
+72: Complex number (28, 77) - 57
+73: Complex number (79, 20) - 57
+74: Complex number (76, 33) - 58
+75: Complex number (53, 66) - 59
+76: Coorinates (66, 59) - 59
+77: Coorinates (28, 61) - 61
+78: Complex number (33, 82) - 62
+79: Coorinates (35, 63) - 63
+80: Complex number (81, 39) - 63
+81: Complex number (39, 84) - 65
+82: Complex number (52, 77) - 65
+83: Complex number (83, 51) - 68
+84: Coorinates (65, 68) - 68
+85: Complex number (75, 63) - 69
+86: Coorinates (67, 69) - 69
+87: Complex number (5, 99) - 70
+88: Complex number (69, 76) - 72
+89: Coorinates (90, 74) - 74
+90: Complex number (63, 91) - 78
+91: Complex number (83, 74) - 78
+92: Coorinates (91, 79) - 79
+93: Coorinates (57, 81) - 81
+94: Coorinates (33, 82) - 82
+95: Coorinates (88, 83) - 83
+96: Coorinates (43, 85) - 85
+97: Coorinates (35, 89) - 89
+98: Coorinates (48, 91) - 91
+99: Coorinates (57, 99) - 99

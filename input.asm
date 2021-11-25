@@ -66,6 +66,15 @@ mov rbp, rsp
     add     rcx, 4              ; &y = &x + 4
     mov     rax, 0              ; нет чисел с плавающей точкой
     call    fscanf
+
+    cmp rcx, 0
+    je arequal
+    jmp return
+
+    arequal:
+    mov rcx, 1
+    return:
+
 leave
 ret
 
@@ -166,6 +175,7 @@ mov rbp, rsp
     mov     rdi, [.pnum]
     add     rdi, 4
     mov     rsi, [.FILE]
+
     call    InFraction
     mov     rax, 1  ; Код возврата - true
     jmp     .return

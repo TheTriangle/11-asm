@@ -1,0 +1,22 @@
+Filled container:
+0: Fraction 0/0 - 0
+1: Fraction 5134009/3647844 - 1
+2: Fraction 1/0 - 1
+3: Fraction 4009443/1566790 - 2
+4: Fraction 89/40 - 2
+5: Fraction 8915/4002 - 2
+6: Fraction 8077/3524 - 2
+7: Fraction 6069688/1416025 - 4
+8: Coorinates (1, 4) - 4
+9: Complex number (4, 6) - 5
+10: Fraction 8/0 - 8
+11: Complex number (63, 29) - 49
+12: Coorinates (97, 49) - 49
+13: Complex number (52, 77) - 65
+14: Complex number (5267, 7713) - 6604
+15: Complex number (1372315, 2428867) - 9017
+16: Complex number (6375522, 2960316) - 26905
+17: Complex number (6357117, 9161950) - 32219
+18: Complex number (8391122, 5129323) - 35456
+19: Coorinates (9989245, 1088088) - 1.08809e+06
+20: Coorinates (4773970, 5539699) - 5.5397e+06

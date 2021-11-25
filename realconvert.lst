@@ -137,94 +137,100 @@
     85                                      ; В rdi адрес треугольника
     86 0000005D 8B07                        mov eax, [rdi]
     87 0000005F 8B5F04                      mov ebx, [rdi+4]
-    88 00000062 F7F3                        div ebx
-    89                                      ; mov eax, [rdi+4]
-    90 00000064 F20F2AC0                    cvtsi2sd    xmm0, eax
-    91 00000068 4883C708                    add rdi, 8
-    92 0000006C 8907                        mov dword[rdi], eax
-    93 0000006E 4883EF08                    sub rdi, 8
-    94                                      
-    95 00000072 C9                      leave
-    96 00000073 C3                      ret
-    97                                  
-    98                                  global ToRealCoordinates
-    99                                  ToRealCoordinates:
-   100                                  section .text
-   101 00000074 55                      push rbp
-   102 00000075 4889E5                  mov rbp, rsp
+    88                                      
+    89 00000062 83FB00                      cmp ebx, 0
+    90 00000065 7402                        je zerodenom
+    91 00000067 F7F3                        div ebx
+    92                                  
+    93                                      zerodenom:
+    94                                  
+    95                                      ; mov eax, [rdi+4]
+    96 00000069 F20F2AC0                    cvtsi2sd    xmm0, eax
+    97 0000006D 4883C708                    add rdi, 8
+    98 00000071 8907                        mov dword[rdi], eax
+    99 00000073 4883EF08                    sub rdi, 8
+   100                                      
+   101 00000077 C9                      leave
+   102 00000078 C3                      ret
    103                                  
-   104                                      ; В rdi адрес треугольника
-   105 00000078 8B4704                      mov eax, [rdi+4]
-   106 0000007B F20F2AC0                    cvtsi2sd    xmm0, eax
-   107 0000007F 4883C708                    add rdi, 8
-   108 00000083 8907                        mov dword[rdi], eax
-   109 00000085 4883EF08                    sub rdi, 8
-   110                                  
-   111 00000089 C9                      leave
-   112 0000008A C3                      ret
-   113                                  ;----------------------------------------------
-   114                                  ; Вычисление периметра фигуры
-   115                                  ;double PerimeterShape(void *s) {
-   116                                  ;    int k = *((int*)s);
-   117                                  ;    if(k == RECTANGLE) {
-   118                                  ;        return PerimeterRectangle(s+intSize);
-   119                                  ;    }
-   120                                  ;    else if(k == TRIANGLE) {
-   121                                  ;        return PerimeterTriangle(s+intSize);
-   122                                  ;    }
-   123                                  ;    else {
-   124                                  ;        return 0.0;
+   104                                  global ToRealCoordinates
+   105                                  ToRealCoordinates:
+   106                                  section .text
+   107 00000079 55                      push rbp
+   108 0000007A 4889E5                  mov rbp, rsp
+   109                                  
+   110                                      ; В rdi адрес треугольника
+   111 0000007D 8B4704                      mov eax, [rdi+4]
+   112 00000080 F20F2AC0                    cvtsi2sd    xmm0, eax
+   113 00000084 4883C708                    add rdi, 8
+   114 00000088 8907                        mov dword[rdi], eax
+   115 0000008A 4883EF08                    sub rdi, 8
+   116                                  
+   117 0000008E C9                      leave
+   118 0000008F C3                      ret
+   119                                  ;----------------------------------------------
+   120                                  ; Вычисление периметра фигуры
+   121                                  ;double PerimeterShape(void *s) {
+   122                                  ;    int k = *((int*)s);
+   123                                  ;    if(k == RECTANGLE) {
+   124                                  ;        return PerimeterRectangle(s+intSize);
    125                                  ;    }
-   126                                  ;}
-   127                                  global ToRealNumber
-   128                                  ToRealNumber:
-   129                                  section .text
-   130 0000008B 55                      push rbp
-   131 0000008C 4889E5                  mov rbp, rsp
-   132                                  
-   133                                      ; В rdi адрес фигуры
-   134                                      ; PrintStr2 "toreall:", [stdout]
-   135 0000008F 8B07                        mov eax, [rdi]
-   136 00000091 3B0425[00000000]            cmp eax, [COMPLEXNUMBER]
-   137 00000098 741A                        je compToReal
-   138 0000009A 3B0425[00000000]            cmp eax, [FRACTION]
-   139 000000A1 741C                        je fracToReal
-   140 000000A3 3B0425[00000000]            cmp eax, [COORDINATES]
-   141 000000AA 741E                        je cordToReal
-   142 000000AC 31C0                        xor eax, eax
-   143 000000AE F20F2AC0                    cvtsi2sd    xmm0, eax
-   144 000000B2 EB21                        jmp     return
-   145                                  compToReal:
-   146                                      ; Вычисление периметра прямоугольника
-   147                                      ;  PrintStr2 "complex:", stdout
-   148 000000B4 4883C704                    add     rdi, 4
-   149 000000B8 E863FFFFFF                  call    ToRealComplexNumber
-   150 000000BD EB16                        jmp     return
-   151                                  fracToReal:
-   152                                      ; PrintStr2 "fraction:", stdout
-   153                                      ; Вычисление периметра прямоугольника
-   154 000000BF 4883C704                    add     rdi, 4
-   155 000000C3 E891FFFFFF                  call    ToRealFraction
-   156 000000C8 EB0B                        jmp     return
-   157                                  cordToReal:
-   158                                      ; PrintStr2 "coordinates:", stdout
+   126                                  ;    else if(k == TRIANGLE) {
+   127                                  ;        return PerimeterTriangle(s+intSize);
+   128                                  ;    }
+   129                                  ;    else {
+   130                                  ;        return 0.0;
+   131                                  ;    }
+   132                                  ;}
+   133                                  global ToRealNumber
+   134                                  ToRealNumber:
+   135                                  section .text
+   136 00000090 55                      push rbp
+   137 00000091 4889E5                  mov rbp, rsp
+   138                                  
+   139                                      ; В rdi адрес фигуры
+   140                                      ; PrintStr2 "toreall:", [stdout]
+   141 00000094 8B07                        mov eax, [rdi]
+   142 00000096 3B0425[00000000]            cmp eax, [COMPLEXNUMBER]
+   143 0000009D 741A                        je compToReal
+   144 0000009F 3B0425[00000000]            cmp eax, [FRACTION]
+   145 000000A6 741C                        je fracToReal
+   146 000000A8 3B0425[00000000]            cmp eax, [COORDINATES]
+   147 000000AF 741E                        je cordToReal
+   148 000000B1 31C0                        xor eax, eax
+   149 000000B3 F20F2AC0                    cvtsi2sd    xmm0, eax
+   150 000000B7 EB21                        jmp     return
+   151                                  compToReal:
+   152                                      ; Вычисление периметра прямоугольника
+   153                                      ;  PrintStr2 "complex:", stdout
+   154 000000B9 4883C704                    add     rdi, 4
+   155 000000BD E85EFFFFFF                  call    ToRealComplexNumber
+   156 000000C2 EB16                        jmp     return
+   157                                  fracToReal:
+   158                                      ; PrintStr2 "fraction:", stdout
    159                                      ; Вычисление периметра прямоугольника
-   160 000000CA 4883C704                    add     rdi, 4
-   161 000000CE E8A1FFFFFF                  call    ToRealCoordinates
-   162 000000D3 EB00                        jmp     return
-   163                                  
-   164                                  return:
-   165 000000D5 C9                      leave
-   166 000000D6 C3                      ret
-   167                                  
-   168                                  ;----------------------------------------------
-   169                                  ;// Вычисление суммы периметров всех фигур в контейнере
-   170                                  ;double PerimeterSumContainer(void *c, int len) {
-   171                                  ;    double sum = 0.0;
-   172                                  ;    void *tmp = c;
-   173                                  ;    for(int i = 0; i < len; i++) {
-   174                                  ;        sum += PerimeterShape(tmp);
-   175                                  ;        tmp = tmp + shapeSize;
-   176                                  ;    }
-   177                                  ;    return sum;
-   178                                  ;}
+   160 000000C4 4883C704                    add     rdi, 4
+   161 000000C8 E88CFFFFFF                  call    ToRealFraction
+   162 000000CD EB0B                        jmp     return
+   163                                  cordToReal:
+   164                                      ; PrintStr2 "coordinates:", stdout
+   165                                      ; Вычисление периметра прямоугольника
+   166 000000CF 4883C704                    add     rdi, 4
+   167 000000D3 E8A1FFFFFF                  call    ToRealCoordinates
+   168 000000D8 EB00                        jmp     return
+   169                                  
+   170                                  return:
+   171 000000DA C9                      leave
+   172 000000DB C3                      ret
+   173                                  
+   174                                  ;----------------------------------------------
+   175                                  ;// Вычисление суммы периметров всех фигур в контейнере
+   176                                  ;double PerimeterSumContainer(void *c, int len) {
+   177                                  ;    double sum = 0.0;
+   178                                  ;    void *tmp = c;
+   179                                  ;    for(int i = 0; i < len; i++) {
+   180                                  ;        sum += PerimeterShape(tmp);
+   181                                  ;        tmp = tmp + shapeSize;
+   182                                  ;    }
+   183                                  ;    return sum;
+   184                                  ;}

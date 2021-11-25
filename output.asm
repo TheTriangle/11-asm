@@ -5,6 +5,7 @@ extern fprintf
 extern ToRealComplexNumber
 extern ToRealFraction
 extern ToRealCoordinates
+extern ToRealNumber
 
 extern COMPLEXNUMBER
 extern FRACTION
@@ -16,6 +17,8 @@ extern COORDINATES
 ;    fprintf(ofst, "It is Rectangle: x = %d, y = %d. Perimeter = %g\n",
 ;            *((int*)r), *((int*)(r+intSize)), PerimeterRectangle(r));
 ;}
+
+
 global OutComplexNumber
 OutComplexNumber:
 section .data
@@ -33,7 +36,9 @@ mov rbp, rsp
     mov     [.FILE], rsi          ; сохраняется указатель на файл
 
     ; Вычисление периметра прямоугольника (адрес уже в rdi)
-    call    ToRealComplexNumber
+    sub rdi, 4
+    call    ToRealNumber
+    add rdi, 4
     movsd   [.p], xmm0          ; сохранение (может лишнее) периметра
 
     ; Вывод информации о прямоугольнике в консоль

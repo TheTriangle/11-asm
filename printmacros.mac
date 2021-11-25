@@ -8,10 +8,16 @@ extern  OutContainer
     section .data
         %%arg1  db  %1,10,0     ; first argument
     section .text               ; the printf arguments
+        push rdi
+        push rsi
+        push rax
         mov rdi, %2
         mov rsi, %%arg1
         mov rax, 0              ; no floating point
         call fprintf
+        pop rdi
+        pop rsi
+        pop rax
 %endmacro
 
 ; Вывод содержимого контейнера

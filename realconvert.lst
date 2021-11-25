@@ -12,42 +12,48 @@
      8                              <1>     section .data
      9                              <1>         %%arg1  db  %1,10,0     ; first argument
     10                              <1>     section .text               ; the printf arguments
-    11                              <1>         mov rdi, %2
-    12                              <1>         mov rsi, %%arg1
-    13                              <1>         mov rax, 0              ; no floating point
-    14                              <1>         call fprintf
-    15                              <1> %endmacro
-    16                              <1> 
-    17                              <1> ; Вывод содержимого контейнера
-    18                              <1> %macro  PrintContainer2    3
-    19                              <1>     mov     rdi, %1
-    20                              <1>     mov     esi, %2
-    21                              <1>     mov     rdx, %3
-    22                              <1>     mov     rax, 0              ; нет чисел с плавающей точкой
-    23                              <1>     call    OutContainer
-    24                              <1> %endmacro
-    25                              <1> 
-    26                              <1> %macro  PrintInt2    2
-    27                              <1>     section .data
-    28                              <1>         %%arg1  db  "%d ",10,0     ; first argument
-    29                              <1>     section .text               ; the printf arguments
-    30                              <1>         mov rdi, %2
-    31                              <1>         mov rsi, %%arg1
-    32                              <1>         mov rdx, %1
-    33                              <1>         mov rax, 0              ; no floating point
-    34                              <1>         call fprintf
-    35                              <1> %endmacro
-    36                              <1> 
-    37                              <1> %macro  PrintDouble2    2
-    38                              <1>     section .data
-    39                              <1>         %%arg1  db  "%g",0     ; first argument
-    40                              <1>     section .text               ; the printf arguments
-    41                              <1>         mov rdi, %2
-    42                              <1>         mov rsi, %%arg1
-    43                              <1>         movsd xmm0, %1
-    44                              <1>         mov rax, 1              ; no floating point
-    45                              <1>         call fprintf
-    46                              <1> %endmacro
+    11                              <1>         push rdi
+    12                              <1>         push rsi
+    13                              <1>         push rax
+    14                              <1>         mov rdi, %2
+    15                              <1>         mov rsi, %%arg1
+    16                              <1>         mov rax, 0              ; no floating point
+    17                              <1>         call fprintf
+    18                              <1>         pop rdi
+    19                              <1>         pop rsi
+    20                              <1>         pop rax
+    21                              <1> %endmacro
+    22                              <1> 
+    23                              <1> ; Вывод содержимого контейнера
+    24                              <1> %macro  PrintContainer2    3
+    25                              <1>     mov     rdi, %1
+    26                              <1>     mov     esi, %2
+    27                              <1>     mov     rdx, %3
+    28                              <1>     mov     rax, 0              ; нет чисел с плавающей точкой
+    29                              <1>     call    OutContainer
+    30                              <1> %endmacro
+    31                              <1> 
+    32                              <1> %macro  PrintInt2    2
+    33                              <1>     section .data
+    34                              <1>         %%arg1  db  "%d ",10,0     ; first argument
+    35                              <1>     section .text               ; the printf arguments
+    36                              <1>         mov rdi, %2
+    37                              <1>         mov rsi, %%arg1
+    38                              <1>         mov rdx, %1
+    39                              <1>         mov rax, 0              ; no floating point
+    40                              <1>         call fprintf
+    41                              <1> %endmacro
+    42                              <1> 
+    43                              <1> %macro  PrintDouble2    2
+    44                              <1>     section .data
+    45                              <1>         %%arg1  db  "%g",0     ; first argument
+    46                              <1>     section .text               ; the printf arguments
+    47                              <1>         mov rdi, %2
+    48                              <1>         mov rsi, %%arg1
+    49                              <1>         movsd xmm0, %1
+    50                              <1>         mov rax, 1              ; no floating point
+    51                              <1>         call fprintf
+    52                              <1> %endmacro
      5                                  extern COMPLEXNUMBER
      6                                  extern FRACTION
      7                                  extern COORDINATES

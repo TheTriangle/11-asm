@@ -1,4 +1,8 @@
 Filled container:
-0: Coorinates (2, 8) - 8
-1: Coorinates (16, -242) - -242
-2: Coorinates (14, 20) - 20
+0: Complex number (30, 40) - 1250
+1: Complex number (2, 4) - 10
+2: Complex number (3, 4) - 12
+3: Coorinates (1, 1) - 1
+4: Coorinates (5, 6) - 6
+5: Fraction 5/7 - 0
+6: Fraction 15/4 - 3

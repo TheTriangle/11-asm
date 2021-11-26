@@ -7,12 +7,6 @@ extern FRACTION
 extern COORDINATES
 extern stdout 
 
-;----------------------------------------------
-; Вычисление периметра прямоугольника
-;double PerimeterRectangle(void *r) {
-;    return 2.0 * (*((int*)r)
-;           + *((int*)(r+intSize)));
-;}
 
 global sqrti
 sqrti:
@@ -45,7 +39,7 @@ section .text
 push rbp
 mov rbp, rsp
 
-    ; В rdi адрес прямоугольника
+    ; В rdi адрес 
     xor rax, rax
     mov eax, [rdi]
     mov ebx, [rdi+4]
@@ -70,19 +64,14 @@ breakpoint:
 leave
 ret
 
-;----------------------------------------------
-; double PerimeterTriangle(void *t) {
-;    return (double)(*((int*)t)
-;       + *((int*)(t+intSize))
-;       + *((int*)(t+2*intSize)));
-;}
+
 global ToRealFraction
 ToRealFraction:
 section .text
 push rbp
 mov rbp, rsp
 
-    ; В rdi адрес треугольника
+    ; В rdi адрес 
     mov eax, [rdi]
     mov ebx, [rdi+4]
     
@@ -107,7 +96,7 @@ section .text
 push rbp
 mov rbp, rsp
 
-    ; В rdi адрес треугольника
+    ; В rdi адрес 
     mov eax, [rdi+4]
     cvtsi2sd    xmm0, eax
     add rdi, 8
@@ -116,27 +105,15 @@ mov rbp, rsp
 
 leave
 ret
-;----------------------------------------------
-; Вычисление периметра фигуры
-;double PerimeterShape(void *s) {
-;    int k = *((int*)s);
-;    if(k == RECTANGLE) {
-;        return PerimeterRectangle(s+intSize);
-;    }
-;    else if(k == TRIANGLE) {
-;        return PerimeterTriangle(s+intSize);
-;    }
-;    else {
-;        return 0.0;
-;    }
-;}
+
+
 global ToRealNumber
 ToRealNumber:
 section .text
 push rbp
 mov rbp, rsp
 
-    ; В rdi адрес фигуры
+    ; В rdi адрес 
     ; PrintStr2 "toreall:", [stdout]
     mov eax, [rdi]
     cmp eax, [COMPLEXNUMBER]
@@ -149,20 +126,17 @@ mov rbp, rsp
     cvtsi2sd    xmm0, eax
     jmp     return
 compToReal:
-    ; Вычисление периметра прямоугольника
     ;  PrintStr2 "complex:", stdout
     add     rdi, 4
     call    ToRealComplexNumber
     jmp     return
 fracToReal:
     ; PrintStr2 "fraction:", stdout
-    ; Вычисление периметра прямоугольника
     add     rdi, 4
     call    ToRealFraction
     jmp     return
 cordToReal:
     ; PrintStr2 "coordinates:", stdout
-    ; Вычисление периметра прямоугольника
     add     rdi, 4
     call    ToRealCoordinates
     jmp     return
@@ -170,15 +144,3 @@ cordToReal:
 return:
 leave
 ret
-
-;----------------------------------------------
-;// Вычисление суммы периметров всех фигур в контейнере
-;double PerimeterSumContainer(void *c, int len) {
-;    double sum = 0.0;
-;    void *tmp = c;
-;    for(int i = 0; i < len; i++) {
-;        sum += PerimeterShape(tmp);
-;        tmp = tmp + shapeSize;
-;    }
-;    return sum;
-;}

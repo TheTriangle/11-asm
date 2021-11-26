@@ -59,178 +59,140 @@
      7                                  extern COORDINATES
      8                                  extern stdout 
      9                                  
-    10                                  ;----------------------------------------------
-    11                                  ; Вычисление периметра прямоугольника
-    12                                  ;double PerimeterRectangle(void *r) {
-    13                                  ;    return 2.0 * (*((int*)r)
-    14                                  ;           + *((int*)(r+intSize)));
-    15                                  ;}
-    16                                  
-    17                                  global sqrti
-    18                                  sqrti:
-    19 00000000 4C89CB                      mov rbx, r9
-    20 00000003 4831C0                      xor rax, rax
-    21                                  
-    22                                      .while:
-    23 00000006 4839D8                      cmp rax, rbx
-    24 00000009 7311                        jnb .endwhile
-    25                                  
-    26 0000000B 4801C3                      add rbx, rax
-    27 0000000E 48D1EB                      shr rbx, 1
+    10                                  
+    11                                  global sqrti
+    12                                  sqrti:
+    13 00000000 4C89CB                      mov rbx, r9
+    14 00000003 4831C0                      xor rax, rax
+    15                                  
+    16                                      .while:
+    17 00000006 4839D8                      cmp rax, rbx
+    18 00000009 7311                        jnb .endwhile
+    19                                  
+    20 0000000B 4801C3                      add rbx, rax
+    21 0000000E 48D1EB                      shr rbx, 1
+    22                                  
+    23 00000011 4C89C8                      mov rax, r9
+    24 00000014 4831D2                      xor rdx, rdx
+    25 00000017 48F7F3                      div rbx
+    26                                  
+    27 0000001A EBEA                        jmp .while
     28                                  
-    29 00000011 4C89C8                      mov rax, r9
-    30 00000014 4831D2                      xor rdx, rdx
-    31 00000017 48F7F3                      div rbx
+    29                                      .endwhile:
+    30 0000001C 4889D8                      mov rax, rbx
+    31 0000001F C3                          ret
     32                                  
-    33 0000001A EBEA                        jmp .while
-    34                                  
-    35                                      .endwhile:
-    36 0000001C 4889D8                      mov rax, rbx
-    37 0000001F C3                          ret
-    38                                  
-    39                                  
-    40                                  global ToRealComplexNumber
-    41                                  ToRealComplexNumber:
-    42                                  section .data
-    43 00000000 19000000                X dd 25
-    44                                  section .text
-    45 00000020 55                      push rbp
-    46 00000021 4889E5                  mov rbp, rsp
-    47                                  
-    48                                      ; В rdi адрес прямоугольника
-    49 00000024 4831C0                      xor rax, rax
-    50 00000027 8B07                        mov eax, [rdi]
-    51 00000029 8B5F04                      mov ebx, [rdi+4]
-    52 0000002C 0FAFC0                      imul eax, eax
-    53 0000002F 0FAFDB                      imul ebx, ebx
-    54 00000032 01D8                        add eax, ebx 
-    55 00000034 BB02000000                  mov ebx, 2 ; TODO take square root
-    56 00000039 F7F3                        div ebx
-    57                                  breakpoint:
-    58 0000003B 4D31C9                      xor r9, r9
-    59 0000003E 4189C1                      mov r9d, eax
-    60 00000041 E8BAFFFFFF                  call sqrti
-    61 00000046 4889D8                      mov rax, rbx
-    62                                      
-    63                                      ;call sqrti
-    64 00000049 F20F2AC0                    cvtsi2sd    xmm0, eax
-    65                                      
-    66 0000004D 4883C708                    add rdi, 8
-    67 00000051 8907                        mov dword[rdi], eax
-    68 00000053 4883EF08                    sub rdi, 8
-    69                                  
-    70 00000057 C9                      leave
-    71 00000058 C3                      ret
-    72                                  
-    73                                  ;----------------------------------------------
-    74                                  ; double PerimeterTriangle(void *t) {
-    75                                  ;    return (double)(*((int*)t)
-    76                                  ;       + *((int*)(t+intSize))
-    77                                  ;       + *((int*)(t+2*intSize)));
-    78                                  ;}
-    79                                  global ToRealFraction
-    80                                  ToRealFraction:
-    81                                  section .text
-    82 00000059 55                      push rbp
-    83 0000005A 4889E5                  mov rbp, rsp
-    84                                  
-    85                                      ; В rdi адрес треугольника
-    86 0000005D 8B07                        mov eax, [rdi]
-    87 0000005F 8B5F04                      mov ebx, [rdi+4]
-    88                                      
-    89 00000062 83FB00                      cmp ebx, 0
-    90 00000065 7402                        je zerodenom
-    91 00000067 F7F3                        div ebx
+    33                                  
+    34                                  global ToRealComplexNumber
+    35                                  ToRealComplexNumber:
+    36                                  section .data
+    37 00000000 19000000                X dd 25
+    38                                  section .text
+    39 00000020 55                      push rbp
+    40 00000021 4889E5                  mov rbp, rsp
+    41                                  
+    42                                      ; В rdi адрес 
+    43 00000024 4831C0                      xor rax, rax
+    44 00000027 8B07                        mov eax, [rdi]
+    45 00000029 8B5F04                      mov ebx, [rdi+4]
+    46 0000002C 0FAFC0                      imul eax, eax
+    47 0000002F 0FAFDB                      imul ebx, ebx
+    48 00000032 01D8                        add eax, ebx 
+    49 00000034 BB02000000                  mov ebx, 2 ; TODO take square root
+    50 00000039 F7F3                        div ebx
+    51                                  breakpoint:
+    52 0000003B 4D31C9                      xor r9, r9
+    53 0000003E 4189C1                      mov r9d, eax
+    54 00000041 E8BAFFFFFF                  call sqrti
+    55 00000046 4889D8                      mov rax, rbx
+    56                                      
+    57                                      ;call sqrti
+    58 00000049 F20F2AC0                    cvtsi2sd    xmm0, eax
+    59                                      
+    60 0000004D 4883C708                    add rdi, 8
+    61 00000051 8907                        mov dword[rdi], eax
+    62 00000053 4883EF08                    sub rdi, 8
+    63                                  
+    64 00000057 C9                      leave
+    65 00000058 C3                      ret
+    66                                  
+    67                                  
+    68                                  global ToRealFraction
+    69                                  ToRealFraction:
+    70                                  section .text
+    71 00000059 55                      push rbp
+    72 0000005A 4889E5                  mov rbp, rsp
+    73                                  
+    74                                      ; В rdi адрес 
+    75 0000005D 8B07                        mov eax, [rdi]
+    76 0000005F 8B5F04                      mov ebx, [rdi+4]
+    77                                      
+    78 00000062 83FB00                      cmp ebx, 0
+    79 00000065 7402                        je zerodenom
+    80 00000067 F7F3                        div ebx
+    81                                  
+    82                                      zerodenom:
+    83                                  
+    84                                      ; mov eax, [rdi+4]
+    85 00000069 F20F2AC0                    cvtsi2sd    xmm0, eax
+    86 0000006D 4883C708                    add rdi, 8
+    87 00000071 8907                        mov dword[rdi], eax
+    88 00000073 4883EF08                    sub rdi, 8
+    89                                      
+    90 00000077 C9                      leave
+    91 00000078 C3                      ret
     92                                  
-    93                                      zerodenom:
-    94                                  
-    95                                      ; mov eax, [rdi+4]
-    96 00000069 F20F2AC0                    cvtsi2sd    xmm0, eax
-    97 0000006D 4883C708                    add rdi, 8
-    98 00000071 8907                        mov dword[rdi], eax
-    99 00000073 4883EF08                    sub rdi, 8
-   100                                      
-   101 00000077 C9                      leave
-   102 00000078 C3                      ret
-   103                                  
-   104                                  global ToRealCoordinates
-   105                                  ToRealCoordinates:
-   106                                  section .text
-   107 00000079 55                      push rbp
-   108 0000007A 4889E5                  mov rbp, rsp
+    93                                  global ToRealCoordinates
+    94                                  ToRealCoordinates:
+    95                                  section .text
+    96 00000079 55                      push rbp
+    97 0000007A 4889E5                  mov rbp, rsp
+    98                                  
+    99                                      ; В rdi адрес 
+   100 0000007D 8B4704                      mov eax, [rdi+4]
+   101 00000080 F20F2AC0                    cvtsi2sd    xmm0, eax
+   102 00000084 4883C708                    add rdi, 8
+   103 00000088 8907                        mov dword[rdi], eax
+   104 0000008A 4883EF08                    sub rdi, 8
+   105                                  
+   106 0000008E C9                      leave
+   107 0000008F C3                      ret
+   108                                  
    109                                  
-   110                                      ; В rdi адрес треугольника
-   111 0000007D 8B4704                      mov eax, [rdi+4]
-   112 00000080 F20F2AC0                    cvtsi2sd    xmm0, eax
-   113 00000084 4883C708                    add rdi, 8
-   114 00000088 8907                        mov dword[rdi], eax
-   115 0000008A 4883EF08                    sub rdi, 8
-   116                                  
-   117 0000008E C9                      leave
-   118 0000008F C3                      ret
-   119                                  ;----------------------------------------------
-   120                                  ; Вычисление периметра фигуры
-   121                                  ;double PerimeterShape(void *s) {
-   122                                  ;    int k = *((int*)s);
-   123                                  ;    if(k == RECTANGLE) {
-   124                                  ;        return PerimeterRectangle(s+intSize);
-   125                                  ;    }
-   126                                  ;    else if(k == TRIANGLE) {
-   127                                  ;        return PerimeterTriangle(s+intSize);
-   128                                  ;    }
-   129                                  ;    else {
-   130                                  ;        return 0.0;
-   131                                  ;    }
-   132                                  ;}
-   133                                  global ToRealNumber
-   134                                  ToRealNumber:
-   135                                  section .text
-   136 00000090 55                      push rbp
-   137 00000091 4889E5                  mov rbp, rsp
-   138                                  
-   139                                      ; В rdi адрес фигуры
-   140                                      ; PrintStr2 "toreall:", [stdout]
-   141 00000094 8B07                        mov eax, [rdi]
-   142 00000096 3B0425[00000000]            cmp eax, [COMPLEXNUMBER]
-   143 0000009D 741A                        je compToReal
-   144 0000009F 3B0425[00000000]            cmp eax, [FRACTION]
-   145 000000A6 741C                        je fracToReal
-   146 000000A8 3B0425[00000000]            cmp eax, [COORDINATES]
-   147 000000AF 741E                        je cordToReal
-   148 000000B1 31C0                        xor eax, eax
-   149 000000B3 F20F2AC0                    cvtsi2sd    xmm0, eax
-   150 000000B7 EB21                        jmp     return
-   151                                  compToReal:
-   152                                      ; Вычисление периметра прямоугольника
-   153                                      ;  PrintStr2 "complex:", stdout
-   154 000000B9 4883C704                    add     rdi, 4
-   155 000000BD E85EFFFFFF                  call    ToRealComplexNumber
-   156 000000C2 EB16                        jmp     return
-   157                                  fracToReal:
-   158                                      ; PrintStr2 "fraction:", stdout
-   159                                      ; Вычисление периметра прямоугольника
-   160 000000C4 4883C704                    add     rdi, 4
-   161 000000C8 E88CFFFFFF                  call    ToRealFraction
-   162 000000CD EB0B                        jmp     return
-   163                                  cordToReal:
-   164                                      ; PrintStr2 "coordinates:", stdout
-   165                                      ; Вычисление периметра прямоугольника
-   166 000000CF 4883C704                    add     rdi, 4
-   167 000000D3 E8A1FFFFFF                  call    ToRealCoordinates
-   168 000000D8 EB00                        jmp     return
-   169                                  
-   170                                  return:
-   171 000000DA C9                      leave
-   172 000000DB C3                      ret
-   173                                  
-   174                                  ;----------------------------------------------
-   175                                  ;// Вычисление суммы периметров всех фигур в контейнере
-   176                                  ;double PerimeterSumContainer(void *c, int len) {
-   177                                  ;    double sum = 0.0;
-   178                                  ;    void *tmp = c;
-   179                                  ;    for(int i = 0; i < len; i++) {
-   180                                  ;        sum += PerimeterShape(tmp);
-   181                                  ;        tmp = tmp + shapeSize;
-   182                                  ;    }
-   183                                  ;    return sum;
-   184                                  ;}
+   110                                  global ToRealNumber
+   111                                  ToRealNumber:
+   112                                  section .text
+   113 00000090 55                      push rbp
+   114 00000091 4889E5                  mov rbp, rsp
+   115                                  
+   116                                      ; В rdi адрес 
+   117                                      ; PrintStr2 "toreall:", [stdout]
+   118 00000094 8B07                        mov eax, [rdi]
+   119 00000096 3B0425[00000000]            cmp eax, [COMPLEXNUMBER]
+   120 0000009D 741A                        je compToReal
+   121 0000009F 3B0425[00000000]            cmp eax, [FRACTION]
+   122 000000A6 741C                        je fracToReal
+   123 000000A8 3B0425[00000000]            cmp eax, [COORDINATES]
+   124 000000AF 741E                        je cordToReal
+   125 000000B1 31C0                        xor eax, eax
+   126 000000B3 F20F2AC0                    cvtsi2sd    xmm0, eax
+   127 000000B7 EB21                        jmp     return
+   128                                  compToReal:
+   129                                      ;  PrintStr2 "complex:", stdout
+   130 000000B9 4883C704                    add     rdi, 4
+   131 000000BD E85EFFFFFF                  call    ToRealComplexNumber
+   132 000000C2 EB16                        jmp     return
+   133                                  fracToReal:
+   134                                      ; PrintStr2 "fraction:", stdout
+   135 000000C4 4883C704                    add     rdi, 4
+   136 000000C8 E88CFFFFFF                  call    ToRealFraction
+   137 000000CD EB0B                        jmp     return
+   138                                  cordToReal:
+   139                                      ; PrintStr2 "coordinates:", stdout
+   140 000000CF 4883C704                    add     rdi, 4
+   141 000000D3 E8A1FFFFFF                  call    ToRealCoordinates
+   142 000000D8 EB00                        jmp     return
+   143                                  
+   144                                  return:
+   145 000000DA C9                      leave
+   146 000000DB C3                      ret

@@ -11,13 +11,6 @@ extern COMPLEXNUMBER
 extern FRACTION
 extern COORDINATES
 
-;----------------------------------------------
-;// Вывод параметров прямоугольника в файл
-;void OutRectangle(void *r, FILE *ofst) {
-;    fprintf(ofst, "It is Rectangle: x = %d, y = %d. Perimeter = %g\n",
-;            *((int*)r), *((int*)(r+intSize)), PerimeterRectangle(r));
-;}
-
 
 global OutComplexNumber
 OutComplexNumber:
@@ -26,34 +19,25 @@ section .data
 section .bss
     .pcomp  resq  1
     .FILE   resq  1       ; временное хранение указателя на файл
-    .p      resq  1       ; вычисленный периметр прямоугольника
+    .p      resq  1       
 section .text
 push rbp
 mov rbp, rsp
 
     ; Сохранени принятых аргументов
-    mov     [.pcomp], rdi          ; сохраняется адрес прямоугольника
+    mov     [.pcomp], rdi       
     mov     [.FILE], rsi          ; сохраняется указатель на файл
 
-    ; Вычисление периметра прямоугольника (адрес уже в rdi)
+
     sub rdi, 4
     call    ToRealNumber
     add rdi, 4
-    movsd   [.p], xmm0          ; сохранение (может лишнее) периметра
+    movsd   [.p], xmm0         
 
-    ; Вывод информации о прямоугольнике в консоль
-;     mov     rdi, .outfmt        ; Формат - 1-й аргумент
-;     mov     rax, [.prect]       ; адрес прямоугольника
-;     mov     esi, [rax]          ; x
-;     mov     edx, [rax+4]        ; y
-;     movsd   xmm0, [.p]
-;     mov     rax, 1              ; есть числа с плавающей точкой
-;     call    printf
 
-    ; Вывод информации о прямоугольнике в файл
     mov     rdi, [.FILE]
     mov     rsi, .outfmt        ; Формат - 2-й аргумент
-    mov     rax, [.pcomp]        ; адрес прямоугольника
+    mov     rax, [.pcomp]       
     mov     edx, [rax]          ; x
     mov     ecx, [rax+4]        ; y
     movsd   xmm0, [.p]
@@ -63,13 +47,8 @@ mov rbp, rsp
 leave
 ret
 
-;----------------------------------------------
-; // Вывод параметров треугольника в файл
-; void OutTriangle(void *t, FILE *ofst) {
-;     fprintf(ofst, "It is Triangle: a = %d, b = %d, c = %d. Perimeter = %g\n",
-;            *((int*)t), *((int*)(t+intSize)), *((int*)(t+2*intSize)),
-;             PerimeterTriangle(t));
-; }
+
+
 global OutFraction
 OutFraction:
 section .data
@@ -77,32 +56,23 @@ section .data
 section .bss
     .frac  resq  1
     .FILE   resq  1       ; временное хранение указателя на файл
-    .p      resq  1       ; вычисленный периметр прямоугольника
+    .p      resq  1       
 section .text
 push rbp
 mov rbp, rsp
 
     ; Сохранени принятых аргументов
-    mov     [.frac], rdi          ; сохраняется адрес прямоугольника
+    mov     [.frac], rdi          
     mov     [.FILE], rsi          ; сохраняется указатель на файл
 
-    ; Вычисление периметра прямоугольника (адрес уже в rdi)
+
     call    ToRealFraction
-    movsd   [.p], xmm0          ; сохранение (может лишнее) периметра
+    movsd   [.p], xmm0         
 
-    ; Вывод информации о прямоугольнике в консоль
-;     mov     rdi, .outfmt        ; Формат - 1-й аргумент
-;     mov     rax, [.prect]       ; адрес прямоугольника
-;     mov     esi, [rax]          ; x
-;     mov     edx, [rax+4]        ; y
-;     movsd   xmm0, [.p]
-;     mov     rax, 1              ; есть числа с плавающей точкой
-;     call    printf
 
-    ; Вывод информации о прямоугольнике в файл
     mov     rdi, [.FILE]
     mov     rsi, .outfmt        ; Формат - 2-й аргумент
-    mov     rax, [.frac]        ; адрес прямоугольника
+    mov     rax, [.frac]        ; адрес 
     mov     edx, [rax]          ; x
     mov     ecx, [rax+4]        ; y
     movsd   xmm0, [.p]
@@ -120,31 +90,23 @@ section .data
 section .bss
     .pcoord  resq  1
     .FILE   resq  1       ; временное хранение указателя на файл
-    .p      resq  1       ; вычисленный периметр прямоугольника
+    .p      resq  1       
 section .text
 push rbp
 mov rbp, rsp
 
     ; Сохранени принятых аргументов
-    mov     [.pcoord], rdi          ; сохраняется адрес прямоугольника
+    mov     [.pcoord], rdi          ; сохраняется адрес
     mov     [.FILE], rsi          ; сохраняется указатель на файл
 
-    ; Вычисление периметра прямоугольника (адрес уже в rdi)
-    call    ToRealCoordinates
-    movsd   [.p], xmm0          ; сохранение (может лишнее) периметра
-    ; Вывод информации о прямоугольнике в консоль
-;     mov     rdi, .outfmt        ; Формат - 1-й аргумент
-;     mov     rax, [.prect]       ; адрес прямоугольника
-;     mov     esi, [rax]          ; x
-;     mov     edx, [rax+4]        ; y
-;     movsd   xmm0, [.p]
-;     mov     rax, 1              ; есть числа с плавающей точкой
-;     call    printf
 
-    ; Вывод информации о прямоугольнике в файл
+    call    ToRealCoordinates
+    movsd   [.p], xmm0          
+    
+
     mov     rdi, [.FILE]
     mov     rsi, .outfmt        ; Формат - 2-й аргумент
-    mov     rax, [.pcoord]        ; адрес прямоугольника
+    mov     rax, [.pcoord]        ; адрес 
     mov     edx, [rax]          ; x
     mov     ecx, [rax+4]        ; y
     movsd   xmm0, [.p]
@@ -153,20 +115,8 @@ mov rbp, rsp
 
 leave
 ret
-;----------------------------------------------
-; // Вывод параметров текущей фигуры в файл
-; void OutShape(void *s, FILE *ofst) {
-;     int k = *((int*)s);
-;     if(k == RECTANGLE) {
-;         OutRectangle(s+intSize, ofst);
-;     }
-;     else if(k == TRIANGLE) {
-;         OutTriangle(s+intSize, ofst);
-;     }
-;     else {
-;         fprintf(ofst, "Incorrect figure!\n");
-;     }
-; }
+
+
 global OutNumber
 OutNumber:
 section .data
@@ -188,17 +138,14 @@ mov rbp, rsp
     call fprintf
     jmp     return
 compOut:
-    ; Вывод прямоугольника
     add     rdi, 4
     call    OutComplexNumber
     jmp     return
 fracOut:
-    ; Вывод прямоугольника
     add     rdi, 4
     call    OutFraction
     jmp     return
 cordOut:
-    ; Вывод прямоугольника
     add     rdi, 4
     call    OutCoordinates
     jmp     return
@@ -206,17 +153,7 @@ return:
 leave
 ret
 
-;----------------------------------------------
-; // Вывод содержимого контейнера в файл
-; void OutContainer(void *c, int len, FILE *ofst) {
-;     void *tmp = c;
-;     fprintf(ofst, "Container contains %d elements.\n", len);
-;     for(int i = 0; i < len; i++) {
-;         fprintf(ofst, "%d: ", i);
-;         OutShape(tmp, ofst);
-;         tmp = tmp + shapeSize;
-;     }
-; }
+
 global OutContainer
 OutContainer:
 section .data
@@ -234,34 +171,34 @@ mov rbp, rsp
     mov [.FILE],  rdx    ; сохраняется указатель на файл
 
     ; В rdi адрес начала контейнера
-    mov rbx, rsi            ; число фигур
-    xor ecx, ecx            ; счетчик фигур = 0
+    mov rbx, rsi            ; число чисел
+    xor ecx, ecx            ; счетчик  = 0
     mov rsi, rdx            ; перенос указателя на файл
 .loop:
     cmp ecx, ebx            ; проверка на окончание цикла
-    jge .return             ; Перебрали все фигуры
+    jge .return             ; Перебрали все числа
 
     push rbx
     push rcx
 
-    ; Вывод номера фигуры
+
     mov     rdi, [.FILE]    ; текущий указатель на файл
-    mov     rsi, numFmt     ; формат для вывода фигуры
-    mov     edx, ecx        ; индекс текущей фигуры
+    mov     rsi, numFmt     ; формат для вывода 
+    mov     edx, ecx        ; индекс текущего числа
     xor     rax, rax,       ; только целочисленные регистры
     call fprintf
 
-    ; Вывод текущей фигуры
+
     mov     rdi, [.pcont]
     mov     rsi, [.FILE]
-    call OutNumber     ; Получение периметра первой фигуры
+    call OutNumber     ; Получение соответствующего действительного числа
 
     pop rcx
     pop rbx
-    inc ecx                 ; индекс следующей фигуры
+    inc ecx                 ; индекс следующего числа
 
     mov     rax, [.pcont]
-    add     rax, 16         ; адрес следующей фигуры
+    add     rax, 16         ; адрес следующего числа
     mov     [.pcont], rax
     jmp .loop
 .return:

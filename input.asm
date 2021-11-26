@@ -6,27 +6,21 @@ extern COMPLEXNUMBER
 extern FRACTION
 extern COORDINATES
 
-;----------------------------------------------
-; // Ввод параметров комплексного числа из файла
-; void InCompexNumber(void *r, FILE *ifst) {
-;     fscanf(ifst, "%d%d", (int*)r, (int*)(r+intSize));
-; }
 global InComplexNumber
 InComplexNumber:
 section .data
     .infmt db "%d%d",0
 section .bss
     .FILE   resq    1   ; временное хранение указателя на файл
-    .pcomp  resq    1   ; адрес прямоугольника
+    .pcomp  resq    1  
 section .text
 push rbp
 mov rbp, rsp
 
     ; Сохранение принятых аргументов
-    mov     [.pcomp], rdi          ; сохраняется адрес прямоугольника
+    mov     [.pcomp], rdi         
     mov     [.FILE], rsi          ; сохраняется указатель на файл
 
-    ; Ввод прямоугольника из файла
     mov     rdi, [.FILE]
     mov     rsi, .infmt         ; Формат - 1-й аргумент
     mov     rdx, [.pcomp]       ; &x
@@ -38,27 +32,22 @@ mov rbp, rsp
 leave
 ret
 
-; // Ввод параметров треугольника из файла
-; void InTriangle(void *t, FILE *ifst) {
-;     fscanf(ifst, "%d%d%d", (int*)t,
-;            (int*)(t+intSize), (int*)(t+2*intSize));
-; }
+
 global InFraction
 InFraction:
 section .data
     .infmt db "%d%d",0
 section .bss
     .FILE   resq    1   ; временное хранение указателя на файл
-    .pfrac  resq    1   ; адрес прямоугольника
+    .pfrac  resq    1   
 section .text
 push rbp
 mov rbp, rsp
 
     ; Сохранение принятых аргументов
-    mov     [.pfrac], rdi          ; сохраняется адрес прямоугольника
+    mov     [.pfrac], rdi         
     mov     [.FILE], rsi          ; сохраняется указатель на файл
 
-    ; Ввод прямоугольника из файла
     mov     rdi, [.FILE]
     mov     rsi, .infmt         ; Формат - 1-й аргумент
     mov     rdx, [.pfrac]       ; &x
@@ -85,16 +74,16 @@ section .data
     .infmt db "%d%d",0
 section .bss
     .FILE   resq    1   ; временное хранение указателя на файл
-    .pcoord  resq    1   ; адрес прямоугольника
+    .pcoord  resq    1  
 section .text
 push rbp
 mov rbp, rsp
 
     ; Сохранение принятых аргументов
-    mov     [.pcoord], rdi          ; сохраняется адрес прямоугольника
+    mov     [.pcoord], rdi         
     mov     [.FILE], rsi          ; сохраняется указатель на файл
 
-    ; Ввод прямоугольника из файла
+
     mov     rdi, [.FILE]
     mov     rsi, .infmt         ; Формат - 1-й аргумент
     mov     rdx, [.pcoord]       ; &x
@@ -105,23 +94,7 @@ mov rbp, rsp
 leave
 ret
 
-; // Ввод параметров обобщенной фигуры из файла
-; int InShape(void *s, FILE *ifst) {
-;     int k;
-;     fscanf(ifst, "%d", &k);
-;     switch(k) {
-;         case 1:
-;             *((int*)s) = RECTANGLE;
-;             InRectangle(s+intSize, ifst);
-;             return 1;
-;         case 2:
-;             *((int*)s) = TRIANGLE;
-;             InTriangle(s+intSize, ifst);
-;             return 1;
-;         default:
-;             return 0;
-;     }
-; }
+
 global InNumber
 InNumber:
 section .data
@@ -129,30 +102,25 @@ section .data
     .tagOutFmt   db     "Tag is: %d",10,0
 section .bss
     .FILE       resq    1   ; временное хранение указателя на файл
-    .pnum     resq    1   ; адрес фигуры
-    .shapeTag   resd    1   ; признак фигуры
+    .pnum     resq    1   ; адрес фиуры
+    .shapeTag   resd    1   ; признак 
 section .text
 push rbp
 mov rbp, rsp
 
     ; Сохранение принятых аргументов
-    mov     [.pnum], rdi          ; сохраняется адрес фигуры
+    mov     [.pnum], rdi          ; сохраняется адрес 
     mov     [.FILE], rsi            ; сохраняется указатель на файл
 
-    ; чтение признака фигуры и его обработка
+    ; чтение признака и его обработка
     mov     rdi, [.FILE]
     mov     rsi, .tagFormat
-    mov     rdx, [.pnum]      ; адрес начала фигуры (ее признак)
+    mov     rdx, [.pnum]      ; адрес начала (признак)
     xor     rax, rax            ; нет чисел с плавающей точкой
     call    fscanf
 
-    ; Тестовый вывод признака фигуры
-;     mov     rdi, .tagOutFmt
-;     mov     rax, [.pshape]
-;     mov     esi, [rax]
-;     call    printf
 
-    mov rcx, [.pnum]          ; загрузка адреса начала фигуры
+    mov rcx, [.pnum]          ; загрузка адреса начала 
     mov eax, [rcx]              ; и получение прочитанного признака
     cmp eax, [COMPLEXNUMBER]
     je .compIn
@@ -163,7 +131,7 @@ mov rbp, rsp
     xor eax, eax    ; Некорректный признак - обнуление кода возврата
     jmp     .return
 .compIn:
-    ; Ввод прямоугольника
+    ; Ввод
     mov     rdi, [.pnum]
     add     rdi, 4
     mov     rsi, [.FILE]
@@ -171,7 +139,7 @@ mov rbp, rsp
     mov     rax, 1  ; Код возврата - true
     jmp     .return
 .fracIn:
-    ; Ввод треугольника
+    ; Ввод 
     mov     rdi, [.pnum]
     add     rdi, 4
     mov     rsi, [.FILE]
@@ -180,7 +148,7 @@ mov rbp, rsp
     mov     rax, 1  ; Код возврата - true
     jmp     .return
 .coordIn:
-    ; Ввод треугольника
+    ; Ввод 
     mov     rdi, [.pnum]
     add     rdi, 4
     mov     rsi, [.FILE]
@@ -192,16 +160,7 @@ mov rbp, rsp
 leave
 ret
 
-; // Ввод содержимого контейнера из указанного файла
-; void InContainer(void *c, int *len, FILE *ifst) {
-;     void *tmp = c;
-;     while(!feof(ifst)) {
-;         if(InShape(tmp, ifst)) {
-;             tmp = tmp + shapeSize;
-;             (*len)++;
-;         }
-;     }
-; }
+
 global InContainer
 InContainer:
 section .bss
@@ -216,7 +175,7 @@ mov rbp, rsp
     mov [.plen], rsi    ; сохраняется указатель на длину
     mov [.FILE], rdx    ; сохраняется указатель на файл
     ; В rdi адрес начала контейнера
-    xor rbx, rbx        ; число фигур = 0
+    xor rbx, rbx        ; число чисел = 0
     mov rsi, rdx        ; перенос указателя на файл
 .loop:
     ; сохранение рабочих регистров
@@ -225,7 +184,7 @@ mov rbp, rsp
 
     mov     rsi, [.FILE]
     mov     rax, 0      ; нет чисел с плавающей точкой
-    call    InNumber     ; ввод фигуры
+    call    InNumber     ; ввод
     cmp rax, 0          ; проверка успешности ввода
     jle  .return        ; выход, если признак меньше или равен 0
 
@@ -233,7 +192,7 @@ mov rbp, rsp
     inc rbx
 
     pop rdi
-    add rdi, 16             ; адрес следующей фигуры
+    add rdi, 16          
 
     jmp .loop
 .return:

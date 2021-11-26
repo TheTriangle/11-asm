@@ -156,7 +156,6 @@ mov rbp,rsp
     mov rcx, [startTime+8]
     cmp rbx, rcx
     jge .subNanoOnly
-    ; иначе занимаем секунду
     dec rax
     add rbx, 1000000000
 .subNanoOnly:

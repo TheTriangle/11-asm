@@ -7,11 +7,6 @@ extern FRACTION
 extern COORDINATES
 
 
-;----------------------------------------------
-; // rnd.c - содержит генератор случайных чисел в диапазоне оdssdт 1 до 20
-; int Random() {
-;     return rand() % 20 + 1;
-; }
 global Random
 Random:
 section .data
@@ -36,26 +31,18 @@ mov rbp, rsp
 leave
 ret
 
-;----------------------------------------------
-;// Случайный ввод параметров прямоугольника
-;void InRndComplexNumber(void *r) {
-    ;int x = Random();
-    ;*((int*)r) = x;
-    ;int y = Random();
-    ;*((int*)(r+intSize)) = y;
-;//     printf("    Rectangle %d %d\n", *((int*)r), *((int*)r+1));
-;}
+
 global InRndComplexNumber
 InRndComplexNumber:
 section .bss
-    .pcomp  resq 1   ; адрес прямоугольника
+    .pcomp  resq 1   ; адрес 
 section .text
 push rbp
 mov rbp, rsp
 
-    ; В rdi адрес прямоугольника
+    ; В rdi адрес 
     mov     [.pcomp], rdi
-    ; Генерация сторон прямоугольника
+
     call    Random
     mov     rbx, [.pcomp]
     mov     [rbx], eax
@@ -66,28 +53,18 @@ mov rbp, rsp
 leave
 ret
 
-;----------------------------------------------
-;// Случайный ввод параметров треугольника
-;void InRndTriangle(void *t) {
-    ;int a, b, c;
-    ;a = *((int*)t) = Random();
-    ;b = *((int*)(t+intSize)) = Random();
-    ;do {
-        ;c = *((int*)(t+2*intSize)) = Random();
-    ;} while((c >= a + b) || (a >= c + b) || (b >= c + a));
-;//     printf("    Triangle %d %d %d\n", *((int*)t), *((int*)t+1), *((int*)t+2));
-;}
+
 global InRndFraction
 InRndFraction:
 section .bss
-    .pfrac  resq 1   ; адрес треугольника
+    .pfrac  resq 1   ; адрес 
 section .text
 push rbp
 mov rbp, rsp
 
-    ; В rdi адрес треугольника
+    ; В rdi адрес 
     mov     [.pfrac], rdi
-    ; Генерация сторон треугольника
+    
     call    Random
     mov     rbx, [.pfrac]
     mov     [rbx], eax
@@ -101,14 +78,14 @@ ret
 global InRndCoordinates
 InRndCoordinates:
 section .bss
-    .pcord  resq 1   ; адрес треугольника
+    .pcord  resq 1   ; адрес 
 section .text
 push rbp
 mov rbp, rsp
 
-    ; В rdi адрес треугольника
+    ; В rdi адрес 
     mov     [.pcord], rdi
-    ; Генерация сторон треугольника
+    
     call    Random
     mov     rbx, [.pcord]
     mov     [rbx], eax
@@ -118,39 +95,22 @@ mov rbp, rsp
 
 leave
 ret
-;----------------------------------------------
-;// Случайный ввод обобщенной фигуры
-;int InRndShape(void *s) {
-    ;int k = rand() % 2 + 1;
-    ;switch(k) {
-        ;case 1:
-            ;*((int*)s) = RECTANGLE;
-            ;InRndRectangle(s+intSize);
-            ;return 1;
-        ;case 2:
-            ;*((int*)s) = TRIANGLE;
-            ;InRndTriangle(s+intSize);
-            ;return 1;
-        ;default:
-            ;return 0;
-    ;}
-;}
+
+
 global InRndNumber
 InRndNumber:
 section .data
     .i3     dq      2
     .rndNumFmt       db "Random number = %d",10,0
 section .bss
-    .pnumber     resq    1   ; адрес фигуры
+    .pnumber     resq    1   ; адрес 
     .key        resd    1   ; ключ
 section .text
 push rbp
 mov rbp, rsp
 
-    ; В rdi адрес фигуры
+    ; В rdi адрес 
     mov [.pnumber], rdi
-
-    ; Формирование признака фигуры
     
     xor     rdx, rdx    ;
     call    rand        ; запуск генератора случайных чисел
@@ -159,15 +119,9 @@ mov rbp, rsp
     mov     eax, edx
     inc     eax         ; должно сформироваться случайное число
 
-    ;mov     [.key], eax
-    ;mov     rdi, .rndNumFmt
-    ;mov     esi, [.key]
-    ;xor     rax, rax
-    ;call    printf
-    ;mov     eax, [.key]
 
     mov     rdi, [.pnumber]
-    mov     [rdi], eax      ; запись ключа в фигуру
+    mov     [rdi], eax      ; запись ключа
     cmp eax, [COMPLEXNUMBER] ; 1
     je .compInRnd
     cmp eax, [FRACTION] ; 3
@@ -177,19 +131,16 @@ mov rbp, rsp
     xor eax, eax        ; код возврата = 0
     jmp     .return
 .compInRnd:
-    ; Генерация прямоугольника
     add     rdi, 4
     call    InRndComplexNumber
     mov     eax, 1      ;код возврата = 1
     jmp     .return
 .fracInRnd:
-    ; Генерация треугольника
     add     rdi, 4
     call    InRndFraction
     mov     eax, 1      ;код возврата = 1
     jmp .return
 .coordInRnd:
-    ; Генерация треугольника
     add     rdi, 4
     call    InRndCoordinates
     mov     eax, 1      ;код возврата = 1
@@ -197,17 +148,7 @@ mov rbp, rsp
 leave
 ret
 
-;----------------------------------------------
-;// Случайный ввод содержимого контейнера
-;void InRndContainer(void *c, int *len, int size) {
-    ;void *tmp = c;
-    ;while(*len < size) {
-        ;if(InRndShape(tmp)) {
-            ;tmp = tmp + shapeSize;
-            ;(*len)++;
-        ;}
-    ;}
-;}
+
 global InRndContainer
 InRndContainer:
 section .bss
@@ -231,7 +172,7 @@ mov rbp, rsp
     push rbx
     push rdx
 
-    call    InRndNumber     ; ввод фигуры
+    call    InRndNumber     ; ввод
     cmp rax, 0          ; проверка успешности ввода
     jle  .return        ; выход, если признак меньше или равен 0
 
@@ -240,7 +181,7 @@ mov rbp, rsp
     inc rbx
 
     pop rdi
-    add rdi, 16             ; адрес следующей фигуры
+    add rdi, 16            
 
     jmp .loop
 .return:

@@ -121,8 +121,20 @@ mov rbp,rsp
 
     PrintStrLn "Filled container:", [stdout]
     PrintContainer cont, [len], [stdout]
+    ; Вычисление времени старта
+    mov rax, 228   ; 228 is system call for sys_clock_gettime
+    xor edi, edi   ; 0 for system clock (preferred over "mov rdi, 0")
+    lea rsi, [startTime]
+    syscall        ; [time] contains number of seconds
+                   ; [time + 8] contains number of nanoseconds
     ; БАБЛСОРТ ВЫЗЫВАЕТСЯ ЗДЕСЬ
     SortContainer2 cont, [len], [stdout]
+    ; Вычисление времени завершения
+    mov rax, 228   ; 228 is system call for sys_clock_gettime
+    xor edi, edi   ; 0 for system clock (preferred over "mov rdi, 0")
+    lea rsi, [endTime]
+    syscall        ; [time] contains number of seconds
+                   ; [time + 8] contains number of nanoseconds
     
     PrintStrLn "Filled container:", [stdout]
     PrintContainer cont, [len], [stdout]
@@ -132,22 +144,10 @@ mov rbp,rsp
     PrintContainer cont, [len], [ofst1]
     FileClose [ofst1]
 
-    ; Вычисление времени старта
-    mov rax, 228   ; 228 is system call for sys_clock_gettime
-    xor edi, edi   ; 0 for system clock (preferred over "mov rdi, 0")
-    lea rsi, [startTime]
-    syscall        ; [time] contains number of seconds
-                   ; [time + 8] contains number of nanoseconds
 
     
     ; ContainerSum cont, [len], [sum]
     ; PrintDouble xmm0, [stdout]
-    ; Вычисление времени завершения
-    mov rax, 228   ; 228 is system call for sys_clock_gettime
-    xor edi, edi   ; 0 for system clock (preferred over "mov rdi, 0")
-    lea rsi, [endTime]
-    syscall        ; [time] contains number of seconds
-                   ; [time + 8] contains number of nanoseconds
 
     ; Получение времени работы
     mov rax, [endTime]

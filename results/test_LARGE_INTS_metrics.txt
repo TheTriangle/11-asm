@@ -1,1 +1,1 @@
-0. Calculaton time = 0 sec, 1000 nsec
+0. Calculaton time = 0 sec, 4232300 nsec

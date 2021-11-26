@@ -386,82 +386,82 @@
    123 00000225 488B1425[00000000]  <1>  mov rdx, %3
    123 0000022D B800000000          <1>  mov rax, 0
    123 00000232 E8(00000000)        <1>  call OutContainer
-   124                                      ; БАБЛСОРТ ВЫЗЫВАЕТСЯ ЗДЕСЬ
-   125                                      SortContainer2 cont, [len], [stdout]
-   125 00000237 48BF-               <1>  mov rdi, %1
-   125 00000239 [6800000000000000]  <1>
-   125 00000241 8B3425[41010000]    <1>  mov esi, %2
-   125 00000248 488B1425[00000000]  <1>  mov rdx, %3
-   125 00000250 B800000000          <1>  mov rax, 0
-   125 00000255 E8(00000000)        <1>  call BubbleSortContainer2
-   126                                      
-   127                                      PrintStrLn "Filled container:", [stdout]
-   127                              <1>  section .data
-   127 00000184 46696C6C656420636F- <1>  %%arg1 db %1,10,0
-   127 0000018D 6E7461696E65723A0A- <1>
-   127 00000196 00                  <1>
-   127                              <1>  section .text
-   127 0000025A 488B3C25[00000000]  <1>  mov rdi, %2
-   127 00000262 48BE-               <1>  mov rsi, %%arg1
-   127 00000264 [8401000000000000]  <1>
-   127 0000026C B800000000          <1>  mov rax, 0
-   127 00000271 E8(00000000)        <1>  call fprintf
-   128                                      PrintContainer cont, [len], [stdout]
-   128 00000276 48BF-               <1>  mov rdi, %1
-   128 00000278 [6800000000000000]  <1>
-   128 00000280 8B3425[41010000]    <1>  mov esi, %2
-   128 00000287 488B1425[00000000]  <1>  mov rdx, %3
-   128 0000028F B800000000          <1>  mov rax, 0
-   128 00000294 E8(00000000)        <1>  call OutContainer
-   129                                      
-   130                                      FileOpen [r13+24], "w", ofst1
-   130                              <1>  section .data
-   130 00000197 7700                <1>  %%rw db %2,0
-   130                              <1>  section .text
-   130 00000299 498B7D18            <1>  mov rdi, %1
-   130 0000029D 488D3425[97010000]  <1>  lea rsi, [%%rw]
-   130 000002A5 B800000000          <1>  mov rax, 0
-   130 000002AA E8(00000000)        <1>  call fopen
-   130 000002AF 48890425[58000000]  <1>  mov [%3], rax
-   131                                      PrintStrLn "Filled container:", [ofst1]
-   131                              <1>  section .data
-   131 00000199 46696C6C656420636F- <1>  %%arg1 db %1,10,0
-   131 000001A2 6E7461696E65723A0A- <1>
-   131 000001AB 00                  <1>
-   131                              <1>  section .text
-   131 000002B7 488B3C25[58000000]  <1>  mov rdi, %2
-   131 000002BF 48BE-               <1>  mov rsi, %%arg1
-   131 000002C1 [9901000000000000]  <1>
-   131 000002C9 B800000000          <1>  mov rax, 0
-   131 000002CE E8(00000000)        <1>  call fprintf
-   132                                      PrintContainer cont, [len], [ofst1]
-   132 000002D3 48BF-               <1>  mov rdi, %1
-   132 000002D5 [6800000000000000]  <1>
-   132 000002DD 8B3425[41010000]    <1>  mov esi, %2
-   132 000002E4 488B1425[58000000]  <1>  mov rdx, %3
-   132 000002EC B800000000          <1>  mov rax, 0
-   132 000002F1 E8(00000000)        <1>  call OutContainer
-   133                                      FileClose [ofst1]
-   133 000002F6 488B3C25[58000000]  <1>  mov rdi, %1
-   133 000002FE B800000000          <1>  mov rax, 0
-   133 00000303 E8(00000000)        <1>  call fclose
-   134                                  
-   135                                      ; Вычисление времени старта
-   136 00000308 B8E4000000                  mov rax, 228   ; 228 is system call for sys_clock_gettime
-   137 0000030D 31FF                        xor edi, edi   ; 0 for system clock (preferred over "mov rdi, 0")
-   138 0000030F 488D3425[20000000]          lea rsi, [startTime]
-   139 00000317 0F05                        syscall        ; [time] contains number of seconds
-   140                                                     ; [time + 8] contains number of nanoseconds
-   141                                  
-   142                                      
-   143                                      ; ContainerSum cont, [len], [sum]
-   144                                      ; PrintDouble xmm0, [stdout]
-   145                                      ; Вычисление времени завершения
-   146 00000319 B8E4000000                  mov rax, 228   ; 228 is system call for sys_clock_gettime
-   147 0000031E 31FF                        xor edi, edi   ; 0 for system clock (preferred over "mov rdi, 0")
-   148 00000320 488D3425[30000000]          lea rsi, [endTime]
-   149 00000328 0F05                        syscall        ; [time] contains number of seconds
-   150                                                     ; [time + 8] contains number of nanoseconds
+   124                                      ; Вычисление времени старта
+   125 00000237 B8E4000000                  mov rax, 228   ; 228 is system call for sys_clock_gettime
+   126 0000023C 31FF                        xor edi, edi   ; 0 for system clock (preferred over "mov rdi, 0")
+   127 0000023E 488D3425[20000000]          lea rsi, [startTime]
+   128 00000246 0F05                        syscall        ; [time] contains number of seconds
+   129                                                     ; [time + 8] contains number of nanoseconds
+   130                                      ; БАБЛСОРТ ВЫЗЫВАЕТСЯ ЗДЕСЬ
+   131                                      SortContainer2 cont, [len], [stdout]
+   131 00000248 48BF-               <1>  mov rdi, %1
+   131 0000024A [6800000000000000]  <1>
+   131 00000252 8B3425[41010000]    <1>  mov esi, %2
+   131 00000259 488B1425[00000000]  <1>  mov rdx, %3
+   131 00000261 B800000000          <1>  mov rax, 0
+   131 00000266 E8(00000000)        <1>  call BubbleSortContainer2
+   132                                      ; Вычисление времени завершения
+   133 0000026B B8E4000000                  mov rax, 228   ; 228 is system call for sys_clock_gettime
+   134 00000270 31FF                        xor edi, edi   ; 0 for system clock (preferred over "mov rdi, 0")
+   135 00000272 488D3425[30000000]          lea rsi, [endTime]
+   136 0000027A 0F05                        syscall        ; [time] contains number of seconds
+   137                                                     ; [time + 8] contains number of nanoseconds
+   138                                      
+   139                                      PrintStrLn "Filled container:", [stdout]
+   139                              <1>  section .data
+   139 00000184 46696C6C656420636F- <1>  %%arg1 db %1,10,0
+   139 0000018D 6E7461696E65723A0A- <1>
+   139 00000196 00                  <1>
+   139                              <1>  section .text
+   139 0000027C 488B3C25[00000000]  <1>  mov rdi, %2
+   139 00000284 48BE-               <1>  mov rsi, %%arg1
+   139 00000286 [8401000000000000]  <1>
+   139 0000028E B800000000          <1>  mov rax, 0
+   139 00000293 E8(00000000)        <1>  call fprintf
+   140                                      PrintContainer cont, [len], [stdout]
+   140 00000298 48BF-               <1>  mov rdi, %1
+   140 0000029A [6800000000000000]  <1>
+   140 000002A2 8B3425[41010000]    <1>  mov esi, %2
+   140 000002A9 488B1425[00000000]  <1>  mov rdx, %3
+   140 000002B1 B800000000          <1>  mov rax, 0
+   140 000002B6 E8(00000000)        <1>  call OutContainer
+   141                                      
+   142                                      FileOpen [r13+24], "w", ofst1
+   142                              <1>  section .data
+   142 00000197 7700                <1>  %%rw db %2,0
+   142                              <1>  section .text
+   142 000002BB 498B7D18            <1>  mov rdi, %1
+   142 000002BF 488D3425[97010000]  <1>  lea rsi, [%%rw]
+   142 000002C7 B800000000          <1>  mov rax, 0
+   142 000002CC E8(00000000)        <1>  call fopen
+   142 000002D1 48890425[58000000]  <1>  mov [%3], rax
+   143                                      PrintStrLn "Filled container:", [ofst1]
+   143                              <1>  section .data
+   143 00000199 46696C6C656420636F- <1>  %%arg1 db %1,10,0
+   143 000001A2 6E7461696E65723A0A- <1>
+   143 000001AB 00                  <1>
+   143                              <1>  section .text
+   143 000002D9 488B3C25[58000000]  <1>  mov rdi, %2
+   143 000002E1 48BE-               <1>  mov rsi, %%arg1
+   143 000002E3 [9901000000000000]  <1>
+   143 000002EB B800000000          <1>  mov rax, 0
+   143 000002F0 E8(00000000)        <1>  call fprintf
+   144                                      PrintContainer cont, [len], [ofst1]
+   144 000002F5 48BF-               <1>  mov rdi, %1
+   144 000002F7 [6800000000000000]  <1>
+   144 000002FF 8B3425[41010000]    <1>  mov esi, %2
+   144 00000306 488B1425[58000000]  <1>  mov rdx, %3
+   144 0000030E B800000000          <1>  mov rax, 0
+   144 00000313 E8(00000000)        <1>  call OutContainer
+   145                                      FileClose [ofst1]
+   145 00000318 488B3C25[58000000]  <1>  mov rdi, %1
+   145 00000320 B800000000          <1>  mov rax, 0
+   145 00000325 E8(00000000)        <1>  call fclose
+   146                                  
+   147                                  
+   148                                      
+   149                                      ; ContainerSum cont, [len], [sum]
+   150                                      ; PrintDouble xmm0, [stdout]
    151                                  
    152                                      ; Получение времени работы
    153 0000032A 488B0425[30000000]          mov rax, [endTime]

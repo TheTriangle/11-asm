@@ -33,42 +33,6 @@ mov rbp, rsp
     
     mov [len],   esi     ; сохраняется число элементов
     mov [FILE],  rdx    ; сохраняется указатель на файл (поток)
-	;mov cl, [len]					;set cl with array length
-	;mov [cntr], cl					;set this variable with array length
-    ;mov rbx, rsi            ; число фигур
-    ;xor ecx, ecx            ; счетчик фигур = 0
-    ;mov rsi, rdx            ; перенос указателя на файл
-
-    ;mov dword[rdi], 2
-    ;sub rdi, 16
-
-    ;xor     edx, edx    
-    ; mov [pcont], [rdi + 16]     
-    ;mov     rdi, [pcont]
-    ;mov     rsi, [FILE]
-    ;call OutNumber     ; Получение периметра первой фигуры
-
-    ;mov rdi, [pcont]
-    ;call ToRealNumber     ; Получение периметра первой фигуры
-    ;movsd [real], xmm0
-
-    ;mov rdi, [pcont]
-    ;mov [pcont], rdi
-    ;PrintStr2 "don't make it bad", [FILE]
-
-    ;mov     rdi, [FILE]
-    ;mov     rsi, outfmt        ; Формат - 2-й аргумент
-    ;mov     rax, [pcont]        ; адрес прямоугольника
-    ;mov     edx, [rax+4]          ; x
-    ;mov     ecx, [rax+8]        ; y
-    ;movsd   xmm0, [real]
-    ;mov     rax, 1              ; есть числа с плавающей точкой
-    ;call    fprintf
-    ;PrintStr2 "take a sad song", [FILE]
-
-    ; здесь начинается скопипащенный алгоритм сортировки, который я так и не проверил
-    
-    ; PrintStr2 "and make it better", [FILE]  
    
     ; movzx ecx, byte[len]
     mov ebx, pcont
